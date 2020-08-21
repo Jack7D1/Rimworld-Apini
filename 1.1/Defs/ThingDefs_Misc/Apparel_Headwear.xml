@@ -8,8 +8,8 @@
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>ApiniHoneyGlassHelmet</defName>
-    <label>honey glass helmet</label>
-    <description>Armor made from tempered honey and apini secrets. Despite being made from honey, this armor is often a blue hue due to the synthread matrix. \n Provides protection against honey-thirsty humans.</description>
+    <label>honey-glass helmet</label>
+    <description>Armor made from tempered honey and apini secrets. Despite being made from honey, this armor is often a blue hue due to the synthread matrix.\n Provides protection against honey-thirsty humans.</description>
     <graphicData>
       <texPath>Things/Apparel/beehelmet_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>

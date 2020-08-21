@@ -79,9 +79,9 @@
 
 	<RecipeDef ParentName="ApiniProstheticsTechCraft">  <!-- Prosthetic Wing -->
 		<defName>CreateProstheticWing</defName>
-		<label>Craft prosthetic wing</label>
-		<description>A prosthetic wing made of lightweight fabrics.</description>
-		<jobString>Crafting Prosthetic wings.</jobString>
+		<label>make prosthetic wing</label>
+		<description>Craft a prosthetic wing made out of lightweight fabrics.</description>
+		<jobString>Making prosthetic wing.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -104,9 +104,9 @@
 
 	<RecipeDef ParentName="ApiniBionicsTechcraft">  <!-- Bionic Wing -->
 		<defName>CreateBionicWing</defName>
-		<label>Craft Bionic wing</label>
-		<description>Craft a Bionic wing made of lightweight fabrics and advanced technology.</description>
-		<jobString>Crafting Bionic wings.</jobString>
+		<label>make bionic wing</label>
+		<description>Craft a bionic wing made out of lightweight fabrics and advanced technology.</description>
+		<jobString>Making bionic wing.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -138,9 +138,9 @@
 
 	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Wing -->
 		<defName>CreateAdvancedBionicWing</defName>
-		<label>Upgrade Bionic wing</label>
+		<label>upgrade bionic wing</label>
 		<description>Retrofit a bionic wing with more advanced technology.</description>
-		<jobString>Upgrading Bionic wing.</jobString>
+		<jobString>Upgrading bionic wing.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -274,9 +274,9 @@
 
 	<RecipeDef ParentName="ApiniProstheticsTechCraft">  <!-- Prosthetic Antenna -->
 		<defName>CreateProstheticAntenna</defName>
-		<label>Craft prosthetic Antenna</label>
-		<description>A prosthetic Antenna made of steel wire.</description>
-		<jobString>Crafting Prosthetic Antennas.</jobString>
+		<label>make prosthetic Antenna</label>
+		<description>Craft a prosthetic antenna out of steel wire.</description>
+		<jobString>Making prosthetic antenna.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -299,9 +299,9 @@
 
 	<RecipeDef ParentName="ApiniBionicsTechcraft">  <!-- Bionic Antenna -->
 		<defName>CreateBionicAntenna</defName>
-		<label>Craft Bionic Antenna</label>
-		<description>Craft a Bionic Antenna made of plasteel.</description>
-		<jobString>Crafting Bionic Antennas.</jobString>
+		<label>make bionic antenna</label>
+		<description>Craft a bionic antenna out of plasteel.</description>
+		<jobString>Making bionic antenna.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -333,9 +333,9 @@
 
 	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Antenna -->
 		<defName>CreateAdvancedBionicAntenna</defName>
-		<label>Upgrade Bionic Antenna</label>
-		<description>Upgrade Bionic Antennas with more advanced technology.</description>
-		<jobString>Upgrading Bionic Antennas.</jobString>
+		<label>upgrade bionic antenna</label>
+		<description>Upgrade a bionic antenna with more advanced technology.</description>
+		<jobString>Upgrading bionic antenna.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -367,9 +367,9 @@
 
 	<RecipeDef ParentName="ApiniProstheticsTechCraft">  <!-- Prosthetic Sting -->
 		<defName>CreateProstheticSting</defName>
-		<label>Craft prosthetic Sting</label>
-		<description>A sharp prosthetic Sting made of steel.</description>
-		<jobString>Crafting Prosthetic Stings.</jobString>
+		<label>make prosthetic sting</label>
+		<description>Craft a sharp prosthetic sting out of steel.</description>
+		<jobString>Making prosthetic sting.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -392,9 +392,9 @@
 
 	<RecipeDef ParentName="ApiniBionicsTechcraft">  <!-- Bionic Sting -->
 		<defName>CreateBionicSting</defName>
-		<label>Craft Bionic Sting</label>
-		<description>Craft a Bionic Sting made of plasteel.</description>
-		<jobString>Crafting Bionic Stings.</jobString>
+		<label>make bionic sting</label>
+		<description>Craft a bionic sting out of plasteel.</description>
+		<jobString>Making bionic sting.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -426,9 +426,9 @@
 
 	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Sting -->
 		<defName>CreateAdvancedBionicSting</defName>
-		<label>Upgrade Bionic Sting</label>
-		<description>Upgrade Bionic Sting with more advanced technology.</description>
-		<jobString>Upgrading Bionic Sting.</jobString>
+		<label>upgrade Bionic Sting</label>
+		<description>Upgrade a bionic sting with more advanced technology.</description>
+		<jobString>Upgrading bionic sting.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -461,9 +461,9 @@
 
 	<RecipeDef ParentName="ApitechCraft">  <!-- Apitech Mechanites -->
 		<defName>MakeApitechMechanites</defName>
-		<label>Apitech Mechanites</label>
-		<description>Synthesize techno-organic mechanites, infusing cells of Apini royal jelly with mechanical components.</description>
-		<jobString>Synthesizing Apitech Mechanites.</jobString>
+		<label>synthesize apitech mechanites</label>
+		<description>Synthesize techno-organic mechanites by infusing apini royal jelly with mechanical components.</description>
+		<jobString>Synthesizing apitech mechanites.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -504,9 +504,9 @@
 
 	<RecipeDef ParentName="ApitechCraft">  <!-- Apitech Mechanites (x10) -->
 		<defName>MakeApitechMechanitesMore</defName>
-		<label>Apitech Mechanites (x10)</label>
-		<description>Synthesize techno-organic mechanites, infusing cells of Apini royal jelly with mechanical components, more cost efficient.</description>
-		<jobString>Synthesizing Apitech Mechanites.</jobString>
+		<label>synthesize apitech mechanites (x10)</label>
+		<description>Synthesize techno-organic mechanites by infusing apini royal jelly with mechanical components. Doing it this way is more cost efficient.</description>
+		<jobString>Synthesizing apitech mechanites.</jobString>
 		<workAmount>15000</workAmount>
 		<ingredients>
 			<li>
@@ -552,8 +552,8 @@
 
 	<RecipeDef ParentName="ApitechCraft">  <!-- Apitech Mechanites (x100) -->
 		<defName>MakeApitechMechanitesMost</defName>
-		<label>Apitech Mechanites (x100)</label>
-		<description>Synthesize techno-organic mechanites, infusing cells of Apini royal jelly with mechanical components, the most cost efficient.</description>
+		<label>synthesize apitech mechanites (x100)</label>
+		<description>Synthesize techno-organic mechanites by infusing apini royal jelly with mechanical components. Doing it this way is most cost efficient.</description>
 		<jobString>Synthesizing Apitech Mechanites.</jobString>
 		<workAmount>20000</workAmount>
 		<ingredients>
@@ -969,9 +969,9 @@
 	<!-- Apitech Crushers -->
 	<RecipeDef ParentName="ApitechCraft">
 		<defName>CreateCrusherMandibles_Apini</defName>
-		<label>craft Apitech Crusher mandibles</label>
-		<description>Crafts Crusher mandibles from plasteel infused with Apitech mechanites.</description>
-		<jobString>Crafting Crusher mandibles.</jobString>
+		<label>make apitech crusher mandibles</label>
+		<description>Craft crusher mandibles from plasteel combined with apitech mechanites.</description>
+		<jobString>Making crusher mandibles.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1004,9 +1004,9 @@
 	<!-- Apitech Songstress -->
 	<RecipeDef ParentName="ApitechCraft">
 		<defName>CreateSongstressMandibles_Apini</defName>
-		<label>craft Apitech Songstress mandibles</label>
-		<description>Crafts Songstress mandibles from plasteel infused with Apitech mechanites.</description>
-		<jobString>Crafting Songstress mandibles.</jobString>
+		<label>make apitech songstress mandibles</label>
+		<description>Craft songstress mandibles from plasteel combined with Apitech mechanites.</description>
+		<jobString>Making songstress mandibles.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1039,9 +1039,9 @@
 	<!-- Apitech Monarchs -->
 	<RecipeDef ParentName="ApitechCraft">
 		<defName>CreateMonarchMandibles_Apini</defName>
-		<label>craft Apitech Monarch mandibles</label>
-		<description>Crafts Monarch mandibles from crusher and songstress mandibles fused by Apitech mechanites.</description>
-		<jobString>Crafting Monarch mandibles.</jobString>
+		<label>Make apitech monarch mandibles</label>
+		<description>Craft monarch mandibles from crusher and songstress mandibles by fusing them with apitech mechanites.</description>
+		<jobString>Making monarch mandibles.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1187,9 +1187,9 @@
   <!-- Apitech Aerator -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateAeratorImplant_Apini</defName>
-		<label>craft Apitech Aerator implant</label>
-		<description>Forms an Aerator implant from Apitech mechanites and synthread.</description>
-		<jobString>Crafting Aerator implant.</jobString>
+		<label>make apitech aerator implant</label>
+		<description>Craft an aerator implant from apitech mechanites and synthread.</description>
+		<jobString>Making aerator implant.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1222,9 +1222,9 @@
 	<!-- Apitech Breezer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateBreezerImplant_Apini</defName>
-		<label>craft Apitech Breezer implant</label>
-		<description>Forms a Breezer implant from Apitech mechanites and devilstrand.</description>
-		<jobString>Crafting Breezer implant.</jobString>
+		<label>make apitech breezer implant</label>
+		<description>Craft a breezer implant from apitech mechanites and devilstrand.</description>
+		<jobString>Making breezer implant.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1257,9 +1257,9 @@
 	<!-- Apitech Warmer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateWarmerImplant_Apini</defName>
-		<label>craft Apitech Warmer implant</label>
-		<description>Forms a Warmer implant from Apitech mechanites and devilstrand.</description>
-		<jobString>Crafting Warmer implant.</jobString>
+		<label>make apitech warmer implant</label>
+		<description>Craft a warmer implant from apitech mechanites and devilstrand.</description>
+		<jobString>Making warmer implant.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1292,9 +1292,9 @@
 	<!-- Apitech Digestive Enzymes -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateDigestiveEnzymes_Apini</defName>
-		<label>craft Apitech Digestive Enzymes</label>
-		<description>Forms Digestive Enzymes from Apitech mechanites.</description>
-		<jobString>Crafting Digestive Enzymes.</jobString>
+		<label>make apitech digestive enzymes</label>
+		<description>Create enhanced digestive enzymes from apitech mechanites.</description>
+		<jobString>Making enhanced digestive enzymes.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1318,9 +1318,9 @@
 	<!-- Apitech Regenerative Enzymes -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateRegenerativeEnzymes_Apini</defName>
-		<label>craft Apitech Regenerative Enzymes</label>
-		<description>Forms Regenerative Enzymes from Apitech mechanites.</description>
-		<jobString>Crafting Regenerative Enzymes.</jobString>
+		<label>make apitech regenerative enzymes</label>
+		<description>Create regenerative enzymes from apitech mechanites.</description>
+		<jobString>Making regenerative enzymes.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1344,9 +1344,9 @@
 	<!-- Apitech Ocular Enhancement -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateOcularEnhancement_Apini</defName>
-		<label>craft Apitech Ocular Enhancement</label>
-		<description>Forms an Ocular Enhancement from Apitech mechanites.</description>
-		<jobString>Crafting Ocular Enhancement.</jobString>
+		<label>make apitech ocular enhancement</label>
+		<description>Craft an ocular enhancement from apitech mechanites.</description>
+		<jobString>Making ocular enhancement.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1370,9 +1370,9 @@
 	<!-- Apitech Signal Receptor -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateSignalReceptor_Apini</defName>
-		<label>craft Apitech Signal Receptor</label>
-		<description>Crafts a Signal Receptor from Apitech mechanites.</description>
-		<jobString>Crafting Signal Receptor.</jobString>
+		<label>make apitech signal receptor</label>
+		<description>Craft a signal receptor from apitech mechanites.</description>
+		<jobString>Making signal receptor.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1396,9 +1396,9 @@
 	<!-- Apitech Neuroenhancer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateNeuroenhancer_Apini</defName>
-		<label>craft Apitech Neuroenhancer</label>
-		<description>Forms a Neuroenhancer from Apitech mechanites.</description>
-		<jobString>Crafting Neuroenhancer.</jobString>
+		<label>make apitech neuroenhancer</label>
+		<description>Create a neuroenhancing serum from apitech mechanites.</description>
+		<jobString>Making neuroenhancer.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1422,9 +1422,9 @@
 	<!-- Apitech Proboscis Enhancement -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateProboscisEnhancement_Apini</defName>
-		<label>craft Apitech Proboscis Enhancement</label>
-		<description>Crafts a Proboscis Enhancement from Apitech mechanites.</description>
-		<jobString>Crafting Proboscis Enhancement.</jobString>
+		<label>make apitech proboscis Enhancement</label>
+		<description>Craft a proboscis enhancement from apitech mechanites.</description>
+		<jobString>Making proboscis enhancement.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1474,9 +1474,9 @@
 	<!-- Apitech Gatherer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateGathererFrontLeg_Apini</defName>
-		<label>craft Apitech Gatherer Front Leg Hairs</label>
-		<description>Crafts Gatherer Front Leg Hairs from Apitech mechanites.</description>
-		<jobString>Crafting Gatherer Front Leg Hairs.</jobString>
+		<label>make apitech gatherer front leg hairs</label>
+		<description>Create enhanced front leg hairs from apitech mechanites.</description>
+		<jobString>Making gatherer front leg hairs.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1500,9 +1500,9 @@
 	<!-- Apitech Reflex Enhancer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateReflexEnhancement_Apini</defName>
-		<label>craft Apitech Leg Reflex Enhancement</label>
-		<description>Crafts a Leg Reflex Enhancement from Apitech mechanites.</description>
-		<jobString>Crafting Leg Reflex Enhancement.</jobString>
+		<label>make apitech leg reflex enhancement</label>
+		<description>Craft a leg reflex enhancement from apitech mechanites.</description>
+		<jobString>Making leg reflex enhancement.</jobString>
 		<ingredients>
 			<li>
 				<filter>

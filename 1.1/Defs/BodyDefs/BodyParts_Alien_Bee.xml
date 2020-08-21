@@ -2,7 +2,7 @@
 <Defs>
   <BodyPartDef>
     <defName>HoneyStomach</defName>
-    <label>Honey Stomach</label>
+    <label>honey stomach</label>
     <spawnThingOnRemoved>HoneyStomach</spawnThingOnRemoved>
     <hitPoints>25</hitPoints>
     <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
@@ -41,7 +41,7 @@
 
   <BodyPartDef>
     <defName>Abdomen</defName>
-    <label>Abdomen</label>
+    <label>abdomen</label>
     <hitPoints>75</hitPoints>
     <permanentInjuryChanceFactor>0.1</permanentInjuryChanceFactor>
     <canSuggestAmputation>true</canSuggestAmputation>

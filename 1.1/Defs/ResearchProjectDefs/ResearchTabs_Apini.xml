@@ -3,7 +3,7 @@
 <!-- Really basic. Don't think it should even be alone -->
   <ResearchTabDef>
     <defName>Apiculture</defName>
-    <label>Apiculture</label>
+    <label>apiculture</label>
   </ResearchTabDef>
   
 </Defs>

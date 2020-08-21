@@ -36,8 +36,8 @@
 
   <ThingDef ParentName="ApiniApparelBase">
     <defName>ApiniApron</defName>
-    <label>Apini apron</label>
-    <description>A basic work apron often worn by Apini. Worn to combat the cold or provide the guise of human decency.</description>
+    <label>apini apron</label>
+    <description>A basic work apron often worn by apini. Worn to combat the cold or provide the guise of human decency.</description>
     <graphicData>
       <texPath>Things/Apparel/apron_icon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,9 +82,8 @@
   </ThingDef>
 
   <ThingDef ParentName="ApiniApparelBase">
-    <!-- Apini < -->
     <defName>ApiniSatchel</defName>
-    <label>Apini Satchel</label>
+    <label>apini satchel</label>
     <description>A satchel worn over the abdomen, increases carrying, butchery and planting efficiency.</description>
     <comps>
       <li Class="CompProperties_Art">
@@ -131,9 +130,8 @@
   </ThingDef>
 
   <ThingDef ParentName="ApiniApparelBase">
-    <!-- Apini Ruff -->
     <defName>ApiniRuff</defName>
-    <label>Apini Ruff</label>
+    <label>apini ruff</label>
     <description>A ruffle of fur worn around the collar, keeps the body warm and looks nice while it does it.</description>
     <graphicData>
       <texPath>Things/Apparel/Ruff</texPath>

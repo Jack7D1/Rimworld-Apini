@@ -41,7 +41,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <description>A hexagonal container for creating unflavored honey from unflavored nectar.</description>
     <costList>
       <Pollen>20</Pollen>
       <WoodLog>10</WoodLog>
@@ -63,7 +63,7 @@
 
 	<ThingDef ParentName="ApiniBuildingBase">  <!-- Nectar Still -->
 		<defName>ApiniNectarStill</defName>
-		<label>Apini Nectar Still</label>
+		<label>apini nectar still</label>
 		<thingClass>Building_WorkTable</thingClass>
 		<description>Primarily used to separate nectar from the pollen balls Apini form when harvesting flowers.</description>
 		<graphicData>
@@ -135,9 +135,9 @@
   
 	<ThingDef ParentName="ApiniBuildingBase">  <!-- Prosthetics Table -->
 		<defName>ApiniProstheticsTable</defName>
-		<label>Apini Prosthetics Table</label>
+		<label>apini prosthetics table</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>Allows one to craft artificial replacement limbs for Apini and Azuri bodytypes</description>
+		<description>Allows one to craft artificial replacement limbs for apini and azuri bodies.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/ApitechTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -209,9 +209,9 @@
 
 	<ThingDef ParentName="ApiniBuildingBase">  <!-- Apitech Table -->
 		<defName>ApitechTable</defName>
-		<label>Apitech Table</label>
+		<label>apitech table</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>Allows one to craft artificial replacement limbs for Apini and Azuri bodytypes</description>
+		<description>Allows one to craft artificial replacement limbs for apini and azuri bodies.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/ApitechTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -281,9 +281,9 @@
 
 	<ThingDef ParentName="ApiniBuildingBase">  <!-- Apitech Synthesizer -->
 		<defName>ApitechSynthesizer</defName>
-		<label>Apitech Synthesizer</label>
+		<label>apitech synthesizer</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>Prints Apitech mechanites and allows one to craft synthetic organs and implants from mechanites.</description>
+		<description>Prints apitech mechanites and allows one to craft synthetic organs and implants from mechanites.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/ApitechSynthesizer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -411,8 +411,8 @@
 
   <ThingDef ParentName="VatBase">  <!-- Honey Vat (Frostbell) -->
     <defName>Vat_F</defName>
-    <label>Honey Capsule (Frostbell)</label>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <label>honey capsule (frostbell)</label>
+    <description>A hexagonal container for creating frostbell honey from frostbell nectar.</description>
     <thingClass>Apini.Building_FermentingVat</thingClass>
 	<modExtensions>
 		<li Class="Apini.VatProperties">
@@ -430,6 +430,7 @@
 			<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 		</li>
 	</modExtensions>
+    <designatorDropdown>Apini_Capsules_Special</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyCapsule_Frostbell</texPath>
     </graphicData>
@@ -437,8 +438,8 @@
 
   <ThingDef ParentName="VatBase">  <!-- Honey Vat (Emberose) -->
     <defName>Vat_E</defName>
-    <label>Honey Capsule (Emberose)</label>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <label>honey capsule (emberose)</label>
+    <description>A hexagonal container for creating emberose honey from emberose nectar.</description>
     <thingClass>Apini.Building_FermentingVat</thingClass>
 	<modExtensions>
 		<li Class="Apini.VatProperties">
@@ -456,6 +457,7 @@
 			<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 		</li>
 	</modExtensions>
+    <designatorDropdown>Apini_Capsules_Special</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyCapsule_Emberose</texPath>
     </graphicData>
@@ -463,8 +465,8 @@
 
   <ThingDef ParentName="VatBase">  <!-- Honey Vat (Metalily) -->
     <defName>Vat_M</defName>
-    <label>Honey Capsule (Metalily)</label>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <label>honey capsule (metalily)</label>
+    <description>A hexagonal container for creating metalily honey from metalily nectar.</description>
     <thingClass>Apini.Building_FermentingVat</thingClass>
 	<modExtensions>
 		<li Class="Apini.VatProperties">
@@ -482,6 +484,7 @@
 			<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 		</li>
 	</modExtensions>
+    <designatorDropdown>Apini_Capsules_Special</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyCapsule_Metalily</texPath>
     </graphicData>
@@ -489,8 +492,8 @@
 
   <ThingDef ParentName="VatBase">  <!-- Honey Vat (Bardsong) -->
     <defName>Vat_B</defName>
-    <label>Honey Capsule (Bardsong)</label>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <label>honey capsule (bardsong)</label>
+    <description>A hexagonal container for creating bardsong honey from bardsong nectar.</description>
     <thingClass>Apini.Building_FermentingVat</thingClass>
 	<modExtensions>
 		<li Class="Apini.VatProperties">
@@ -508,6 +511,7 @@
 			<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 		</li>
 	</modExtensions>
+    <designatorDropdown>Apini_Capsules_Special</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyCapsule_Bardsong</texPath>
     </graphicData>
@@ -515,8 +519,8 @@
 
   <ThingDef ParentName="VatBase">  <!-- Honey Vat (Rushthorn) -->
     <defName>Vat_R</defName>
-    <label>Honey Capsule (Rushthorn)</label>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <label>honey capsule (rushthorn)</label>
+    <description>A hexagonal container for creating rushthorn honey from rushthorn nectar.</description>
     <thingClass>Apini.Building_FermentingVat</thingClass>
 	<modExtensions>
 		<li Class="Apini.VatProperties">
@@ -534,6 +538,7 @@
 			<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 		</li>
 	</modExtensions>
+    <designatorDropdown>Apini_Capsules_Special</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyCapsule_Rushthorn</texPath>
     </graphicData>
@@ -541,8 +546,8 @@
 
   <ThingDef ParentName="VatBase">  <!-- Honey Vat (Wiserbud) -->
     <defName>Vat_W</defName>
-    <label>Honey Capsule (Wiserbud)</label>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <label>honey capsule (wiserbud)</label>
+    <description>A hexagonal container for creating wiserbud honey from wiserbud nectar.</description>
     <thingClass>Apini.Building_FermentingVat</thingClass>
 	<modExtensions>
 		<li Class="Apini.VatProperties">
@@ -560,6 +565,7 @@
 			<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 		</li>
 	</modExtensions>
+    <designatorDropdown>Apini_Capsules_Special</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyCapsule_Wiserbud</texPath>
     </graphicData>
@@ -567,8 +573,8 @@
 
   <ThingDef ParentName="VatBase">  <!-- Honey Vat (Vigorbloom) -->
     <defName>Vat_V</defName>
-    <label>Honey Capsule (Vigorbloom)</label>
-    <description>A hexagonal container for creating honey from nectar.</description>
+    <label>honey capsule (vigorbloom)</label>
+    <description>A hexagonal container for creating vigorbloom honey from vigorbloom nectar.</description>
     <thingClass>Apini.Building_FermentingVat</thingClass>
 	<modExtensions>
 		<li Class="Apini.VatProperties">
@@ -586,6 +592,7 @@
 			<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 		</li>
 	</modExtensions>
+    <designatorDropdown>Apini_Capsules_Special</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyCapsule_Vigorbloom</texPath>
     </graphicData>
@@ -634,7 +641,7 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <size>(4,3)</size>
-    <description>A massive hexagonal container for creating honey from unflavored nectar.</description>
+    <description>A massive hexagonal container for creating unflavored honey from unflavored nectar.</description>
     <costList>
       <Pollen>250</Pollen>
       <WoodLog>250</WoodLog>

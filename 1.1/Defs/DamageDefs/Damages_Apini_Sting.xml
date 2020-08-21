@@ -22,7 +22,7 @@
   <DamageDef ParentName="Sting">
     <!-- Bionic Sting Damage -->
     <defName>BionicSting</defName>
-    <label>Bionic Sting</label>
+    <label>bionic sting</label>
     <hediff>BioSting</hediff>
     <impactSoundType>Electric</impactSoundType>
     <additionalHediffs>
@@ -36,7 +36,7 @@
   <DamageDef ParentName="Sting">
     <!-- Advanced Bionic Sting Damage -->
     <defName>AdvancedBionicSting</defName>
-    <label>Advanced Bionic Sting</label>
+    <label>advanced bionic sting</label>
     <hediff>AdvBioSting</hediff>
     <impactSoundType>Electric</impactSoundType>
     <additionalHediffs>
@@ -50,7 +50,7 @@
   <DamageDef ParentName="Sting">
     <!-- Venomous Sting Damage -->
     <defName>A_Sting</defName>
-    <label>Bee Sting</label>
+    <label>bee sting</label>
     <hediff>BeeSting</hediff>
   </DamageDef>
   

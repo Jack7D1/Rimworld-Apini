@@ -30,7 +30,7 @@
     <defName>Honey_Shallow</defName>
     <texturePath>Things/Terrain/HoneyShallowRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <label>Honey (shallow)</label>
+    <label>honey (shallow)</label>
     <description>A shallow pool filled with honey that has been treated to lose its stickiness.\n\n•Slows movement only slightly.\n•Use for recreation.</description>
     <renderPrecedence>393</renderPrecedence>
     <passability>Standable</passability>
@@ -38,13 +38,14 @@
     <costList>
       <ApiniHoney>5</ApiniHoney>
     </costList>
+    <designatorDropdown>Apini_Terrain_Honey</designatorDropdown>
   </TerrainDef>
 
   <TerrainDef ParentName="HoneyTerrainBase">
     <defName>Honey_Deep</defName>
     <texturePath>Things/Terrain/HoneyDeepRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <label>Honey (deep)</label>
+    <label>honey (deep)</label>
     <description>A deep pool filled with honey that has been treated to lose its stickiness.\n\n•Slows movement only slightly.\n•Use for recreation.</description>
     <renderPrecedence>394</renderPrecedence>
     <passability>Standable</passability>
@@ -52,13 +53,14 @@
     <costList>
       <ApiniHoney>10</ApiniHoney>
     </costList>
+    <designatorDropdown>Apini_Terrain_Honey</designatorDropdown>
   </TerrainDef>
 
   <TerrainDef ParentName="HoneyTerrainBase">
     <defName>Honey_StickyShallow</defName>
     <texturePath>Things/Terrain/StickyHoneyShallowRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <label>Sticky honey (shallow)</label>
+    <label>sticky honey (shallow)</label>
     <description>A shallow pool filled with extra sticky honey.\n\n•Slows movement a great deal.\n•Use for base defenses.</description>
     <renderPrecedence>395</renderPrecedence>
     <passability>Standable</passability>
@@ -67,6 +69,7 @@
       <ApiniHoney>5</ApiniHoney>
       <Pollen>20</Pollen>
     </costList>
+    <designatorDropdown>Apini_Terrain_Honey_Sticky</designatorDropdown>
     <color>(.9, .9, .9)</color>
   </TerrainDef>
 
@@ -74,7 +77,7 @@
     <defName>Honey_StickyDeep</defName>
     <texturePath>Things/Terrain/StickyHoneyDeepRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <label>Sticky honey (deep)</label>
+    <label>sticky honey (deep)</label>
     <description>A deep pool filled with extra sticky honey.\n\n•Slows movement a great deal.\n•Use for base defenses.</description>
     <renderPrecedence>396</renderPrecedence>
     <passability>Standable</passability>
@@ -83,6 +86,7 @@
       <ApiniHoney>10</ApiniHoney>
       <Pollen>40</Pollen>
     </costList>
+    <designatorDropdown>Apini_Terrain_Honey_Sticky</designatorDropdown>
     <color>(.9, .9, .9)</color>
   </TerrainDef>
 </Defs>

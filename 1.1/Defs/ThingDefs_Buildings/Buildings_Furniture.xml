@@ -2,8 +2,8 @@
 <Defs>
 	<ThingDef ParentName="ApiniBuildingBase">  <!-- Honeycomb Bed S -->
 		<defName>HoneycombBed_S</defName>
-		<label>Honeycomb Single bed</label>
-		<description>Designed by Apini for anyone who can appreciate the joy of floating weightlessly in a pool of rejuvenating coagulated honey. Specially designed to not stick to your skin!</description>
+		<label>single honeycomb bed</label>
+		<description>Designed by apini for anyone who can appreciate the joy of floating weightlessly in a pool of rejuvenating coagulated honey. Specially designed to not stick to your skin!</description>
 		<thingClass>Building_Bed</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Furniture/Bed/Honeycomb_SingleBed</texPath>
@@ -83,8 +83,8 @@
 	
 	<ThingDef ParentName="ApiniBuildingBase">  <!-- Honeycomb Bed L -->
 		<defName>HoneycombBed_L</defName>
-		<label>Honeycomb Double bed</label>
-		<description>Designed by Apini for anyone who can appreciate the joy of floating weightlessly in a pool of rejuvenating coagulated honey. Specially designed to not stick to your skin!</description>
+		<label>double honeycomb bed</label>
+		<description>Designed by apini for anyone who can appreciate the joy of floating weightlessly in a pool of rejuvenating coagulated honey. Specially designed to not stick to your skin!</description>
 		<thingClass>Building_Bed</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Furniture/Bed/Honeycomb_DoubleBed</texPath>
@@ -163,8 +163,8 @@
 	
 	<ThingDef ParentName="ApiniBuildingBase">  <!-- Beeswax Candle -->
     <defName>BeeswaxCandle</defName>
-    <label>Beeswax Candle</label>
-    <description>A candle made with a wad of beeswax and a wick made of fine Apini hairs.</description>    
+    <label>beeswax candle</label>
+    <description>A candle made with a wad of beeswax and a wick made of fine apini hairs.</description>    
     <category>Building</category>
     <graphicData>
 		<texPath>Things/Building/Furniture/BeeswaxCandle</texPath>

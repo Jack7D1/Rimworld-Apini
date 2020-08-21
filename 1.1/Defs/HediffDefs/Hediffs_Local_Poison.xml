@@ -3,8 +3,8 @@
   <HediffDef ParentName="InjuryBase">
     <!-- Bionic Sting Injury -->
     <defName>BioSting</defName>
-    <label>Bee Sting</label>
-	<description>a bee sting.</description>
+    <label>bee sting</label>
+	<description>A bee sting.</description>
     <displayWound>false</displayWound>
     <tendable>true</tendable>
     <stages>
@@ -51,8 +51,8 @@
   <HediffDef ParentName="InjuryBase">
     <!-- Advanced Bionic Sting Injury -->
     <defName>AdvBioSting</defName>
-    <label>Bee Sting</label>
-	<description>a bee sting.</description>
+    <label>bee sting</label>
+	<description>A bee sting.</description>
     <displayWound>false</displayWound>
     <tendable>true</tendable>
     <stages>
@@ -102,7 +102,7 @@
     <hediffClass>HediffWithComps</hediffClass>
 	<description>venom from a bee sting.</description>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
-    <label>Apini Venom</label>
+    <label>apini venom</label>
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>false</scenarioCanAdd>
     <comps>
@@ -198,9 +198,9 @@
     <!-- Advanced Bionic Venom -->
     <defName>AdvBioVenom</defName>
     <hediffClass>HediffWithComps</hediffClass>
-	<description>venom from a bee sting.</description>
+	<description>Venom from a bee sting.</description>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
-    <label>Dire Apini Venom</label>
+    <label>dire apini venom</label>
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>false</scenarioCanAdd>
     <comps>
@@ -295,8 +295,8 @@
   <HediffDef ParentName="InjuryBase">
     <!-- Venomous Sting Injury -->
     <defName>BeeSting</defName>
-    <label>Bee Sting</label>
-	<description>a bee sting.</description>
+    <label>bee sting</label>
+	<description>A bee sting.</description>
     <displayWound>false</displayWound>
     <tendable>true</tendable>
     <stages>
@@ -343,8 +343,8 @@
   <HediffDef>
     <!-- Sting Venom -->
     <defName>A_StingerVenom</defName>
-    <label>Deadly Apini Venom</label>
-	<description>deadly venom from a bee sting.</description>
+    <label>deadly apini venom</label>
+	<description>Deadly venom from a bee sting.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
     <lethalSeverity>2</lethalSeverity>

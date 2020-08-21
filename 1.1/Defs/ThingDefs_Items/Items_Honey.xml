@@ -63,7 +63,7 @@
   <ThingDef ParentName="SpecialHoney">
     <!-- Honey (Frostbell) -->
     <defName>Honey_F</defName>
-    <label>Honey (Frostbell)</label>
+    <label>honey (frostbell)</label>
     <description>A cool minty flavor, this honey is the perfect refreshing thing to have on a hot summer day.</description>
 	<descriptionHyperlinks>
 		<HediffDef>CoolHoneyBuff</HediffDef>
@@ -84,7 +84,7 @@
   <ThingDef ParentName="SpecialHoney">
     <!-- Honey (Emberose) -->
     <defName>Honey_E</defName>
-    <label>Honey (Emberose)</label>
+    <label>honey (emberose)</label>
     <description>Sweet yet spicy, using this you can withstand the coldest winter night.</description>
 	<descriptionHyperlinks>
 		<HediffDef>HotHoneyBuff</HediffDef>
@@ -105,8 +105,8 @@
   <ThingDef ParentName="SpecialHoney">
     <!-- Honey (Metalily) -->
     <defName>Honey_M</defName>
-    <label>Honey (Metalily)</label>
-    <description>Rough and crunchy, eating this makes you feel invincible!</description>
+    <label>honey (metalily)</label>
+    <description>Rough and crunchy, eating this makes you feel invincible!</description> <!-- side note: how tf is honey crunchy. did you someone put chips (or crisps - potaeto potato) in it? -->
 	<descriptionHyperlinks>
 		<HediffDef>RoughHoneyBuff</HediffDef>
 	</descriptionHyperlinks>
@@ -126,8 +126,8 @@
   <ThingDef ParentName="SpecialHoney">
     <!-- Honey (Bardsong) -->
     <defName>Honey_B</defName>
-    <label>Honey (Bardsong)</label>
-    <description>A delicious treat that makes you feel more smooth.  If you were once rejected, try again after a sip of this.</description>
+    <label>honey (bardsong)</label>
+    <description>A delicious treat that makes you feel more smooth. If you were once rejected, try again after a sip of this.</description> <!-- 'If you were once rejected' feelsbadman -->
 	<descriptionHyperlinks>
 		<HediffDef>SmoothHoneyBuff</HediffDef>
 	</descriptionHyperlinks>
@@ -147,7 +147,7 @@
   <ThingDef ParentName="SpecialHoney">
     <!-- Honey (Rushthorn) -->
     <defName>Honey_R</defName>
-    <label>Honey (Rushthorn)</label>
+    <label>honey (rushthorn)</label>
     <description>A sweet treat that will move your feet! Some say they feel like a blue hedgehog when they eat this... whatever that means.</description>
 	<descriptionHyperlinks>
 		<HediffDef>SwiftHoneyBuff</HediffDef>
@@ -168,7 +168,7 @@
   <ThingDef ParentName="SpecialHoney">
     <!-- Honey (Wiserbud) -->
     <defName>Honey_W</defName>
-    <label>Honey (Wiserbud)</label>
+    <label>honey (wiserbud)</label>
     <description>The secret behind the Apini's ingenuity, need to cram for a test? Try this flavor, its a great for your grey matter!</description>
 	<descriptionHyperlinks>
 		<HediffDef>SmartHoneyBuff</HediffDef>
@@ -189,8 +189,8 @@
   <ThingDef ParentName="SpecialHoney">
     <!-- Honey (Vigorbloom) -->
     <defName>Honey_V</defName>
-    <label>Honey (Vigorbloom)</label>
-    <description>The secret behind Azuri's wrath, before every battle, to the death or otherwise, this honey is your wingman.</description>
+    <label>honey (vigorbloom)</label>
+    <description>The secret behind an azuri's wrath, before every battle, to the death or otherwise, this honey is your wingman.</description>
 	<descriptionHyperlinks>
 		<HediffDef>BruteHoneyBuff</HediffDef>
 	</descriptionHyperlinks>
@@ -210,7 +210,7 @@
   <ThingDef ParentName="HoneyBase">
     <!-- Apini Honey -->
     <defName>ApiniHoney</defName>
-    <label>Honey (unflavored)</label>
+    <label>honey (unflavored)</label>
     <description>Delicious honey produced by the Apini. A mixture of honey from the residual nectar still found within pollen that, while more filling, lacks unique flavor.</description>
   </ThingDef>
 
@@ -233,35 +233,35 @@
   <HediffDef ParentName="ApiniHoneyEffects">
     <!-- Cool Buff -->
     <defName>CoolHoneyBuff</defName>
-    <label>Chilled</label>
-    <description>frostbell honey in the bloodstream.</description>
+    <label>chilled</label>
+    <description>Frostbell honey in the bloodstream.</description>
 	<descriptionHyperlinks>
 		<ThingDef>Honey_F</ThingDef>
 	</descriptionHyperlinks>
     <stages>
       <li>
-        <label>Faded</label>
+        <label>faded</label>
         <statOffsets>
           <ComfyTemperatureMax>5</ComfyTemperatureMax>
         </statOffsets>
       </li>
       <li>
         <minSeverity>.25</minSeverity>
-        <label>Fading 30%</label>
+        <label>fading 30%</label>
         <statOffsets>
           <ComfyTemperatureMax>10</ComfyTemperatureMax>
         </statOffsets>
       </li>
       <li>
         <minSeverity>.5</minSeverity>
-        <label>Fading 40%</label>
+        <label>fading 40%</label>
         <statOffsets>
           <ComfyTemperatureMax>15</ComfyTemperatureMax>
         </statOffsets>
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>Fading 50%</label>
+        <label>fading 50%</label>
         <statOffsets>
           <ComfyTemperatureMax>20</ComfyTemperatureMax>
         </statOffsets>
@@ -278,35 +278,35 @@
   <HediffDef ParentName="ApiniHoneyEffects">
     <!-- Hot Buff -->
     <defName>HotHoneyBuff</defName>
-    <label>Heated</label>
-    <description>emberose honey in the bloodstream.</description>
+    <label>warmed</label>
+    <description>Emberose honey in the bloodstream.</description>
 	<descriptionHyperlinks>
 		<ThingDef>Honey_E</ThingDef>
 	</descriptionHyperlinks>
     <stages>
       <li>
-        <label>Faded</label>
+        <label>faded</label>
         <statOffsets>
           <ComfyTemperatureMin>-5</ComfyTemperatureMin>
         </statOffsets>
       </li>
       <li>
         <minSeverity>.25</minSeverity>
-        <label>Fading 30%</label>
+        <label>fading 30%</label>
         <statOffsets>
           <ComfyTemperatureMin>-10</ComfyTemperatureMin>
         </statOffsets>
       </li>
       <li>
         <minSeverity>.5</minSeverity>
-        <label>Fading 40%</label>
+        <label>fading 40%</label>
         <statOffsets>
           <ComfyTemperatureMin>-15</ComfyTemperatureMin>
         </statOffsets>
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>Fading 50%</label>
+        <label>fading 50%</label>
         <statOffsets>
           <ComfyTemperatureMin>-20</ComfyTemperatureMin>
         </statOffsets>
@@ -323,14 +323,14 @@
   <HediffDef ParentName="ApiniHoneyEffects">
     <!-- Rough Buff -->
     <defName>RoughHoneyBuff</defName>
-    <label>Rough Exterior</label>
-    <description>metalily honey in the bloodstream.</description>
+    <label>hardened extrerior</label>
+    <description>Metalily honey in the bloodstream.</description>
 	<descriptionHyperlinks>
 		<ThingDef>Honey_M</ThingDef>
 	</descriptionHyperlinks>
     <stages>
       <li>
-        <label>Faded</label>
+        <label>faded</label>
         <statOffsets>
           <ArmorRating_Blunt>.05</ArmorRating_Blunt>
           <ArmorRating_Sharp>.05</ArmorRating_Sharp>
@@ -339,7 +339,7 @@
       </li>
       <li>
         <minSeverity>.25</minSeverity>
-        <label>Fading 30%</label>
+        <label>fading 30%</label>
         <statOffsets>
           <ArmorRating_Blunt>.1</ArmorRating_Blunt>
           <ArmorRating_Sharp>.1</ArmorRating_Sharp>
@@ -348,7 +348,7 @@
       </li>
       <li>
         <minSeverity>.5</minSeverity>
-        <label>Fading 40%</label>
+        <label>fading 40%</label>
         <statOffsets>
           <ArmorRating_Blunt>.15</ArmorRating_Blunt>
           <ArmorRating_Sharp>.15</ArmorRating_Sharp>
@@ -357,7 +357,7 @@
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>Fading 50%</label>
+        <label>fading 50%</label>
         <statOffsets>
           <ArmorRating_Blunt>.2</ArmorRating_Blunt>
           <ArmorRating_Sharp>.2</ArmorRating_Sharp>
@@ -378,14 +378,14 @@
   <HediffDef ParentName="ApiniHoneyEffects">
     <!-- Smooth Buff -->
     <defName>SmoothHoneyBuff</defName>
-    <label>Smooth Talk</label>
-    <description>bardsong honey in the bloodstream.</description>
+    <label>smooth talk</label>
+    <description>Bardsong honey in the bloodstream.</description>
 	<descriptionHyperlinks>
 		<ThingDef>Honey_B</ThingDef>
 	</descriptionHyperlinks>
     <stages>
       <li>
-        <label>Faded</label>
+        <label>faded</label>
         <statOffsets>
           <SocialImpact>.05</SocialImpact>
           <TradePriceImprovement>.05</TradePriceImprovement>
@@ -401,7 +401,7 @@
       </li>
       <li>
         <minSeverity>.25</minSeverity>
-        <label>Fading 30%</label>
+        <label>fading 30%</label>
         <statOffsets>
           <SocialImpact>.1</SocialImpact>
           <TradePriceImprovement>.1</TradePriceImprovement>
@@ -417,7 +417,7 @@
       </li>
       <li>
         <minSeverity>.5</minSeverity>
-        <label>Fading 40%</label>
+        <label>fading 40%</label>
         <statOffsets>
           <SocialImpact>.15</SocialImpact>
           <TradePriceImprovement>.15</TradePriceImprovement>
@@ -433,7 +433,7 @@
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>Fading 50%</label>
+        <label>fading 50%</label>
         <statOffsets>
           <SocialImpact>.2</SocialImpact>
           <TradePriceImprovement>.2</TradePriceImprovement>
@@ -468,14 +468,14 @@
   <HediffDef ParentName="ApiniHoneyEffects">
     <!-- Swift Buff -->
     <defName>SwiftHoneyBuff</defName>
-    <label>Swift Speed</label>
-    <description>rushthorn honey in the bloodstream.</description>
+    <label>swiftness</label>
+    <description>Rushthorn honey in the bloodstream.</description>
 	<descriptionHyperlinks>
 		<ThingDef>Honey_R</ThingDef>
 	</descriptionHyperlinks>
     <stages>
       <li>
-        <label>Faded</label>
+        <label>faded</label>
         <statOffsets>
           <MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
           <RangedWeapon_Cooldown>-.05</RangedWeapon_Cooldown>
@@ -496,7 +496,7 @@
       </li>
       <li>
         <minSeverity>.25</minSeverity>
-        <label>Fading 30%</label>
+        <label>fading 30%</label>
         <statOffsets>
           <MeleeWeapon_CooldownMultiplier>-.1</MeleeWeapon_CooldownMultiplier>
           <RangedWeapon_Cooldown>-.1</RangedWeapon_Cooldown>
@@ -517,7 +517,7 @@
       </li>
       <li>
         <minSeverity>.5</minSeverity>
-        <label>Fading 40%</label>
+        <label>fading 40%</label>
         <statOffsets>
           <MeleeWeapon_CooldownMultiplier>-.15</MeleeWeapon_CooldownMultiplier>
           <RangedWeapon_Cooldown>-.15</RangedWeapon_Cooldown>
@@ -538,7 +538,7 @@
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>Fading 50%</label>
+        <label>fading 50%</label>
         <statOffsets>
           <MeleeWeapon_CooldownMultiplier>-.2</MeleeWeapon_CooldownMultiplier>
           <RangedWeapon_Cooldown>-.2</RangedWeapon_Cooldown>
@@ -583,14 +583,14 @@
   <HediffDef ParentName="ApiniHoneyEffects">
     <!-- Smart Buff -->
     <defName>SmartHoneyBuff</defName>
-    <label>Mental Boost</label>
-    <description>wiserbud honey in the bloodstream.</description>
+    <label>psyche boost</label>
+    <description>Wiserbud honey in the bloodstream.</description>
 	<descriptionHyperlinks>
 		<ThingDef>Honey_W</ThingDef>
 	</descriptionHyperlinks>
     <stages>
       <li>
-        <label>Faded</label>
+        <label>faded</label>
         <statOffsets>
           <AnimalGatherSpeed>.05</AnimalGatherSpeed>
           <AnimalGatherYield>.05</AnimalGatherYield>
@@ -607,7 +607,7 @@
       </li>
       <li>
         <minSeverity>.25</minSeverity>
-        <label>Fading 30%</label>
+        <label>fading 30%</label>
         <statOffsets>
           <AnimalGatherSpeed>.1</AnimalGatherSpeed>
           <AnimalGatherYield>.1</AnimalGatherYield>
@@ -624,7 +624,7 @@
       </li>
       <li>
         <minSeverity>.5</minSeverity>
-        <label>Fading 40%</label>
+        <label>fading 40%</label>
         <statOffsets>
           <AnimalGatherSpeed>.15</AnimalGatherSpeed>
           <AnimalGatherYield>.15</AnimalGatherYield>
@@ -641,7 +641,7 @@
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>Fading 50%</label>
+        <label>fading 50%</label>
         <statOffsets>
           <AnimalGatherSpeed>.2</AnimalGatherSpeed>
           <AnimalGatherYield>.2</AnimalGatherYield>
@@ -678,14 +678,14 @@
   <HediffDef ParentName="ApiniHoneyEffects">
     <!-- Brute Buff -->
     <defName>BruteHoneyBuff</defName>
-    <label>Brute Strength</label>
+    <label>body strength</label>
     <description>vigorbloom honey in the bloodstream.</description>
 	<descriptionHyperlinks>
 		<ThingDef>Honey_V</ThingDef>
 	</descriptionHyperlinks>
     <stages>
       <li>
-        <label>Faded</label>
+        <label>faded</label>
         <statOffsets>
           <CarryingCapacity>10</CarryingCapacity>
           <MeleeWeapon_DamageMultiplier>.05</MeleeWeapon_DamageMultiplier>
@@ -700,7 +700,7 @@
       </li>
       <li>
         <minSeverity>.25</minSeverity>
-        <label>Fading 30%</label>
+        <label>fading 30%</label>
         <statOffsets>
           <CarryingCapacity>20</CarryingCapacity>
           <MeleeWeapon_DamageMultiplier>.1</MeleeWeapon_DamageMultiplier>
@@ -715,7 +715,7 @@
       </li>
       <li>
         <minSeverity>.5</minSeverity>
-        <label>Fading 40%</label>
+        <label>fading 40%</label>
         <statOffsets>
           <CarryingCapacity>30</CarryingCapacity>
           <MeleeWeapon_DamageMultiplier>.15</MeleeWeapon_DamageMultiplier>
@@ -730,7 +730,7 @@
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>Fading 50%</label>
+        <label>fading 50%</label>
         <statOffsets>
           <CarryingCapacity>40</CarryingCapacity>
           <MeleeWeapon_DamageMultiplier>.2</MeleeWeapon_DamageMultiplier>

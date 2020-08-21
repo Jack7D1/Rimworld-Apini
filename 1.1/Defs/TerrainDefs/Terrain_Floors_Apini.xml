@@ -9,6 +9,7 @@
     <statBases>
       <WorkToBuild>110</WorkToBuild>
     </statBases>
+    <designatorDropdown>Apini_Floor_Beeswax</designatorDropdown>
     <designationCategory>Apitecture</designationCategory>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
   </TerrainDef>

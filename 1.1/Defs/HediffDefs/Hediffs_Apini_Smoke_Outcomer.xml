@@ -207,37 +207,37 @@
 			</li>
 			<li>
 				<label>respiratory failure</label>
-				<description>It's hard to breathe..</description>
+				<description>It's hard to breathe...</description>
 				<baseMoodEffect>-8</baseMoodEffect>
 			</li>
 			<li>
 				<label>respiratory failure</label>
-				<description>It's hard to breathe!</description>
+				<description>It's hard to breathe!..</description>
 				<baseMoodEffect>-8</baseMoodEffect>
 			</li>
 			<li>
 				<label>respiratory failure</label>
-				<description>I feel like i'm suffocating! Somebody help me!</description>
+				<description>I feel like I'm suffocating! Somebody help me!..</description>
 				<baseMoodEffect>-15</baseMoodEffect>
 			</li>
 			<li>
 				<label>respiratory failure</label>
-				<description>I feel like i'm suffocating! Somebody help me!</description>
+				<description>I feel like I'm suffocating!.. Somebody help me!..</description>
 				<baseMoodEffect>-15</baseMoodEffect>
 			</li>
 			<li>
 				<label>respiratory failure</label>
-				<description>I feel like i'm suffocating! Somebody help me!</description>
+				<description>I feel like I'm suffocating!.. Somebody help me!..</description>
 				<baseMoodEffect>-25</baseMoodEffect>
 			</li>
 			<li>
 				<label>respiratory failure</label>
-				<description>Can't b-b-breath...</description>
+				<description>Can't b-b-breathe...</description>
 				<baseMoodEffect>-50</baseMoodEffect>
 			</li>
 			<li>
 				<label>respiratory failure</label>
-				<description>C-can't b-b-breath...</description>
+				<description>C-can't b-b-breathe-e...</description>
 				<baseMoodEffect>-50</baseMoodEffect>
 			</li>
 		</stages>

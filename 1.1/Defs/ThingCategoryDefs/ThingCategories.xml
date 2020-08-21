@@ -3,7 +3,7 @@
   <!--Bodypart Abstract-->
   <ThingCategoryDef>
     <defName>InsectBodyParts</defName>
-    <label>Insect Body Parts</label>
+    <label>insect bodyparts</label>
     <parent>Items</parent>
     <iconPath>Things/Miscellaneous/BeeRace</iconPath>
   </ThingCategoryDef>
@@ -17,14 +17,14 @@
 
   <ThingCategoryDef>
     <defName>InsectBodyPartsArtificial</defName>
-    <label>Artificial</label>
+    <label>artificial</label>
     <parent>InsectBodyParts</parent>
     <iconPath>Things/Miscellaneous/BeeRace</iconPath>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
     <defName>InsectBodyPartsApitech</defName>
-    <label>Apitech</label>
+    <label>apitech</label>
     <parent>InsectBodyParts</parent>
     <iconPath>Things/Miscellaneous/BeeRace</iconPath>
   </ThingCategoryDef>

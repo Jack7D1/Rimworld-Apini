@@ -3,7 +3,7 @@
 
   <LifeStageDef>
     <defName>ApiniLarva1</defName>
-    <label>larval</label>
+    <label>larva</label>
     <voxPitch>1.8</voxPitch>
     <voxVolume>0.4</voxVolume>
     <bodySizeFactor>0.5</bodySizeFactor>
@@ -18,7 +18,7 @@
 
   <LifeStageDef>
     <defName>ApiniLarva2</defName>
-    <label>larval</label>
+    <label>larva</label>
     <voxPitch>1.6</voxPitch>
     <voxVolume>0.6</voxVolume>
     <bodySizeFactor>0.75</bodySizeFactor>

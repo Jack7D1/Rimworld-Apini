@@ -3,7 +3,7 @@
 	<!--Basic Apini stuff -->
   <ResearchProjectDef>
     <defName>ApicultureBasics</defName>
-    <label>Apiculture Basics</label>
+    <label>apiculture basics</label>
     <description>Basic Apini knowledge regarding honeycraft and beeswax.</description>
     <baseCost>400</baseCost>
     <techLevel>Neolithic</techLevel>
@@ -17,7 +17,7 @@
 
   <ResearchProjectDef>
     <defName>ApiniProstheticsTech</defName>
-    <label>Basic Apini prosthetics</label>
+    <label>simple apini prosthetics</label>
     <description>Make simple prosthetic replacements for lost Apini limbs.</description>
     <baseCost>800</baseCost>
     <techLevel>Neolithic</techLevel>
@@ -31,8 +31,8 @@
 
   <ResearchProjectDef>
     <defName>ApiniBionicsTech</defName>
-    <label>Bionic Apini prosthetics</label>
-    <description>Allows the design of more intricate electronic mechanical prostheses, utilizing components, servos and rotors</description>
+    <label>bionic apini prosthetics</label>
+    <description>Design more intricate electronic mechanical prostheses, utilizing components, servos and rotors</description>
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -45,8 +45,8 @@
 
   <ResearchProjectDef>
     <defName>ApiniAdvancedBionicsTech</defName>
-    <label>Advanced Bionic Apini prosthetics</label>
-    <description>Takes the design of bionic prosthetics to the pinnacle of technology, with microelectronics and space age materials.</description>
+    <label>advanced bionic apini prosthetics</label>
+    <description>Take the design of bionic prosthetics to the pinnacle of technology, with microelectronics and space age materials.</description>
     <baseCost>2400</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -60,8 +60,8 @@
 
   <ResearchProjectDef>
     <defName>Apitech</defName>
-    <label>Apitech</label>
-    <description>Technologically, Apitech is beyond what any Apini could have dreamed, allowing the design of not only advanced prosthetics but replacement organs.</description>
+    <label>apitech</label>
+    <description>Technologically, apitech is beyond what any apini could have dreamed, allowing the design of not only advanced prosthetics but replacement organs.</description>
     <baseCost>3200</baseCost>
     <techLevel>Spacer</techLevel>
     <requiredResearchFacilities>
@@ -77,7 +77,7 @@
 
   <ResearchProjectDef>
     <defName>HoneyConditioning</defName>
-    <label>Honey Conditioning</label>
+    <label>honey conditioning</label>
     <description>Manipulate the texture and consistency of honey, from a coagulated honey mixture with rejuvinating properties to a honey you can swim in.</description>
     <baseCost>400</baseCost>
     <techLevel>Neolithic</techLevel>
@@ -91,8 +91,8 @@
 
   <ResearchProjectDef>
     <defName>HoneyRefining</defName>
-    <label>Honey Refining</label>
-    <description>Allows the construction of specialized capsules to ferment distilled nectar into honey.</description>
+    <label>honey refining</label>
+    <description>Construct specialized capsules to ferment distilled nectar into honey.</description>
     <baseCost>400</baseCost>
     <techLevel>Neolithic</techLevel>
     <prerequisites>
@@ -121,7 +121,7 @@
   <!-- Plants for mass pollenball production and max comfortable temperature. -->
 	<ResearchProjectDef>
 		<defName>ApiniPlantKnowledgeBasic</defName>
-		<label>Basic Apini Flowers</label>
+		<label>basic apini flowers</label>
 		<description>Cultivate basic apini flowers: the apini daisy for mass pollenballs, frostbell for surviving hot climates.</description>
 		<baseCost>200</baseCost>
 		<prerequisites>
@@ -136,8 +136,8 @@
 	<!-- Plants for min comfortable temperature and protection. -->
 	<ResearchProjectDef>
 		<defName>ApiniPlantKnowledgeAdvanced</defName>
-		<label>Advanced Apini Flowers</label>
-		<description>Cultivate advanced apini flowers: emberose for surviving cold climates, metalily for a metallic skin.</description>
+		<label>advanced apini flowers</label>
+		<description>Cultivate advanced apini flowers: emberose for surviving cold climates, metalily for hardened chitin.</description>
 		<baseCost>400</baseCost>
 		<prerequisites>
 			<li>ApiniPlantKnowledgeBasic</li>
@@ -152,7 +152,7 @@
 	<!-- Plants for speed and strength. -->
 	<ResearchProjectDef>
 		<defName>ApiniPlantKnowledgeBody</defName>
-		<label>Body-Enhancing Apini Flowers</label>
+		<label>body-enhancing apini flowers</label>
 		<description>Cultivate apini flowers that enhance the body: rushthorn for agility, vigorbloom for strength.</description>
 		<baseCost>600</baseCost>
 		<prerequisites>
@@ -167,7 +167,7 @@
 	<!-- Plants for charisma and intellegence. -->
 	<ResearchProjectDef>
 		<defName>ApiniPlantKnowledgeMind</defName>
-		<label>Mind-Enhancing Apini Flowers</label>
+		<label>mind-enhancing apini flowers</label>
 		<description>Cultivate apini flowers that enhance the mind: bardsong for charisma, wiserbud for intellegence.</description>
 		<baseCost>600</baseCost>
 		<prerequisites>

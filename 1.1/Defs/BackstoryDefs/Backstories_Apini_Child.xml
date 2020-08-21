@@ -9,8 +9,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniMundane</defName>
-    <title>Mundane</title>
-    <titleShort>Mundane</titleShort>
+    <title>mundane</title>
+    <titleShort>mundane</titleShort>
     <baseDescription>[PAWN_nameDef] had a typical, mundane hive-based childhood.</baseDescription>
     <femaleCommonality>100</femaleCommonality>
     <maleCommonality>0</maleCommonality>
@@ -28,8 +28,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniCurious</defName>
-    <title>Curious grub</title>
-    <titleShort>Curious</titleShort>
+    <title>curious grub</title>
+    <titleShort>curious</titleShort>
     <baseDescription>Ever since [PAWN_nameDef] was a small grub, they were insanely curious about the world outside the hive, often risking life and wing to witness new fauna.</baseDescription>
     <skillGains>
       <li>
@@ -45,8 +45,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniKnave</defName>
-    <title>Prodigal knave</title>
-    <titleShort>Knave</titleShort>
+    <title>prodigal knave</title>
+    <titleShort>knave</titleShort>
     <baseDescription>A prodigy in combat, [PAWN_nameDef] was celebrated for [PAWN_possessive] martial prowess. Little did they know that [PAWN_nameDef] had an intense phobia of critters.</baseDescription>
     <skillGains>
       <li>
@@ -65,8 +65,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniOverly</defName>
-    <title>Overly encapsulated</title>
-    <titleShort>Encapsulated</titleShort>
+    <title>overly encapsulated</title>
+    <titleShort>overcapsulated</titleShort>
     <baseDescription>[PAWN_nameDef] spent too long in their capsule, comforted by its familiar design.</baseDescription>
     <workDisables>
       <li>Intellectual</li>
@@ -81,9 +81,9 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniHelpful</defName>
-    <title>Helpful grubling</title>
-    <titleShort>Helpful</titleShort>
-    <baseDescription>As a small larva [PAWN_nameDef] was always eager to help [PAWN_possessive] elder sisters.</baseDescription>
+    <title>helpful grubling</title>
+    <titleShort>assistant</titleShort>
+    <baseDescription>As a small larva, [PAWN_nameDef] was always eager to help [PAWN_possessive] elder sisters.</baseDescription>
     <skillGains>
       <li>
         <defName>Crafting</defName>
@@ -103,8 +103,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniAnxious</defName>
-    <title>Anxious larva</title>
-    <titleShort>Anxious</titleShort>
+    <title>anxious larva</title>
+    <titleShort>anxious</titleShort>
     <baseDescription>[PAWN_nameDef] was always anxious about the world outside the hive and the unknown dangers it contained. After all, humans could strike at anytime, wiping out the apini with superior technology.</baseDescription>
     <skillGains>
       <li>
@@ -134,8 +134,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniHuman</defName>
-    <title>Human raised</title>
-    <titleShort>Changeling</titleShort>
+    <title>human raised</title>
+    <titleShort>changeling</titleShort>
     <baseDescription>Taken from their hive as a grubling by humans, [PAWN_nameDef] grew up with a sense of independence rarely found amongst the Apini.</baseDescription>
     <skillGains>
       <li>
@@ -163,8 +163,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniOrphan</defName>
-    <title>Wild orphan</title>
-    <titleShort>Orphan</titleShort>
+    <title>wild orphan</title>
+    <titleShort>orphan</titleShort>
     <baseDescription>[PAWN_nameDef] somehow ended up fending for themself in the wilds of the Rim. They learnt to survive by integrating [PAWN_possessive]self into a local insect hive.</baseDescription>
     <skillGains>
       <li>
@@ -191,8 +191,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniCharred</defName>
-    <title>Charred child</title>
-    <titleShort>Charred</titleShort>
+    <title>charred child</title>
+    <titleShort>charred</titleShort>
     <baseDescription>A child survivor of a burnt down hive, [PAWN_nameDef] suffered painful 3rd degree burns. From being permanently scarred [PAWN_nameDef] tried to learn how to revert their appearance to pristine form.</baseDescription>
     <skillGains>
       <li>
@@ -216,8 +216,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniWrangler</defName>
-    <title>Megaspider wrangler</title>
-    <titleShort>Wrangler</titleShort>
+    <title>megaspider wrangler</title>
+    <titleShort>wrangler</titleShort>
     <baseDescription>[PAWN_nameDef] took up the only job available to quickest, toughest, and luckiest of Apini; Name went into cave systems to retrieve megaspiders. Years of doing this deadly work has hardened both their chitin and spirit.</baseDescription>
     <skillGains>
       <li>
@@ -245,8 +245,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniGrubnapped</defName>
-    <title>Grubnapped</title>
-    <titleShort>Grubnapped</titleShort>
+    <title>grubnapped</title>
+    <titleShort>grubnapped</titleShort>
     <baseDescription>At an early age, [PAWN_nameDef] was kidnapped from [PAWN_possessive] hive and forced into slavery. [PAWN_pronoun] harbors a deep resentment towards humans for their suffering.</baseDescription>
     <skillGains>
       <li>
@@ -285,8 +285,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniFlower</defName>
-    <title>Flowerchild</title>
-    <titleShort>Flowerchild</titleShort>
+    <title>flowerchild</title>
+    <titleShort>flowerchild</titleShort>
     <baseDescription>When most would use flowers for making honey, [PAWN_nameDef] would spend hours upon hours merely playing in them.</baseDescription>
     <skillGains>
       <li>
@@ -307,8 +307,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>ApiniShaper</defName>
-    <title>Wax shaper</title>
-    <titleShort>Shaper</titleShort>
+    <title>wax shaper</title>
+    <titleShort>shaper</titleShort>
     <baseDescription>The sturdy but easily shaped beeswax of the hives always entertained [PAWN_nameDef] as a larva, [PAWN_pronoun] spent most of her free time molding and sculpting the tough material. </baseDescription>
     <skillGains>
       <li>
@@ -351,8 +351,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>Apini_Outcast</defName>
-    <title>Outcast</title>
-    <titleShort>Outcast</titleShort>
+    <title>outcast</title>
+    <titleShort>outcast</titleShort>
     <baseDescription>[PAWN_nameDef] was unfortunate to be born in a hive where there was no need for more workers. Cast out, [PAWN_pronoun] survived primarily by instinct.</baseDescription>
     <femaleCommonality>0</femaleCommonality>
     <maleCommonality>100</maleCommonality>
@@ -384,8 +384,8 @@
 
   <AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>Apini_Destined</defName>
-    <title>Destined</title>
-    <titleShort>Destined</titleShort>
+    <title>destined</title>
+    <titleShort>destined</titleShort>
     <baseDescription>Growing up [PAWN_nameDef] knew [PAWN_pronoun] was destined for greatness, the nursemaids made sure [PAWN_pronoun] understood how great a role [PAWN_pronoun] will one day play. They may have neglected a detail or two...</baseDescription>
     <femaleCommonality>0</femaleCommonality>
     <maleCommonality>100</maleCommonality>

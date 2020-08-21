@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<DesignatorDropdownGroupDef>
+		<defName>Apini_Capsules_Special</defName>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Apini_Floor_Beeswax</defName>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Apini_Terrain_Honey</defName>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Apini_Terrain_Honey_Sticky</defName>
+	</DesignatorDropdownGroupDef>
+</Defs>

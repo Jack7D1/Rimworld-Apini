@@ -47,7 +47,7 @@
 
   <ThingDef ParentName="ApiniPlants">  <!-- Lavender -->
     <defName>PlantLavender</defName>
-    <label>Lavender</label>
+    <label>lavender</label>
     <description>A hardy herb known for its calming fragrance.</description>
     <graphicData>
       <texPath>Things/Plant/Lavender</texPath>
@@ -64,8 +64,8 @@
   
   <ThingDef ParentName="ApiniPlants">  <!-- Apini Daisy -->
     <defName>PlantDaisyApini</defName>
-    <label>Apini daisy</label>
-    <description>A pleasant flower that was one of the first to be grown by Apini. It produces so much pollen that some hives can't manage it.</description>
+    <label>apini daisy</label>
+    <description>A pleasant flower that was one of the first to be grown by apini. It produces so much pollen that some hives can't manage it.</description>
     <graphicData>
       <texPath>Things/Plant/Daisy_Apini</texPath>
     </graphicData>
@@ -81,7 +81,7 @@
   
   <ThingDef ParentName="ApiniPlants">  <!-- Frostbell -->
     <defName>PlantFrostbell</defName>
-    <label>Frostbell</label>
+    <label>frostbell</label>
     <description>A unique flower that has been cultivated by the Apini for centuries. It is often cool to the touch.</description>
     <graphicData>
       <texPath>Things/Plant/Frostbell</texPath>
@@ -97,7 +97,7 @@
 
   <ThingDef ParentName="ApiniPlants">  <!-- Emberose -->
     <defName>PlantEmberose</defName>
-    <label>Emberose</label>
+    <label>emberose</label>
     <description>A beautiful flower that draws many admirers with its bright glow. Its temperature is highest when touched.</description>
     <graphicData>
       <texPath>Things/Plant/Emberose</texPath>
@@ -113,7 +113,7 @@
 
   <ThingDef ParentName="ApiniPlants">  <!-- Metalily -->
     <defName>PlantMetalily</defName>
-    <label>Metalily</label>
+    <label>metalily</label>
     <description>A flower with a steely appearance, though it's petals are soft to touch, they are just as resitant to damage as their name would suggest.</description>
     <graphicData>
       <texPath>Things/Plant/Metalily</texPath>
@@ -129,7 +129,7 @@
 
   <ThingDef ParentName="ApiniPlants">  <!-- Bardsong -->
     <defName>PlantBardsong</defName>
-    <label>Bardsong</label>
+    <label>bardsong</label>
     <description>A strange flower that carries a tune.  Sometimes a sound will be picked up from another flower a great distance away.</description>
     <graphicData>
       <texPath>Things/Plant/Bardsong</texPath>
@@ -145,7 +145,7 @@
 
   <ThingDef ParentName="ApiniPlants">  <!-- Rushthorn -->
     <defName>PlantRushthorn</defName>
-    <label>Rushthorn</label>
+    <label>rushthorn</label>
     <description>The wind that pass by these plants actually pick up in speed.  At one time there was a valley full of these, and every passing breeze turned into a thrashing gale.</description>
     <graphicData>
       <texPath>Things/Plant/Rushthorn</texPath>
@@ -161,7 +161,7 @@
 
   <ThingDef ParentName="ApiniPlants">  <!-- Wiserbud -->
     <defName>PlantWiserbud</defName>
-    <label>Wiserbud</label>
+    <label>wiserbud</label>
     <description>Thoughts seem to flow easier and quicker when sipping the nectar of this flower.  Supposedly this is how the Apini gained their independance.</description>
     <graphicData>
       <texPath>Things/Plant/Wiserbud</texPath>
@@ -177,7 +177,7 @@
 
   <ThingDef ParentName="ApiniPlants">  <!-- Vigorbloom -->
     <defName>PlantVigorbloom</defName>
-    <label>Vigorbloom</label>
+    <label>vigorbloom</label>
     <description>An invigorating aromatic flower. While Apini who harvested Wiserbuds gained a stronger sense of self, Azuri prefered the flavor of the Vigorbloom.</description>
     <graphicData>
       <texPath>Things/Plant/Vigorbloom</texPath>
@@ -213,13 +213,13 @@
  
   <ThingDef ParentName="PollenBase">  <!-- Pollen -->
     <defName>Pollen</defName>
-    <label>Pollen</label>
+    <label>pollen</label>
     <description>Raw pollen extracted from pollen balls.  Used by Apini in various recipies.</description>
   </ThingDef>
   
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball -->
     <defName>PollenBall</defName>
-    <label>Pollen Ball</label>
+    <label>pollen ball</label>
     <description>A ball of pollen and nectar gathered from plants. The vital ingredient to make unflavored honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall</texPath>
@@ -228,7 +228,7 @@
     
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball (Frostbell) -->
     <defName>PollenBall_F</defName>
-    <label>Pollen Ball (Frostbell)</label>
+    <label>pollen ball (frostbell)</label>
     <description>A ball of pollen and nectar gathered from frostbells. The vital ingredient to make cool honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall_Frostbell</texPath>
@@ -237,8 +237,8 @@
     
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball (Emberose) -->
     <defName>PollenBall_E</defName>
-    <label>Pollen Ball (Emberose)</label>
-    <description>A ball of pollen and nectar gathered from Emberoses. The vital ingredient to make hot honey.</description>
+    <label>pollen ball (emberose)</label>
+    <description>A ball of pollen and nectar gathered from emberoses. The vital ingredient to make hot honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall_Emberose</texPath>
     </graphicData>
@@ -246,8 +246,8 @@
   
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball (Metalily) -->
     <defName>PollenBall_M</defName>
-    <label>Pollen Ball (Metalily)</label>
-    <description>A ball of pollen and nectar gathered from Metalilies. The vital ingredient to make Rough honey.</description>
+    <label>pollen ball (metalily)</label>
+    <description>A ball of pollen and nectar gathered from metalilies. The vital ingredient to make rough honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall_Metalily</texPath>
     </graphicData>
@@ -255,8 +255,8 @@
     
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball (Bardsong) -->
     <defName>PollenBall_B</defName>
-    <label>Pollen Ball (Bardsong)</label>
-    <description>A ball of pollen and nectar gathered from Bardsongs. The vital ingredient to make Smooth honey.</description>
+    <label>pollen ball (bardsong)</label>
+    <description>A ball of pollen and nectar gathered from bardsongs. The vital ingredient to make smooth honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall_Bardsong</texPath>
     </graphicData>
@@ -264,8 +264,8 @@
     
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball (Rushthorn) -->
     <defName>PollenBall_R</defName>
-    <label>Pollen Ball (Rushthorn)</label>
-    <description>A ball of pollen and nectar gathered from Rushthorns. The vital ingredient to make Swift honey.</description>
+    <label>pollen ball (rushthorn)</label>
+    <description>A ball of pollen and nectar gathered from rushthorns. The vital ingredient to make swift honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall_Rushthorn</texPath>
     </graphicData>
@@ -273,8 +273,8 @@
     
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball (Wiserbud) -->
     <defName>PollenBall_W</defName>
-    <label>Pollen Ball (Wiserbud)</label>
-    <description>A ball of pollen and nectar gathered from Wiserbuds. The vital ingredient to make Smart honey.</description>
+    <label>pollen ball (wiserbud)</label>
+    <description>A ball of pollen and nectar gathered from wiserbuds. The vital ingredient to make smart honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall_Wiserbud</texPath>
     </graphicData>
@@ -282,8 +282,8 @@
     
   <ThingDef ParentName="PollenBase">  <!-- Pollen Ball (Vigorbloom) -->
     <defName>PollenBall_V</defName>
-    <label>Pollen Ball (Vigorbloom)</label>
-    <description>A ball of pollen and nectar gathered from Vigorblooms. The vital ingredient to make Brute honey.</description>
+    <label>pollen ball (vigorbloom)</label>
+    <description>A ball of pollen and nectar gathered from vigorblooms. The vital ingredient to make brute honey.</description>
     <graphicData>
       <texPath>Things/Item/PollenBall/PollenBall_Vigorbloom</texPath>
     </graphicData>

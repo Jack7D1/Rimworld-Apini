@@ -2,8 +2,8 @@
 <Defs>
   <FactionDef>
     <defName>TribeApini</defName>
-    <label>tribal hive</label>
-    <description>A tribal hive of Apini, they toil hard and long everyday to survive. Apini are not the most intelligent sort, many communities never surpassing a neolithic level of technology. They range from friendly to outright hostile, depending on their previous interactions with humans. \n \nThey are often raided for their delicious honey.</description>
+    <label>tribal apini hive</label>
+    <description>A tribal hive of apini, they toil hard and long everyday to survive. Apini are not the most intelligent sort, many communities never surpassing a neolithic level of technology. They range from friendly to outright hostile, depending on their previous interactions with humans. \n \nThey are often raided for their delicious honey.</description>
     <pawnsPlural>tribal apinis</pawnsPlural>
     <pawnSingular>tribal apini</pawnSingular>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -117,7 +117,7 @@
   <FactionDef>
     <defName>TribeAzuri</defName>
     <label>tribal swarm</label>
-    <description>A ravenous swarm of Azuri, out for Apini ichor. \n\nBest to avoid.</description>
+    <description>A ravenous swarm of azuri, out for apini ichor. \n\nBest to avoid for everyone else that isn't an azuri.</description>
     <pawnsPlural>azuri swarm</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <settlementGenerationWeight>1</settlementGenerationWeight>

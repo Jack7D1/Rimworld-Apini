@@ -47,8 +47,8 @@
 
 	<ThingDef ParentName="ApiniMeleeWeapon_Sharp">
 		<defName>ApiniScythe</defName>
-		<label>Honeyglass Scythe</label>
-		<description>This bee-made weapon has better applications in horticulture than warfare.</description>
+		<label>honey-glass scythe</label>
+		<description>This apini-made weapon has better applications in horticulture than warfare.</description>
 		<graphicData>
 			<texPath>Things/Weapon/HoneyScythe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

@@ -2,7 +2,7 @@
 <Defs>
   <DesignationCategoryDef>  <!-- Apini Category -->
     <defName>Apitecture</defName>
-    <label>Apitecture</label>
+    <label>apitecture</label>
     <description>Contains special structures designed by Apini.</description>
     <order>90</order>
     <specialDesignatorClasses>

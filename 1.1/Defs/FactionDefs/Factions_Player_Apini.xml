@@ -10,8 +10,8 @@
   <!-- Apini player faction -->
   <FactionDef ParentName="Playerbase">
     <defName>TribalApiniPlayer</defName>
-    <label>Hive</label>
-    <description>A tribe of neolithic Apini.</description>
+    <label>apini hive</label>
+    <description>A tribe of apini.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>ApiniPawn</basicMemberKind>
     <pawnSingular>apini</pawnSingular>
@@ -61,8 +61,8 @@
   <!-- Azuri Player faction -->
   <FactionDef ParentName="Playerbase">
     <defName>TribalAzuriPlayer</defName>
-    <label>Settled Swarm</label>
-    <description>A settled swarm of Azuri.</description>
+    <label>settled swarm</label>
+    <description>A settled swarm of azuri.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>AzuriPawn</basicMemberKind>
     <pawnSingular>azuri</pawnSingular>

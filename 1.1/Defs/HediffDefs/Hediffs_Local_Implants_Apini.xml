@@ -241,7 +241,7 @@
   <!-- Enhanced Cognitive Functions (Brain) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedBrain_Apini</defName>
-    <label>Enhanced Cognitive Functions</label>
+    <label>enhanced cognitive functions</label>
     <description>Enhanced cognitive functions.</description>
     <descriptionHyperlinks>
 		<ThingDef>Neuroenhancer_Apini</ThingDef>
@@ -261,7 +261,7 @@
   <!-- Enhanced Visual Acuity (Eyes) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedEye_Apini</defName>
-    <label>Enhanced Visual Acuity</label>
+    <label>enhanced visual acuity</label>
     <description>Enhanced visual acuity.</description>
     <descriptionHyperlinks>
 		<ThingDef>OcularEnhancement_Apini</ThingDef>
@@ -282,7 +282,7 @@
   <!-- Enhanced Auditory Range (Antennae) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedAntenna_Apini</defName>
-    <label>Enhanced Auditory Range</label>
+    <label>enhanced auditory range</label>
     <description>Enhanced auditory range.</description>
     <descriptionHyperlinks>
 		<ThingDef>SignalReceptor_Apini</ThingDef>
@@ -306,8 +306,8 @@
   <!-- Monarch Mandibles (Mouth) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedMouth_Monarch_Apini</defName>
-    <label>Monarch Mandibles</label>
-    <description>Installed Monarch Mandibles.</description>
+    <label>monarch mandibles</label>
+    <description>Installed monarch mandibles.</description>
     <descriptionHyperlinks>
 		<ThingDef>MonarchMandibles_Apini</ThingDef>
 	</descriptionHyperlinks>
@@ -357,8 +357,8 @@
   <!-- Crusher Mandibles (Mouth) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedMouth_Crusher_Apini</defName>
-    <label>Crusher Mandibles</label>
-    <description>Installed Crusher Mandibles.</description>
+    <label>crusher mandibles</label>
+    <description>Installed crusher mandibles.</description>
     <descriptionHyperlinks>
 		<ThingDef>CrusherMandibles_Apini</ThingDef>
 	</descriptionHyperlinks>
@@ -401,8 +401,8 @@
   <!-- Songstress Mandibles (Mouth) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedMouth_Songstress_Apini</defName>
-    <label>Songstress Mandibles</label>
-    <description>Installed Songstress Mandibles.</description>
+    <label>songstress mandibles</label>
+    <description>Installed songstress mandibles.</description>
     <descriptionHyperlinks>
 		<ThingDef>SongstressMandibles_Apini</ThingDef>
 	</descriptionHyperlinks>
@@ -430,7 +430,7 @@
   <!-- Proboscis Enhancement (Mouth) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedMouth_Eating_Apini</defName>
-    <label>Proboscis Enhancement</label>
+    <label>proboscis enhancement</label>
     <description>A proboscis enhancement.</description>
     <descriptionHyperlinks>
 		<ThingDef>ProboscisEnhancement_Apini</ThingDef>
@@ -451,7 +451,7 @@
   <!-- Aerator Implant (Wings) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedWing_Aerator_Apini</defName>
-    <label>Aerator Implant</label>
+    <label>aerator implant</label>
     <description>An aerator implant.</description>
     <descriptionHyperlinks>
 		<ThingDef>WingAerator_Apini</ThingDef>
@@ -476,7 +476,7 @@
   <!-- Breezer Implant (Wings) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedWing_Breezer_Apini</defName>
-    <label>Breezer Implant</label>
+    <label>breezer implant</label>
     <description>A breezer implant.</description>
     <descriptionHyperlinks>
 		<ThingDef>WingBreezer_Apini</ThingDef>
@@ -495,7 +495,7 @@
   <!-- Warmer Implant (Wings) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedWing_Warmer_Apini</defName>
-    <label>Warmer Implant</label>
+    <label>warmer implant</label>
     <description>A warmer implant.</description>
     <descriptionHyperlinks>
 		<ThingDef>WingWarmer_Apini</ThingDef>
@@ -514,7 +514,7 @@
   <!-- Enhanced Vitality (Heart) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedHeart_Apini</defName>
-    <label>Enhanced Vitality</label>
+    <label>enhanced vitality</label>
     <description>Enhanced vitality.</description>
     <descriptionHyperlinks>
 		<ThingDef>RegenerativeEnzymes_Apini</ThingDef>
@@ -542,7 +542,7 @@
   <!-- Enhanced Metabolism (Stomach) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedStomach_Apini</defName>
-    <label>Enhanced Metabolism</label>
+    <label>enhanced metabolism</label>
     <description>Enhanced metabolism.</description>
     <descriptionHyperlinks>
 		<ThingDef>DigestiveEnzymes_Apini</ThingDef>
@@ -564,7 +564,7 @@
   <!-- Enhanced Dexterity (Arms) -->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedArm_Apini</defName>
-    <label>Enhanced Dexterity</label>
+    <label>enhanced dexterity</label>
     <description>Enhanced dexterity.</description>
     <descriptionHyperlinks>
 		<ThingDef>ReflexEnhancement_Apini</ThingDef>
@@ -590,8 +590,8 @@
   <!-- Enhanced Plant Collection (Arms)-->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedArm_Growing_Apini</defName>
-    <label>Enhanced Plant Collection</label>
-    <description>Enhanced leg hairs.</description>
+    <label>enhanced leg hairs</label>
+    <description>Enhanced leg hairs for plant gathering.</description>
     <descriptionHyperlinks>
 		<ThingDef>GathererFrontLeg_Apini</ThingDef>
 	</descriptionHyperlinks>
@@ -615,7 +615,7 @@
   <!-- Enhanced Agility (Legs)-->
   <HediffDef ParentName="ApitechMutationBase">
     <defName>EnhancedLeg_Apini</defName>
-    <label>Enhanced Agility</label>
+    <label>enhanced agility</label>
     <description>Enhanced agility.</description>
     <descriptionHyperlinks>
 		<ThingDef>ReflexEnhancement_Apini</ThingDef>
@@ -640,14 +640,14 @@
   <ThoughtDef>
     <!-- WBZZ Radio -->
     <defName>GoodVibes</defName>
-    <label>Good Vibes</label>
+    <label>good vibes</label>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>EnhancedAntenna_Apini</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>Good Vibes</label>
-        <description>You are tuned into WBZZ radio, your one stop shop for the best hive music. You can't feel down when you got a good tune to hum along to.</description>
+        <description>I'm are tuned into WBZZ radio, the one stop shop for the best hive music. I can always hum along to a good tune.</description>
         <baseMoodEffect>10</baseMoodEffect>
       </li>
     </stages>
