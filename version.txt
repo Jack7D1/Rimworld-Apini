@@ -1,0 +1,2 @@
+Rimworld supported version: 1.2
+Release version: 1.0
