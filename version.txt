@@ -1,2 +1,4 @@
 Rimworld supported version: 1.2
 Release version: 1.0
+Release name: Apini-1.0_Rimworld-1.2
+Supports: 1.0, 1.1, 1.2
