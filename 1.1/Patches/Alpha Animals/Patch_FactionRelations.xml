@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Adding faction relations from Alpha Animals -->
+<Patch>
+	<!-- Checking for Alpha Animals -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Adding the Black Hive faction to the same group as the vanilla Insect faction (which is for friendlies) -->
+				<!-- This is for Apinis -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Apini"]/alienRace/generalSettings/factionRelations/li/factions[li="Insect"]</xpath>
+					<value>
+						<li>AA_BlackHive</li>
+					</value>
+				</li>
+				<!-- This is for Azuris -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Azuri"]/alienRace/generalSettings/factionRelations/li/factions[li="Insect"]</xpath>
+					<value>
+						<li>AA_BlackHive</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,28 @@
+C:\Program Files (x86)\Steam\steamapps\common\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini A17\Assemblies\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\__LocalCopy_Apini Playable Race_(5-12)\Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\__LocalCopy_Apini Playable Race_(5-12)\Source\Apini\obj\Release\Apini.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\__LocalCopy_Apini Playable Race_(5-12)\Source\Apini\obj\Release\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\__LocalCopy_Apini Playable Race_(5-12)\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\Apini 1.0 Beta\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\Apini 1.0 Beta\Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\Apini 1.0 Beta\Source\Apini\obj\Release\Apini.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\Apini 1.0 Beta\Source\Apini\obj\Release\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta\Assemblies\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29c\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29c\Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29c\Source\Apini\obj\Release\Apini.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29c\Source\Apini\obj\Release\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29e\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29e\Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29e\Source\Apini\obj\Release\Apini.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29e\Source\Apini\obj\Release\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29g-a\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29g-a\Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29g-a\Source\Apini\obj\Release\Apini.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta v4.29g-a\Source\Apini\obj\Release\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\Assemblies\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\Source\Apini\obj\Release\Apini.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\Source\Apini\obj\Release\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\1.1\Assemblies\Apini.dll

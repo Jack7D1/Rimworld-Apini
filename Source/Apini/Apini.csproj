@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA7E2260-A433-49F0-A115-6C92ED6E80E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Apini</RootNamespace>
+    <AssemblyName>Apini</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\RimWorld\Mods\Apini 1.0 Beta\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\1.1\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=1.0.9.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\818773962\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiniDefOf.cs" />
+    <Compile Include="ApiniExtensionUtility.cs" />
+    <Compile Include="ApiniTracker.cs" />
+    <Compile Include="Def Properties\ApiniApparelProperties.cs" />
+    <Compile Include="Def Properties\ApiniProperties.cs" />
+    <Compile Include="Legacy\WorkGiverDynamicDefLegacy.cs" />
+    <Compile Include="Entities\Building_FermentingVat.cs" />
+    <Compile Include="AI\JobDriver_FillFermentingVat.cs" />
+    <Compile Include="AI\JobGiver_GenericWorkGiver.cs" />
+    <Compile Include="AI\JobDriver_TakeThingOutOfFermentingVat.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AI\ThinkNode_ConditionalColonyHasPawnKindDef.cs" />
+    <Compile Include="AI\ThinkNode_ConditionalPawnMatchesAnyDef.cs" />
+    <Compile Include="ScenParts\ScenPart_ForcePawn.cs" />
+    <Compile Include="ScenParts\ScenPart_ForceTrain.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_ApiniApron.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_ApiniHiveDiscord.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_LockedInMountainVault.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_WearingBlueApparel.cs" />
+    <Compile Include="Def Properties\VatProperties.cs" />
+    <Compile Include="Def Properties\WorkgiverFermentingVatProperties.cs" />
+    <Compile Include="AI\WorkGiver_FillFermentingVat.cs" />
+    <Compile Include="AI\WorkGiver_TakeThingOutOfFermenter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Comps\" />
+    <Folder Include="Defs\" />
+    <Folder Include="Patches\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

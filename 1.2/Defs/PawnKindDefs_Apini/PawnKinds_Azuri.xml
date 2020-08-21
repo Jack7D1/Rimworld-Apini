@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="AzuriBasic" Abstract="True">
+    <race>Azuri</race>
+    <label>azuri</label>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <backstoryCategories>
+      <li>ApiniBackstory</li>
+    </backstoryCategories>
+    <combatPower>60</combatPower>
+    <apparelTags>
+      <li>Bee</li>
+    </apparelTags>
+    <invNutrition>1.5</invNutrition>
+    <aiAvoidCover>true</aiAvoidCover>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <defaultFactionType>TribeAzuri</defaultFactionType>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <apparelMoney>200~400</apparelMoney>
+  </PawnKindDef>
+ 
+  <PawnKindDef ParentName="AzuriBasic">
+    <defName>AzuriPawn</defName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AzuriBasic">
+    <defName>AzuriBane</defName>
+    <label>overseer</label>
+    <itemQuality>Superior</itemQuality>
+    <minGenerationAge>10</minGenerationAge>
+    <factionLeader>true</factionLeader>
+    <combatPower>180</combatPower>
+    <apparelMoney>1100~2500</apparelMoney>
+    <weaponMoney>2000~5000</weaponMoney>
+    <weaponTags>
+     <li>Gun</li>
+     <li>EliteGun</li>
+    </weaponTags>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AzuriBasic">
+    <defName>AzuriTrader</defName>
+    <combatPower>90</combatPower>
+    <trader>true</trader>
+  </PawnKindDef>
+  
+  <PawnKindDef Name="AzuriFreelancer" ParentName="AzuriBasic" Abstract="True">
+    <race>Azuri</race>
+    <defaultFactionType>Pirate</defaultFactionType>
+		<combatPower>100</combatPower>
+		<gearHealthRange>0.7~1.8</gearHealthRange>
+    <backstoryCategories>
+      <li>Pirate</li>
+      <li>ApiniBackstory</li>
+    </backstoryCategories>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
+    <maxGenerationAge>40</maxGenerationAge>
+    <combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <techHediffsChance>0.05</techHediffsChance>
+    <techHediffsMoney>200~4000</techHediffsMoney>
+		<apparelMoney>200~2000</apparelMoney>
+		<weaponMoney>260~2600</weaponMoney>
+    <techHediffsTags>
+			<li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <apparelTags>
+      <li>Bee</li>
+      <li>Neolithic</li>
+      <li>Outlander</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+    </apparelTags>
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+			<li>Gun</li>
+      <li>SniperRifle</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>5~120</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>1~1</countRange>
+				</li>
+				<li>
+					<thingDef>ApiniHoney</thingDef>
+					<countRange>1~1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+  </PawnKindDef> 
+  
+  <PawnKindDef Name="AzuriPirate" ParentName="AzuriFreelancer">
+    <defName>Azuri_Pirate</defName>
+    <label>azuri pirate</label>
+  </PawnKindDef>
+   
+  <PawnKindDef Name="AzuriMarauder" ParentName="AzuriFreelancer">
+    <defName>Azuri_Marauder</defName>
+    <label>azuri marauder</label>
+    <itemQuality>Superior</itemQuality>
+		<combatPower>150</combatPower>
+		<weaponTags>
+      <li>EliteGun</li>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+    <combatEnhancingDrugsChance>0.25</combatEnhancingDrugsChance>
+    <techHediffsChance>0.2</techHediffsChance>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+		<weaponMoney>1200~5000</weaponMoney>
+  </PawnKindDef> 
+</Defs>

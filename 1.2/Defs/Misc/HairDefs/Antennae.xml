@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef Name="Apini_Antenna" Abstract="True">
+    <hairGender>Any</hairGender>
+    <hairTags>
+      <li>Apini</li>
+    </hairTags>
+  </HairDef>
+    
+  <HairDef Name="Azuri_Antenna" Abstract="True">
+    <hairGender>Any</hairGender>
+    <hairTags>
+      <li>Azuri</li>
+    </hairTags>
+  </HairDef>
+    
+  <HairDef ParentName="Apini_Antenna">
+    <defName>CurlAntenna</defName>
+    <label>curl</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/curl</texPath>
+  </HairDef>
+ 
+   <HairDef ParentName="Apini_Antenna">
+    <defName>BoltAntenna</defName>
+    <label>bolt</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/bolt</texPath>
+  </HairDef> 
+  
+ <HairDef ParentName="Apini_Antenna">
+    <defName>HeartAntenna</defName>
+    <label>heart</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/heart</texPath>
+  </HairDef> 
+ 
+ <HairDef ParentName="Apini_Antenna">
+    <defName>RamAntenna</defName>
+    <label>ram</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/ram</texPath>
+  </HairDef> 
+ 
+ <HairDef ParentName="Apini_Antenna">
+    <defName>StraightAntenna</defName>
+    <label>straight</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/straight</texPath>
+  </HairDef> 
+ 
+  <HairDef ParentName="Apini_Antenna">
+    <defName>LowAntenna</defName>
+    <label>low</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/low</texPath>
+  </HairDef> 
+ 
+  <HairDef ParentName="Apini_Antenna">
+    <defName>VeeAntenna</defName>
+    <label>vee</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/vee</texPath>
+  </HairDef> 
+ 
+  <HairDef ParentName="Apini_Antenna">
+    <defName>PeakAntenna</defName>
+    <label>peak</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/peak</texPath>
+  </HairDef>
+ 
+  <HairDef ParentName="Azuri_Antenna">
+    <defName>AzuriAntenna</defName>
+    <label>Azuri standard</label>
+    <texPath>Things/Pawn/Alien_Races/Hairs/Azuri_Standard</texPath>
+  </HairDef>
+</Defs>

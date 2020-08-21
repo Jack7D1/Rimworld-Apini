@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="ApiniArmorHelmetMakeableBase" ParentName="ApiniApparelBase" Abstract="True">
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>ApiniHoneyGlassHelmet</defName>
+    <label>honey glass helmet</label>
+    <description>Armor made from tempered honey and apini secrets. Despite being made from honey, this armor is often a blue hue due to the synthread matrix. \n Provides protection against honey-thirsty humans.</description>
+    <graphicData>
+      <texPath>Things/Apparel/beehelmet_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <ApiniHoney>30</ApiniHoney>
+      <Synthread>5</Synthread>
+    </costList>
+    <tradeability>Sellable</tradeability>
+	<generateCommonality>1</generateCommonality>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2.8</Mass>
+      <Insulation_Cold>2</Insulation_Cold>
+	  <Insulation_Heat>4</Insulation_Heat>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
+      <Flammability>0.5</Flammability>
+	  <MaxHitPoints>75</MaxHitPoints>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+      <PsychicSensitivity>-0.10</PsychicSensitivity>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+		<li>Eyes</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/beehelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  <tags>
+		<li>Bee</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGB(207,241,255)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGB(134,150,223)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGB(0,104,149)</min>
+          <max>RGB(77,255,249)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGB(255,168,43)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+</Defs>

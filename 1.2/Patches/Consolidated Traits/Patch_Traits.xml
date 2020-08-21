@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- A patch for Consolidated Traits. -->
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<!-- Of course, the mod itself. -->
+		<mods>
+			<li>[KV] Consolidated Traits - 1.0</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Apini part of the patch. -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/alienRace/generalSettings/forcedRaceTraitEntries</xpath>
+					<value>
+						<li>
+							<defName>RCT_GreenThumb</defName>
+							<chance>80</chance>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/alienRace/generalSettings/disallowedTraits</xpath>
+					<value>
+						<li>RCT_BrownThumb</li>
+					</value>
+				</li>
+				<!-- Azuri part of the patch. -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]/alienRace/generalSettings/forcedRaceTraitEntries</xpath>
+					<value>
+						<li>
+							<defName>RCT_BrownThumb</defName>
+							<chance>20</chance>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

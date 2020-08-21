@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>ApiniInsect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackLimit>3</stackLimit>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate cooked insect meat</label>
+        <description>I ate a meal cooked from gray, slimy insect meat. Eating kin like this is disgusting.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ApiniInsectDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackLimit>3</stackLimit>
+    <nullifyingTraits>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate insect meat</label>
+        <description>I ate some gray, slimy insect meat. Eating kin like this is utterly awful. I wanna hurl.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+<!-- Azuri -->
+     <ThoughtDef>
+    <defName>AzuriInsect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>ate cooked insect meat</label>
+        <description>I ate a meal cooked from gray, sssssslimy insect meat. I would have rathered it raw.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AzuriInsectDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>ate insect meat</label>
+        <description>I ate ssssssome gray, ssssslimy inssssect meat. Sssssso delicious! Sluuuuuurp</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>SleptInBarracks_Apini</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>awful barrack</label>
+        <description>My barrack is an awful place, atleast we are together.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>dull barrack</label>
+        <description>I feel bad for my fellow nestmates for having to stay in such a shabby place.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>mediocre barrack</label>
+        <description>My barrack is mediocre, atleast we are able to stay close.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>decent barrack</label>
+        <description>My barrack is decent, a few more knicknacks and it'll feel like home.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>slightly impressive barrack</label>
+        <description>My barrack is a nice place. I can really picture us getting along in here.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>impressive barrack</label>
+        <description>My barrack is impressive. It feels just like home.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+      <li>
+        <label>very impressive barrack</label>
+        <description>My barrack is very impressive. It gives a really good homey feeling.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely impressive barrack</label>
+        <description>My barrack is extremely impressive. We all have enough space to stretch our wings!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably impressive barrack</label>
+        <description>My barrack is unbelievably impressive. I would challenge any humanlike to hate it!</description>
+        <baseMoodEffect>14</baseMoodEffect>
+      </li>
+      <li>
+        <label>wondrously impressive barrack</label>
+        <description>My barrack is the best place one can ever imagine. Fit for a Queen!!</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

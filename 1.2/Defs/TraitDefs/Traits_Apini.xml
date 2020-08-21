@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TraitDef>
+    <defName>ApiniDrone</defName>
+    <commonality>100</commonality>
+	<commonalityFemale>0</commonalityFemale>
+    <degreeDatas>
+      <li>
+        <label>drone</label>
+        <description>[PAWN_nameDef] is a rare male Apini, who narrowly escaped death by snoo-snoo.\nDrones have special eyes for spotting queens.</description>
+        <statOffsets>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+          <MentalBreakThreshold>0.12</MentalBreakThreshold>
+          <PlantWorkSpeed>-0.5</PlantWorkSpeed>
+          <TrapSpringChance>-0.2</TrapSpringChance>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+        <skillGains>
+          <li>
+            <key>Intellectual</key>
+            <value>6</value>
+          </li>
+          <li>
+            <key>Social</key>
+            <value>4</value>
+          </li>
+        </skillGains>
+        <disallowedMentalStates>
+          <li>Binging_DrugExtreme</li>
+          <li>Binging_DrugMajor</li>
+        </disallowedMentalStates>
+				<marketValueFactorOffset>0.1</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

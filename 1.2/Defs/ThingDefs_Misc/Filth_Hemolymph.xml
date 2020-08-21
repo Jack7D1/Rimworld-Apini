@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="BaseHemolymph" ParentName="BaseFilth" Abstract="True">
+    <statBases>
+      <Beauty>-15</Beauty>
+      <Cleanliness>-5</Cleanliness>
+    </statBases>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>50</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHemolymph">
+    <defName>Filth_BloodApini</defName>
+    <label>apini hemolymph</label>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(228, 223, 176, 160)</color>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHemolymph">
+    <defName>Filth_BloodAzuri</defName>
+    <label>azuri hemolymph</label>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(222, 189, 169, 180)</color>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHemolymph">
+    <defName>Filth_BloodMoobee</defName>
+    <label>moobee hemolymph</label>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(222, 216, 151, 190)</color>
+    </graphicData>
+  </ThingDef>
+</Defs>
