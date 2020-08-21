@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.2" encoding="utf-8"?>
 <ModMetaData>
 	<name>Apini Playable Race</name>
-	<author>Sera</author>
+	<author>Jack7D1</author>
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
@@ -19,8 +19,8 @@
 		<li>erdelf.HumanoidAlienRaces</li>
 	</loadAfter>
 	<description>
-v4.29h-d - an update to 1.1 for the UNOFFICIAL update of the UNOFFICIAL 1.0 update
 Requires most recent version of Alien Race Framework.
+Patched version supporting 1.0, 1.1 and 1.2!
 
 This mod lets you play as a race of sentient giant bees called Apini.
 Features:
@@ -41,7 +41,7 @@ Chjees – C#
 Xen – A16 EPOE patch
 Erdelf – HAF Framework
 ZE – Azuri Sprites + B18 update
-Sera – Apini race mod base and original creator
+Sera/Miss bones – Apini race mod base and original creator
 Lamp - some art assets
 Rabbitt - some art assets
 Apini Discord - Loving fans and helpful creators
@@ -52,42 +52,7 @@ Saebbi - Making part of the Combat Extended patch.
 Zaltys - Updating to RimWorld 1.0.
 Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches and current maintainer.
 Trisscar - Texture for the Daisy plant.
-
-_____v4.29g ... v4.29h-b 1.0 Beta notes_____
-Changes:
-• Fixed reconstruct surgeries. They weren't working up until this update.
-• Added compatibility for Enhanced Prosthetics and Organ Engineering (tl;dr EPOE). Report any issues!
-• Added compatibility for Rah's Bionics and (tl;dr RBSE). Report any issues!
-• Fixed 2 issues with the RimBees patch. 
-• If you're using Consolidated Traits, Apini yet again spawn with the green thumb trait and never spawn with the brown thumb trait, Azuri have a chance of spawning with the brown thumb trait.
-• Fixed installing power claws for Apini and Azuri on the bodypart that's the human equivalent of a FOOT.
-• Made surgeries more in line with vanilla. But installing a limb onto a beelien is still more difficult than on a human.
-• Added Apitech Mutagen to the resources used in the reconstruction surgeries, at the same time rebalanced those surgeries.
-• Fixed an issue with EdB Prepare Carefully which was causing Apini plants to appear in the Food tab.
-• Added support for wearing apparel from the Vanilla Armour Expanded mod.
-• Added support for wearing apparel from the Vanilla Apparel Expanded mod.
-• Added support for wearing apparel from the Simple Slavery mod.
-• Removed (commented them out) Apitech prosthesis and organs, because they don't have a use. Should readd them with surgeries n' stuff in the future. At the same time reduced the research cost of the Apitech research project to make up for the removal.
-• (TL;DR Medical System Expansion is now compatible) Added surgeries for installing prosthesis from Medical System Expansion when it is detected. I am unsure if I didn't make any mistakes while patching, so please report any issues.
-• Added more Combat Extended patches: one for natural armor coverage and leather rebalance.
-• Reconstruction (now enhancement) surgeries now take their respective item instead of mutagen.
-• Readded some apitech items.
-• Added more mutations and surgeries.
-• Changed item, hediff and surgery descriptions and labels.
-• Fixed Consolidated Traits patch. Should work correctly now.
-• Nerfed harvest yield and plant work speed of Apinis. Now you can't just have one Apini feeding 20 people.
-• Modified Azuri stats.
-• Changed research costs.
-• Changed some honey effects. Made honey effects less potent but last longer.
-• Removed (commented out) Apitech Mutagen, since it doesn't have a use anymore. Should make it a drug later on that'd give random enhancements.
-• Updated the Combat Extended patch to be up-to-date with CE 1.6.
-• Updated the beelien body. No longer will Apini and Azuri wear 100 scarfs from Vanilla Apparel Expanded or 100 scrap shoulderpads from Apparello.
-• Increased combat power of all pawn kinds (normal, overseer, pirate and trader). Expect to see less of Apini and Azuri.
-• Updated the Combat Extended's patch to have correct armor values.
-_____ v4.29h-c ... v4.29h-d 1.1 Beta notes_____ (when am i going to make a 4.30 update? no clue)
-• Updated the mod to Rimworld 1.1. Can still use the mod on 1.0, but the 1.0 version won't be getting changes.
-• Fixed the honeycomb beds throwing a tantrum in the error log for not having a owner label.
-• Fixed the fill-one-at-a-time bug for filling vats with nectar.
+Diana Winters - Patching mod to 1.2
 
 Issues remaining:
 • Because RimWorld is RimWorld, there's an issue with the RimBees patch, that the Apini wax doesn't actually get removed (even though the operation is supposed to do that).
