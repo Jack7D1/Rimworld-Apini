@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="AzuriBasic" Abstract="True">
+    <race>Azuri</race>
+    <label>azuri</label>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <backstoryCategories>
+      <li>ApiniBackstory</li>
+    </backstoryCategories>
+    <combatPower>50</combatPower>
+    <apparelTags>
+      <li>Bee</li>
+    </apparelTags>
+    <invNutrition>1.5</invNutrition>
+    <aiAvoidCover>true</aiAvoidCover>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <defaultFactionType>TribeAzuri</defaultFactionType>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <apparelMoney>
+      <min>200</min>
+      <max>400</max>
+    </apparelMoney>
+  </PawnKindDef>
+ 
+  <PawnKindDef ParentName="AzuriBasic">
+    <defName>AzuriPawn</defName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AzuriBasic">
+    <defName>AzuriBane</defName>
+    <label>overseer</label>
+    <itemQuality>Superior</itemQuality>
+    <minGenerationAge>10</minGenerationAge>
+    <factionLeader>true</factionLeader>
+    <combatPower>100</combatPower>
+    <apparelMoney>
+      <min>1100</min>
+      <max>2500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>2000</min>
+      <max>5000</max>
+    </weaponMoney>
+    <weaponTags>
+     <li>Gun</li>
+     <li>EliteGun</li>
+    </weaponTags>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AzuriBasic">
+    <defName>AzuriTrader</defName>
+    <combatPower>55</combatPower>
+    <trader>true</trader>
+  </PawnKindDef>
+  
+  <PawnKindDef Name="AzuriFreelancer" ParentName="AzuriBasic" Abstract="True">
+    <race>Azuri</race>
+    <defaultFactionType>Pirate</defaultFactionType>
+		<combatPower>100</combatPower>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>1.8</max>
+		</gearHealthRange>
+    <backstoryCategories>
+      <li>Raider</li>
+      <li>ApiniBackstory</li>
+    </backstoryCategories>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
+    <maxGenerationAge>40</maxGenerationAge>
+    <combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <techHediffsChance>0.05</techHediffsChance>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>4000</max>
+    </techHediffsMoney>
+		<apparelMoney>
+			<min>200</min>
+			<max>2000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>200</min>
+			<max>2600</max>
+		</weaponMoney>
+    <techHediffsTags>
+			<li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <apparelTags>
+      <li>Bee</li>
+      <li>Neolithic</li>
+      <li>Outlander</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+    </apparelTags>
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+			<li>Gun</li>
+      <li>SniperRifle</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>5</min>
+						<max>120</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>1</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>ApiniHoney</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>1</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+  </PawnKindDef> 
+  
+  <PawnKindDef Name="AzuriPirate" ParentName="AzuriFreelancer">
+    <defName>Azuri_Pirate</defName>
+    <label>azuri pirate</label>
+  </PawnKindDef>
+   
+  <PawnKindDef Name="AzuriMarauder" ParentName="AzuriFreelancer">
+    <defName>Azuri_Marauder</defName>
+    <label>azuri marauder</label>
+    <itemQuality>Superior</itemQuality>
+		<combatPower>150</combatPower>
+		<weaponTags>
+      <li>EliteGun</li>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+    <combatEnhancingDrugsChance>0.25</combatEnhancingDrugsChance>
+    <techHediffsChance>0.2</techHediffsChance>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+		<weaponMoney>
+			<min>1200</min>
+			<max>5000</max>
+		</weaponMoney>
+  </PawnKindDef> 
+</Defs>

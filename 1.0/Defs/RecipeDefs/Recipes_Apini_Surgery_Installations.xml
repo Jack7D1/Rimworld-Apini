@@ -1,0 +1,2413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ============================ Vanilla Surgeries ========================== -->
+
+	<RecipeDef Name="SurgeryApini" ParentName="SurgeryFlesh" Abstract="True">  <!-- Surgery Apini -->
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+		<workAmount>3800</workAmount>
+		<recipeUsers>
+			<li>Apini</li>
+			<li>Azuri</li>
+			<li>Megascarab</li>
+			<li>Spelopede</li>
+			<li>Megaspider</li>
+			<li>Moobee</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef Name="SurgeryAugment" ParentName="SurgeryApini" Abstract="True">  <!-- Surgery Apini -->
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>1200</workAmount>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Peg Leg -->
+		<defName>InstallPegLeg_Apini</defName>
+		<label>install peg leg</label>
+		<description>Install a peg leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing peg leg.</jobString>
+		<workAmount>1950</workAmount>
+		<surgerySuccessChanceFactor>1.40</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectLeg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>PegLeg</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Prosthetic Leg -->
+		<defName>InstallSimpleProstheticLeg_Apini</defName>
+		<label>install simple prosthetic leg</label>
+		<description>Install a simple prosthetic leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing simple prosthetic leg.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleProstheticLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectLeg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticLeg</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Leg -->
+		<defName>InstallBionicLeg_Apini</defName>
+		<label>install bionic leg</label>
+		<description>Install a bionic leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic leg.</jobString>
+		<workAmount>3750</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>BionicLeg</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectLeg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicLeg</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Archotech Leg -->
+		<defName>InstallArchotechLeg_Apini</defName>
+		<label>install archotech leg</label>
+		<description>Install an archotech leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing archotech leg.</jobString>
+		<workAmount>4500</workAmount>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ArchotechLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ArchotechLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ArchotechLeg</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Prosthetic Arm -->
+		<defName>InstallSimpleProstheticArm_Apini</defName>
+		<label>install simple prosthetic arm</label>
+		<description>Install a simple prosthetic arm.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing simple prosthetic arm.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleProstheticArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ApiniFrontLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticArm</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Arm -->
+		<defName>InstallBionicArm_Apini</defName>
+		<label>install bionic arm</label>
+		<description>Install a bionic arm.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic arm.</jobString>
+		<workAmount>3750</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+			<thingDefs>
+				<li>BionicArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ApiniFrontLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicArm</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Archotech Arm -->
+		<defName>InstallArchotechArm_Apini</defName>
+		<label>install archotech arm</label>
+		<description>Install an archotech arm.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing archotech arm.</jobString>
+		<workAmount>4500</workAmount>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ArchotechArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ArchotechArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ApiniFrontLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ArchotechArm</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Stomach -->
+		<defName>InstallBionicStomach_Apini</defName>
+		<label>install bionic stomach</label>
+		<description>Install a bionic stomach.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic stomach.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HoneyStomach</li>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicStomach</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Prosthetic Heart -->
+		<defName>InstallSimpleProstheticHeart_Apini</defName>
+		<label>install prosthetic heart</label>
+		<description>Install a prosthetic heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing prosthetic heart.</jobString>
+		<workAmount>3600</workAmount>
+		<surgerySuccessChanceFactor>1.25</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+			<thingDefs>
+				<li>SimpleProstheticHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectHeart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticHeart</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Heart -->
+		<defName>InstallBionicHeart_Apini</defName>
+		<label>install bionic heart</label>
+		<description>Install a bionic heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic heart.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+			<thingDefs>
+				<li>BionicHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectHeart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicHeart</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Power Claw -->
+		<defName>InstallPowerClaw_Apini</defName>
+		<label>install power claw</label>
+		<description>Install a power claw.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing power claw.</jobString>
+		<workAmount>3750</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+		<thingDefs>
+			<li>PowerClaw</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tarsal</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>PowerClaw</addsHediff>
+    </RecipeDef>
+
+	<!--<RecipeDef ParentName="SurgeryApini">
+		<defName>InstallApiniScytherBlade</defName>
+		<label>install scyther blade</label>
+		<description>Installs scyther blade.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing scyther blade.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>ScytherBlade</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tarsus</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ScytherBlade</addsHediff>
+	</RecipeDef>-->
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Denture -->
+		<defName>InstallDenture_Apini</defName>
+		<label>install denture</label>
+		<description>Install denture.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing denture.</jobString>
+		<workAmount>2250</workAmount>
+    <surgerySuccessChanceFactor>1.40</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>4</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ApiniWax</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectMouth</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Denture</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Eye -->
+		<defName>InstallBionicEye_Apini</defName>
+		<label>install bionic eye</label>
+		<description>Install a bionic eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic eye.</jobString>
+		<workAmount>5250</workAmount>
+		<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicEye</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Archotech Eye -->
+		<defName>InstallArchotechEye_Apini</defName>
+		<label>install archotech eye</label>
+		<description>Install an archotech eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing archotech eye.</jobString>
+		<workAmount>6000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ArchotechEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ArchotechEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ArchotechEye</addsHediff>
+	</RecipeDef>
+
+
+  <!-- ============================ Surgery : Natural ========================== -->
+  
+	<RecipeDef ParentName="SurgeryApini">  <!-- Insect Antenna -->
+		<defName>InstallInsectAntenna_Apini</defName>
+		<label>install insect antenna</label>
+		<description>Install an insect antenna.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing insect antenna.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectAntenna</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>InsectAntenna</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!--<RecipeDef ParentName="SurgeryApini">
+		<defName>InstallInsectHeadClaw_Apini</defName>
+		<label>install head claw</label>
+		<description>Installs head claw.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing head claw.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HeadClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HeadClaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HeadClaw</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>-->
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Insect Heart -->
+		<defName>InstallInsectHeart_Apini</defName>
+		<label>install insect heart</label>
+		<description>Install an insect heart.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing insect heart.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>InsectHeart</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectHeart</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Insect Mouth -->
+		<defName>InstallInsectMouth_Apini</defName>
+		<label>install insect mouth</label>
+		<description>Install an insect mouth.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing insect mouth.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectMouth</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>InsectMouth</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectMouth</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Honey Stomach -->
+		<defName>InstallHoneyStomach_Apini</defName>
+		<label>install Honey Stomach</label>
+		<description>Install a honey stomach.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing Honey Stomach.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HoneyStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>HoneyStomach</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HoneyStomach</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Insect Wing -->
+		<defName>InstallInsectWing_Apini</defName>
+		<label>install Insect Wing</label>
+		<description>Install an insect wing.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing Insect Wing.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectWing</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>InsectWing</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectWing</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<!--<RecipeDef ParentName="SurgeryApini">
+		<defName>InstallInsectElytra_Other</defName>
+		<label>install Insect Elytra</label>
+		<description>Installs Insect Elytra.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing Insect Elytra.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectElytra</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>InsectElytra</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Elytra</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>-->
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Insect Sting -->
+		<defName>InstallInsectSting_Apini</defName>
+		<label>install insect sting</label>
+		<description>Install an insect sting.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing insect sting.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectSting</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>InsectSting</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectSting</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Insect Arm -->
+		<defName>InstallInsectArm_Apini</defName>
+		<label>install insect arm</label>
+		<description>Install an insect arm.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing insect arm.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniFrontLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>ApiniFrontLeg</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ApiniFrontLeg</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Insect Leg -->
+		<defName>InstallInsectLeg_Apini</defName>
+		<label>install insect leg</label>
+		<description>Install an insect leg.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing insect leg.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>InsectLeg</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectLeg</li> 
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+  <!-- ============================ Surgery : Prosthetic ========================== -->
+  
+	<RecipeDef ParentName="SurgeryApini">  <!-- Prosthetic Wing -->
+		<defName>InstallProstheticWing_Apini</defName>
+		<label>install prosthetic wing</label>
+		<description>Install a prosthetic wing.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing prosthetic wing.</jobString>
+		<workAmount>4000</workAmount>
+		<skillRequirements>
+		  <Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ProstheticWing</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ProstheticWing</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectWing</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ProstheticWing</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Wing -->
+		<defName>InstallBionicWing_Apini</defName>
+		<label>install bionic wing</label>
+		<description>Install a bionic wing.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic wing.</jobString>
+		<workAmount>5000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicWing</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicWing</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectWing</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicWing</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Advanced Bionic Wing -->
+		<defName>InstallAdvancedBionicWing_Apini</defName>
+		<label>install advanced bionic wing</label>
+		<description>Install an advanced bionic wing.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing advanced bionic wing.</jobString>
+		<workAmount>7000</workAmount>
+		<skillRequirements>
+		  <Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicWing</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AdvancedBionicWing</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectWing</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicWing</addsHediff>
+	</RecipeDef>
+
+	<!--<RecipeDef ParentName="SurgeryApini">
+		<defName>InstallProstheticElytra</defName>
+		<label>install prosthetic elytra</label>
+		<description>Installs prosthetic elytra.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing prosthetic elytra.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ProstheticElytra</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ProstheticElytra</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Elytra</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ProstheticElytra</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>InstallBionicElytra</defName>
+		<label>install elytra</label>
+		<description>Installs elytra.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing elytra.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicElytra</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicElytra</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Elytra</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicElytra</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>InstallAdvancedBionicElytra</defName>
+		<label>install advanced elytra</label>
+		<description>Installs advanced elytra.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing advanced elytra.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicElytra</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AdvancedBionicElytra</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Elytra</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicElytra</addsHediff>
+	</RecipeDef> -->
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Prosthetic Antenna -->
+		<defName>InstallProstheticAntenna_Apini</defName>
+		<label>install prosthetic antenna</label>
+		<description>Install a prosthetic antenna.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing prosthetic antenna.</jobString>
+		<workAmount>4000</workAmount>
+		<skillRequirements>
+		  <Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ProstheticAntenna</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ProstheticAntenna</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ProstheticAntenna</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Antenna -->
+		<defName>InstallBionicAntenna_Apini</defName>
+		<label>install bionic antenna</label>
+		<description>Install a bionic antenna.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic antenna.</jobString>
+		<workAmount>5000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicAntenna</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicAntenna</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicAntenna</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Advanced Bionic Antenna -->
+		<defName>InstallBionicAdvancedAntenna_Apini</defName>
+		<label>install advanced bionic antenna</label>
+		<description>Install an advanced bionic antenna.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing advanced bionic antenna.</jobString>
+		<workAmount>7000</workAmount>
+		<skillRequirements>
+		  <Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicAntenna</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AdvancedBionicAntenna</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicAntenna</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryApini">  <!-- Prosthetic Sting -->
+		<defName>InstallProstheticSting_Apini</defName>
+		<label>install prosthetic sting</label>
+		<description>Installs a prosthetic sting.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing prosthetic sting.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+		  <Medicine>6</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ProstheticSting</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ProstheticSting</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectSting</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ProstheticSting</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Bionic Sting -->
+		<defName>InstallBionicSting_Apini</defName>
+		<label>install bionic sting</label>
+		<description>Install a bionic sting.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic sting.</jobString>
+		<workAmount>1800</workAmount>
+		<skillRequirements>
+		  <Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicSting</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicSting</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectSting</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicSting</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryApini">  <!-- Advanced Bionic Sting -->
+		<defName>InstallAdvancedBionicSting_Apini</defName>
+		<label>install advanced bionic sting</label>
+		<description>Installs an advanced bionic sting.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing advanced bionic sting.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+		  <Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicSting</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicSting</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>InsectSting</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicSting</addsHediff>
+	</RecipeDef>
+
+  <!-- ============================ Surgery : Apitech Enhancements ========================== -->
+	<!-- Enhance the Brain -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Brain_Apini</defName>
+		<label>enhance the brain</label>
+		<description>Enhance the brain, improving overall cognitive ability and allowing one's mind to connect in ways previously unachievable. It's suggested to have a good surgeon, otherwise the surgery is very likely to be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing neural pathways.</jobString>
+		<surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedBrain_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>16</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neuroenhancer_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Neuroenhancer_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<!-- Enhance an Eye -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Eye_Apini</defName>
+		<label>enhance an eye</label>
+		<description>Enhance the eye, further improving perception far beyond 20/20. It's suggested to have a good surgeon, otherwise the surgery could be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing the eye.</jobString>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedEye_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OcularEnhancement_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>OcularEnhancement_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- <RecipeDef ParentName="SurgeryApini">  
+		<defName>Reconstruct_Ear_Apini</defName>
+		<label>Reconstruct ear</label>
+		<description>Reconstruct the ear, fully restoring it's hearing ability while increasing accuracy and hearing range. It's suggested to have a good surgeon, otherwise the surgery might be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Reconstruct ear.</jobString>
+		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>A_AuditorySense</addsHediff>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApitechMutagen</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ApitechMutagen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef> --> <!-- Apini don't have ears! -->
+
+	<!-- Reconstruct Antenna -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Antenna_Apini</defName>
+		<label>enhance an antenna</label>
+		<description>Enhance the antenna, increasing hearing accuracy and range. It's suggested to have a good surgeon, otherwise the surgery could be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing the antenna.</jobString>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedAntenna_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SignalReceptor_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SignalReceptor_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Install Monarch Mandibles -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Install_Monarch_Mandibles_Apini</defName>
+		<label>install Monarch mandibles</label>
+		<description>Install the mandibles of an Apini Queen.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Monarch mandibles.</jobString>
+		<appliedOnFixedBodyParts>
+			<li>InsectMouth</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedMouth_Monarch_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>16</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MonarchMandibles_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MonarchMandibles_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Install Songstress Mandibles -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Install_Songstress_Mandibles_Apini</defName>
+		<label>install Songstress mandibles</label>
+		<description>Install Songstress mandibles.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Songstress mandibles.</jobString>
+		<appliedOnFixedBodyParts>
+			<li>InsectMouth</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedMouth_Songstress_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SongstressMandibles_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SongstressMandibles_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Install Crusher Mandibles -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Install_Crusher_Mandibles_Apini</defName>
+		<label>install Crusher mandibles</label>
+		<description>Install Crusher mandibles.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Crusher mandibles.</jobString>
+		<appliedOnFixedBodyParts>
+			<li>InsectMouth</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedMouth_Crusher_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CrusherMandibles_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CrusherMandibles_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Install Proboscis Enhancement -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Install_Proboscis_Enhancement_Apini</defName>
+		<label>install proboscis enhancement</label>
+		<description>Install a proboscis enhancement, which allows the person to eat food faster and easier. It's suggested to have a good surgeon, otherwise the surgery might be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing the proboscis enhancement.</jobString>
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>InsectMouth</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedMouth_Eating_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ProboscisEnhancement_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ProboscisEnhancement_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- <RecipeDef ParentName="SurgeryApini">  
+		<defName>Reconstruct_Lung_Apini</defName>
+		<label>Reconstruct lung</label>
+		<description>Reconstruct lung, increasing oxygen intake by creating a more adaptive membrane. It's suggested to have a good surgeon, otherwise the surgery can be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Reconstructing lung.</jobString>
+		<surgerySuccessChanceFactor>0.70</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>A_Aerator</addsHediff>
+		<skillRequirements>
+			<Medicine>15</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApitechMutagen</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ApitechMutagen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef> --> <!-- Apini don't have lungs! -->
+
+	<!-- Enhance the Wing with an Aerator -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Install_Wing_Aerator_Apini</defName>
+		<label>install an Aerator implant</label>
+		<description>Install an Aerator into the wing, which allows the person's wings to act like a lung or a gill. It's suggested to have a good surgeon, otherwise the surgery could be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing the Aerator implant.</jobString>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>InsectWing</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedWing_Aerator_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WingAerator_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>WingAerator_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Enhance the Wing with a Breezer -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Install_Wing_Breezer_Apini</defName>
+		<label>install a Breezer implant</label>
+		<description>Install a Breezer into the wing, which allows the person to live in hotter climates easier. It's suggested to have a good surgeon, otherwise the surgery could be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing the Breezer implant.</jobString>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>InsectWing</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedWing_Breezer_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WingBreezer_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>WingBreezer_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Enhance the Wing with a Warmer -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Install_Wing_Warmer_Apini</defName>
+		<label>install a Warmer implant</label>
+		<description>Install a Warmer into the wing, which allows the person to live in colder climates easier. It's suggested to have a good surgeon, otherwise the surgery could be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing the Warmer implant.</jobString>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>InsectWing</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedWing_Warmer_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WingWarmer_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>WingWarmer_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Enhance the Heart -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Heart_Apini</defName>
+		<label>enhance the heart</label>
+		<description>Enhance the heart with regenerative enzymes, which increases the person's hleath and regeneration capabilities. It's suggested to have a good surgeon, otherwise the surgery is likely to be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing the heart.</jobString>
+		<surgerySuccessChanceFactor>0.6</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>InsectHeart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedHeart_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>16</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RegenerativeEnzymes_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>RegenerativeEnzymes_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- <RecipeDef ParentName="SurgeryApini">  
+		<defName>Reconstruct_Kidney_Apini</defName>
+		<label>Reconstruct kidney</label>
+		<description>Reconstruct kidney, repairing all defects and damage, while improving restorative and regenerative capabilities. It's suggested to have a good surgeon, otherwise the surgery can be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Improving regenerative ability.</jobString>
+		<surgerySuccessChanceFactor>0.70</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>A_Vitality</addsHediff>
+		<skillRequirements>
+			<Medicine>16</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApitechMutagen</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ApitechMutagen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef> --> <!-- Apini don't have kidneys! -->
+
+	<!-- Enhance the Stomach -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Stomach_Apini</defName>
+		<label>enhance a stomach</label>
+		<description>Enhance the stomach with digestive enzymes, improving its ability to process nutrients and convert them into energy. It's suggested to have a good surgeon, otherwise the surgery can be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing the stomach.</jobString>
+		<surgerySuccessChanceFactor>0.7</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+			<li>HoneyStomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedStomach_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DigestiveEnzymes_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DigestiveEnzymes_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- <RecipeDef ParentName="SurgeryApini">
+		<defName>Reconstruct_Liver_Apini</defName>
+		<label>Reconstruct liver</label>
+		<description>Reconstruct the liver, improving its ability to process nutrients and convert them into energy. It's suggested to have a good surgeon, otherwise the surgery can be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Improving digestive tract.</jobString>
+		<surgerySuccessChanceFactor>0.70</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>A_MetabolicBoost</addsHediff>
+		<skillRequirements>
+			<Medicine>15</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApitechMutagen</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ApitechMutagen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef> --> <!-- Apini don't have livers! -->
+
+	<!-- Enhance the Front Leg -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Arm_Apini</defName>
+		<label>enhance a front leg</label>
+		<description>Enhance the front leg, increasing it's overall dexterity and reflexes. It's suggested to have a good surgeon, otherwise the surgery could be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing the front leg.</jobString>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>ApiniFrontLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedArm_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ReflexEnhancement_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ReflexEnhancement_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Enhance the Front Leg's growing capabilities -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Arm_Growing_Apini</defName>
+		<label>enhance a front leg's hairs</label>
+		<description>Enhance the front leg's hairs, making the person more efficient in plant related tasks. It's suggested to have a good surgeon, otherwise the surgery might be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing the front leg's hairs.</jobString>
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>ApiniFrontLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedArm_Growing_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GathererFrontLeg_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GathererFrontLeg_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Enhance the other Legs -->
+	<RecipeDef ParentName="SurgeryApini">
+		<defName>Enhance_Leg_Apini</defName>
+		<label>enhance a leg</label>
+		<description>Enhance the leg, increasing the leg's agility and allowing the person to move faster. It's suggested to have a good surgeon, otherwise the surgery could be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Enhancing the leg.</jobString>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>InsectLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnhancedLeg_Apini</addsHediff>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ReflexEnhancement_Apini</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ReflexEnhancement_Apini</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Reconstruct Sting -->
+	<!--<RecipeDef ParentName="SurgeryApini">
+		<defName>Reconstruct_Sting_Apini</defName>
+		<label>Reconstruct sting</label>
+		<description>Reconstruct the sting to improve its offensive capability while protecting it from being damaged. It's suggested to have a good surgeon, otherwise the surgery might be fatal if failed.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Reconstructing sting.</jobString>
+		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<appliedOnFixedBodyParts>
+			<li>InsectSting</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>A_Sting</addsHediff>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApitechMutagen</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ApitechMutagen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>-->
+	
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>FillFermentingVat</defName>
+		<driverClass>Apini.JobDriver_FillFermentingVat</driverClass>
+		<reportString>filling TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>TakeThingOutOfFermentingVat</defName>
+		<driverClass>Apini.JobDriver_TakeThingOutOfFermentingVat</driverClass>
+		<reportString>taking thing out of TargetA.</reportString>
+	</JobDef>
+</Defs>
