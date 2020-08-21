@@ -42,3 +42,6 @@ Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and
 Trisscar - Texture for the Daisy plant.
 Jack7D1 - Creating github repo and workshop item.
 Diana Winters - Patching mod to 1.2
+
+[h1]Support:[/h1]
+[url=https://github.com/Jack7D1/Rimworld-Apini/issues] Bugs should be reported here! [/url]
