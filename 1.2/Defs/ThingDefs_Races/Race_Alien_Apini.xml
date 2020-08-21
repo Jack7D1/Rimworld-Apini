@@ -201,7 +201,7 @@
 		  </li>
 		  <li>
 		  <name>hair</name>
-          <first Class="ColorGenerator_Options">
+          <first  Class="ColorGenerator_Options">
             <options>
               <li>
                 <weight>10</weight>
@@ -554,7 +554,7 @@
         </plantList>
 
         <buildingList>
-          <li>HoneyCapsule</li>
+          <li>HoneyCapsule</li> 
           <li>HoneyVat</li>
           <li>ApiniWaxFloor</li>
           <li>ApiniWaxTile</li>
@@ -838,4 +838,4 @@
 	  <li>Reconstruct_Leg_Apini</li> -->
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-</Defs>>
+</Defs>

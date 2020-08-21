@@ -23,7 +23,7 @@
           </pawnKindEntries>
           <factionDefs>
             <li>PlayerColony</li>
-	    <li>PlayerTribe</li>
+						<li>PlayerTribe</li>
             <li>TribeApini</li>
             <li>TribeAzuri</li>
           </factionDefs>
