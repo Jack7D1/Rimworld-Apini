@@ -24,20 +24,21 @@ You can find us in [url=http://discord.gg/XMCRj46] This discord server [/url]
 
 [h1]Credits:[/h1]
 [list]
+[*]Sera/Miss Bones – Apini race mod base and original creator
+[*]Zaltys - Updating to RimWorld 1.0.
+[*]Bees - Making delicious honey
+[/list]
 Chjees – C#
 Xen – A16 EPOE patch
 Erdelf – HAF Framework
 ZE – Azuri Sprites + B18 update
-Sera/Miss Bones – Apini race mod base and original creator
 Lamp - some art assets
 Rabbitt - some art assets
 Apini Discord - Loving fans and helpful creators
 Ykara – Inspiration (EPOE mod maker)
 Rah – Inspiration (RBSE mod maker)
-Bees - Making delicious honey
 Saebbi - Making part of the Combat Extended patch.
-Zaltys - Updating to RimWorld 1.0.
 Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches and current maintainer.
 Trisscar - Texture for the Daisy plant.
+Jack7D1 - Creating github repo and workshop item.
 Diana Winters - Patching mod to 1.2
-[/list]
