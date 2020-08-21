@@ -200,7 +200,7 @@
 		  </li>
 		  <li>
 		  <name>hair</name>
-          <first Class="ColorGenerator_Options">  Class="ColorGenerator_Options">
+          <first Class="ColorGenerator_Options">
             <options>
               <li>
                 <weight>10</weight>
@@ -850,4 +850,5 @@
     </recipes>
 
   </AlienRace.ThingDef_AlienRace>
+</Defs>Race.ThingDef_AlienRace>
 </Defs>
