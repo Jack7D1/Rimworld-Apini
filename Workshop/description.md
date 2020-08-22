@@ -4,7 +4,7 @@ This mod lets you play as a race of sentient giant bees called apini.
 
 [h1]Features:[/h1]
 [list]
-[*]Bees as a plyable race.
+[*]Bees as a playable race.
 [*]Apini and Azuri neolithic factions.
 [*]Custom Bee name lists and backgrounds.
 [*]Apini scenario to start with (neolithic)...
@@ -24,8 +24,8 @@ You can find us in [url=http://discord.gg/XMCRj46] This discord server [/url]
 [h1]Credits:[/h1]
 [list]
 [*]Sera/Miss Bones – Apini race mod base and original creator
-[*]Zaltys - Updating to RimWorld 1.0.
 [*]Bees - Making delicious honey
+[*]Zaltys - Updating to RimWorld 1.0.
 [*]Chjees – C#
 [*]Xen – A16 EPOE patch
 [*]Erdelf – HAF Framework
@@ -36,9 +36,9 @@ You can find us in [url=http://discord.gg/XMCRj46] This discord server [/url]
 [*]Ykara – Inspiration (EPOE mod maker)
 [*]Rah – Inspiration (RBSE mod maker)
 [*]Saebbi - Making part of the Combat Extended patch.
-[*]Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches and current maintainer.
+[*]Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches.
 [*]Trisscar - Texture for the Daisy plant.
-[*]Jack7D1 - Creating github repo and workshop item.
+[*]Jack7D1 - Creating github repo and workshop item, and current maintainer.
 [*]Diana Winters - Patching mod to 1.2
 [/list]
 
