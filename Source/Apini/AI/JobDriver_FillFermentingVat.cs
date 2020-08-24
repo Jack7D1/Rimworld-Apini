@@ -49,7 +49,12 @@ namespace Apini
             );
             yield return Toils_General.DoAtomic(delegate
             {
-                this.job.count = this.Vat.SpaceLeftForInput;
+				//Log.Message("this.Vat.SpaceLeftForInput returns: " + this.Vat.SpaceLeftForInput);
+				if(this.Vat.SpaceLeftForInput > InputThing.stackCount)
+                {
+					this.job.count = InputThing.stackCount;
+                }
+				else this.job.count = this.Vat.SpaceLeftForInput;
             });
 			Toil reserveThing = Toils_Reserve.Reserve(TargetIndex.B, 1);
 			yield return reserveThing;

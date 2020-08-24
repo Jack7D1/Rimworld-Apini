@@ -26,3 +26,10 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\Source\Apini\obj\Release\Apini.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\Source\Apini\obj\Release\Apini.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Apini 1.1 Beta v4.29h-b\1.1\Assemblies\Apini.dll
+H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\1.2\Assemblies\Apini.dll
+H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\1.2\Assemblies\0Harmony.dll
+H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\obj\Release\Apini.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\obj\Release\Apini.dll
+H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\1.2\Assemblies\Apini.dll
+H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
