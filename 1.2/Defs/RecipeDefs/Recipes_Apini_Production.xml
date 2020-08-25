@@ -153,6 +153,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
@@ -348,6 +356,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
@@ -437,6 +453,14 @@
 					</thingDefs>
 				</filter>
 				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -1062,6 +1086,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1299,6 +1331,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1322,6 +1362,14 @@
 		<description>Forms Regenerative Enzymes from Apitech mechanites.</description>
 		<jobString>Crafting Regenerative Enzymes.</jobString>
 		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
@@ -1351,6 +1399,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1374,6 +1430,14 @@
 		<description>Crafts a Signal Receptor from Apitech mechanites.</description>
 		<jobString>Crafting Signal Receptor.</jobString>
 		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
@@ -1403,6 +1467,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1429,6 +1501,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1451,7 +1531,14 @@
 		<description>Crafts an Apitech vocal enhancement from Apitech mechanites.</description>
 		<jobString>Crafting Apitech vocal enhancement.</jobString>
 		<ingredients>
-	
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
@@ -1481,6 +1568,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1504,6 +1599,14 @@
 		<description>Crafts a Leg Reflex Enhancement from Apitech mechanites.</description>
 		<jobString>Crafting Leg Reflex Enhancement.</jobString>
 		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
