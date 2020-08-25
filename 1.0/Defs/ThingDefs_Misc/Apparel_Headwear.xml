@@ -49,6 +49,7 @@
       </tags>
     </apparel>
     <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
