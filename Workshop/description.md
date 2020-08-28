@@ -43,4 +43,4 @@ You can find us in [url=http://discord.gg/XMCRj46] This discord server [/url]
 [/list]
 
 [h1]Support:[/h1]
-[url=https://github.com/Jack7D1/Rimworld-Apini/issues] Bugs should be reported here! [/url]
+[url=https://github.com/Jack7D1/Rimworld-Apini/issues] Glitches should be reported here! [/url]
