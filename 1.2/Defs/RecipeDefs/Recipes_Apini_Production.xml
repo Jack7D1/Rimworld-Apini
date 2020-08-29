@@ -119,6 +119,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
@@ -1230,6 +1238,14 @@
 					</thingDefs>
 				</filter>
 				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
