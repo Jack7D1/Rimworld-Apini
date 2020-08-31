@@ -389,7 +389,7 @@
 		</products>
 	</RecipeDef>
 <!--
-	<RecipeDef ParentName="ApiniProstheticsTechCraft">  <!-- Prosthetic Sting -->
+	<RecipeDef ParentName="ApiniProstheticsTechCraft">   Prosthetic Sting 
 		<defName>CreateProstheticSting</defName>
 		<label>Craft prosthetic Sting</label>
 		<description>A sharp prosthetic Sting made of steel.</description>
@@ -414,7 +414,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="ApiniBionicsTechcraft">  <!-- Bionic Sting -->
+	<RecipeDef ParentName="ApiniBionicsTechcraft">   Bionic Sting 
 		<defName>CreateBionicSting</defName>
 		<label>Craft Bionic Sting</label>
 		<description>Craft a Bionic Sting made of plasteel.</description>
@@ -448,7 +448,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Sting,  -->
+	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">   Advanced Bionic Sting,  
 		<defName>CreateAdvancedBionicSting</defName>
 		<label>Upgrade Bionic Sting</label>
 		<description>Upgrade Bionic Sting with more advanced technology.</description>
