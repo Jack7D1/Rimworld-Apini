@@ -3,8 +3,6 @@
 	<name>Apini Playable Race</name>
 	<author>Jack7D1</author>
 	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
 		<li>1.2</li>
 	</supportedVersions>
 	<packageId>sera.apinialienrace</packageId>
@@ -20,7 +18,6 @@
 	</loadAfter>
 	<description>
 Requires most recent version of Alien Race Framework.
-Patched version supporting 1.0, 1.1 and 1.2!
 
 This mod lets you play as a race of sentient giant bees called Apini.
 Features:
@@ -35,35 +32,5 @@ Features:
 • Honeycomb Beds filled with rejuvenating honey.
 • Already contains a CE patch.
 • Is compatible with RimBees.
-
-Credits:
-Chjees – C#
-Xen – A16 EPOE patch
-Erdelf – HAF Framework
-ZE – Azuri Sprites + B18 update
-Sera/Miss bones – Apini race mod base and original creator
-Lamp - some art assets
-Rabbitt - some art assets
-Apini Discord - Loving fans and helpful creators
-Ykara – Inspiration (EPOE mod maker)
-Rah – Inspiration (RBSE mod maker)
-Bees - Making delicious honey
-Saebbi - Making part of the Combat Extended patch.
-Zaltys - Updating to RimWorld 1.0.
-Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches and current maintainer.
-Trisscar - Texture for the Daisy plant.
-Diana Winters - Patching mod to 1.2
-
-Issues remaining:
-• Because RimWorld is RimWorld, there's an issue with the RimBees patch, that the Apini wax doesn't actually get removed (even though the operation is supposed to do that).
-• Mood bonus from bee aprons (was this ever implemented?)
-• Scyther Blade surgery (hard to add, scythers do not drop blades in 1.0)
-• Counter for the vats.
-• Stardew, and related surgeries. Could not find sources for them.
-• FactionDefs and PawnKindDefs may need work. I focused on getting this working, some values might be out of whack.
-• Honey Planter Hydroponics-thing has a texture, but not yet implemented.
-• Lady beeliens might still spawn with the drone trait (and had to remove a backstory to fix this issue). This exists because of an issue with Humanoid Alien Races.
-• Should reintroduce Apitech Mutagen as a drug.
-• Honey vats of any kind get an empty line in the inspect string. Throws an error, but isn't gamebreaking (I think).
 	</description>
 </ModMetaData>
