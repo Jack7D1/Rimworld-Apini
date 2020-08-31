@@ -5,8 +5,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="Moobee"]</xpath>

@@ -7,8 +7,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Inventory -->
 				<li Class="PatchOperationReplace">
@@ -34,8 +33,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Adding the comp part -->
 				<li Class="PatchOperationAdd">
@@ -54,8 +52,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Basic things like body shape, remaining ammo, reloading and aim mode added to UI when selecting them, making them supressable, giving them combat extended stats -->
 				<li Class="PatchOperationAddModExtension">
@@ -84,13 +81,13 @@
 						<Suppressability>1.5</Suppressability>
 						<ReloadSpeed>1.1</ReloadSpeed>
 						<MeleeDodgeChance>1.07</MeleeDodgeChance>
-						<ArmorRating_Blunt>1</ArmorRating_Blunt>
+						<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Apini"]/statBases/ArmorRating_Sharp</xpath>
 					<value>
-						<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+						<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
@@ -161,8 +158,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Adding the comp part -->
 				<li Class="PatchOperationAdd">
@@ -180,8 +176,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Basic things like body shape, remaining ammo, reloading and aim mode added to UI when selecting them, making them supressable, giving them combat extended stats -->
 				<li Class="PatchOperationAddModExtension">
@@ -210,13 +205,13 @@
 						<Suppressability>0.5</Suppressability>
 						<ReloadSpeed>1.05</ReloadSpeed>
 						<MeleeDodgeChance>1.3</MeleeDodgeChance>
-						<ArmorRating_Blunt>3</ArmorRating_Blunt>
+						<ArmorRating_Blunt>2.4</ArmorRating_Blunt>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Azuri"]/statBases/ArmorRating_Sharp</xpath>
 					<value>
-						<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+						<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
 					</value>
 				</li>
 				<!-- Replacing their unarmed attacks with the same, but CE supported attacks + giving those attacks armor penetration -->

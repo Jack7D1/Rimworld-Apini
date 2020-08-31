@@ -6,8 +6,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- ApiniScythe -->
 				<!-- i definitely did not take the black widow's scythe ce patch and modify some values in the spreadsheet -->

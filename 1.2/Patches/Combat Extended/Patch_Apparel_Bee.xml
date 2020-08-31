@@ -7,7 +7,6 @@
 			<li>Combat Extended</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<!-- ApiniApron -->
 				<li Class="PatchOperationReplace">
@@ -17,6 +16,9 @@
 						<Bulk>5</Bulk>
 						<WornBulk>1.5</WornBulk>
 					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="ApiniApron"]/statBases/ArmorRating_Heat</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="ApiniApron"]/equippedStatOffsets/MoveSpeed</xpath>
@@ -30,6 +32,9 @@
 						<Bulk>2</Bulk>
 						<WornBulk>1</WornBulk>
 					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="ApiniSatchel"]/statBases/ArmorRating_Heat</xpath>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="ApiniSatchel"]/equippedStatOffsets</xpath>
@@ -62,6 +67,12 @@
 					<xpath>Defs/ThingDef[defName="ApiniHoneyGlassHelmet"]/statBases/ArmorRating_Blunt</xpath>
 					<value>
 						<ArmorRating_Blunt>8</ArmorRating_Blunt>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="ApiniHoneyGlassHelmet"]/statBases/ArmorRating_Heat</xpath>
+					<value>
+						<ArmorRating_Heat>0.1</ArmorRating_Heat>
 					</value>
 				</li>
 			</operations>
