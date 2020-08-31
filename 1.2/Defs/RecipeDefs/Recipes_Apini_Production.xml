@@ -388,7 +388,7 @@
 			<AdvancedBionicAntenna>1</AdvancedBionicAntenna>
 		</products>
 	</RecipeDef>
-
+<!--
 	<RecipeDef ParentName="ApiniProstheticsTechCraft">  <!-- Prosthetic Sting -->
 		<defName>CreateProstheticSting</defName>
 		<label>Craft prosthetic Sting</label>
@@ -448,7 +448,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Sting -->
+	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Sting,  -->
 		<defName>CreateAdvancedBionicSting</defName>
 		<label>Upgrade Bionic Sting</label>
 		<description>Upgrade Bionic Sting with more advanced technology.</description>
@@ -489,6 +489,7 @@
 			<AdvancedBionicSting>1</AdvancedBionicSting>
 		</products>
 	</RecipeDef>
+Bionic sting crafting recipies commented out until working purpose and function-->
   <!-- ============================ Body Parts : Apitech ========================== -->
 
 	<RecipeDef ParentName="ApitechCraft">  <!-- Apitech Mechanites -->
@@ -497,6 +498,14 @@
 		<description>Synthesize techno-organic mechanites, infusing cells of Apini royal jelly with mechanical components.</description>
 		<jobString>Synthesizing Apitech Mechanites.</jobString>
 		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
@@ -541,6 +550,14 @@
 		<jobString>Synthesizing Apitech Mechanites.</jobString>
 		<workAmount>15000</workAmount>
 		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
@@ -592,6 +609,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>Gold</li>
 					</thingDefs>
 				</filter>
@@ -638,6 +663,14 @@
 		<jobString>Synthesizing Apitech Mutagen.</jobString>
 		<workAmount>20000</workAmount>
 		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
