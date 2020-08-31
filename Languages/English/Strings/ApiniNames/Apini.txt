@@ -58,3 +58,7 @@ Blue
 Cerulean
 Sapphire
 Morpho
+Kiro
+Naenia
+Narnar
+Sera
