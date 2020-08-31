@@ -7,7 +7,6 @@
 			<li>Alpha Animals</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<!-- Adding the Black Hive faction to the same group as the vanilla Insect faction (which is for friendlies) -->
 				<!-- This is for Apinis -->
