@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-<!-- Really basic. Don't think it should even be alone -->
-  <ResearchTabDef>
-    <defName>Apiculture</defName>
-    <label>Apiculture</label>
-  </ResearchTabDef>
-  
-</Defs>
