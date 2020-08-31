@@ -9,7 +9,6 @@
 			<li>RBSE Lite Edition</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<!-- Advanced Bionic Surgeries. -->
 				<!-- Adding Apini and Azuri to the list. -->

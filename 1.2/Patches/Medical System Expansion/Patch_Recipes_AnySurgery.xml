@@ -7,7 +7,6 @@
 			<li>Medical System Expansion</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<!-- Glad the mod author only has the base surgery with recipesUsers. -->
 				<!-- Adding Apini and Azuri to their list. -->

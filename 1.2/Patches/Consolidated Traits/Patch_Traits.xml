@@ -4,10 +4,9 @@
 	<Operation Class="PatchOperationFindMod">
 		<!-- Of course, the mod itself. -->
 		<mods>
-			<li>[KV] Consolidated Traits - 1.0</li>
+			<li>[KV] Consolidated Traits - 1.2</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<!-- Apini part of the patch. -->
 				<li Class="PatchOperationAdd">

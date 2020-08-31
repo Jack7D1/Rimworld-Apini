@@ -8,7 +8,6 @@
 			<li>1558161673</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<!-- Operations -->
 				<!-- InstallDenture_Apini -->

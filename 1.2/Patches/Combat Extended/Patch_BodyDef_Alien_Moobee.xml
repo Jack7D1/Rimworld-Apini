@@ -7,7 +7,7 @@
 			<li>Combat Extended</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
+
 			<operations>
 				<!-- Torso equivalent and some of its children. -->
 				<li Class="PatchOperationAdd">
@@ -23,7 +23,7 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li/parts/li[def = "InsectSting"]/groups</xpath>
+					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Abdomen"]/parts/li[def = "InsectSting"]/groups</xpath>
 					<value>
 						<li>CoveredByNaturalArmor</li>
 					</value>
@@ -38,27 +38,31 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li/parts/li[def = "Head"]/groups</xpath>
+					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/groups</xpath>
 					<value>
 						<li>CoveredByNaturalArmor</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li/parts/li/parts/li[def = "InsectNostril"]/groups</xpath>
+					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/parts/li[def = "InsectNostril"]</xpath>
+					<value>
+						<groups>
+							<li>CoveredByNaturalArmor</li>
+						</groups>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/parts/li[def = "InsectMouth"]/groups</xpath>
 					<value>
 						<li>CoveredByNaturalArmor</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li/parts/li/parts/li[def = "InsectMouth"]/groups</xpath>
+					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/parts/li[def = "InsectMouth"]/parts/li[def = "Mandible"]</xpath>
 					<value>
-						<li>CoveredByNaturalArmor</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li/parts/li/parts/li/parts/li[def = "Mandible"]/groups</xpath>
-					<value>
-						<li>CoveredByNaturalArmor</li>
+						<groups>
+							<li>CoveredByNaturalArmor</li>
+						</groups>
 					</value>
 				</li>
 
@@ -70,7 +74,7 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li/parts/li[def = "Tarsus"]/groups</xpath>
+					<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "InsectLeg"]/parts/li[def = "Tarsus"]/groups</xpath>
 					<value>
 						<li>CoveredByNaturalArmor</li>
 					</value>

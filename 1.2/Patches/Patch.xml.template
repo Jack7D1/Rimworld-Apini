@@ -9,14 +9,12 @@
 		</mods>
 		<!-- If any mod from the list is found, do this operation. Class="PatchOperationSequence" allows you to stick in more patch operations than just one. -->
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<!-- Add your patch operations here. Use <li Class="[Patch Operation]"></li> -->
 			</operations>
 		</match>
 		<!-- If the mods aren't found, do this operation. -->
 		<!-- <nomatch Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				Add your patch operations here. Use <li Class="[Patch Operation]"></li>
 			</operations>

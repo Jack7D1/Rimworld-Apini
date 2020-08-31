@@ -6,8 +6,7 @@
 		<mods>
 			<li>Combat Extended</li>
 		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
+		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Testing if Apini Beeswax hasn't been removed due to the RimBees patch -->
 				<li Class="PatchOperationTest">
