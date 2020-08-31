@@ -33,9 +33,6 @@
 						<WornBulk>1</WornBulk>
 					</value>
 				</li>
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName="ApiniSatchel"]/statBases/ArmorRating_Heat</xpath>
-				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="ApiniSatchel"]/equippedStatOffsets</xpath>
 					<value>
@@ -52,6 +49,9 @@
 						<Bulk>2</Bulk>
 						<WornBulk>0.5</WornBulk>
 					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="ApiniRuff"]/statBases/ArmorRating_Heat</xpath>
 				</li>
 
 				<!-- ApiniHoneyGlassHelmet -->
