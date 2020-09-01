@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<!-- Of course, the mod itself. -->
 		<mods>
-			<li>[KV] Consolidated Traits - 1.2</li>
+			<li>[KV] Consolidated Traits</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -21,7 +21,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/alienRace/generalSettings/disallowedTraits</xpath>
 					<value>
-						<li>RCT_BrownThumb</li>
+						<li><defName>RCT_BrownThumb</defName></li>
 					</value>
 				</li>
 				<!-- Azuri part of the patch. -->
