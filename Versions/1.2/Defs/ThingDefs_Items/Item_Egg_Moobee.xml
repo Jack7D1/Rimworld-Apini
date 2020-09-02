@@ -13,7 +13,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherDaystoHatch>10</hatcherDaystoHatch>
 				<hatcherPawn>Moobee</hatcherPawn>
 			</li>
 		</comps>
