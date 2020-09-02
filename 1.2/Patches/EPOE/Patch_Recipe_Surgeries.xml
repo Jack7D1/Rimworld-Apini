@@ -9,14 +9,6 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Advanced Bionic Surgeries. -->
-				<!-- Adding Apini and Azuri to the list. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[@Name="SurgeryAdvanced"]/recipeUsers</xpath>
-					<value>
-						<li>Apini</li>
-						<li>Azuri</li>
-					</value>
-				</li>
 				<!-- Since Apini and Azuri have special bodyparts, we need to patch the operations aswell. -->
 				<!-- Arms. -->
 				<li Class="PatchOperationAdd">
@@ -40,6 +32,12 @@
 				</li>
 				<!-- Hands. -->
 				<!-- This pretty much means Apini and Azuri have 3 hands. I get weirded out when I imagine it. -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="InstallAdvancedPowerClaw"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>Tarsal</li>
+					</value>
+				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicHand"]/appliedOnFixedBodyParts</xpath>
 					<value>
@@ -69,14 +67,6 @@
 				</li>
 				
 				<!-- Bionic Surgeries. -->
-				<!-- Adding Apini and Azuri to the list. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[@Name="SurgeryBionic"]/recipeUsers</xpath>
-					<value>
-						<li>Apini</li>
-						<li>Azuri</li>
-					</value>
-				</li>
 				<!-- Arms. -->
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/RecipeDef[defName="InstallPowerArm"]/appliedOnFixedBodyParts</xpath>
@@ -132,13 +122,6 @@
 				</li>
 				
 				<!-- Simple Prosthetic Surgeries. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[@Name="SurgerySimple"]/recipeUsers</xpath>
-					<value>
-						<li>Apini</li>
-						<li>Azuri</li>
-					</value>
-				</li>
 				<!-- Arms. -->
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticArm"]/appliedOnFixedBodyParts</xpath>
@@ -176,13 +159,6 @@
 				</li>
 				
 				<!-- Basic Prosthetic Surgeries. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[@Name="SurgeryBasic"]/recipeUsers</xpath>
-					<value>
-						<li>Apini</li>
-						<li>Azuri</li>
-					</value>
-				</li>
 				<!-- Arms. -->
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/RecipeDef[defName="InstallSteelArm"]/appliedOnFixedBodyParts</xpath>
@@ -192,7 +168,7 @@
 				</li>
 				<!-- Hands. -->
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="InstallHookHand"]/appliedOnFixedBodyParts</xpath>
+					<xpath>Defs/RecipeDef[defName="InstallWoodenHand"]/appliedOnFixedBodyParts</xpath>
 					<value>
 						<li>Tarsal</li>
 					</value>
@@ -206,44 +182,15 @@
 				</li>
 				
 				<!-- Synthetic Organ Surgeries. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[@Name="SurgerySynthetic"]/recipeUsers</xpath>
-					<value>
-						<li>Apini</li>
-						<li>Azuri</li>
-					</value>
-				</li>
-				<!-- Heart. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="InstallSyntheticHeart"]/appliedOnFixedBodyParts</xpath>
-					<value>
-						<li>InsectHeart</li>
-					</value>
-				</li>
 				<!-- Stomach. -->
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="InstallSyntheticStomach"]/appliedOnFixedBodyParts</xpath>
+					<xpath>Defs/RecipeDef[defName="InstallBionicStomach"]/appliedOnFixedBodyParts</xpath>
 					<value>
 						<li>HoneyStomach</li>
 					</value>
 				</li>
 				
 				<!-- Surrogate Organ Surgeries. -->
-				<!-- Same as above. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[@Name="SurgerySurrogate"]/recipeUsers</xpath>
-					<value>
-						<li>Apini</li>
-						<li>Azuri</li>
-					</value>
-				</li>
-				<!-- Heart. -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="InstallSurrogateHeart"]/appliedOnFixedBodyParts</xpath>
-					<value>
-						<li>InsectHeart</li>
-					</value>
-				</li>
 				<!-- Stomach. -->
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/RecipeDef[defName="InstallSurrogateStomach"]/appliedOnFixedBodyParts</xpath>
@@ -254,13 +201,7 @@
 				
 				<!-- Removing the Apini surgeries. -->
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticHeart_Apini"]</xpath>
-				</li>
-				<li Class="PatchOperationRemove">
 					<xpath>Defs/RecipeDef[defName="InstallBionicStomach_Apini"]</xpath>
-				</li>
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/RecipeDef[defName="InstallBionicHeart_Apini"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticLeg_Apini"]</xpath>
