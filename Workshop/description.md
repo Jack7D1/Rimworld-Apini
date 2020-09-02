@@ -13,8 +13,6 @@ This mod lets you play as a race of sentient giant bees called apini.
 [*]Bee clothing and a helmet.
 [*]Beeswax Candles for atmosphere.
 [*]Honeycomb Beds filled with rejuvenating honey.
-[*]Already contains a CE patch.
-[*]Is compatible with RimBees.
 [/list]
 
 [h1]Community:[/h1]

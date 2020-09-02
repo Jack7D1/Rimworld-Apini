@@ -51,7 +51,7 @@
 				<!-- Scenarios -->
 				<!-- Lost Hive -->
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ScenarioDef[defName = "LostHive"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
+					<xpath>Defs/ScenarioDef[defName = "LostHive"]/scenario/parts/li[defName = "ApiniWax"]</xpath>
 					<value>
 						<li Class="ScenPart_StartingThing_Defined">
 							<def>StartingThing_Defined</def>
@@ -62,7 +62,7 @@
 				</li>
 				<!-- "Peaceful" Azuri Swarm -->
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ScenarioDef[defName = "CivilizedAzuriSwarm"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
+					<xpath>Defs/ScenarioDef[defName = "CivilizedAzuriSwarm"]/scenario/parts/li[defName = "ApiniWax"]</xpath>
 					<value>
 						<li Class="ScenPart_StartingThing_Defined">
 							<def>StartingThing_Defined</def>
@@ -233,7 +233,7 @@
 				<!-- No more Apini Beeswax from traders - only RimBees wax -->
 				<!-- Apini Caravan -->
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/TraderKindDef[defName = "Caravan_Apini_BulkGoods"]/stockGenerators/li[thingDef = "ApiniWax"]</xpath>
+					<xpath>Defs/TraderKindDef[defName = "Caravan_Apini_BulkGoods"]/stockGenerators/li[defName = "ApiniWax"]</xpath>
 					<value>
 						<li Class="StockGenerator_MultiDef">
 							<thingDefs>
@@ -252,7 +252,7 @@
 				</li>
 				<!-- Base Apini Trader -->
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/TraderKindDef[defName = "base_Apini_Standard"]/stockGenerators/li[thingDef = "ApiniWax"]</xpath>
+					<xpath>Defs/TraderKindDef[defName = "base_Apini_Standard"]/stockGenerators/li[defName = "ApiniWax"]</xpath>
 					<value>
 						<li Class="StockGenerator_MultiDef">
 							<thingDefs>
