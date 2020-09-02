@@ -1,0 +1,7 @@
+<loadFolders>
+    <default>
+        <li>/</li>	<!-- Base folder should be base Apini mod content, all below should be patches-->
+        <li IfModActive="Ludeon.Rimworld.Royalty">X_Royalty</li>
+        <li IfModActive="What.Ever.EPOE.Is">X_EPOE</li>
+    </default>
+</loadFolders>
