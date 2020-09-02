@@ -5,7 +5,7 @@
     <label>Honey wall</label>
     <thingClass>Building</thingClass>
     <description>A wall made of congealed honey. You can walk through it with great difficulty.</description>
-    <alwaysHaulable>True</alwaysHaulable>
+    <alwaysHaulable>False</alwaysHaulable>
     <graphicData>
       <texPath>Things/Building/Linked/HoneyWallAtlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -54,7 +54,7 @@
     <designationCategory>Structure</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>true</blockLight>
-    <canOverlapZones>false</canOverlapZones>
+    <canOverlapZones>true</canOverlapZones>
     <building>
 			<ai_chillDestination>false</ai_chillDestination>
       <isInert>true</isInert>
