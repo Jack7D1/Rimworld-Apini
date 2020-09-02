@@ -8,7 +8,10 @@ The current mod can be found [Here](https://steamcommunity.com/sharedfiles/filed
 [We also have a channel in this discord server!](http://discord.gg/XMCRj46)
 
 Upon release only these folders and files should be included:
-Common
+About
+Languages
+Patches
+Sounds
+Textures
 Versions
-X_Patches
 LoadFolders.xml
