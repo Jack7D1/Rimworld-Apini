@@ -1,4 +1,4 @@
 Latest supported Rimworld version: 1.2
-Release version: 0.4
-Release name: Apini-0.4_Rimworld-1.2
+Release version: 0.5
+Release name: Apini-0.5_Rimworld-1.2
 Supports: 1.2
