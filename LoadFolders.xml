@@ -6,8 +6,8 @@
         <li>/</li>	
 		<li>Common</li>
 		<!-- Base folders above should be base Apini mod content, all below should be patches-->
-        <li IfModActive="sarg.rimbees">X_RimBees</li>
-        <li IfModActive="Ykara.EPOE">X_EPOE</li>
-		<li IfModActive="consolidatedtraits.kv.rw">X_ConsolidatedTraits</li>
+        <li IfModActive="sarg.rimbees">Patches/RimBees</li>
+        <li IfModActive="Ykara.EPOE">Patches/EPOE</li>
+		<li IfModActive="consolidatedtraits.kv.rw">Patches/ConsolidatedTraits</li>
     </default>
 </loadFolders>
