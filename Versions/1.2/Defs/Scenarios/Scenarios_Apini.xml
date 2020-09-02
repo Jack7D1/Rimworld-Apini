@@ -92,7 +92,7 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>ApiniWax</thingDef>
-					<count>500</count>
+					<count>1000</count>
 				</li>
 				
 				<!-- Game start dialog -->

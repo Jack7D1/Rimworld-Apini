@@ -45,7 +45,7 @@
       <li Class="CompProperties_Egglayer">
         <eggFertilizedDef>MoobeeEgg</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>0.25</eggLayIntervalDays>
+        <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
           <min>1</min>
@@ -54,8 +54,8 @@
       </li>
       <li Class="CompProperties_Milkable">
         <milkDef>ApiniHoney</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>4</milkAmount>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>5</milkAmount>
         <milkFemaleOnly>false</milkFemaleOnly>
       </li>
     </comps>
@@ -78,22 +78,27 @@
         <li>
           <def>ApiniLarva1</def>
           <minAge>0</minAge>
-        </li>
+		  <BodySize>0.1</BodySize>
+		</li>
         <li>
           <def>ApiniLarva2</def>
           <minAge>0.1</minAge>
+		  <BodySize>0.13</BodySize>
         </li>
         <li>
           <def>ApiniPupa</def>
           <minAge>0.2</minAge>
+		  <BodySize>0.1</BodySize>
         </li>
         <li>
           <def>ApiniYouth</def>
           <minAge>0.3</minAge>
+		  <BodySize>0.1</BodySize>
         </li>
         <li>
           <def>MoobeeTeen</def>
           <minAge>0.4</minAge>
+		  <BodySize>0.1</BodySize>
         </li>
         <li>
           <def>MoobeeAdult</def>
