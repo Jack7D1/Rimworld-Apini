@@ -1,7 +1,10 @@
 <loadFolders>
+	<v1.2>
+		<li>Versions/1.2</li>
+	</v1.2>
     <default>
         <li>/</li>	
-	<li>Common</li>
+		<li>Common</li>
 		<!-- Base folders above should be base Apini mod content, all below should be patches-->
         <li IfModActive="sarg.rimbees">X_RimBees</li>
         <li IfModActive="Ykara.EPOE">X_EPOE</li>
