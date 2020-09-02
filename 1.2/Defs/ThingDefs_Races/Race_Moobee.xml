@@ -78,27 +78,22 @@
         <li>
           <def>ApiniLarva1</def>
           <minAge>0</minAge>
-		  <BodySize>0.1</BodySize>
 		</li>
         <li>
           <def>ApiniLarva2</def>
           <minAge>0.1</minAge>
-		  <BodySize>0.13</BodySize>
         </li>
         <li>
           <def>ApiniPupa</def>
           <minAge>0.2</minAge>
-		  <BodySize>0.1</BodySize>
         </li>
         <li>
           <def>ApiniYouth</def>
           <minAge>0.3</minAge>
-		  <BodySize>0.1</BodySize>
         </li>
         <li>
           <def>MoobeeTeen</def>
           <minAge>0.4</minAge>
-		  <BodySize>0.1</BodySize>
         </li>
         <li>
           <def>MoobeeAdult</def>
