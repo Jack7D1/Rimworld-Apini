@@ -16,7 +16,7 @@
     <soundDrop>Grain_Drop</soundDrop>
     <statBases>
       <MarketValue>3</MarketValue>
-      <MaxHitPoints>150</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <Mass>0.4</Mass>
       <Flammability>0.1</Flammability>
       <DeteriorationRate>2</DeteriorationRate>

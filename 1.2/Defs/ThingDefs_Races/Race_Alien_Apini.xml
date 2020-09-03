@@ -533,13 +533,19 @@
           <li>Nectar_V10</li>
         </recipeList>
 
-        <!--<researchList>
+        <researchList>
           <li>
           <projects>
-            <li>Frostbell</li>
+            <li>ApicultureBasics</li>
+			<li>HoneyConditioning</li>
+			<li>HoneyRefining</li>
+			<li>ApiniPlantKnowledgeBasic</li>
+			<li>ApiniPlantKnowledgeAdvanced</li>
+			<li>ApiniPlantKnowledgeBody</li>
+			<li>ApiniPlantKnowledgeMind</li>
           </projects>
           </li>
-        </researchList> -->
+        </researchList>
 
         <plantList>
           <li>PlantFrostbell</li>
@@ -581,12 +587,13 @@
         <conceptList>
           <li>BeeswaxMaking</li>
           <li>ApiniMakingHoney</li>
+		  <li>HoneyMaker</li>
         </conceptList>
-
-        <!--    <workGiverList>-->
-        <!--        <li>FillHoneyFermentingVat</li>-->
-        <!--        <li>TakeHoneyOutOfFermentingVat</li>-->
-        <!--    </workGiverList>-->
+		
+        <workGiverList>
+            <li>FillHoneyFermentingVat</li>
+			<li>TakeHoneyOutOfFermentingVat</li>
+        </workGiverList>
 
         <whiteApparelList>
           <li>Apparel_CowboyHat</li>

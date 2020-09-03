@@ -14,7 +14,10 @@
       <li>Cooking</li>
     </relevantSkills>
     <workTags>
-      <li>PlantWork</li>
+      <li>Cooking</li>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
     </workTags>
   </WorkTypeDef>
 </Defs>
