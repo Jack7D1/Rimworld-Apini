@@ -25,7 +25,7 @@
 	</modDependencies>
 	<loadAfter>
 		<li>brrainz.harmony</li>
-		<li>UnlimitedHugs.HugsLibM</li>
+		<li>UnlimitedHugs.HugsLib</li>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>Ykara.EPOE</li>
 		<li>consolidatedtraits.kv.rw</li>
