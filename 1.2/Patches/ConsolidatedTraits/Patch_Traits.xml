@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<!-- Of course, the mod itself. -->
 		<mods>
-			<li>[KV] Consolidated Traits</li>
+			<li>consolidatedtraits.kv.rw</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>

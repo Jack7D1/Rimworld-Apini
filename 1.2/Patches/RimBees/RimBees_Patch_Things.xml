@@ -5,7 +5,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>RimBees</li>
-			<li>1558161673</li>
+			<li>sarg.rimbees</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>

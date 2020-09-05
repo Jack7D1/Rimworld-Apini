@@ -27,9 +27,12 @@
 		<li>brrainz.harmony</li>
 		<li>UnlimitedHugs.HugsLibM</li>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Ykara.EPOE</li>
+		<li>consolidatedtraits.kv.rw</li>
+		<li>sarg.rimbees</li>
 	</loadAfter>
 	<loadBefore>
-		<li>Ykara.EPOE</li>
+		<li></li>
 	</loadBefore>
 	<description>
 Requires most recent version of Alien Race Framework.
