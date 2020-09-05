@@ -532,21 +532,17 @@
           <li>Nectar_W10</li>
           <li>Nectar_V10</li>
         </recipeList>
-
+<!--
         <researchList>
           <li>
           <projects>
             <li>ApicultureBasics</li>
 			<li>HoneyConditioning</li>
 			<li>HoneyRefining</li>
-			<li>ApiniPlantKnowledgeBasic</li>
-			<li>ApiniPlantKnowledgeAdvanced</li>
-			<li>ApiniPlantKnowledgeBody</li>
-			<li>ApiniPlantKnowledgeMind</li>
           </projects>
           </li>
         </researchList>
-
+-->
         <plantList>
           <li>PlantFrostbell</li>
           <li>PlantEmberose</li>
@@ -589,7 +585,7 @@
           <li>ApiniMakingHoney</li>
 		  <li>HoneyMaker</li>
         </conceptList>
-		
+
         <workGiverList>
             <li>FillHoneyFermentingVat</li>
 			<li>TakeHoneyOutOfFermentingVat</li>
@@ -713,6 +709,8 @@
 		  <li>Apparel_SlaveCollar_Electric</li>
 		  <li>Apparel_SlaveCollar_Explosive</li>
 		  <li>Apparel_SlaveCollar_Tribal</li>
+		  <li>VFES_Headgear_Sombrero</li>
+		  <li>VAE_Headgear_StoneWarMask</li>
         </whiteApparelList>
       </raceRestriction>
     </alienRace>
