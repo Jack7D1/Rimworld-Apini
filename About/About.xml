@@ -29,6 +29,7 @@
 		<li>erdelf.HumanoidAlienRaces</li>
 	</loadAfter>
 	<loadBefore>
+		<li>Ykara.EPOE</li>
 	</loadBefore>
 	<description>
 Requires most recent version of Alien Race Framework.
