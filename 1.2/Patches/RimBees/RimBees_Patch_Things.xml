@@ -4,7 +4,6 @@
 	<!-- Checking for RimBees -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>RimBees</li>
 			<li>sarg.rimbees</li>
 		</mods>
 		<match Class="PatchOperationSequence">
