@@ -532,7 +532,7 @@
           <li>Nectar_W10</li>
           <li>Nectar_V10</li>
         </recipeList>
-<!--
+
         <researchList>
           <li>
           <projects>
@@ -542,7 +542,7 @@
           </projects>
           </li>
         </researchList>
--->
+
         <plantList>
           <li>PlantFrostbell</li>
           <li>PlantEmberose</li>
@@ -583,7 +583,6 @@
         <conceptList>
           <li>BeeswaxMaking</li>
           <li>ApiniMakingHoney</li>
-		  <li>HoneyMaker</li>
         </conceptList>
 
         <workGiverList>
