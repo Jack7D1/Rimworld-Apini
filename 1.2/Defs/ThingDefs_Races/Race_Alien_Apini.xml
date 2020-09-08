@@ -503,6 +503,7 @@
           <li>ApiniRuff</li>
         </apparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
 
         <weaponList>
           <li>ApiniScythe</li>
@@ -523,7 +524,7 @@
           <li>Nectar_R</li>
           <li>Nectar_W</li>
           <li>Nectar_V</li>
-		  <li>Nectar_U10</li>
+          <li>Nectar_U10</li>
           <li>Nectar_F10</li>
           <li>Nectar_E10</li>
           <li>Nectar_M10</li>
@@ -533,15 +534,13 @@
           <li>Nectar_V10</li>
         </recipeList>
 
-        <researchList>
+        <!--<researchList>
           <li>
           <projects>
-            <li>ApicultureBasics</li>
-			<li>HoneyConditioning</li>
-			<li>HoneyRefining</li>
+            <li>Frostbell</li>
           </projects>
           </li>
-        </researchList>
+        </researchList> -->
 
         <plantList>
           <li>PlantFrostbell</li>
@@ -556,7 +555,7 @@
         </plantList>
 
         <buildingList>
-          <li>HoneyCapsule</li> 
+          <li>HoneyCapsule</li>
           <li>HoneyVat</li>
           <li>ApiniWaxFloor</li>
           <li>ApiniWaxTile</li>
@@ -585,10 +584,10 @@
           <li>ApiniMakingHoney</li>
         </conceptList>
 
-        <workGiverList>
-            <li>FillHoneyFermentingVat</li>
-			<li>TakeHoneyOutOfFermentingVat</li>
-        </workGiverList>
+        <!--    <workGiverList>-->
+        <!--        <li>FillHoneyFermentingVat</li>-->
+        <!--        <li>TakeHoneyOutOfFermentingVat</li>-->
+        <!--    </workGiverList>-->
 
         <whiteApparelList>
           <li>Apparel_CowboyHat</li>
