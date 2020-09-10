@@ -30,7 +30,7 @@
     <defName>ApiniCurious</defName>
     <title>Curious grub</title>
     <titleShort>Curious</titleShort>
-    <baseDescription>Ever since [PAWN_nameDef] was a small grub, they were insanely curious about the world outside the hive, often risking life and wing to witness new fauna.</baseDescription>
+    <baseDescription>Ever since [PAWN_nameDef] was a small grub, [PAWN_pronoun] were insanely curious about the world outside the hive, often risking life and wing to witness new fauna.</baseDescription>
     <skillGains>
       <li>
         <defName>Animals</defName>
@@ -67,7 +67,7 @@
     <defName>ApiniOverly</defName>
     <title>Overly encapsulated</title>
     <titleShort>Encapsulated</titleShort>
-    <baseDescription>[PAWN_nameDef] spent too long in their capsule, comforted by its familiar design.</baseDescription>
+    <baseDescription>[PAWN_nameDef] spent too long in [PAWN_possessive] capsule, comforted by its familiar design.</baseDescription>
     <workDisables>
       <li>Intellectual</li>
     </workDisables>
@@ -136,7 +136,7 @@
     <defName>ApiniHuman</defName>
     <title>Human raised</title>
     <titleShort>Changeling</titleShort>
-    <baseDescription>Taken from their hive as a grubling by humans, [PAWN_nameDef] grew up with a sense of independence rarely found amongst the Apini.</baseDescription>
+    <baseDescription>Taken from [PAWN_possessive] hive as a grubling by humans, [PAWN_nameDef] grew up with a sense of independence rarely found amongst the Apini.</baseDescription>
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -165,7 +165,7 @@
     <defName>ApiniOrphan</defName>
     <title>Wild orphan</title>
     <titleShort>Orphan</titleShort>
-    <baseDescription>[PAWN_nameDef] somehow ended up fending for themself in the wilds of the Rim. They learnt to survive by integrating [PAWN_possessive]self into a local insect hive.</baseDescription>
+    <baseDescription>[PAWN_nameDef] somehow ended up fending for themself in the wilds of the Rim. [PAWN_pronoun] learnt to survive by integrating [PAWN_possessive]self into a local insect hive.</baseDescription>
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -193,7 +193,7 @@
     <defName>ApiniCharred</defName>
     <title>Charred child</title>
     <titleShort>Charred</titleShort>
-    <baseDescription>A child survivor of a burnt down hive, [PAWN_nameDef] suffered painful 3rd degree burns. From being permanently scarred [PAWN_nameDef] tried to learn how to revert their appearance to pristine form.</baseDescription>
+    <baseDescription>A child survivor of a burnt down hive, [PAWN_nameDef] suffered painful 3rd degree burns. From being permanently scarred [PAWN_nameDef] tried to learn how to revert [PAWN_possessive] appearance to pristine form.</baseDescription>
     <skillGains>
       <li>
         <defName>Medicine</defName>
@@ -218,7 +218,7 @@
     <defName>ApiniWrangler</defName>
     <title>Megaspider wrangler</title>
     <titleShort>Wrangler</titleShort>
-    <baseDescription>[PAWN_nameDef] took up the only job available to quickest, toughest, and luckiest of Apini; Name went into cave systems to retrieve megaspiders. Years of doing this deadly work has hardened both their chitin and spirit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] took up the only job available to quickest, toughest, and luckiest of Apini; Name went into cave systems to retrieve megaspiders. Years of doing this deadly work has hardened both [PAWN_possessive] chitin and spirit.</baseDescription>
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -247,7 +247,7 @@
     <defName>ApiniGrubnapped</defName>
     <title>Grubnapped</title>
     <titleShort>Grubnapped</titleShort>
-    <baseDescription>At an early age, [PAWN_nameDef] was kidnapped from [PAWN_possessive] hive and forced into slavery. [PAWN_pronoun] harbors a deep resentment towards humans for their suffering.</baseDescription>
+    <baseDescription>At an early age, [PAWN_nameDef] was kidnapped from [PAWN_possessive] hive and forced into slavery. [PAWN_pronoun] harbors a deep resentment towards humans for [PAWN_possessive] suffering.</baseDescription>
     <skillGains>
       <li>
         <defName>Social</defName>
