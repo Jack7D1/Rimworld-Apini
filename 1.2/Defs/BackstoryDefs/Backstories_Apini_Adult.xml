@@ -61,7 +61,7 @@
     <defName>ApiniDisgraced</defName>
     <title>Disgraced guard</title>
     <titleShort>Disgraced</titleShort>
-    <baseDescription>[PAWN_nameDef] was tasked to protect [PAWN_possessive] queen from danger, but fell from grace after an embarrassing incident involving a pineapple. \nStripped of [PAWN_possessive] position and ashamed, every time [PAWN_nameDef] looks upon a piece of fruit they are reminded of [PAWN_possessive] failure.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was tasked to protect [PAWN_possessive] queen from danger, but fell from grace after an embarrassing incident involving a pineapple. \nStripped of [PAWN_possessive] position and ashamed, every time [PAWN_nameDef] looks upon a piece of fruit [PAWN_pronoun] is reminded of [PAWN_possessive] failure.</baseDescription>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -196,7 +196,7 @@
     <defName>ApiniHiveless</defName>
     <title>Hiveless</title>
     <titleShort>Hiveless</titleShort>
-    <baseDescription>[PAWN_nameDef] is without a hive, and without a home. Displaced they had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around them.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is without a hive, and without a home. Displaced, [PAWN_pronoun] had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around them.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -229,7 +229,7 @@
     <defName>BuzzApini</defName>
     <title>BuzzArtist</title>
     <titleShort>Confectioner</titleShort>
-    <baseDescription>[PAWN_nameDef] is an entrepreneur in what humans called confectionery. They have experimented in making many tasty honey based creations.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is an entrepreneur in what humans called confectionery. [PAWN_pronoun] has experimented in making many tasty honey based creations.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -258,7 +258,7 @@
     <defName>ApiniBusy</defName>
     <title>Busybody</title>
     <titleShort>Busybody</titleShort>
-    <baseDescription>[PAWN_nameDef] always works tirelessly and hastily to expand and decorate the hive. They have to do their job so fast that they never had time to look into the sky.</baseDescription>
+    <baseDescription>[PAWN_nameDef] always works tirelessly and hastily to expand and decorate the hive. [PAWN_pronoun] had to do [PAWN_possessive] job so fast that [PAWN_pronoun] never had time to look into the sky.</baseDescription>
     <skillGains>
       <li>
         <defName>Construction</defName>
@@ -330,7 +330,7 @@
     <defName>ApiniSoldier</defName>
     <title>Veteran soldier</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>Dangerous and lethal, [PAWN_nameDef] is likely the definition of “nope” in many galactic textbooks. However they have a softer side, dutifully tending [PAWN_possessive] fellow soldiers on the battlefield.</baseDescription>
+    <baseDescription>Dangerous and lethal, [PAWN_nameDef] is likely the definition of “nope” in many galactic textbooks. However [PAWN_pronoun] has a softer side, dutifully tending [PAWN_possessive] fellow soldiers on the battlefield.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -385,7 +385,7 @@
     <defName>ApiniLazer</defName>
     <title>B-lazer</title>
     <titleShort>B-lazer</titleShort>
-    <baseDescription>[PAWN_nameDef] likes fire. They like it a lot. Where most avoid the smoke and heat, [PAWN_nameDef] is drawn to the substance, seeing it as a way of expressing [PAWN_possessive] lust for power and individual freedom.\n By Apini standards, they are the equivalent of the most despicable human sociopath.</baseDescription>
+    <baseDescription>[PAWN_nameDef] likes fire. [PAWN_pronoun] likes it a lot. Where most avoid the smoke and heat, [PAWN_nameDef] is drawn to the substance, seeing it as a way of expressing [PAWN_possessive] lust for power and individual freedom.\n By Apini standards, [PAWN_pronoun] is the equivalent of the most despicable human sociopath.</baseDescription>
     <femaleCommonality>20</femaleCommonality>
     <maleCommonality>20</maleCommonality>
     <skillGains>
@@ -413,7 +413,7 @@
     <defName>ApiniLayabout</defName>
     <title>Layabout</title>
     <titleShort>Layabout</titleShort>
-    <baseDescription>In search of an easy life, [PAWN_nameDef] spent the entire time avoiding the hard work on the hive, so much that one day they was noticed and banned.\n They lived the rest of time in a improvised house bothering anyone they meet to get any easy job.</baseDescription>
+    <baseDescription>In search of an easy life, [PAWN_nameDef] spent the entire time avoiding the hard work on the hive, so much that one day [PAWN_pronoun] was noticed and banished.\n [PAWN_pronoun] lived the rest of [PAWN_possessive] life in a improvised house bothering anyone [PAWN_pronoun] met to get any easy job.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -468,7 +468,7 @@
     <defName>ApiniCaravan</defName>
     <title>Caravaneer</title>
     <titleShort>Caravaneer</titleShort>
-    <baseDescription>[PAWN_nameDef] went out often and traded goods from the hive. They became good at negotiating with others and handling the animals, but weren't taught much in the way of menial skills.</baseDescription>
+    <baseDescription>[PAWN_nameDef] went out often and traded goods from the hive. [PAWN_pronoun] became good at negotiating with others and handling the animals, but weren't taught much in the way of menial skills.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -523,7 +523,7 @@
     <defName>ApiniProtector</defName>
     <title>Hive protector</title>
     <titleShort>Protector</titleShort>
-    <baseDescription>As an adult, [PAWN_nameDef] was tasked with guarding the hive against Azuri swarms. [PAWN_nameDef] had to rely on other Apini to make sure they stayed supplied so [PAWN_nameDef] could dedicate all [PAWN_possessive] time to [PAWN_possessive] vigilance.</baseDescription>
+    <baseDescription>As an adult, [PAWN_nameDef] was tasked with guarding the hive against Azuri swarms. [PAWN_nameDef] had to rely on other Apini to make sure [PAWN_pronoun] stayed supplied so [PAWN_pronoun] could dedicate all [PAWN_possessive] time to [PAWN_possessive] vigilance.</baseDescription>
     <skillGains>
       <li>
         <defName>Shooting</defName>
