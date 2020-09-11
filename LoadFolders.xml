@@ -1,0 +1,13 @@
+<loadFolders>
+	<default>
+		<li>Common</li>
+	</default>
+	<v1.2>
+		<li>Common</li>
+		<li>1.2</li>
+		<li IfModActive="consolidatedtraits.kv.rw">P_ConsolidatedTraits</li>
+		<li IfModActive="Ykara.EPOE">P_EPOE</li>
+		<li IfModActive="sarg.rimbees">P_Rimbees</li>
+		<li IfModActive="CETeam.CombatExtended">P_CombatExtended</li>
+	</v1.2>
+</loadFolders>
