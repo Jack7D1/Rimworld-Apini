@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- A patch to make the chitin (leathers) more in line with ce. -->
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- apini_chitin -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="apini_chitin"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.05</StuffPower_Armor_Sharp>
+				</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="apini_chitin"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.015</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+				<!-- azuri_chitin -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="azuri_chitin"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.07</StuffPower_Armor_Sharp>
+				</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="azuri_chitin"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.035</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+				<!-- moobee_chitin -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="moobee_chitin"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.06</StuffPower_Armor_Sharp>
+				</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="moobee_chitin"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.025</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

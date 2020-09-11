@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Azuri Pawn Kinds -->
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- AzuriPawn -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="AzuriPawn"]</xpath>
+				<value>
+					<weaponMoney>
+						<min>100</min>
+						<max>400</max>
+					</weaponMoney>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="AzuriPawn"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<shieldMoney>
+							<min>100</min>
+							<max>250</max>
+						</shieldMoney>
+						<shieldTags>
+							<li>TribalShield</li>
+						</shieldTags>
+						<shieldChance>0.9</shieldChance>
+					</li>
+				</value>
+			</li>
+				<!-- AzuriBane -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="AzuriBane"]/weaponMoney</xpath>
+				<value>
+					<weaponMoney>
+						<min>1500</min>
+						<max>2100</max>
+					</weaponMoney>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="AzuriBane"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>2</min>
+							<max>4</max>
+						</primaryMagazineCount>
+						<shieldMoney>
+							<min>200</min>
+							<max>1000</max>
+						</shieldMoney>
+						<shieldTags>
+							<li>OutlanderShield</li>
+						</shieldTags>
+						<shieldChance>0.5</shieldChance>
+						<sidearms>
+							<li>
+								<generateChance>0.5</generateChance>
+								<sidearmMoney>
+									<min>120</min>
+									<max>600</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+				<!-- pew pew! bees with lazers! lazer bees! -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name="AzuriFreelancer"]/weaponTags</xpath>
+				<value>
+					<li>SpacerGun</li>
+				</value>
+			</li>	
+				<!-- Azuri_Pirate -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="Azuri_Pirate"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>2</min>
+							<max>5</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.5</generateChance>
+								<sidearmMoney>
+									<min>20</min>
+									<max>220</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+				<!-- Azuri_Marauder -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="Azuri_Marauder"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>2</min>
+							<max>6</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.5</generateChance>
+								<sidearmMoney>
+									<min>120</min>
+									<max>440</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
