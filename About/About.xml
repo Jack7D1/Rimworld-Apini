@@ -30,6 +30,7 @@
 		<li>Ykara.EPOE</li>
 		<li>consolidatedtraits.kv.rw</li>
 		<li>sarg.rimbees</li>
+		<li>CETeam.CombatExtended</li>
 	</loadAfter>
 	<loadBefore>
 		<li></li>
