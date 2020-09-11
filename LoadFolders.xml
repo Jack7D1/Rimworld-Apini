@@ -4,9 +4,9 @@
 	</default>
 	<v1.2>
 		<li>Common</li>
-		<li>Versions/1.2</li>
-		<li IfModActive="consolidatedtraits.kv.rw">Patches/Patch_ConsolidatedTraits.xml</li>
-		<li IfModActive="Ykara.EPOE">Patches/Patch_EPOE.xml</li>
-		<li IfModActive="sarg.rimbees">Patches/Patch_Rimbees.sml</li>
+		<li>1.2</li>
+		<li IfModActive="consolidatedtraits.kv.rw">P_ConsolidatedTraits</li>
+		<li IfModActive="Ykara.EPOE">P_EPOE</li>
+		<li IfModActive="sarg.rimbees">P_Rimbees</li>
 	</v1.2>
 </loadFolders>
