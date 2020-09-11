@@ -88,6 +88,9 @@
 					<li>CoveredByNaturalArmor</li>
 				</value>
 			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BodyPartDef[defName = "InsectLeg"]/bleedRate</xpath>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
