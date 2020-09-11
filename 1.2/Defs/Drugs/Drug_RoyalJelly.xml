@@ -21,7 +21,7 @@
     <stackLimit>25</stackLimit>
     <category>Item</category>
     <ingestible>
-      <foodType>AnimalProduct</foodType>
+      <drugCategory>Medical</drugCategory>
       <preferability>DesperateOnly</preferability>
       <joy>0.5</joy>
       <joyKind>Gluttonous</joyKind>
@@ -45,6 +45,11 @@
       <InsectJelly>5</InsectJelly>
       <ApiniHoney>5</ApiniHoney>
     </costList>
+	<comps>
+		<li Class="CompProperties_Drug">
+			<listOrder>3000</listOrder>
+		</li>
+    </comps>
   </ThingDef>
 
 
