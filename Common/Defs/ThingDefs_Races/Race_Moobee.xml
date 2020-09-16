@@ -45,7 +45,7 @@
       <li Class="CompProperties_Egglayer">
         <eggFertilizedDef>MoobeeEgg</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>3</eggLayIntervalDays>
+        <eggLayIntervalDays>6</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
           <min>1</min>
@@ -55,7 +55,7 @@
       <li Class="CompProperties_Milkable">
         <milkDef>ApiniHoney</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>5</milkAmount>
+        <milkAmount>10</milkAmount>
         <milkFemaleOnly>false</milkFemaleOnly>
       </li>
     </comps>
