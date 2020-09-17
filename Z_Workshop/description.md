@@ -37,11 +37,12 @@ You can find us in [url=http://discord.gg/XMCRj46] This discord server [/url]
 [*]Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches.
 [*]Trisscar - Texture for the Daisy plant.
 
-[*]Jack7D1 - Creating github repo and workshop item, and current maintainer.
-[*]Diana Winters - Updating to 1.2
+New Team:
+[*]Diana Winters - Initial 1.2 Patch
+[*]Jack7D1 - Maintainer
+[*]Almantuxas - Contributor
 [*]AspEv - Artwork for Azuri
-[*]Almantuxas - Mod patch optimizations and balances.
-
+[*]Brunter - Contributor
 [/list]
 
 [h1]Support:[/h1]
