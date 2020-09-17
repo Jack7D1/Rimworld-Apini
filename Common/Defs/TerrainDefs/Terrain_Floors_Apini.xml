@@ -9,7 +9,7 @@
     <statBases>
       <WorkToBuild>110</WorkToBuild>
     </statBases>
-    <designationCategory>Apitecture</designationCategory>
+    <designationCategory>Floors</designationCategory>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
   </TerrainDef>
 
@@ -33,15 +33,15 @@
     <defName>ApiniWaxTile</defName>
     <label>beeswax tile</label>
     <renderPrecedence>250</renderPrecedence>
-    <description>Tile made from beeswax. Requires a fair amount of work. Has a sweet aroma.</description>
+    <description>Tile made from beeswax. Requires a fair amount of work and wax. Has a sweet aroma and is pretty to look at.</description>
     <texturePath>Things/Terrain/Hextile</texturePath>
     <edgeType>Hard</edgeType>
     <statBases>
-      <WorkToBuild>400</WorkToBuild>
-      <Beauty>3</Beauty>
+      <WorkToBuild>500</WorkToBuild>
+      <Beauty>5</Beauty>
     </statBases>
     <costList>
-      <ApiniWax>5</ApiniWax>
+      <ApiniWax>15</ApiniWax>
     </costList>
     <constructEffect>ConstructWood</constructEffect>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
