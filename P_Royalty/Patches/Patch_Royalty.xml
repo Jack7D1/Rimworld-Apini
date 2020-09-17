@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<!-- Makes the Empire not forever hate the Apini and player Azuri.-->
+				<xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+				<value>
+					<li>TribeApini</li>
+					<li>TribalApiniPlayer</li>
+					<li>TribalAzuriPlayer</li>
+				</value>
+			</li>
+			<!-- Makes Beeswax Tiles Fine Floors -->
+			<li Class="PatchOperationInsert">
+				<xpath>/Defs/TerrainDef[defName="ApiniWaxTile"]/defName</xpath>
+				<value>
+					<tags>
+						<li>FineFloor</li>
+					</tags>
+					<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<!-- If they're going to be fine they should be pricier-->
+				<xpath>/Defs/TerrainDef[defName="ApiniWaxTile"]/statBases</xpath>
+				<value>
+					<statBases>
+						<WorkToBuild>1500</WorkToBuild>
+						<Beauty>8</Beauty>
+					</statBases>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="ApiniWaxTile"]/costList</xpath>
+				<value>
+					<costList>
+						<ApiniWax>50</ApiniWax>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<!--Some name changes-->
+				<xpath>/Defs/TerrainDef[defName="ApiniWaxTile"]/description</xpath>
+				<value>
+					<description>Fine tile made from beeswax Requires a lot of work and wax. Fit for a queen!</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="ApiniWaxTile"]/label</xpath>
+				<value>
+					<label>fine beeswax tile</label>
+				</value>
+			</li>
+			<!--End fine floors beeswax tile-->
+		</operations>
+	</Operation>
+</Patch>

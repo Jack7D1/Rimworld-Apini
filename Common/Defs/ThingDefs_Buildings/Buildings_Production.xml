@@ -614,7 +614,7 @@
     <graphicData>
       <texPath>Things/Building/Capsules/HoneyVat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(3,3)</drawSize>
       <damageData>
         <rect>(0,0.6,4,2.8)</rect>
       </damageData>
@@ -633,7 +633,7 @@
       <MaxHitPoints>400</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <size>(4,3)</size>
+    <size>(3,3)</size>
     <description>A massive hexagonal container for creating honey from unflavored nectar.</description>
     <costList>
       <Pollen>250</Pollen>
