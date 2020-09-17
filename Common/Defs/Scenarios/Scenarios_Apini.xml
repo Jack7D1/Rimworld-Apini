@@ -204,4 +204,59 @@
     </scenario>
   </ScenarioDef>
   
+<ScenarioDef>
+    <defName>ApiniNakedBrutality</defName>
+    <label>Apini Naked Brutality</label>
+    <description>The last surviving Apini after a horrific Azuri raid on the Apini hive. Can you survive with nothing left? \n\nWarning: There is nothing fair about this scenario - it is extremely difficult and death can happen for any reason.</description>
+    <scenario>
+      <summary>Naked, alone, and utterly unprepared. Can you survive? Extremely difficult and unfair.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>TribalApiniPlayer</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>1</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <visible>false</visible>
+          <method>Standing</method>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_Naked">
+          <def>Naked</def>
+          <context>PlayerStarter</context>
+        </li>
+
+	<li Class="ScenPart_SetNeedLevel">
+          <def>SetNeedLevel</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>1.0</chance>
+          <need>Mood</need>
+          <levelRange>
+            <min>0.1</min>
+            <max>0.5</max>
+          </levelRange>
+        </li>
+
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>The day started like any other. Harvesting the morning pollen, milking the Cowbees. Then out of nowhere the Azuri decended upon the hive.\n\nYou barely managed to escape with your life. Let alone any tools or weapons.\n\nYou have lost your entire hive. As far as you know, none of your friends of family survived the attack. You are totally naked. With no preparation, no supplies, and no tools, can you survive?</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
 </Defs>
