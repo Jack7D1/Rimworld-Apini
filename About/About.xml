@@ -36,6 +36,9 @@
 	<loadBefore>
 		<li/>
 	</loadBefore>
+	<incompatibleWith>
+		<li>OskarPotocki.VFE.Vikings</li>
+	</incompatibleWith>
 	<description>
 		https://github.com/Jack7D1/Rimworld-Apini/issues
 		Report bugs here!
