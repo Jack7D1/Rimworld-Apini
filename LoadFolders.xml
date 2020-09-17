@@ -6,5 +6,6 @@
 		<li IfModActive="Ykara.EPOE">P_EPOE</li>
 		<li IfModActive="sarg.rimbees">P_Rimbees</li>
 		<li IfModActive="CETeam.CombatExtended">P_CombatExtended</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">P_Royalty</li>
 	</v1.2>
 </loadFolders>
