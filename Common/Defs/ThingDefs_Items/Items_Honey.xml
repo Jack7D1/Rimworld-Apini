@@ -20,12 +20,12 @@
     <selectable>true</selectable>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <MarketValue>30.0</MarketValue>
+      <MarketValue>10.0</MarketValue>
       <Mass>0.5</Mass>
       <DeteriorationRate>2</DeteriorationRate>
-      <Flammability>0.2</Flammability>
+      <Flammability>0.4</Flammability>
       <Beauty>2</Beauty>
-      <Nutrition>0.6</Nutrition>
+      <Nutrition>0.5</Nutrition>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>100</stackLimit>
@@ -49,14 +49,13 @@
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Ingest_Beer</ingestSound>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-      <joy>0.25</joy>
-      <joyKind>Gluttonous</joyKind>
     </ingestible>
   </ThingDef>
 
   <ThingDef ParentName="HoneyBase" Name="SpecialHoney" Abstract="True">
     <!-- HoneyBase -->
     <ingestible>
+      <drugCategory>Medical</drugCategory>
       <preferability>MealFine</preferability>
     </ingestible>
   </ThingDef>
@@ -73,7 +72,6 @@
       <texPath>Things/Item/Honey/Honey_Frostbell</texPath>
     </graphicData>
     <ingestible>
-      <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>CoolHoneyBuff</hediffDef>
@@ -100,7 +98,6 @@
       <texPath>Things/Item/Honey/Honey_Emberose</texPath>
     </graphicData>
     <ingestible>
-      <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>HotHoneyBuff</hediffDef>
@@ -127,7 +124,6 @@
       <texPath>Things/Item/Honey/Honey_Metalily</texPath>
     </graphicData>
     <ingestible>
-      <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RoughHoneyBuff</hediffDef>
@@ -154,7 +150,6 @@
       <texPath>Things/Item/Honey/Honey_Bardsong</texPath>
     </graphicData>
     <ingestible>
-      <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>SmoothHoneyBuff</hediffDef>
@@ -181,7 +176,6 @@
       <texPath>Things/Item/Honey/Honey_Rushthorn</texPath>
     </graphicData>
     <ingestible>
-      <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>SwiftHoneyBuff</hediffDef>
@@ -208,7 +202,6 @@
       <texPath>Things/Item/Honey/Honey_Wiserbud</texPath>
     </graphicData>
     <ingestible>
-      <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>SmartHoneyBuff</hediffDef>
@@ -235,7 +228,6 @@
       <texPath>Things/Item/Honey/Honey_Vigorbloom</texPath>
     </graphicData>
     <ingestible>
-      <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>BruteHoneyBuff</hediffDef>

@@ -46,7 +46,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ApiniPlants">  <!-- Lavender -->
-    <defName>PlantLavender</defName>
+    <defName>PlantLavenderApini</defName>
     <label>Lavender</label>
     <description>A hardy herb known for its calming fragrance.</description>
     <graphicData>
