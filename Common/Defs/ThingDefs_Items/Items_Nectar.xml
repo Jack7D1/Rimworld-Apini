@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+c<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingCategoryDef>
     <defName>NectarCategory</defName>
@@ -40,7 +40,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <ingestible>
       <foodType>Fluid</foodType>
-      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <preferability>DesperateOnly</preferability>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Ingest_Beer</ingestSound>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
