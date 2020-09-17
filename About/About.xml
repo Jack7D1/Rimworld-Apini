@@ -6,6 +6,7 @@
 		<li>1.2</li>
 	</supportedVersions>
 	<packageId>sera.apinialienrace</packageId>
+	<url>https://github.com/Jack7D1/Rimworld-Apini</url>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
@@ -33,16 +34,14 @@
 		<li>CETeam.CombatExtended</li>
 	</loadAfter>
 	<loadBefore>
-		<li></li>
+		<li/>
 	</loadBefore>
 	<description>
-https://github.com/Jack7D1/Rimworld-Apini/issues
-Report bugs here!
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2204437968
-Workshop page is here!
-
-https://discord.gg/4CqyZ97
-Come find us over here!
+		https://github.com/Jack7D1/Rimworld-Apini/issues
+		Report bugs here!
+		https://steamcommunity.com/sharedfiles/filedetails/?id=2204437968
+		Workshop page is here!
+		https://discord.gg/4CqyZ97
+		Come find us over here!
 	</description>
 </ModMetaData>
