@@ -40,11 +40,8 @@
 		<li>OskarPotocki.VFE.Vikings</li>
 	</incompatibleWith>
 	<description>
-		https://github.com/Jack7D1/Rimworld-Apini/issues
-		Report bugs here!
-		https://steamcommunity.com/sharedfiles/filedetails/?id=2204437968
-		Workshop page is here!
-		https://discord.gg/4CqyZ97
-		Come find us over here!
+Report bugs over on the github page!
+Want headgear from a certain mod? Drop the def name in the workshop comments!
+Currently incombaptible with VE-Vikings, a patch will be made once Vikings is stable.
 	</description>
 </ModMetaData>
