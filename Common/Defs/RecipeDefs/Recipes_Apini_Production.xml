@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<RecipeDef Abstract="True" Name="ApiniProstheticsTechCraft">
+	<RecipeDef Abstract="True"
+         		Name="ApiniProstheticsTechCraft">
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedApiniPart</unfinishedThingDef>
@@ -14,8 +15,8 @@
 			<li>ApiniProstheticsTable</li>
 		</recipeUsers>
 	</RecipeDef>
-	
-	<RecipeDef Abstract="True" Name="ApiniBionicsTechcraft">
+	<RecipeDef Abstract="True"
+         		Name="ApiniBionicsTechcraft">
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedApiniPart</unfinishedThingDef>
@@ -29,8 +30,8 @@
 			<li>ApiniProstheticsTable</li>
 		</recipeUsers>
 	</RecipeDef>
-	
-	<RecipeDef Abstract="True" Name="ApiniAdvancedBionicsTechCraft">
+	<RecipeDef Abstract="True"
+         		Name="ApiniAdvancedBionicsTechCraft">
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedApiniPart</unfinishedThingDef>
@@ -44,8 +45,8 @@
 			<li>ApiniProstheticsTable</li>
 		</recipeUsers>
 	</RecipeDef>
-	
-	<RecipeDef Abstract="True" Name="ApitechCraft">
+	<RecipeDef Abstract="True"
+         		Name="ApitechCraft">
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedApiniPart</unfinishedThingDef>
@@ -59,8 +60,9 @@
 			<li>ApitechTable</li>
 		</recipeUsers>
 	</RecipeDef>
-	
-	<RecipeDef Abstract="True" Name="ApiOrganCraft"> <!-- renamed, in case OrganCraft is used by other mods-->
+	<RecipeDef Abstract="True"
+         		Name="ApiOrganCraft">
+		<!-- renamed, in case OrganCraft is used by other mods-->
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedApiniPart</unfinishedThingDef>
@@ -74,10 +76,9 @@
 			<li>ApitechSynthesizer</li>
 		</recipeUsers>
 	</RecipeDef>
-	
-  <!-- ============================ Body Parts : Prosthetic ========================== -->
-
-	<RecipeDef ParentName="ApiniProstheticsTechCraft">  <!-- Prosthetic Wing -->
+	<!-- ============================ Body Parts : Prosthetic ========================== -->
+	<RecipeDef ParentName="ApiniProstheticsTechCraft">
+		<!-- Prosthetic Wing -->
 		<defName>CreateProstheticWing</defName>
 		<label>Craft prosthetic wing</label>
 		<description>A prosthetic wing made of lightweight fabrics.</description>
@@ -101,8 +102,8 @@
 			<ProstheticWing>1</ProstheticWing>
 		</products>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ApiniBionicsTechcraft">  <!-- Bionic Wing -->
+	<RecipeDef ParentName="ApiniBionicsTechcraft">
+		<!-- Bionic Wing -->
 		<defName>CreateBionicWing</defName>
 		<label>Craft Bionic wing</label>
 		<description>Craft a Bionic wing made of lightweight fabrics and advanced technology.</description>
@@ -136,15 +137,14 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Synthread</li>
-				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<BionicWing>1</BionicWing>
 		</products>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Wing -->
+	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">
+		<!-- Advanced Bionic Wing -->
 		<defName>CreateAdvancedBionicWing</defName>
 		<label>Upgrade Bionic wing</label>
 		<description>Retrofit a bionic wing with more advanced technology.</description>
@@ -157,6 +157,14 @@
 					</thingDefs>
 				</filter>
 				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
 			</li>
 			<li>
 				<filter>
@@ -178,14 +186,13 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicWing</li>
-				<li>ComponentIndustrial</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<AdvancedBionicWing>1</AdvancedBionicWing>
 		</products>
 	</RecipeDef>
-
 	<!--<RecipeDef ParentName="ApiniProstheticsTechCraft">
 		<defName>CreateProstheticElytra</defName>
 		<label>Craft prosthetic Elytra</label>
@@ -287,8 +294,8 @@
 			<AdvancedBionicElytra>1</AdvancedBionicElytra>
 		</products>
 	</RecipeDef>-->
-
-	<RecipeDef ParentName="ApiniProstheticsTechCraft">  <!-- Prosthetic Antenna -->
+	<RecipeDef ParentName="ApiniProstheticsTechCraft">
+		<!-- Prosthetic Antenna -->
 		<defName>CreateProstheticAntenna</defName>
 		<label>Craft prosthetic Antenna</label>
 		<description>A prosthetic Antenna made of steel wire.</description>
@@ -312,8 +319,8 @@
 			<ProstheticAntenna>1</ProstheticAntenna>
 		</products>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ApiniBionicsTechcraft">  <!-- Bionic Antenna -->
+	<RecipeDef ParentName="ApiniBionicsTechcraft">
+		<!-- Bionic Antenna -->
 		<defName>CreateBionicAntenna</defName>
 		<label>Craft Bionic Antenna</label>
 		<description>Craft a Bionic Antenna made of plasteel.</description>
@@ -339,15 +346,14 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Plasteel</li>
-				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<BionicAntenna>1</BionicAntenna>
 		</products>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">  <!-- Advanced Bionic Antenna -->
+	<RecipeDef ParentName="ApiniAdvancedBionicsTechCraft">
+		<!-- Advanced Bionic Antenna -->
 		<defName>CreateAdvancedBionicAntenna</defName>
 		<label>Upgrade Bionic Antenna</label>
 		<description>Upgrade Bionic Antennas with more advanced technology.</description>
@@ -372,6 +378,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
@@ -381,14 +395,14 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicAntenna</li>
-				<li>ComponentIndustrial</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<AdvancedBionicAntenna>1</AdvancedBionicAntenna>
 		</products>
 	</RecipeDef>
-<!--
+	<!--
 	<RecipeDef ParentName="ApiniProstheticsTechCraft">   Prosthetic Sting 
 		<defName>CreateProstheticSting</defName>
 		<label>Craft prosthetic Sting</label>
@@ -490,9 +504,9 @@
 		</products>
 	</RecipeDef>
 Bionic sting crafting recipies commented out until working purpose and function-->
-  <!-- ============================ Body Parts : Apitech ========================== -->
-
-	<RecipeDef ParentName="ApitechCraft">  <!-- Apitech Mechanites -->
+	<!-- ============================ Body Parts : Apitech ========================== -->
+	<RecipeDef ParentName="ApitechCraft">
+		<!-- Apitech Mechanites -->
 		<defName>MakeApitechMechanites</defName>
 		<label>Apitech Mechanites</label>
 		<description>Synthesize techno-organic mechanites, infusing cells of Apini royal jelly with mechanical components.</description>
@@ -533,8 +547,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ComponentIndustrial</li>
-				<li>ApiniJelly</li>
 				<li>Gold</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -542,8 +554,8 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechMechanites>1</ApitechMechanites>
 		</products>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ApitechCraft">  <!-- Apitech Mechanites (x10) -->
+	<RecipeDef ParentName="ApitechCraft">
+		<!-- Apitech Mechanites (x10) -->
 		<defName>MakeApitechMechanitesMore</defName>
 		<label>Apitech Mechanites (x10)</label>
 		<description>Synthesize techno-organic mechanites, infusing cells of Apini royal jelly with mechanical components, more cost efficient.</description>
@@ -585,8 +597,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ComponentIndustrial</li>
-				<li>ApiniJelly</li>
 				<li>Gold</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -598,8 +608,8 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<Intellectual>17</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ApitechCraft">  <!-- Apitech Mechanites (x100) -->
+	<RecipeDef ParentName="ApitechCraft">
+		<!-- Apitech Mechanites (x100) -->
 		<defName>MakeApitechMechanitesMost</defName>
 		<label>Apitech Mechanites (x100)</label>
 		<description>Synthesize techno-organic mechanites, infusing cells of Apini royal jelly with mechanical components, the most cost efficient.</description>
@@ -641,8 +651,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ComponentIndustrial</li>
-				<li>ApiniJelly</li>
 				<li>Gold</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -654,7 +662,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<Intellectual>20</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
-
 	<!-- Apitech Mutagen -->
 	<!-- <RecipeDef ParentName="ApitechCraft">
 		<defName>MakeApitechMutagen</defName>
@@ -720,9 +727,7 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<Intellectual>20</Intellectual>
 		</skillRequirements>
 	</RecipeDef> -->
-
-  <!-- ============================ Body Parts : Apitech Organs  ========================== -->
-
+	<!-- ============================ Body Parts : Apitech Organs  ========================== -->
 	<!-- <RecipeDef ParentName="ApiOrganCraft">  Apitech Heart
 		<defName>CreateApitechHeart</defName>
 		<label>Craft Apitech heart</label>
@@ -756,7 +761,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechHeart>1</ApitechHeart>
 		</products>
 	</RecipeDef> -->
-
 	<!-- <RecipeDef ParentName="ApiOrganCraft">  Apitech Stomach
 		<defName>CreateApitechStomach</defName>
 		<label>Craft Apitech stomach</label>
@@ -790,7 +794,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechStomach>1</ApitechStomach>
 		</products>
 	</RecipeDef> -->
-
 	<!-- <RecipeDef ParentName="ApiOrganCraft">  Apitech Lung
 		<defName>CreateApitechLung</defName>
 		<label>Craft Apitech Lung</label>
@@ -824,7 +827,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechLung>1</ApitechLung>
 		</products>
 	</RecipeDef> -->
-
 	<!-- <RecipeDef ParentName="ApiOrganCraft">  Apitech Liver
 		<defName>CreateApitechLiver</defName>
 		<label>Craft Apitech Liver</label>
@@ -858,7 +860,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechLiver>1</ApitechLiver>
 		</products>
 	</RecipeDef> -->
-
 	<!-- <RecipeDef ParentName="ApiOrganCraft">  Apitech Kidney
 		<defName>CreateApitechKidney</defName>
 		<label>Craft Apitech Kidney</label>
@@ -892,9 +893,7 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechKidney>1</ApitechKidney>
 		</products>
 	</RecipeDef> -->
-
-  <!-- ============================ Body Parts : Apitech Parts ========================== -->
-
+	<!-- ============================ Body Parts : Apitech Parts ========================== -->
 	<!-- <RecipeDef ParentName="ApitechCraft">  Apitech Wing
 		<defName>CreateApitechWing</defName>
 		<label>Craft Apitech wing</label>
@@ -928,7 +927,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechWing>1</ApitechWing>
 		</products>
 	</RecipeDef> -->
-
 	<!--<RecipeDef ParentName="ApitechCraft">
 		<defName>CreateApitechElytra</defName>
 		<label>Craft Apitech elytra</label>
@@ -962,7 +960,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechElytra>1</ApitechElytra>
 		</products>
 	</RecipeDef>-->
-
 	<!-- <RecipeDef ParentName="ApitechCraft">  Apitech Antenna
 		<defName>CreateApitechAntenna</defName>
 		<label>Craft Apitech antenna</label>
@@ -996,7 +993,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechAntenna>1</ApitechAntenna>
 		</products>
 	</RecipeDef> -->
-
 	<!-- <RecipeDef ParentName="ApitechCraft">  Apitech Eye
 		<defName>CreateApitechEye</defName>
 		<label>Craft Apitech eye</label>
@@ -1030,7 +1026,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechEye>1</ApitechEye>
 		</products>
 	</RecipeDef> -->
-
 	<!-- Apitech Crushers -->
 	<RecipeDef ParentName="ApitechCraft">
 		<defName>CreateCrusherMandibles_Apini</defName>
@@ -1058,14 +1053,12 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Plasteel</li>
-				<li>ApitechMechanites</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<CrusherMandibles_Apini>1</CrusherMandibles_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Songstress -->
 	<RecipeDef ParentName="ApitechCraft">
 		<defName>CreateSongstressMandibles_Apini</defName>
@@ -1084,6 +1077,14 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1093,14 +1094,12 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Plasteel</li>
-				<li>ApitechMechanites</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<SongstressMandibles_Apini>1</SongstressMandibles_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Monarchs -->
 	<RecipeDef ParentName="ApitechCraft">
 		<defName>CreateMonarchMandibles_Apini</defName>
@@ -1140,19 +1139,24 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>5</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>CrusherMandibles_Apini</li>
-				<li>SongstressMandibles_Apini</li>
-				<li>ApitechMechanites</li>
+				<li>Gold</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<MonarchMandibles_Apini>1</MonarchMandibles_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- <RecipeDef ParentName="ApitechCraft">  Apitech Arm
 		<defName>CreateApitechArm</defName>
 		<label>Craft Apitech Arm</label>
@@ -1186,7 +1190,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechArm>1</ApitechArm>
 		</products>
 	</RecipeDef> -->
-
 	<!-- <RecipeDef ParentName="ApitechCraft">  Apitech Leg
 		<defName>CreateApitechLeg</defName>
 		<label>Craft Apitech leg</label>
@@ -1220,7 +1223,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechLeg>1</ApitechLeg>
 		</products>
 	</RecipeDef> -->
-
 	<!-- <RecipeDef ParentName="ApitechCraft">  Apitech Sting
 		<defName>CreateApitechSting</defName>
 		<label>Craft Apitech sting</label>
@@ -1254,10 +1256,8 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechSting>1</ApitechSting>
 		</products>
 	</RecipeDef> -->
-
-  <!-- ============================ Body Parts : Apitech Mutations ========================== -->
-
-  <!-- Apitech Aerator -->
+	<!-- ============================ Body Parts : Apitech Mutations ========================== -->
+	<!-- Apitech Aerator -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateAeratorImplant_Apini</defName>
 		<label>craft Apitech Aerator implant</label>
@@ -1291,7 +1291,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
 				<li>Synthread</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -1299,7 +1298,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<WingAerator_Apini>1</WingAerator_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Breezer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateBreezerImplant_Apini</defName>
@@ -1326,7 +1324,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
 				<li>DevilstrandCloth</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -1334,7 +1331,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<WingBreezer_Apini>1</WingBreezer_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Warmer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateWarmerImplant_Apini</defName>
@@ -1361,7 +1357,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
 				<li>DevilstrandCloth</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -1369,7 +1364,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<WingWarmer_Apini>1</WingWarmer_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Digestive Enzymes -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateDigestiveEnzymes_Apini</defName>
@@ -1388,6 +1382,14 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ApitechMechanites</li>
 					</thingDefs>
 				</filter>
@@ -1396,14 +1398,13 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<DigestiveEnzymes_Apini>1</DigestiveEnzymes_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Regenerative Enzymes -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateRegenerativeEnzymes_Apini</defName>
@@ -1427,17 +1428,24 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>8</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<RegenerativeEnzymes_Apini>1</RegenerativeEnzymes_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Ocular Enhancement -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateOcularEnhancement_Apini</defName>
@@ -1461,17 +1469,24 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>6</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<OcularEnhancement_Apini>1</OcularEnhancement_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Signal Receptor -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateSignalReceptor_Apini</defName>
@@ -1495,17 +1510,24 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>2</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<SignalReceptor_Apini>1</SignalReceptor_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Neuroenhancer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateNeuroenhancer_Apini</defName>
@@ -1529,17 +1551,24 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>10</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Neuroenhancer_Apini>1</Neuroenhancer_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Proboscis Enhancement -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateProboscisEnhancement_Apini</defName>
@@ -1563,17 +1592,24 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>2</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<ProboscisEnhancement_Apini>1</ProboscisEnhancement_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- <RecipeDef ParentName="ApiOrganCraft">  Apitech Vocal Enhancement
 		<defName>CreateApitechVocalEnhancement</defName>
 		<label>Craft Apitech vocal enhancement</label>
@@ -1606,7 +1642,6 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<ApitechVocalEnhancement>1</ApitechVocalEnhancement>
 		</products>
 	</RecipeDef> -->
-
 	<!-- Apitech Gatherer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateGathererFrontLeg_Apini</defName>
@@ -1630,17 +1665,24 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>3</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<GathererFrontLeg_Apini>1</GathererFrontLeg_Apini>
 		</products>
 	</RecipeDef>
-
 	<!-- Apitech Reflex Enhancer -->
 	<RecipeDef ParentName="ApiOrganCraft">
 		<defName>CreateReflexEnhancement_Apini</defName>
@@ -1664,18 +1706,26 @@ Bionic sting crafting recipies commented out until working purpose and function-
 				</filter>
 				<count>6</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ApitechMechanites</li>
+				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<ReflexEnhancement_Apini>1</ReflexEnhancement_Apini>
 		</products>
 	</RecipeDef>
-	
-	<RecipeDef Name="MakeBeeApparel" Abstract="True">
+	<RecipeDef Name="MakeBeeApparel"
+         		Abstract="True">
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<effectWorking>Smith</effectWorking>
@@ -1687,5 +1737,4 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<li>CraftingSpot</li>
 		</recipeUsers>
 	</RecipeDef>
-	
 </Defs>

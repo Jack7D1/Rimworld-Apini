@@ -15,10 +15,10 @@
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <statBases>
-      <MarketValue>3</MarketValue>
+      <MarketValue>2</MarketValue>
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>0.4</Mass>
-      <Flammability>0.1</Flammability>
+      <Flammability>0.5</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
     </statBases>
     <stuffProps>
@@ -36,10 +36,10 @@
       </statOffsets>
       <statFactors>
         <MaxHitPoints>1.5</MaxHitPoints>
-        <Beauty>1.25</Beauty>
+        <Beauty>1.35</Beauty>
         <Flammability>0.1</Flammability>
-        <WorkToMake>0.6</WorkToMake>
-        <WorkToBuild>0.6</WorkToBuild>
+        <WorkToMake>0.8</WorkToMake>
+        <WorkToBuild>0.8</WorkToBuild>
         <DoorOpenSpeed>1.5</DoorOpenSpeed>
         <MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
         <Insulation_Cold>3.0</Insulation_Cold>
