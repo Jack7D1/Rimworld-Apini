@@ -62,7 +62,7 @@
     <title>Disgraced guard</title>
     <titleShort>Disgraced</titleShort>
     <baseDescription>[PAWN_nameDef] was tasked to protect [PAWN_possessive] queen from danger, but fell from grace after an embarrassing incident involving a pineapple. \nStripped of [PAWN_possessive] position and ashamed, every time [PAWN_nameDef] looks upon a piece of fruit [PAWN_pronoun] is reminded of [PAWN_possessive] failure.</baseDescription>
-    <skillGains>
+    <skillGains> 																																				<!-- what-->
       <li>
         <defName>Shooting</defName>
         <amount>4</amount>
@@ -146,7 +146,7 @@
     <defName>ApiniArchitect</defName>
     <title>Honeycomb architect</title>
     <titleShort>Architect</titleShort>
-    <baseDescription>Responsible for secreting wax and building the honeycombs, [PAWN_nameDef] would spend most of [PAWN_possessive] time doing exactly that, and only that. Unfortunately, [PAWN_possessive] constant business has left them with little time for socialization or other skills.</baseDescription>
+    <baseDescription>Responsible for secreting wax and building the honeycombs, [PAWN_nameDef] would spend most of [PAWN_possessive] time doing exactly that, and only that. Unfortunately, [PAWN_possessive] constant business had left [PAWN_possessive] with little time for socialization or other skills.</baseDescription>
     <skillGains>
       <li>
         <defName>Construction</defName>
@@ -196,7 +196,7 @@
     <defName>ApiniHiveless</defName>
     <title>Hiveless</title>
     <titleShort>Hiveless</titleShort>
-    <baseDescription>[PAWN_nameDef] is without a hive, and without a home. Displaced, [PAWN_pronoun] had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around them.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is without a hive, and without a home. Displaced, [PAWN_pronoun] had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around [PAWN_pronoun].</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -229,7 +229,7 @@
     <defName>BuzzApini</defName>
     <title>BuzzArtist</title>
     <titleShort>Confectioner</titleShort>
-    <baseDescription>[PAWN_nameDef] is an entrepreneur in what humans called confectionery. [PAWN_pronoun] has experimented in making many tasty honey based creations.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is an entrepreneur in what humans called confectionery. [PAWN_pronoun] had experimented in making many tasty honey based creations.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -258,7 +258,7 @@
     <defName>ApiniBusy</defName>
     <title>Busybody</title>
     <titleShort>Busybody</titleShort>
-    <baseDescription>[PAWN_nameDef] always works tirelessly and hastily to expand and decorate the hive. [PAWN_pronoun] had to do [PAWN_possessive] job so fast that [PAWN_pronoun] never had time to look into the sky.</baseDescription>
+    <baseDescription>[PAWN_nameDef] always works tirelessly and hastily to expand and decorate the hive. [PAWN_pronoun] had to do [PAWN_possessive] job so fast that [PAWN_pronoun] never even had time to look at the sky.</baseDescription>
     <skillGains>
       <li>
         <defName>Construction</defName>
@@ -290,7 +290,7 @@
     <defName>ApiniWasp</defName>
     <title>Wasp wannabee</title>
     <titleShort>Wannabee</titleShort>
-    <baseDescription>“Bee’s are, like totally boring”, “I wish mom hadn’t been a fat slob who killed dad”, “It’s not a phase, guys! Whatever, I’m going with the Hornets” are many a phrase [PAWN_nameDef] utter in adolescence. \n [PAWN_nameDef] stuck by these thoughts for the rest of [PAWN_possessive] life, finding [PAWN_possessive]self outcast for [PAWN_possessive]… alternative thinking.</baseDescription>
+    <baseDescription>“Bees are, like totally boring”, “I wish mom hadn’t been a fat slob who killed dad”, “It’s not a phase, guys! Whatever, I’m going with the Hornets” are many a phrase [PAWN_nameDef] uttered in adolescence. \n [PAWN_nameDef] stuck by these thoughts for the rest of [PAWN_possessive] life, finding [PAWN_possessive]self outcast for [PAWN_possessive]… alternative thinking.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -357,7 +357,7 @@
     <defName>ApiniPoli</defName>
     <title>Pollen-tician</title>
     <titleShort>Pollen-tician</titleShort>
-    <baseDescription>A recent position, made out of spite of the traditional  monarchy, [PAWN_nameDef] has become a Pollen-tician, much to the despair of [PAWN_possessive] community</baseDescription>
+    <baseDescription>A recent position, made out of spite of the traditional monarchy, [PAWN_nameDef] has become a Pollen-tician, much to the despair of [PAWN_possessive] community</baseDescription>
     <femaleCommonality>50</femaleCommonality>
     <maleCommonality>50</maleCommonality>
     <skillGains>
@@ -413,7 +413,7 @@
     <defName>ApiniLayabout</defName>
     <title>Layabout</title>
     <titleShort>Layabout</titleShort>
-    <baseDescription>In search of an easy life, [PAWN_nameDef] spent the entire time avoiding the hard work on the hive, so much that one day [PAWN_pronoun] was noticed and banished.\n [PAWN_pronoun] lived the rest of [PAWN_possessive] life in a improvised house bothering anyone [PAWN_pronoun] met to get any easy job.</baseDescription>
+    <baseDescription>In search of an easy life, [PAWN_nameDef] spent [PAWN_possessive] life avoiding the hard work in the hive, so much so that one day [PAWN_pronoun] was noticed and banished.\n [PAWN_pronoun] lived the rest of [PAWN_possessive] life in a improvised house bothering anyone [PAWN_pronoun] met for any easy job.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -439,7 +439,7 @@
     <defName>ApiniNanny</defName>
     <title>Nanny</title>
     <titleShort>Nanny</titleShort>
-    <baseDescription>This worker cared for the young of the hive.</baseDescription>
+    <baseDescription>[PAWN_nameDef] cared for the young of the hive.</baseDescription>
     <skillGains>
       <li>
         <defName>Cooking</defName>
@@ -468,7 +468,7 @@
     <defName>ApiniCaravan</defName>
     <title>Caravaneer</title>
     <titleShort>Caravaneer</titleShort>
-    <baseDescription>[PAWN_nameDef] went out often and traded goods from the hive. [PAWN_pronoun] became good at negotiating with others and handling the animals, but weren't taught much in the way of menial skills.</baseDescription>
+    <baseDescription>[PAWN_nameDef] went out often and traded goods from the hive. [PAWN_pronoun] became good at negotiating with others and handling the animals, but wasn't taught much in the way of menial skills.</baseDescription>
     <maleCommonality>100</maleCommonality>
     <skillGains>
       <li>
@@ -499,8 +499,8 @@
     <defName>ApiniAlpaca</defName>
     <title>Alpaca shepherd</title>
     <titleShort>Shepard</titleShort>
-    <baseDescription>[PAWN_nameDef] always had a fascination with the fluffy Alpaca, curiosity turned into an unhealthy obsession and after a rather embarrassing incident, [PAWN_nameDef] was forced out of the colony.\nOut to start anew, bringing with them [PAWN_possessive] love for the fluffiest of creatures.</baseDescription>
-    <skillGains>
+    <baseDescription>[PAWN_nameDef] always had a fascination with the fluffy Alpaca, curiosity turned into an unhealthy obsession and after a rather embarrassing incident, [PAWN_nameDef] was forced out of the colony.\nOut to start anew, bringing with [PAWN_possessive] [PAWN_possessive] love for the fluffiest of creatures.</baseDescription>
+    <skillGains>																																	<!--Pineapple?-->
       <li>
         <defName>Melee</defName>
         <amount>1</amount>
@@ -555,9 +555,9 @@
     <defName>ApiniScuptor</defName>
     <title>Wax sculptor</title>
     <titleShort>Sculptor</titleShort>
-    <baseDescription>Name has always felt using wax for petty things like 'walls' and 'floors' was a great waste of beesources. Due to this, [PAWN_nameDef] begun to capture beeutiful bee figures and craft unbeleevably opulent wares.\nUnfortunately, much to [PAWN_possessive] hive's disdain and concern, [PAWN_nameDef] became something of a recluse and a wax thief.  [PAWN_possessive] beehavior was reluctantly tolerated by the rest of the hive - if only because of the art's value to exotic trade.</baseDescription>
-    <maleCommonality>100</maleCommonality>
-    <skillGains>
+    <baseDescription>[PAWN_nameDef] has always felt using wax for petty things like 'walls' and 'floors' was a great waste of beesources. Due to this, [PAWN_nameDef] begun to capture beeutiful bee figures and craft unbeleevably opulent wares.\nUnfortunately, much to [PAWN_possessive] hive's disdain and concern, [PAWN_nameDef] became something of a recluse and a wax thief.  [PAWN_possessive] beehavior was reluctantly tolerated by the rest of the hive - if only because of the art's value to exotic trade.</baseDescription>
+    <maleCommonality>100</maleCommonality>																					<!--Nice-->													<!--h-->						<!--no-->																																										<!--stop-->
+    <skillGains>	
       <li>
         <defName>Social</defName>
         <amount>-8</amount>
