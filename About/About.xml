@@ -32,6 +32,7 @@
 		<li>consolidatedtraits.kv.rw</li>
 		<li>sarg.rimbees</li>
 		<li>CETeam.CombatExtended</li>
+		<li>Ludeon.Rimworld.Royalty</li>
 	</loadAfter>
 	<loadBefore>
 		<li/>
