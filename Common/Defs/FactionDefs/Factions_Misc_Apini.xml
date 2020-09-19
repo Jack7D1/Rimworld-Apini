@@ -18,7 +18,7 @@
         <li>(3500, 0.2)</li>
       </points>
     </raidCommonalityFromPointsCurve>
-    <canSiege>true</canSiege>
+    <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <canUseAvoidGrid>true</canUseAvoidGrid>
     <settlementTexturePath>World/ApiniHiveZoom</settlementTexturePath>
@@ -131,7 +131,7 @@
         <li>(4000, 1.5)</li>
       </points>
     </raidCommonalityFromPointsCurve>
-    <canSiege>true</canSiege>
+    <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <basicMemberKind>AzuriPawn</basicMemberKind>
     <pawnSingular>azuri</pawnSingular>

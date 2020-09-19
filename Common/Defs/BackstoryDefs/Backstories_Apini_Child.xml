@@ -30,7 +30,7 @@
     <defName>ApiniCurious</defName>
     <title>Curious grub</title>
     <titleShort>Curious</titleShort>
-    <baseDescription>Ever since [PAWN_nameDef] was a small grub, [PAWN_pronoun] were insanely curious about the world outside the hive, often risking life and wing to witness new fauna.</baseDescription>
+    <baseDescription>Ever since [PAWN_nameDef] was a small grub, [PAWN_pronoun] was insanely curious about the world outside the hive, often risking life and wing to witness new fauna.</baseDescription>
     <skillGains>
       <li>
         <defName>Animals</defName>
@@ -165,7 +165,7 @@
     <defName>ApiniOrphan</defName>
     <title>Wild orphan</title>
     <titleShort>Orphan</titleShort>
-    <baseDescription>[PAWN_nameDef] somehow ended up fending for themself in the wilds of the Rim. [PAWN_pronoun] learnt to survive by integrating [PAWN_possessive]self into a local insect hive.</baseDescription>
+    <baseDescription>[PAWN_nameDef] somehow ended up fending for [PAWN_possessive]self in the wilds of the Rim. [PAWN_pronoun] learnt to survive by integrating [PAWN_possessive]self into a local insect hive.</baseDescription>
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -193,7 +193,7 @@
     <defName>ApiniCharred</defName>
     <title>Charred child</title>
     <titleShort>Charred</titleShort>
-    <baseDescription>A child survivor of a burnt down hive, [PAWN_nameDef] suffered painful 3rd degree burns. From being permanently scarred [PAWN_nameDef] tried to learn how to revert [PAWN_possessive] appearance to pristine form.</baseDescription>
+    <baseDescription>A child survivor of a burnt down hive, [PAWN_nameDef] suffered painful 3rd degree burns. After being permanently scarred [PAWN_nameDef] tried to learn how to revert [PAWN_possessive] appearance to pristine form.</baseDescription>
     <skillGains>
       <li>
         <defName>Medicine</defName>
@@ -218,7 +218,7 @@
     <defName>ApiniWrangler</defName>
     <title>Megaspider wrangler</title>
     <titleShort>Wrangler</titleShort>
-    <baseDescription>[PAWN_nameDef] took up the only job available to quickest, toughest, and luckiest of Apini; Name went into cave systems to retrieve megaspiders. Years of doing this deadly work has hardened both [PAWN_possessive] chitin and spirit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] took up the only job available to quickest, toughest, and luckiest of Apini; [PAWN_nameDef] went into cave systems to retrieve megaspiders. Years of doing this deadly work has hardened both [PAWN_possessive] chitin and [PAWN_possessive] spirit.</baseDescription>
     <skillGains>
       <li>
         <defName>Melee</defName>
