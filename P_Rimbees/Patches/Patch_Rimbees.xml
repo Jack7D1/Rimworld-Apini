@@ -843,9 +843,26 @@
 				</value>
 			</li>
 			<!--End apitech recipies-->
-			<!-- Removing Apini Beeswax, since why have it if it's not used? -->
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName="ApiniWax"]</xpath>
+			<!--Multiplayer has a weird reaction with both rimbees, royalty and apinis Apiniwax being removed, dont remove if both Rimbees, Royalty and Multiplayer are active-->
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Multiplayer</li>
+				</mods>
+				<!-- Code kinda messy here but since Multiplayer is a rare mod this shouldn't matter too much-->
+				<match Class="PatchOperationFindMod">
+					<mods>
+						<li>Royalty</li>
+					</mods>
+					<!-- For some reason you cant check for two mods at the same time in one FindMod operation-->
+					<!--If both mods present, do not remove ApiniWax def, this should have almost no effect on actual gameplay except the occasional silly ruin walls.-->
+					<nomatch Class="PatchOperationRemove">
+						<xpath>Defs/ThingDef[defName="ApiniWax"]</xpath>
+					</nomatch>
+				</match>
+				<!-- Removing Apini Beeswax, since why have it if it's not used? -->
+				<nomatch Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="ApiniWax"]</xpath>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>
