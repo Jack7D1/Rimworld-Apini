@@ -843,6 +843,13 @@
 				</value>
 			</li>
 			<!--End apitech recipies-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ApiniWax"]/stuffProps/commonality</xpath>
+				<value>
+					<!-- In case Apiniwax is not undefined, this prevent old Apini wax spawning as ruins walls-->
+					<commonality>0.0</commonality>
+				</value>
+			</li>
 			<!--Multiplayer has a weird reaction with both rimbees, royalty and apinis Apiniwax being removed, dont remove if both Rimbees, Royalty and Multiplayer are active-->
 			<li Class="PatchOperationFindMod">
 				<mods>
@@ -853,6 +860,13 @@
 					<mods>
 						<li>Royalty</li>
 					</mods>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName = "ApiniWax"]/label</xpath>
+						<value>
+							<label>USELESS_MATERIAL</label>
+							<!--Hopefully tells player to throw old ApiniWax away if they somehow manage to get their hands on it-->
+						</value>
+					</match>
 					<!-- For some reason you cant check for two mods at the same time in one FindMod operation-->
 					<!--If both mods present, do not remove ApiniWax def, this should have almost no effect on actual gameplay except the occasional silly ruin walls.-->
 					<nomatch Class="PatchOperationRemove">
