@@ -25,17 +25,10 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>brrainz.harmony</li>
-		<li>UnlimitedHugs.HugsLib</li>
 		<li>erdelf.HumanoidAlienRaces</li>
-		<li>Ykara.EPOE</li>
-		<li>consolidatedtraits.kv.rw</li>
-		<li>sarg.rimbees</li>
-		<li>CETeam.CombatExtended</li>
-		<li>Ludeon.Rimworld.Royalty</li>
 	</loadAfter>
 	<loadBefore>
-		<li/>
+		<li></li>
 	</loadBefore>
 	<incompatibleWith>
 		<li>OskarPotocki.VFE.Vikings</li>
