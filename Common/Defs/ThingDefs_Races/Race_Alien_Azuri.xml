@@ -708,7 +708,7 @@
 			<baseBodySize>0.85</baseBodySize>
 			<baseHealthScale>1.25</baseHealthScale>
 			<baseHungerRate>0.75</baseHungerRate>
-			<foodType>CarnivoreAnimal</foodType>
+			<foodType>CarnivoreAnimal, AnimalProduct</foodType>
 			<gestationPeriodDays>7</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
