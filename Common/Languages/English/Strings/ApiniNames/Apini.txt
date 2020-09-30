@@ -36,7 +36,6 @@ Ultramarine
 Xyloco
 Carpenter
 Osirini
-Radiación
 Violeta
 Fluorescente
 UV Ststrahlung
@@ -46,7 +45,6 @@ Vialait
 Perianth
 Indigo
 Cobalt
-Blewe
 Lazuli
 Azurite
 Woad
@@ -62,3 +60,4 @@ Kiro
 Naenia
 Narnar
 Sera
+Alta
