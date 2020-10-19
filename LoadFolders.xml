@@ -2,10 +2,10 @@
 	<v1.2>
 		<li>Common</li>
 		<li>1.2</li>
-		<li IfModActive="consolidatedtraits.kv.rw">Patch/P_ConsolidatedTraits</li>
-		<li IfModActive="Ykara.EPOE">Patch/P_EPOE</li>
-		<li IfModActive="sarg.rimbees">Patch/P_Rimbees</li>
-		<li IfModActive="CETeam.CombatExtended">Patch/P_CombatExtended</li>
-		<li IfModActive="Ludeon.Rimworld.Royalty">Patch/P_Royalty</li>
+		<li IfModActive="consolidatedtraits.kv.rw">P_ConsolidatedTraits</li>
+		<li IfModActive="Ykara.EPOE">P_EPOE</li>
+		<li IfModActive="sarg.rimbees">P_Rimbees</li>
+		<li IfModActive="CETeam.CombatExtended">P_CombatExtended</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">P_Royalty</li>
 	</v1.2>
 </loadFolders>
