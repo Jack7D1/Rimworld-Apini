@@ -288,26 +288,6 @@
 							</li>
 						</reactions>
 					</li>
-					<li>
-						<chemical>Nicotine</chemical>
-						<ingestible>true</ingestible>
-						<reactions>
-							<li Class="IngestionOutcomeDoer_GiveHediff">
-								<hediffDef>ApiniSmoke</hediffDef>
-								<severity>0.45</severity>
-							</li>
-						</reactions>
-					</li>
-					<li>
-						<chemical>Xenleaf</chemical>
-						<ingestible>true</ingestible>
-						<reactions>
-							<li Class="IngestionOutcomeDoer_GiveHediff">
-								<hediffDef>ApiniSmoke</hediffDef>
-								<severity>0.45</severity>
-							</li>
-						</reactions>
-					</li>
 				</chemicalSettings>
 				<forcedRaceTraitEntries>
 					<li>
@@ -541,12 +521,12 @@
 				<buildingList>
 					<li>HoneyCapsule</li>
 					<li>HoneyVat</li>
-					<li>ApiniWaxFloor</li>
+					<!--<li>ApiniWaxFloor</li>
 					<li>ApiniWaxTile</li>
 					<li>Honey_Shallow</li>
 					<li>Honey_Deep</li>
 					<li>Honey_StickyShallow</li>
-					<li>Honey_StickyDeep</li>
+					<li>Honey_StickyDeep</li>-->
 					<li>HoneycombBed_S</li>
 					<li>HoneycombBed_L</li>
 					<li>BeeswaxCandle</li>
@@ -591,98 +571,78 @@
 					<li>OrbitalTargeterBombardment</li>
 					<li>Apparel_PsychicInsanityLance</li>
 					<li>Apparel_PsychicShockLance</li>
-					<!--From mods by SheiFoxy-->
-					<li>SF_PoweredAssaultArmorHelmet</li>
-					<li>SF_EngineerPowerArmorHelmet</li>
-					<li>SF_ExplorerPowerArmorHelmet</li>
-					<li>SF_GrenadierPowerArmorHelmet</li>
-					<li>SF_CommandoArmorHelmet</li>
-					<li>SF_HazardOperationsArmorHelmet</li>
-					<li>SF_DiplomatPowerArmorHelmet</li>
-					<li>SF_DefenderPowerArmorHelmet</li>
-					<li>SF_ScoutPowerArmorHelmet</li>
-					<li>SF_SamuraiPowerArmorHelmet</li>
-					<li>SF_ShockTrooperArmorHelmet</li>
-					<li>SF_ReconPowerArmorHelmet</li>
-					<!--From Apparello-->
-					<li>Apparello_Bandai</li>
-					<li>Apparello_Beret</li>
-					<li>Apparello_Cardshark</li>
-					<li>Apparello_Commissar</li>
-					<li>Apparello_Cookaprontosaurus</li>
-					<li>Apparello_Cybissar</li>
-					<li>Apparello_Cyninja</li>
-					<li>Apparello_Fedora</li>
-					<li>Apparello_GShellII</li>
-					<li>Apparello_Gshell</li>
-					<li>Apparello_Lecap</li>
-					<li>Apparello_Kurt</li>
-					<li>Apparello_Medband</li>
-					<li>Apparello_Medihelmet</li>
-					<li>Apparello_Meffect</li>
-					<li>Apparello_Mojo</li>
-					<li>Apparello_Mojotwo</li>
-					<li>Apparello_Moron</li>
-					<li>Apparello_Orkpad</li>
-					<li>Apparello_Plainhat</li>
-					<li>Apparello_PonPon</li>
-					<li>Apparello_Raideroos</li>
-					<li>Apparello_Sandtrader</li>
-					<li>Apparello_Sheet</li>
-					<li>Apparello_Sombrero</li>
-					<li>Apparello_Tophat</li>
-					<li>Apparello_Tribalshield</li>
-					<li>Apparello_Urpad</li>
-					<li>Apparello_Wendywelder</li>
-					<li>Apparello_Yi</li>
-					<li>Apparello_Goggles</li>
-					<li>Apparello_Visoor</li>
-					<li>Apparello_Shadess</li>
-					<li>Apparello_Piloggle</li>
-					<li>Apparello_Brimsk</li>
-					<!--From Vanilla Apparel Expanded-->
-					<li>VAE_Apparel_WoodenArmor</li>
-					<li>VAE_Apparel_LightPlateArmor</li>
-					<li>VAE_Apparel_PlateShoulderpads</li>
-					<li>VAE_Apparel_BulletproofVest</li>
-					<li>VAE_Apparel_AdvancedVest</li>
-					<li>VAE_Headgear_LightMarineHelmet</li>
-					<li>VAE_Headgear_HeavyMarineHelmet</li>
-					<li>VAE_Headgear_Balaclava</li>
-					<li>VAE_Headgear_NightVisionGoggles</li>
-					<li>VAE_Headgear_BallisticGoggles</li>
-					<li>VAE_Apparel_TribalPoncho</li>
-					<li>VAE_Headgear_Hood</li>
-					<li>VAE_Headgear_TrapperHat</li>
-					<li>VAE_Headgear_SummerHat</li>
-					<li>VAE_Headgear_Fedora</li>
-					<li>VAE_Headgear_Scarf</li>
-					<li>VAE_Headgear_Beret</li>
-					<li>VAE_Headgear_Hardhat</li>
-					<li>VAE_Headgear_SurgicalMask</li>
-					<li>VAE_Headgear_GasMask</li>
-					<li>VAE_Headgear_BaseballCap</li>
-					<li>VAE_Headgear_Sunglasses</li>
-					<li>VAE_Headgear_Glasses</li>
-					<li>VAE_Headgear_ChefsToque</li>
-					<li>VFES_Headgear_Sombrero</li>
-					<li>VAE_Headgear_StoneWarMask</li>
-					<li>VFES_Headgear_FlatCap</li>
-					<!--From Royalty Expansion-->
-					<li>Apparel_Coronet</li>
-					<li>Apparel_HatHood</li>
-					<li>Apparel_HatTop</li>
-					<li>Apparel_HatLadies</li>
-					<li>Apparel_PsyfocusHelmet</li>
-					<li>Apparel_PsyfocusRobe</li>
-					<li>Apparel_Gunlink</li>
-					<li>Apparel_Cape</li>
-					<li>Apparel_Beret</li>
-					<li>Apparel_RobeRoyal</li>
-					<li>Apparel_EltexSkullcap</li>
-					<li>Apparel_PackBroadshield</li>
-					<li>Apparel_PackJump</li>
-					<li>OrbitalTargeterMechCluster</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Coronet</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatHood</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatTop</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatLadies</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PsyfocusHelmet</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PsyfocusRobe</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Gunlink</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Cape</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Beret</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_RobeRoyal</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_EltexSkullcap</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">OrbitalTargeterMechCluster</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Beret</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cardshark</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Commissar</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cookaprontosaurus</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cybissar</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cyninja</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Fedora</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_GShellII</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Gshell</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Lecap</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Kurt</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Medband</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Medihelmet</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Meffect</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Mojo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Mojotwo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Moron</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Orkpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Plainhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_PonPon</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Raideroos</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Sandtrader</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Sheet</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Sombrero</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tophat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tribalshield</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Urpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Wendywelder</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Yi</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Goggles</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Visoor</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Shadess</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Piloggle</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Brimsk</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_Balaclava</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_BallisticGoggles</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_WoodenArmor</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_LightPlateArmor</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_PlateShoulderpads</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_NightVisionGoggles</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_BulletproofVest</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_AdvancedVest</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_HeavyMarineHelmet</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_StoneWarMask</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalPoncho</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Hood</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_TrapperHat</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_SummerHat</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Fedora</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Scarf</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Beret</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Hardhat</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_SurgicalMask</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_GasMask</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_BaseballCap</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Sunglasses</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Glasses</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_ChefsToque</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>

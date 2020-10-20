@@ -31,7 +31,7 @@
 		<li></li>
 	</loadBefore>
 	<incompatibleWith>
-		<li></li>
+		<li>rwmt.Multiplayer</li>
 	</incompatibleWith>
 	<description>
 Report bugs over on the github page!
@@ -40,7 +40,6 @@ Want headgear from a certain mod? Drop the def name in the workshop comments!
 Remember to check the changelog on the workshop page for info about updates! Some info is very important!
 Want to contribute or want to know about upcomining changes and updates? Check out our github every now and then!
 
-Latest Changelog:
-VE Vikings is no longer incompatible!
+Certain features of some mods may extremely buff or extremely nerf Apini! This mod is best played with few other Non-Vanilla content mods
 	</description>
 </ModMetaData>

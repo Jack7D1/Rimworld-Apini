@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingCategoryDef>
 		<defName>HoneyCategory</defName>
@@ -6,8 +6,7 @@
 		<parent>FoodMeals</parent>
 		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
 	</ThingCategoryDef>
-	<ThingDef Name="HoneyBase"
-        		Abstract="True">
+	<ThingDef Name="HoneyBase" Abstract="True">
 		<!-- HoneyBase -->
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey</texPath>
@@ -35,13 +34,12 @@
 		</thingCategories>
 		<alwaysHaulable>true</alwaysHaulable>
 		<comps>
-			<li Class="CompProperties_Forbiddable" />
-			<li Class="CompProperties_Ingredients" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Ingredients"/>
 		</comps>
 		<pathCost>15</pathCost>
 		<resourceReadoutPriority>Last</resourceReadoutPriority>
 		<drawGUIOverlay>true</drawGUIOverlay>
-		<tradeability>Sellable</tradeability>
 		<ingestible>
 			<foodType>AnimalProduct</foodType>
 			<preferability>MealFine</preferability>
@@ -50,9 +48,7 @@
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 		</ingestible>
 	</ThingDef>
-	<ThingDef ParentName="HoneyBase"
-        		Name="SpecialHoney"
-        		Abstract="True">
+	<ThingDef ParentName="HoneyBase" Name="SpecialHoney" Abstract="True">
 		<!-- HoneyBase -->
 		<statBases>
 			<MarketValue>25.0</MarketValue>
@@ -244,8 +240,7 @@
 		<description>Delicious honey produced by the Apini. A mixture of honey from the residual nectar still found within pollen that, while more filling, lacks unique flavor.</description>
 	</ThingDef>
 	<!--============================ Buffs ===============================-->
-	<HediffDef Name="ApiniHoneyEffects"
-         		Abstract="True">
+	<HediffDef Name="ApiniHoneyEffects" Abstract="True">
 		<!-- Buff Base -->
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(1, 1, 0.75)</defaultLabelColor>
