@@ -8,7 +8,5 @@
 		<li IfModActive="sarg.rimbees">Patch/P_Rimbees</li>
 		<li IfModActive="CETeam.CombatExtended">Patch/P_CombatExtended</li>
 		<li IfModActive="Ludeon.Rimworld.Royalty">Patch/P_Royalty</li>
-		<li IfModActive="Shinzy.Apparello">Patch/P_Apparello</li>
-		<li IfModActive="VanillaExpanded.VAPPE">Patch/P_VAE</li>
 	</v1.2>
 </loadFolders>

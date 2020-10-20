@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
@@ -53,26 +53,6 @@
 				</value>
 			</li>
 			<!--End fine floors beeswax tile-->
-			<!--Add in allowed apparel from Royalty to the whitelist-->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Apini" or defName = "Azuri"]/alienRace/raceRestriction/whiteApparelList</xpath>
-				<value>
-					<li>Apparel_Coronet</li>
-					<li>Apparel_HatHood</li>
-					<li>Apparel_HatTop</li>
-					<li>Apparel_HatLadies</li>
-					<li>Apparel_PsyfocusHelmet</li>
-					<li>Apparel_PsyfocusRobe</li>
-					<li>Apparel_Gunlink</li>
-					<li>Apparel_Cape</li>
-					<li>Apparel_Beret</li>
-					<li>Apparel_RobeRoyal</li>
-					<li>Apparel_EltexSkullcap</li>
-					<li>Apparel_PackBroadshield</li>
-					<li>Apparel_PackJump</li>
-					<li>OrbitalTargeterMechCluster</li>
-				</value>
-			</li>
 		</operations>
 	</Operation>
 </Patch>
