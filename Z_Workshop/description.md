@@ -21,28 +21,29 @@ You can find us in [url=http://discord.gg/XMCRj46] This discord server [/url]
 
 [h1]Credits:[/h1]
 [list]
-[*]Sera/Miss Bones – Apini race mod base and original creator
-[*]Bees - Making delicious honey
-[*]Zaltys - Updating to RimWorld 1.0.
-[*]Chjees – C#
-[*]Xen – A16 EPOE patch
-[*]Erdelf – HAF Framework
-[*]ZE – Azuri Sprites + B18 update
-[*]Lamp - some art assets
-[*]Rabbitt - some art assets
-[*]Apini Discord - Loving fans and helpful creators
-[*]Ykara – Inspiration (EPOE mod maker)
-[*]Rah – Inspiration (RBSE mod maker)
-[*]Saebbi - Making part of the Combat Extended patch.
-[*]Almantuxas - Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches.
-[*]Trisscar - Texture for the Daisy plant.
+[*]Sera/Miss Bones 	– Apini race mod base and original creator
+[*]Bees 		- Making delicious honey
+[*]Zaltys 		- Updating to RimWorld 1.0.
+[*]Chjees 		– C#
+[*]Xen 			– A16 EPOE patch
+[*]Erdelf 		– HAF Framework
+[*]ZE 			– Azuri Sprites + B18 update
+[*]Lamp 		- some art assets
+[*]Rabbitt 		- some art assets
+[*]Apini Discord 	- Loving fans and helpful creators
+[*]Ykara 		– Inspiration (EPOE mod maker)
+[*]Rah 			– Inspiration (RBSE mod maker)
+[*]Saebbi 		- Making part of the Combat Extended patch.
+[*]Almantuxas 		- Making less broken after 1.0 update, updating to 1.1, adding to and modifying the Combat Extended patch aswell as some other patches.
+[*]Trisscar 		- Texture for the Daisy plant.
 
-New Team:
-[*]Diana Winters - Initial 1.2 Patch
-[*]Jack7D1 - Maintainer
-[*]Almantuxas - Contributor
-[*]AspEv - Artwork for Azuri
-[*]Brunter - Contributor
+New Team: 		(Individual contributions visible on github)
+[*]Diana Winters 	- Coder
+[*]Jack7D1 		- Maintainer
+[*]Almantuxas 		- Coder
+[*]AspEv 		- Artist
+[*]Brunter 		- Coder
+[*]Hirohito 		- Coder
 [/list]
 
 [h1]Support:[/h1]
