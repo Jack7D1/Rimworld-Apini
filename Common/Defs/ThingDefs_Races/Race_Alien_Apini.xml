@@ -643,6 +643,22 @@
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Sunglasses</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Glasses</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_ChefsToque</li>
+					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_DynamiteBelt</li>
+					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeEMPBelt</li>
+					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeFlashBelt</li>
+					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeFragBelt</li>
+					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeMolotovBelt</li>
+					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeSmokeBelt</li>
+					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeToxicBelt</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Heater</li>
+                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Kite</li>
+                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Apparel_Tabard</li>
+                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Bandana</li>
+                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_FlatCap</li>
+                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Sombrero</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_MeleeShield</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_BallisticShield</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_TacVest</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
