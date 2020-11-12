@@ -43,7 +43,7 @@ New Team: 		(Individual contributions visible on github)
 [*]Almantuxas - Coder
 [*]AspEv - Artist
 [*]Brunter - Coder
-[*]Hirohito - Coder
+[*]Hirohito - Coder/Artist
 [/list]
 
 [h1]Support:[/h1]
