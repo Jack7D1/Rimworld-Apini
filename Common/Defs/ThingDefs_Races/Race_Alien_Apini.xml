@@ -563,14 +563,14 @@
 					<li>Apparel_PowerArmorHelmet</li>
 					<li>Apparel_PsychicFoilHelmet</li>
 					<li>Apparel_ShieldBelt</li>
-					<li>Apparel_SmokepopBelt</li>
-					<li>Apparel_CompositeVest</li>
+					<li>Apparel_SmokepopBelt</li>>
 					<li>Apparel_FlakVest</li>
 					<li>TornadoGenerator</li>
 					<li>OrbitalTargeterPowerBeam</li>
 					<li>OrbitalTargeterBombardment</li>
 					<li>Apparel_PsychicInsanityLance</li>
 					<li>Apparel_PsychicShockLance</li>
+					<!--From Royalty-->
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Coronet</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatHood</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatTop</li>
@@ -585,6 +585,7 @@
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">OrbitalTargeterMechCluster</li>
+					<!--From Apparello-->
 					<li MayRequire="Shinzy.Apparello">Apparello_Beret</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Cardshark</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Commissar</li>
@@ -619,6 +620,7 @@
 					<li MayRequire="Shinzy.Apparello">Apparello_Shadess</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Piloggle</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Brimsk</li>
+					<!--From Vanilla Armor Expanded-->
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_Balaclava</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_BallisticGoggles</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_WoodenArmor</li>
@@ -629,6 +631,7 @@
 					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_AdvancedVest</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_HeavyMarineHelmet</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_StoneWarMask</li>
+					<!--From Vanilla Apparel Expanded-->
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalPoncho</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Hood</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_TrapperHat</li>
@@ -643,6 +646,7 @@
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Sunglasses</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Glasses</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_ChefsToque</li>
+					<!--From Vanilla Weapons Expanded-->
 					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_DynamiteBelt</li>
 					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeEMPBelt</li>
 					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeFlashBelt</li>
@@ -650,12 +654,14 @@
 					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeMolotovBelt</li>
 					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeSmokeBelt</li>
 					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeToxicBelt</li>
+					<!--From Vanilla Factions Expanded-->
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Heater</li>
-                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Kite</li>
-                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Apparel_Tabard</li>
-                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Bandana</li>
-                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_FlatCap</li>
-                    			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Sombrero</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Kite</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Apparel_Tabard</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Bandana</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_FlatCap</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Sombrero</li>
+					<!--From Combat Extended-->
 					<li MayRequire="CETeam.CombatExtended">Apparel_MeleeShield</li>
 					<li MayRequire="CETeam.CombatExtended">Apparel_BallisticShield</li>
 					<li MayRequire="CETeam.CombatExtended">Apparel_TacVest</li>
