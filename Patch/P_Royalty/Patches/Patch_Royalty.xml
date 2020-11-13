@@ -6,7 +6,7 @@
 				<!-- Makes the Empire not forever hate the Apini and player Azuri.-->
 				<xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
 				<value>
-					<li>TribeApini</li>
+					<li>ApiniTribe</li>
 					<li>TribalApiniPlayer</li>
 					<li>TribalAzuriPlayer</li>
 				</value>
