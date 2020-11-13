@@ -563,7 +563,7 @@
 					<li>Apparel_PowerArmorHelmet</li>
 					<li>Apparel_PsychicFoilHelmet</li>
 					<li>Apparel_ShieldBelt</li>
-					<li>Apparel_SmokepopBelt</li>>
+					<li>Apparel_SmokepopBelt</li>
 					<li>Apparel_FlakVest</li>
 					<li>TornadoGenerator</li>
 					<li>OrbitalTargeterPowerBeam</li>
@@ -665,6 +665,8 @@
 					<li MayRequire="CETeam.CombatExtended">Apparel_MeleeShield</li>
 					<li MayRequire="CETeam.CombatExtended">Apparel_BallisticShield</li>
 					<li MayRequire="CETeam.CombatExtended">Apparel_TacVest</li>
+					<!--From Ivory and Jade Carving-->
+					<li MayRequire="Mlie.IvoryAndJadeCarving">jade_band</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
