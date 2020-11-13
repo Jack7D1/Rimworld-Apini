@@ -674,6 +674,9 @@
 					<li MayRequire="CETeam.CombatExtended">Apparel_TacVest</li>
 					<!--From Ivory and Jade Carving-->
 					<li MayRequire="Mlie.IvoryAndJadeCarving">jade_band</li>
+					<!--From Rim of Madness-->
+					<li MayRequire="sihv.rombones">ROMB_Apparel_SkullMask</li>
+					<li MayRequire="sihv.rombones">ROMB_Apparel_DeerSkullMask</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
