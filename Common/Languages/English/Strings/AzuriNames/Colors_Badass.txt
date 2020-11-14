@@ -1,7 +1,10 @@
-Black
-Gray
 Ash
+Asphalt
+Azure
+Black
+Cobalt
+Crimson
+Gray
 Midnight
 Night
-Azure
-Cobalt
+Pitch
