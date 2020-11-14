@@ -16,8 +16,8 @@
 	<!-- Factions -->
 	<ApiniPlayerTribe.label>Tribal Hive</ApiniPlayerTribe.label>
 	<ApiniPlayerTribe.description>A tribe of neolithic Apini.</ApiniPlayerTribe.description>
-	<ApiniTribe.label>tribal hive</ApiniTribe.label>
-	<ApiniTribe.description>A tribal hive of Apini, they toil hard and long everyday to survive. Apini are not the most intelligent sort, many communities never surpassing a neolithic level of technology. They range from friendly to outright hostile, depending on their previous interactions with humans. \n \nThey are often raided for their delicious honey.</ApiniTribe.description>
+	<TribeApini.label>tribal hive</TribeApini.label>
+	<TribeApini.description>A tribal hive of Apini, they toil hard and long everyday to survive. Apini are not the most intelligent sort, many communities never surpassing a neolithic level of technology. They range from friendly to outright hostile, depending on their previous interactions with humans. \n \nThey are often raided for their delicious honey.</TribeApini.description>
 	<!-- Hediff -->
 	<ApiniSmoke.label>respiratory failure</ApiniSmoke.label>
 	<ApiniSmokeThought.stages.0.label>respiratory failure</ApiniSmokeThought.stages.0.label>

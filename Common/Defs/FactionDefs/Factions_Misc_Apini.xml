@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<FactionDef>
-		<defName>ApiniTribe</defName>
+		<defName>TribeApini</defName>
 		<label>tribal hive</label>
 		<description>A tribal hive of Apini, they toil hard and long everyday to survive. Apini are not the most intelligent sort, many communities never surpassing a neolithic level of technology. They range from friendly to outright hostile, depending on their previous interactions with humans. \n \nThey are often raided for their delicious honey.</description>
 		<pawnsPlural>tribal apinis</pawnsPlural>
@@ -114,7 +114,7 @@
 	</FactionDef>
 	<!-- Azuri -->
 	<FactionDef>
-		<defName>AzuriTribe</defName>
+		<defName>TribeAzuri</defName>
 		<label>tribal swarm</label>
 		<description>A ravenous swarm of Azuri, out for Apini ichor. \n\nBest to avoid.</description>
 		<pawnsPlural>azuri swarm</pawnsPlural>
@@ -131,7 +131,7 @@
 			</points>
 		</raidCommonalityFromPointsCurve>
 		<canSiege>false</canSiege>
-		<canStageAttacks>true</canStageAttacks>
+		<canStageAttacks>false</canStageAttacks>
 		<basicMemberKind>AzuriPawn</basicMemberKind>
 		<pawnSingular>azuri</pawnSingular>
 		<settlementTexturePath>World/AzuriSwarmZoom</settlementTexturePath>
@@ -150,7 +150,6 @@
 			<li>(70,183,255)</li>
 			<li>(0, 222,255)</li>
 		</colorSpectrum>
-		<mustStartOneEnemy>true</mustStartOneEnemy>
 		<factionNameMaker>NamerFactionSwarm</factionNameMaker>
 		<settlementNameMaker>NamerbaseSwarm</settlementNameMaker>
 		<techLevel>Neolithic</techLevel>
@@ -165,14 +164,6 @@
 		<hairTags>
 			<li>Azuri</li>
 		</hairTags>
-		<startingGoodwill>
-			<min>-100</min>
-			<max>-50</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-70</min>
-			<max>5</max>
-		</naturalColonyGoodwill>
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Combat</kindDef>
@@ -203,5 +194,10 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
+		<!--Want nothing but to devour-->
+		<permanentEnemy>true</permanentEnemy>
+		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+		<!--No retreat, kill or be killed-->
+		<autoFlee>false</autoFlee>
 	</FactionDef>
 </Defs>

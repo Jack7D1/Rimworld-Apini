@@ -28,7 +28,7 @@
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>ApiniTribe</li>
+						<li>TribeApini</li>
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -65,7 +65,7 @@
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>ApiniTribe</li>
+						<li>TribeApini</li>
 						<li>PlayerTribe</li>
 						<li>PlayerColony</li>
 					</factionDefs>

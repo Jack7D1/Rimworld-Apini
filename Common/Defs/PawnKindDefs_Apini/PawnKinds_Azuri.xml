@@ -14,7 +14,7 @@
 		<invNutrition>1.5</invNutrition>
 		<aiAvoidCover>true</aiAvoidCover>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<defaultFactionType>AzuriTribe</defaultFactionType>
+		<defaultFactionType>TribeAzuri</defaultFactionType>
 		<weaponTags>
 			<li>NeolithicMeleeBasic</li>
 		</weaponTags>

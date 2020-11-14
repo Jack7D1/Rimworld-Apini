@@ -15,7 +15,7 @@
     </apparelTags>
     <apparelMoney>200~400</apparelMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <defaultFactionType>ApiniTribe</defaultFactionType>
+    <defaultFactionType>TribeApini</defaultFactionType>
   </PawnKindDef>
  
   <PawnKindDef ParentName="ApiniBasic">

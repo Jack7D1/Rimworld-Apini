@@ -24,8 +24,8 @@
 					<factionDefs>
 						<li>PlayerColony</li>
 						<li>PlayerTribe</li>
-						<li>ApiniTribe</li>
-						<li>AzuriTribe</li>
+						<li>TribeApini</li>
+						<li>TribeAzuri</li>
 					</factionDefs>
 				</li>
 			</alienwandererkinds>
