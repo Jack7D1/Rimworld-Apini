@@ -877,32 +877,30 @@
 				<xpath>Defs/RecipeDef[defName = "CreateWarmerImplant_Apini"]/ingredients</xpath>
 				<value>
 					<ingredients>
-						<ingredients>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>RB_Beeswax</li>
-									</thingDefs>
-								</filter>
-								<count>40</count>
-							</li>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>Silver</li>
-									</thingDefs>
-								</filter>
-								<count>25</count>
-							</li>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>ApitechMechanites</li>
-									</thingDefs>
-								</filter>
-								<count>6</count>
-							</li>
-						</ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
 					</ingredients>
 				</value>
 			</li>
