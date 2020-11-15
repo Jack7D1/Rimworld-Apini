@@ -1382,31 +1382,31 @@ Bionic sting crafting recipies commented out until working purpose and function-
 		<description>Forms Digestive Enzymes from Apitech mechanites.</description>
 		<jobString>Crafting Digestive Enzymes.</jobString>
 		<ingredients>
-	<li>
-		<filter>
-			<thingDefs>
-				<li>ApiniWax</li>
-			</thingDefs>
-		</filter>
-		<count>40</count>
-	</li>
-	<li>
-		<filter>
-			<thingDefs>
-				<li>Silver</li>
-			</thingDefs>
-		</filter>
-		<count>25</count>
-	</li>
-	<li>
-		<filter>
-			<thingDefs>
-				<li>ApitechMechanites</li>
-			</thingDefs>
-		</filter>
-		<count>6</count>
-	</li>
-</ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApiniWax</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ApitechMechanites</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Silver</li>
