@@ -842,6 +842,70 @@
 					</ingredients>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateBreezerImplant_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApiniWax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>DevilstrandCloth</li>
+								</thingDefs>
+							</filter>
+							<count>20</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateWarmerImplant_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>ApiniWax</li>
+									</thingDefs>
+								</filter>
+								<count>40</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Silver</li>
+									</thingDefs>
+								</filter>
+								<count>25</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>ApitechMechanites</li>
+									</thingDefs>
+								</filter>
+								<count>6</count>
+							</li>
+						</ingredients>
+					</ingredients>
+				</value>
+			</li>
 			<!--End apitech recipies-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "ApiniWax"]/stuffProps/commonality</xpath>
