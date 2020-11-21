@@ -654,13 +654,13 @@
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Glasses</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_ChefsToque</li>
 					<!--From Vanilla Weapons Expanded-->
-					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_DynamiteBelt</li>
-					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeEMPBelt</li>
-					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeFlashBelt</li>
-					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeFragBelt</li>
-					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeMolotovBelt</li>
-					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeSmokeBelt</li>
-					<li MayRequire="VanillaExpanded.VWE">VWE_Apparel_GrenadeToxicBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_DynamiteBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeFlashBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeFragBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeMolotovBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeSmokeBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeToxicBelt</li>
 					<!--From Vanilla Factions Expanded-->
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Heater</li>
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Kite</li>
