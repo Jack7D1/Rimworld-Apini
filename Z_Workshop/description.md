@@ -15,6 +15,18 @@ This mod lets you play as a race of sentient giant bees called apini.
 [*]Honeycomb Beds filled with rejuvenating honey.
 [/list]
 
+
+[h1]Compatibilities/Incompatibilities:[/h1]
+[list]
+[*]Compatible: Combat Extended
+[*]Compatible: Consolidated Traits
+[*]Compatible: EPOE
+[*]Compatible: Rimbees
+[*]Compatible: Royalty
+
+[*]Incompatible: Multiplayer
+[/list]
+
 [h1]Community:[/h1]
 This mod is open source [url=https://github.com/Jack7D1/Rimworld-Apini] Here! [/url]
 You can find us in [url=http://discord.gg/XMCRj46] This discord server [/url]
