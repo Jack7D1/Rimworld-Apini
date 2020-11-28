@@ -59,4 +59,4 @@ New Team: 		(Individual contributions visible on github)
 [/list]
 
 [h1]Support:[/h1]
-[url=https://github.com/Jack7D1/Rimworld-Apini/issues] Glitches should be reported here! [/url]
+[url=https://github.com/Jack7D1/Rimworld-Apini/issues] Have ideas for features, or want to report a bug? Put them here so they get noticed! [/url]
