@@ -25,6 +25,7 @@ Grisly
 Ichor
 Maniac
 Mayhem
+Mookth
 Murderer
 Nightmare
 Pandemonium
