@@ -159,8 +159,8 @@
     </addedPartProps>
   </HediffDef>
 
-  <HediffDef ParentName="AddedBodyPartBase">
-    <!-- Prosthetic Sting -->
+  <!--<HediffDef ParentName="AddedBodyPartBase">
+    <!{1}** Prosthetic Sting **{1}>
     <defName>ProstheticSting</defName>
     <label>prosthetic sting</label>
     <description>An installed prosthetic sting.</description>
@@ -184,7 +184,7 @@
   </HediffDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <!-- Bionic Sting -->
+    <!{1}** Bionic Sting **{1}>
     <defName>BionicSting</defName>
     <label>bionic sting</label>
     <description>An installed bionic sting.</description>
@@ -207,7 +207,7 @@
   </HediffDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <!-- Advanced Bionic Sting -->
+    <!{1}** Advanced Bionic Sting **{1}>
     <defName>AdvancedBionicSting</defName>
     <label>advanced bionic sting</label>
     <description>An installed advanced bionic sting.</description>
@@ -227,7 +227,7 @@
         </verbs>
       </li>
     </comps>
-  </HediffDef>
+  </HediffDef>-->
   <!--============================ Apitech Mutation ===============================-->
 
   <!-- Mutation Base -->
