@@ -133,7 +133,7 @@
     <skinCovered>false</skinCovered>
     <bleedRate>0</bleedRate>
     <solid>true</solid>
-    <beautyRelated>true</beautyRelated>
+    <beautyRelated>false</beautyRelated>
     <tags>
       <li>EatingSource</li>
       <li>TalkingSource</li>
