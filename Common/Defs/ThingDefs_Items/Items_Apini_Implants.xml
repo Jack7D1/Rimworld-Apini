@@ -239,8 +239,8 @@
     </stuffCategories>
   </ThingDef>
 
-  <ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
-    <!-- Prosthetic Sting -->
+<!--  <ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
+    <!{1}** Prosthetic Sting **{1}>
     <defName>ProstheticSting</defName>
     <label>Prosthetic Sting</label>
     <description>A replacement for a lost Sting made from standard materials.  Its pretty sharp be careful!</description>
@@ -251,7 +251,7 @@
   </ThingDef>
 
   <ThingDef ParentName="InsectBodyPartApiniBionicsTech">
-    <!-- Bionic Sting -->
+    <!{1}** Bionic Sting **{1}>
     <defName>BionicSting</defName>
     <label>Bionic Sting</label>
     <description>A bionic replacement Sting.  It's better than the original, you dont have to worry about it breaking off.</description>
@@ -262,7 +262,7 @@
   </ThingDef>
 
   <ThingDef ParentName="InsectBodyPartApiniAdvancedBionicsTech">
-    <!-- Advanced Bionic Sting -->
+    <!{1}** Advanced Bionic Sting **{1}>
     <defName>AdvancedBionicSting</defName>
     <label>Advanced bionic Sting</label>
     <description>Enhanced bionic venom leaves prey helpless!.</description>
@@ -271,7 +271,7 @@
       <Mass>.3</Mass>
     </statBases>
   </ThingDef>
-
+-->
   <!-- ============================ Body Parts : Apitech ========================== -->
    
 	<ThingDef ParentName="ResourceBase">  <!-- Apitech Mechanites -->
