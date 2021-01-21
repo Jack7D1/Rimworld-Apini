@@ -3,7 +3,7 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<!-- ProstheticSting -->
+<!--			<!{1}** ProstheticSting **{1}>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName="ProstheticSting"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
 				<value>
@@ -20,7 +20,7 @@
 						</li>
 					</tools>
 				</value>
-			</li>
+			</li>-->
 				<!-- EnhancedMouth_Crusher_Apini -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName="EnhancedMouth_Monarch_Apini"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
