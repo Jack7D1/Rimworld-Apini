@@ -27,7 +27,7 @@
       <categories>
         <li>Woody</li>
       </categories>
-      <commonality>0.5</commonality>
+      <commonality>0</commonality>
       <color>(255,228,181)</color>
       <constructEffect>ConstructWood</constructEffect>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
@@ -37,11 +37,11 @@
       <statFactors>
         <MaxHitPoints>1.5</MaxHitPoints>
         <Beauty>1.35</Beauty>
-        <Flammability>0.1</Flammability>
+        <Flammability>0.7</Flammability>
         <WorkToMake>0.8</WorkToMake>
         <WorkToBuild>0.8</WorkToBuild>
         <DoorOpenSpeed>1.5</DoorOpenSpeed>
-        <MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+        <MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
         <Insulation_Cold>3.0</Insulation_Cold>
         <Insulation_Heat>-1.0</Insulation_Heat>
       </statFactors>
