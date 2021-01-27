@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="ArmorMachineableBase">
-		<defName>Apini_EVASuit_Light</defName>
+		<defName>ApiniEVASuit_Light</defName>
 		<label>apitech EVA suit</label>
 		<description>A space suit made by beeliens for beeliens! Complete with a small set of thrusters for movement in zero G! The suit smells oddly like honey.</description>
 		<techLevel>Spacer</techLevel>
@@ -15,7 +15,6 @@
 		<graphicData>
 			<texPath>Things/Apparel/Apini_EVASuit_Light</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<WorkToMake>17000</WorkToMake>
@@ -69,7 +68,7 @@
 		</apparel>
 	</ThingDef>
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>Apini_EVAHelmet_Light</defName>
+		<defName>ApiniEVAHelmet_Light</defName>
 		<label>apitech EVA helmet</label>
 		<description>A space helmet made specifically to accomodate those bee antennae.</description>
 		<techLevel>Spacer</techLevel>
@@ -83,7 +82,6 @@
 		<graphicData>
 			<texPath>Things/Apparel/Apini_EVAHelmet_Light</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
@@ -123,7 +121,7 @@
 		</apparel>
 	</ThingDef>
 	<ThingDef ParentName="ArmorMachineableBase">
-		<defName>Apini_EVASuit_Heavy</defName>
+		<defName>ApiniEVASuit_Heavy</defName>
 		<label>apitech heavy EVA suit</label>
 		<description>A heavyweight and super tough Apitech space suit! You feel as tough as an Azuri in this thing. \nIt seems they still haven't managed to remove that honey smell from it though...</description>
 		<techLevel>Spacer</techLevel>
@@ -138,7 +136,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy</texPath>
+			<texPath>Things/Apparel/Apini_EVASuit_Heavy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -211,7 +209,7 @@
 		</colorGenerator>
 	</ThingDef>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>Apini_EVAHelmet_Heavy</defName>
+		<defName>ApiniEVAHelmet_Heavy</defName>
 		<label>apitech Heavy EVA helmet</label>
 		<description>A honey-sealed power armor helmet, it feels really sturdy!</description>
 		<techLevel>Spacer</techLevel>
@@ -228,7 +226,6 @@
 		<graphicData>
 			<texPath>Things/Apparel/Apini_EVAHelmet_Heavy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<WorkToMake>21000</WorkToMake>

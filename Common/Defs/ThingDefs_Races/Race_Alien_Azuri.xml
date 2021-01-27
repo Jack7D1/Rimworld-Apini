@@ -680,7 +680,7 @@
 					<!--From Apini SOS2 Expansion-->
 					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBeltDummy</li>
 					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBelt</li>
-					<li MayRequire="kentington.saveourship2">ApiniApparel_EVASuit_Light</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVASuit_Light</li>
 					<li MayRequire="kentington.saveourship2">ApiniEVAHelmet_Light</li>
 					<li MayRequire="kentington.saveourship2">ApiniEVASuit_Heavy</li>
 					<li MayRequire="kentington.saveourship2">ApiniEVAHelmet_Heavy</li>
