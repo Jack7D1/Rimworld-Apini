@@ -670,6 +670,13 @@
 					<!--From Rim of Madness-->
 					<li MayRequire="sihv.rombones">ROMB_Apparel_SkullMask</li>
 					<li MayRequire="sihv.rombones">ROMB_Apparel_DeerSkullMask</li>
+					<!--From Apini SOS2 Expansion-->
+					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBeltDummy</li>
+					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBelt</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVASuit_Light</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVAHelmet_Light</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVASuit_Heavy</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVAHelmet_Heavy</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
