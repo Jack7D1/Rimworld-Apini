@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="ArmorMachineableBase">
+	<ThingDef Name="ApiniSpaceApparel" ParentName="ArmorMachineableBase" Abstract="True">
+		<apparel>
+			<tags>
+				<li>Bee</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApiniSpaceApparel">
 		<defName>ApiniEVASuit_Light</defName>
 		<label>apitech EVA suit</label>
 		<description>A space suit made by beeliens for beeliens! Complete with a small set of thrusters for movement in zero G! The suit smells oddly like honey.</description>
@@ -67,7 +74,7 @@
 			</defaultOutfitTags>
 		</apparel>
 	</ThingDef>
-	<ThingDef ParentName="HatMakeableBase">
+	<ThingDef ParentName="ApiniSpaceApparel">
 		<defName>ApiniEVAHelmet_Light</defName>
 		<label>apitech EVA helmet</label>
 		<description>A space helmet made specifically to accomodate those bee antennae.</description>
@@ -120,7 +127,7 @@
 			</defaultOutfitTags>
 		</apparel>
 	</ThingDef>
-	<ThingDef ParentName="ArmorMachineableBase">
+	<ThingDef ParentName="ApiniSpaceApparel">
 		<defName>ApiniEVASuit_Heavy</defName>
 		<label>apitech heavy EVA suit</label>
 		<description>A heavyweight and super tough Apitech space suit! You feel as tough as an Azuri in this thing. \nIt seems they still haven't managed to remove that honey smell from it though...</description>
@@ -208,7 +215,7 @@
 			</options>
 		</colorGenerator>
 	</ThingDef>
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="ApiniSpaceApparel">
 		<defName>ApiniEVAHelmet_Heavy</defName>
 		<label>apitech Heavy EVA helmet</label>
 		<description>A honey-sealed power armor helmet, it feels really sturdy!</description>
