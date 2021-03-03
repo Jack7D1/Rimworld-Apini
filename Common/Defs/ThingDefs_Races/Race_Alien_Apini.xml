@@ -15,7 +15,7 @@
 			<MoveSpeed>4.9</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<CarryingCapacity>480</CarryingCapacity>
-			<MentalBreakThreshold>0.01</MentalBreakThreshold>
+			<MentalBreakThreshold>0.15</MentalBreakThreshold>
 			<ResearchSpeed>0.5</ResearchSpeed>
 			<MiningSpeed>0.5</MiningSpeed>
 			<SocialImpact>0.75</SocialImpact>
