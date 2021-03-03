@@ -98,6 +98,7 @@
 					<!--From Vanilla-->
 					<li>Apparel_CowboyHat</li>
 					<li>Apparel_BowlerHat</li>
+					<li>Apparel_TribalA</li>
 					<li>Apparel_TribalHeaddress</li>
 					<li>Apparel_Tuque</li>
 					<li>Apparel_WarMask</li>
@@ -190,6 +191,10 @@
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Sunglasses</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Glasses</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_ChefsToque</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Shorts</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Skirt</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Cape</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalKilt</li>
 					<!--From Vanilla Weapons Expanded-->
 					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_DynamiteBelt</li>
 					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
