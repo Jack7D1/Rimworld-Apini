@@ -56,6 +56,7 @@ New Team: 		(Individual contributions visible on github)
 [*]AspEv - Artist
 [*]Brunter - Coder
 [*]Hirohito - Coder/Artist
+[*]Argón (León) - Artist
 [/list]
 
 [h1]Support:[/h1]
