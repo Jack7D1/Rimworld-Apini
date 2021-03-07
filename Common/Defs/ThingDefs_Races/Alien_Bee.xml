@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef Name="Alien_Bee" ParentName="BasePawn" Abstract="True">
+		<inspectorTabs/>
+		<comps/>
 		<alienRace>
 			<raceRestriction>
 				<apparelList>

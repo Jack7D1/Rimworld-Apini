@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
-	<!-- A thanks to Saebbi for making this patch (even though i had to redo it alot) -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A thanks to Saebbi for making this patch (even though i had to redo it alot) -->
 <Patch>
 	<!-- Base bee patch -->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- Inventory -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="Alien_Bee"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="Alien_Bee"]/inspectorTabs</xpath>
 				<value>
 					<li>CombatExtended.ITab_Inventory</li>
 				</value>
@@ -14,12 +14,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name="Alien_Bee"]/comps</xpath>
 				<value>
-					<li Class="CombatExtended.CompProperties_Inventory" />
+					<li Class="CombatExtended.CompProperties_Inventory"/>
 				</value>
 			</li>
 		</operations>
 	</Operation>
-
 	<!-- Apini -->
 	<!-- Giving Apinis a comps part -->
 	<Operation Class="PatchOperationSequence">
@@ -28,12 +27,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]</xpath>
 				<value>
-					<comps />
+					<comps/>
 				</value>
 			</li>
 		</operations>
 	</Operation>
-
 	<!-- Combat -->
 	<Operation Class="PatchOperationSequence">
 		<operations>
@@ -50,9 +48,9 @@
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/comps</xpath>
 				<value>
 					<li>
-							<compClass>CombatExtended.CompPawnGizmo</compClass>
+						<compClass>CombatExtended.CompPawnGizmo</compClass>
 					</li>
-					<li Class="CombatExtended.CompProperties_Suppressable" />
+					<li Class="CombatExtended.CompProperties_Suppressable"/>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -132,7 +130,6 @@
 			</li>
 		</operations>
 	</Operation>
-
 	<!-- Azuri -->
 	<!-- Giving Azuris a comps part -->
 	<Operation Class="PatchOperationSequence">
@@ -141,12 +138,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]</xpath>
 				<value>
-					<comps />
+					<comps/>
 				</value>
 			</li>
 		</operations>
 	</Operation>
-
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- Basic things like body shape, remaining ammo, reloading and aim mode added to UI when selecting them, making them supressable, giving them combat extended stats -->
@@ -164,7 +160,7 @@
 					<li>
 						<compClass>CombatExtended.CompPawnGizmo</compClass>
 					</li>
-					<li Class="CombatExtended.CompProperties_Suppressable" />
+					<li Class="CombatExtended.CompProperties_Suppressable"/>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -210,7 +206,7 @@
 							<armorPenetrationSharp>0.29</armorPenetrationSharp>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-						<label>right claw</label>
+							<label>right claw</label>
 							<capacities>
 								<li>Cut</li>
 							</capacities>
