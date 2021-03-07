@@ -190,13 +190,9 @@
 				<value>
 					<costList>
 						<RB_Beeswax>80</RB_Beeswax>
+						<ComponentIndustrial>3</ComponentIndustrial>
+						<Steel>200</Steel>
 					</costList>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "ApitechTable"]/stuffCategories</xpath>
-				<value>
-					<li>RB_Waxy</li>
 				</value>
 			</li>
 			<!-- ApitechSynthesizer -->
@@ -205,6 +201,9 @@
 				<value>
 					<costList>
 						<RB_Beeswax>50</RB_Beeswax>
+						<Steel>200</Steel>
+						<Plasteel>50</Plasteel>
+						<ComponentIndustrial>3</ComponentIndustrial>
 					</costList>
 				</value>
 			</li>
