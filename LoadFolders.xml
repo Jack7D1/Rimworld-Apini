@@ -6,6 +6,7 @@
 		<li IfModActive="kentington.saveourship2">Patch/E_SOS2</li>
 		<li IfModActive="consolidatedtraits.kv.rw">Patch/P_ConsolidatedTraits</li>
 		<li IfModActive="Ykara.EPOE">Patch/P_EPOE</li>
+		<li IfModActive="vat.epoeforked">Patch/P_EPOE</li>
 		<li IfModActive="sarg.rimbees">Patch/P_Rimbees</li>
 		<li IfModActive="CETeam.CombatExtended">Patch/P_CombatExtended</li>
 		<li IfModActive="Ludeon.Rimworld.Royalty">Patch/P_Royalty</li>
