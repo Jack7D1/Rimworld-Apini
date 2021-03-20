@@ -198,9 +198,6 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
-		<!--Want nothing but to devour-->
-		<permanentEnemy>true</permanentEnemy>
-		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
 		<!--No retreat, kill or be killed-->
 		<autoFlee>false</autoFlee>
 	</FactionDef>

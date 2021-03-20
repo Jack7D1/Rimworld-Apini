@@ -272,8 +272,26 @@
 							<li>Insect</li>
 						</factions>
 						<goodwill>
-							<min>100</min>
-							<max>100</max>
+							<min>0</min>
+							<max>0</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li>TribeAzuri</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li>TribalAzuriPlayer</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
 						</goodwill>
 					</li>
 				</factionRelations>
@@ -299,31 +317,21 @@
 					<li>
 						<defName>Beauty</defName>
 						<degree>2</degree>
-						<chance>4</chance>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>2</degree>
-						<chance>0</chance>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>1</degree>
-						<chance>0</chance>
+						<chance>8</chance>
 					</li>
 					<li>
 						<defName>Industriousness</defName>
 						<degree>1</degree>
-						<chance>25</chance>
+						<chance>35</chance>
 					</li>
 					<li>
 						<defName>Ascetic</defName>
-						<chance>20</chance>
+						<chance>30</chance>
 					</li>
 					<li>
 						<defName>Industriousness</defName>
 						<degree>2</degree>
-						<chance>10</chance>
+						<chance>20</chance>
 					</li>
 					<!--<li>
 						<defName>GreenThumb</defName>
@@ -352,6 +360,17 @@
 					</li>
 					<li>
 						<defName>Psychopath</defName>
+					</li>
+					<li>
+						<defName>DrugDesire</defName>
+						<degree>2</degree>
+					</li>
+					<li>
+						<defName>DrugDesire</defName>
+						<degree>1</degree>
+					</li>
+					<li>
+						<defName>Gay</defName>
 					</li>
 				</disallowedTraits>
 			</generalSettings>
