@@ -1,67 +1,62 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="BodyPartBase" Name="InsectBodyPartBase" Abstract="True">
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <graphicData>
-      <texPath>Things/Item/Health/ApiniNatural</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>1</Mass>
-      <DeteriorationRate>2.0</DeteriorationRate>
-    </statBases>
-    <tradeTags>
-      <li>BodyPartOrImplant</li>
-    </tradeTags>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-    </comps>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartNatural" Abstract="True">
-    <thingCategories>
-      <li>InsectBodyPartsNatural</li>
-    </thingCategories>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApiniProstheticsTech" Abstract="True">
-    <graphicData>
-      <texPath>Things/Item/Health/ApiniLotech</texPath>
-    </graphicData>
-    <thingCategories>
-      <li>InsectBodyPartsArtificial</li>
-    </thingCategories>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApiniBionicsTech" Abstract="True">
-    <graphicData>
-      <texPath>Things/Item/Health/ApiniMidtech</texPath>
-    </graphicData>
-    <thingCategories>
-      <li>InsectBodyPartsArtificial</li>
-    </thingCategories>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApiniAdvancedBionicsTech" Abstract="True">
-    <graphicData>
-      <texPath>Things/Item/Health/ApiniHitech</texPath>
-    </graphicData>
-    <thingCategories>
-      <li>InsectBodyPartsArtificial</li>
-    </thingCategories>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApitech" Abstract="True">
-    <graphicData>
-      <texPath>Things/Item/Health/ApiniApitech</texPath>
-    </graphicData>
-    <thingCategories>
-      <li>InsectBodyPartsApitech</li>
-    </thingCategories>
-  </ThingDef>
-
+	<ThingDef ParentName="BodyPartBase" Name="InsectBodyPartBase" Abstract="True">
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<graphicData>
+			<texPath>Things/Item/Health/ApiniNatural</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<tradeTags>
+			<li>BodyPartOrImplant</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartNatural" Abstract="True">
+		<thingCategories>
+			<li>InsectBodyPartsNatural</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApiniProstheticsTech" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/ApiniLotech</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>InsectBodyPartsArtificial</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApiniBionicsTech" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/ApiniMidtech</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>InsectBodyPartsArtificial</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApiniAdvancedBionicsTech" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/ApiniHitech</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>InsectBodyPartsArtificial</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartBase" Name="InsectBodyPartApitech" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/ApiniApitech</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>InsectBodyPartsApitech</li>
+		</thingCategories>
+	</ThingDef>
+	<!--
   <ThingDef ParentName="BodyPartNaturalBase">
-    <!-- Stomach -->
+    <!{1}** Stomach **{1}>
     <defName>Stomach</defName>
     <label>Stomach</label>
     <description>Digests food and turns it into energy and nutrients.</description>
@@ -73,173 +68,156 @@
       <MarketValue>500</MarketValue>
       <Mass>1</Mass>
     </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Insect Mouth -->
-    <defName>InsectMouth</defName>
-    <label>Insect mouth</label>
-    <description>An insectoid's mouthparts, for speach in the more sentient, for only eating in the lesser.</description>
-    <statBases>
-      <MarketValue>750</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Insect Antenna -->
-    <defName>InsectAntenna</defName>
-    <label>Insect Antenna</label>
-    <description>Insect multipurpose tool, picks up scent, sound, heat, taste and is used widely for communication.</description>
-    <statBases>
-      <MarketValue>150</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Insect Heart -->
-    <defName>InsectHeart</defName>
-    <label>Insect heart</label>
-    <description>Supplies blood and oxygen to all parts of the body. Ready to find a new owner.</description>
-    <statBases>
-      <MarketValue>750</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Honey Stomach -->
-    <defName>HoneyStomach</defName>
-    <label>Honey stomach</label>
-    <description>Functions as a second stomach for honey and nectar storage.</description>
-    <statBases>
-      <MarketValue>500</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Insect Wing -->
-    <defName>InsectWing</defName>
-    <label>Insect wing</label>
-    <description>The source of flight for many insects, refracts light beautifully too.</description>
-    <statBases>
-      <MarketValue>250</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Insect Arm -->
-    <defName>ApiniFrontLeg</defName>
-    <label>Front Leg</label>
-    <description>An Apini leg uniquely evolved to perform advanced tasks.</description>
-    <statBases>
-      <MarketValue>200</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Insect Leg -->
-    <defName>InsectLeg</defName>
-    <label>Insect Leg</label>
-    <description>The leg of an insect, when cooked right it can be quite delish.</description>
-    <statBases>
-      <MarketValue>200</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartNatural">
-    <!-- Insect Sting -->
-    <defName>InsectSting</defName>
-    <label>Insect sting</label>
-    <description>A barbed stinger full of venom, a single prick could spell doom.</description>
-    <statBases>
-      <MarketValue>500</MarketValue>
-    </statBases>
-  </ThingDef>
-
-  <!-- ============================ Body Parts : Prosthetic ========================== -->
-
-  <ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
-    <!-- Prosthetic Wing -->
-    <defName>ProstheticWing</defName>
-    <label>Prosthetic wing</label>
-    <description>A fine insect wing crafted lightweight fabrics.</description>
-    <statBases>
-      <MarketValue>150</MarketValue>
-      <Mass>1</Mass>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartApiniBionicsTech">
-    <!-- Bionic Wing -->
-    <defName>BionicWing</defName>
-    <label>Bionic wing</label>
-    <description>A prosthetic wing with mechanical components woven into the fabric.</description>
-    <statBases>
-      <MarketValue>350</MarketValue>
-      <Mass>1</Mass>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartApiniAdvancedBionicsTech">
-    <!-- Advanced Bionic Wing -->
-    <defName>AdvancedBionicWing</defName>
-    <label>Advanced bionic wing</label>
-    <description>A bionic wing laced with advanced technology. The mobility granted is rivaled by nothing in nature.</description>
-    <statBases>
-      <MarketValue>400</MarketValue>
-      <Mass>1</Mass>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
-    <!-- Prosthetic Antenna -->
-    <defName>ProstheticAntenna</defName>
-    <label>Prosthetic antenna</label>
-    <description>A replacement for a lost antenna made from standard materials.  It doesn't do much good for actual senses but it makes you feel a little better.</description>
-    <statBases>
-      <MarketValue>150</MarketValue>
-      <Mass>.3</Mass>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartApiniBionicsTech">
-    <!-- Bionic Antenna -->
-    <defName>BionicAntenna</defName>
-    <label>Bionic antenna</label>
-    <description>A bionic replacement antenna.  Its better than the original, even has a nice shiny finish.</description>
-    <statBases>
-      <MarketValue>250</MarketValue>
-      <Mass>.3</Mass>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef ParentName="InsectBodyPartApiniAdvancedBionicsTech">
-    <!-- Advanced Bionic Antenna -->
-    <defName>AdvancedBionicAntenna</defName>
-    <label>Advanced bionic antenna</label>
-    <description>Enhanced bionic features allows for the greatest range of senses, you makes you feel almost psychic.</description>
-    <statBases>
-      <MarketValue>350</MarketValue>
-      <Mass>.3</Mass>
-    </statBases>
-  </ThingDef>
-  <!--Items/Prosthetics-->
-
-  <ThingDef ParentName="UnfinishedBase">
-    <defName>UnfinishedApiniPart</defName>
-    <label>Unfinished Apini part</label>
-    <graphicData>
-      <texPath>Things/Item/Health/ApiniUnfinished</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-  </ThingDef>
-
-<!--  <ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
+  </ThingDef>-->
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Insect Mouth -->
+		<defName>InsectMouth</defName>
+		<label>Insect mouth</label>
+		<description>An insectoid's mouthparts, for speach in the more sentient, for only eating in the lesser.</description>
+		<statBases>
+			<MarketValue>750</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Insect Antenna -->
+		<defName>InsectAntenna</defName>
+		<label>Insect Antenna</label>
+		<description>Insect multipurpose tool, picks up scent, sound, heat, taste and is used widely for communication.</description>
+		<statBases>
+			<MarketValue>150</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Insect Heart -->
+		<defName>InsectHeart</defName>
+		<label>Insect heart</label>
+		<description>Supplies blood and oxygen to all parts of the body. Ready to find a new owner.</description>
+		<statBases>
+			<MarketValue>750</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Honey Stomach -->
+		<defName>HoneyStomach</defName>
+		<label>Honey stomach</label>
+		<description>Functions as a second stomach for honey and nectar storage.</description>
+		<statBases>
+			<MarketValue>500</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Insect Wing -->
+		<defName>InsectWing</defName>
+		<label>Insect wing</label>
+		<description>The source of flight for many insects, refracts light beautifully too.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Insect Arm -->
+		<defName>ApiniFrontLeg</defName>
+		<label>Front Leg</label>
+		<description>An Apini leg uniquely evolved to perform advanced tasks.</description>
+		<statBases>
+			<MarketValue>200</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Insect Leg -->
+		<defName>InsectLeg</defName>
+		<label>Insect Leg</label>
+		<description>The leg of an insect, when cooked right it can be quite delish.</description>
+		<statBases>
+			<MarketValue>200</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartNatural">
+		<!-- Insect Sting -->
+		<defName>InsectSting</defName>
+		<label>Insect sting</label>
+		<description>A barbed stinger full of venom, a single prick could spell doom.</description>
+		<statBases>
+			<MarketValue>500</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!-- ============================ Body Parts : Prosthetic ========================== -->
+	<ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
+		<!-- Prosthetic Wing -->
+		<defName>ProstheticWing</defName>
+		<label>Prosthetic wing</label>
+		<description>A fine insect wing crafted lightweight fabrics.</description>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartApiniBionicsTech">
+		<!-- Bionic Wing -->
+		<defName>BionicWing</defName>
+		<label>Bionic wing</label>
+		<description>A prosthetic wing with mechanical components woven into the fabric.</description>
+		<statBases>
+			<MarketValue>350</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartApiniAdvancedBionicsTech">
+		<!-- Advanced Bionic Wing -->
+		<defName>AdvancedBionicWing</defName>
+		<label>Advanced bionic wing</label>
+		<description>A bionic wing laced with advanced technology. The mobility granted is rivaled by nothing in nature.</description>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
+		<!-- Prosthetic Antenna -->
+		<defName>ProstheticAntenna</defName>
+		<label>Prosthetic antenna</label>
+		<description>A replacement for a lost antenna made from standard materials.  It doesn't do much good for actual senses but it makes you feel a little better.</description>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<Mass>.3</Mass>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartApiniBionicsTech">
+		<!-- Bionic Antenna -->
+		<defName>BionicAntenna</defName>
+		<label>Bionic antenna</label>
+		<description>A bionic replacement antenna.  Its better than the original, even has a nice shiny finish.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>.3</Mass>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InsectBodyPartApiniAdvancedBionicsTech">
+		<!-- Advanced Bionic Antenna -->
+		<defName>AdvancedBionicAntenna</defName>
+		<label>Advanced bionic antenna</label>
+		<description>Enhanced bionic features allows for the greatest range of senses, you makes you feel almost psychic.</description>
+		<statBases>
+			<MarketValue>350</MarketValue>
+			<Mass>.3</Mass>
+		</statBases>
+	</ThingDef>
+	<!--Items/Prosthetics-->
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedApiniPart</defName>
+		<label>Unfinished Apini part</label>
+		<graphicData>
+			<texPath>Things/Item/Health/ApiniUnfinished</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+	</ThingDef>
+	<!--  <ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
     <!{1}** Prosthetic Sting **{1}>
     <defName>ProstheticSting</defName>
     <label>Prosthetic Sting</label>
@@ -272,32 +250,31 @@
     </statBases>
   </ThingDef>
 -->
-  <!-- ============================ Body Parts : Apitech ========================== -->
-   
-	<ThingDef ParentName="ResourceBase">  <!-- Apitech Mechanites -->
+	<!-- ============================ Body Parts : Apitech ========================== -->
+	<ThingDef ParentName="ResourceBase">
+		<!-- Apitech Mechanites -->
 		<defName>ApitechMechanites</defName>
 		<label>Apitech mechanites</label>
 		<description>Apini made mechanites made with both organic and mechanical components.  They make a funny buzzing sound kinda like bee syrup.</description>
 		<graphicData>
-		  <texPath>Things/Item/Resource/Apitech/ApitechMechanites</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Resource/Apitech/ApitechMechanites</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
 		<stackLimit>50</stackLimit>
 		<statBases>
-		  <MaxHitPoints>70</MaxHitPoints>
-		  <MarketValue>50</MarketValue>
-		  <Mass>0.6</Mass>
-		  <Flammability>0.0</Flammability>
-		  <DeteriorationRate>2.0</DeteriorationRate>
+			<MaxHitPoints>70</MaxHitPoints>
+			<MarketValue>50</MarketValue>
+			<Mass>0.6</Mass>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
 		<intricate>true</intricate>
 		<thingCategories>
-		  <li>Manufactured</li>
+			<li>Manufactured</li>
 		</thingCategories>
 	</ThingDef>
-	
 	<!-- Apitech Mutator -->
 	<!-- <ThingDef ParentName="ResourceBase">
 		<defName>ApitechMutagen</defName>
@@ -322,10 +299,8 @@
 		  <li>Manufactured</li>
 		</thingCategories>
 	</ThingDef> -->
-	
-  <!-- ============================ Body Parts : Apitech Organs ========================== -->
-  <!-- NOTE: Commenting these out, since the mod doesn't contain hediffs nor surgeries for these prosthesis -->
-  
+	<!-- ============================ Body Parts : Apitech Organs ========================== -->
+	<!-- NOTE: Commenting these out, since the mod doesn't contain hediffs nor surgeries for these prosthesis -->
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Heart
 		<defName>ApitechHeart</defName>
 		<label>Apitech Heart</label>
@@ -335,7 +310,6 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef> -->
-	
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Stomach
 		<defName>ApitechStomach</defName>
 		<label>Apitech Stomach</label>
@@ -345,7 +319,6 @@
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef> -->
-	
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Lung
 		<defName>ApitechLung</defName>
 		<label>Apitech Lung</label>
@@ -355,7 +328,6 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef> -->
-	
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Liver
 		<defName>ApitechLiver</defName>
 		<label>Apitech Liver</label>
@@ -365,7 +337,6 @@
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef> -->
-	
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Kidney
 		<defName>ApitechKidney</defName>
 		<label>Apitech Kidney</label>
@@ -375,10 +346,8 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef> -->
-	
-  <!-- ============================ Body Parts : Apitech Parts ========================== -->
-  <!-- NOTE: Commenting these out, since the mod doesn't contain hediffs nor surgeries for these prosthesis -->
-
+	<!-- ============================ Body Parts : Apitech Parts ========================== -->
+	<!-- NOTE: Commenting these out, since the mod doesn't contain hediffs nor surgeries for these prosthesis -->
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Wing
 		<defName>ApitechWing</defName>
 		<label>Apitech Wing</label>
@@ -388,7 +357,6 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef> -->
-	
 	<!--<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>ApitechElytra</defName>
 		<label>Apitech Elytra</label>
@@ -398,7 +366,6 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef>-->
-
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Antenna
 		<defName>ApitechAntenna</defName>
 		<label>Apitech antenna</label>
@@ -408,7 +375,6 @@
 			<Mass>.3</Mass>
 		</statBases>
 	</ThingDef> -->
-	
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Eye
 		<defName>ApitechEye</defName>
 		<label>Apitech Eye</label>
@@ -418,7 +384,6 @@
 			<Mass>.3</Mass>
 		</statBases>
 	</ThingDef> -->
-
 	<!-- Crusher Mandibles -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>CrusherMandibles_Apini</defName>
@@ -429,9 +394,8 @@
 			<Mass>2.5</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Songstress Mandibles -->
-	<ThingDef ParentName="InsectBodyPartApitech">  
+	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>SongstressMandibles_Apini</defName>
 		<label>Songstress mandibles</label>
 		<description>A pair of mandibles, perfectly shaped to enhance not only the volume of one's voice, but the quality.</description>
@@ -440,9 +404,8 @@
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Monarch Mandibles -->
-	<ThingDef ParentName="InsectBodyPartApitech">  
+	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>MonarchMandibles_Apini</defName>
 		<label>Monarch mandibles</label>
 		<description>A beautiful pair of mandibles designed with the Apini Queen in mind. Strong enough to bite through metal, soft enough to soothe a raging Thrumbo.</description>
@@ -451,7 +414,6 @@
 			<Mass>3</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Arm
 		<defName>ApitechArm</defName>
 		<label>Apitech Arm</label>
@@ -461,7 +423,6 @@
 			<Mass>5</Mass>
 		</statBases>
 	</ThingDef> -->
-	
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Leg
 		<defName>ApitechLeg</defName>
 		<label>Apitech Leg</label>
@@ -471,7 +432,6 @@
 			<Mass>8</Mass>
 		</statBases>
 	</ThingDef> -->
-
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Sting
 		<defName>ApitechSting</defName>
 		<label>Apitech Sting</label>
@@ -481,10 +441,8 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef> -->
-	
-  <!-- ============================ Body Parts : Apitech Mutations ========================== -->
-
-  <!-- Wing Aerator -->
+	<!-- ============================ Body Parts : Apitech Mutations ========================== -->
+	<!-- Wing Aerator -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>WingAerator_Apini</defName>
 		<label>Wing Aerator implant</label>
@@ -494,7 +452,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Wing Breezer -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>WingBreezer_Apini</defName>
@@ -505,7 +462,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Wing Warmer -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>WingWarmer_Apini</defName>
@@ -516,7 +472,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Digestive Enzymes -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>DigestiveEnzymes_Apini</defName>
@@ -527,7 +482,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Regenerative Enzymes -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>RegenerativeEnzymes_Apini</defName>
@@ -538,7 +492,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Ocular Enhancement -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>OcularEnhancement_Apini</defName>
@@ -549,7 +502,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Signal Receptor -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>SignalReceptor_Apini</defName>
@@ -560,7 +512,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Neuroenhancer -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>Neuroenhancer_Apini</defName>
@@ -571,7 +522,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Proboscis Enhancement -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>ProboscisEnhancement_Apini</defName>
@@ -582,7 +532,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- <ThingDef ParentName="InsectBodyPartApitech">  Apitech Vocal Enhancement
 		<defName>ApitechVocalEnhancement</defName>
 		<label>Apitech Vocal Enhancement</label>
@@ -592,7 +541,6 @@
 			<Mass>.2</Mass>
 		</statBases>
 	</ThingDef> -->
-
 	<!-- Gatherer Front Leg Hairs -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>GathererFrontLeg_Apini</defName>
@@ -603,7 +551,6 @@
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
-
 	<!-- Reflex Enhancement -->
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>ReflexEnhancement_Apini</defName>

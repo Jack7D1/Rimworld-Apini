@@ -272,8 +272,8 @@
 							<li>Insect</li>
 						</factions>
 						<goodwill>
-							<min>100</min>
-							<max>100</max>
+							<min>0</min>
+							<max>0</max>
 						</goodwill>
 					</li>
 					<li>
@@ -317,6 +317,17 @@
 					<li>
 						<defName>Pyromaniac</defName>
 					</li>
+					<li>
+						<defName>Gay</defName>
+					</li>
+					<li>
+						<defName>DrugDesire</defName>
+						<degree>1</degree>
+					</li>
+					<li>
+						<defName>DrugDesire</defName>
+						<degree>2</degree>
+					</li>
 				</disallowedTraits>
 				<forcedRaceTraitEntries>
 					<li>
@@ -327,30 +338,20 @@
 					</li>
 					<li>
 						<defName>Psychopath</defName>
-						<chance>92</chance>
+						<chance>80</chance>
 					</li>
 					<li>
 						<defName>Bloodlust</defName>
-						<chance>60</chance>
+						<chance>50</chance>
 					</li>
 					<li>
 						<defName>Beauty</defName>
 						<degree>2</degree>
-						<chance>40</chance>
+						<chance>30</chance>
 					</li>
 					<li>
 						<defName>Ascetic</defName>
 						<chance>40</chance>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>2</degree>
-						<chance>0</chance>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>1</degree>
-						<chance>0</chance>
 					</li>
 				</forcedRaceTraitEntries>
 			</generalSettings>
