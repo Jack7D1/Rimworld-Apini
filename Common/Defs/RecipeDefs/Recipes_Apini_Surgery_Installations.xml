@@ -1436,7 +1436,7 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicAntenna</addsHediff>
 	</RecipeDef>
-<!--	<RecipeDef ParentName="SurgeryApini">
+	<!--	<RecipeDef ParentName="SurgeryApini">
 		<!{1}** Prosthetic Sting **{1}>
 		<defName>InstallProstheticSting_Apini</defName>
 		<label>install prosthetic sting</label>

@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!--============================ Abstract ===============================-->
-
-
-  <!--============================ Fill Vat ===============================-->	
-	<WorkGiverDef>  <!-- Fill Vat -->
+	<!--============================ Abstract ===============================-->
+	<!--============================ Fill Vat ===============================-->
+	<WorkGiverDef>
+		<!-- Fill Vat -->
 		<defName>FillHoneyVat</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -22,8 +21,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Capsule -->
+	<WorkGiverDef>
+		<!-- Fill Capsule -->
 		<defName>FillHoneyCapsule</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -41,8 +40,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Vat (Frostbell) -->
+	<WorkGiverDef>
+		<!-- Fill Vat (Frostbell) -->
 		<defName>FillVat_F</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -60,8 +59,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Vat (Emberose) -->
+	<WorkGiverDef>
+		<!-- Fill Vat (Emberose) -->
 		<defName>FillVat_E</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -79,8 +78,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Vat (Metalily) -->
+	<WorkGiverDef>
+		<!-- Fill Vat (Metalily) -->
 		<defName>FillVat_M</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -98,8 +97,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Vat (Bardsong) -->
+	<WorkGiverDef>
+		<!-- Fill Vat (Bardsong) -->
 		<defName>FillVat_B</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -117,8 +116,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Vat (Rushthorn) -->
+	<WorkGiverDef>
+		<!-- Fill Vat (Rushthorn) -->
 		<defName>FillVat_R</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -136,8 +135,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Vat (Wiserbud) -->
+	<WorkGiverDef>
+		<!-- Fill Vat (Wiserbud) -->
 		<defName>FillVat_W</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -155,8 +154,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Fill Vat (Vigorbloom) -->
+	<WorkGiverDef>
+		<!-- Fill Vat (Vigorbloom) -->
 		<defName>FillVat_V</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -174,9 +173,9 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-  <!--============================ Empty Vat ===============================-->
-	<WorkGiverDef>  <!-- Empty Vat -->
+	<!--============================ Empty Vat ===============================-->
+	<WorkGiverDef>
+		<!-- Empty Vat -->
 		<defName>TakeHoneyOutOfFermentingVat</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -194,8 +193,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Capsule -->
+	<WorkGiverDef>
+		<!-- Empty Capsule -->
 		<defName>EmptyHoneyCapsule</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -213,8 +212,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Vat (Frostbell) -->
+	<WorkGiverDef>
+		<!-- Empty Vat (Frostbell) -->
 		<defName>EmptyVat_F</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -232,8 +231,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Vat (Emberose) -->
+	<WorkGiverDef>
+		<!-- Empty Vat (Emberose) -->
 		<defName>EmptyVat_E</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -251,8 +250,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Vat (Metalily) -->
+	<WorkGiverDef>
+		<!-- Empty Vat (Metalily) -->
 		<defName>EmptyVat_M</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -270,8 +269,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Vat (Bardsong) -->
+	<WorkGiverDef>
+		<!-- Empty Vat (Bardsong) -->
 		<defName>EmptyVat_B</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -289,8 +288,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Vat (Rushthorn) -->
+	<WorkGiverDef>
+		<!-- Empty Vat (Rushthorn) -->
 		<defName>EmptyVat_R</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -308,8 +307,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Vat (Wiserbud) -->
+	<WorkGiverDef>
+		<!-- Empty Vat (Wiserbud) -->
 		<defName>EmptyVat_W</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -327,8 +326,8 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-	
-	<WorkGiverDef>  <!-- Empty Vat (Vigorbloom) -->
+	<WorkGiverDef>
+		<!-- Empty Vat (Vigorbloom) -->
 		<defName>EmptyVat_V</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
@@ -346,40 +345,38 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-		
-  <WorkGiverDef>
-    <defName>NectarStillBill</defName>
-    <label>distill nectar from pollen balls</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>HoneyMaker</workType>
-    <priorityInType>100</priorityInType>
-    <fixedBillGiverDefs>
-      <li>ApiniNectarStill</li>
-    </fixedBillGiverDefs>
-    <verb>distill</verb>
-    <gerund>distilling at</gerund>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-    <prioritizeSustains>true</prioritizeSustains>
-  </WorkGiverDef>
-
-   <WorkGiverDef>
-    <defName>ApiniProstheticsBill</defName>
-    <label>Craft replacement body part</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
-    <priorityInType>130</priorityInType>
-    <fixedBillGiverDefs>
-      <li>ApiniProstheticsTable</li>
-      <li>ApitechTable</li>
-      <li>ApitechSynthesizer</li>
-    </fixedBillGiverDefs>
-    <verb>create</verb>
-    <gerund>creating</gerund>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-    <prioritizeSustains>true</prioritizeSustains>
-  </WorkGiverDef>
+	<WorkGiverDef>
+		<defName>NectarStillBill</defName>
+		<label>distill nectar from pollen balls</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>HoneyMaker</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>ApiniNectarStill</li>
+		</fixedBillGiverDefs>
+		<verb>distill</verb>
+		<gerund>distilling at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>ApiniProstheticsBill</defName>
+		<label>Craft replacement body part</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>130</priorityInType>
+		<fixedBillGiverDefs>
+			<li>ApiniProstheticsTable</li>
+			<li>ApitechTable</li>
+			<li>ApitechSynthesizer</li>
+		</fixedBillGiverDefs>
+		<verb>create</verb>
+		<gerund>creating</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
 </Defs>

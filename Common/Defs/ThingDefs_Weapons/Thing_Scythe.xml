@@ -1,35 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef Name="ApiniMeleeWeapon" Abstract="True" ParentName="BaseMeleeWeapon">
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtWeaponMelee</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Name="ApiniMeleeWeapon_Sharp" ParentName="ApiniMeleeWeapon" Abstract="True">
-    <recipeMaker>
-      <defaultIngredientFilter>
-        <categories>
-          <li>Root</li>
-        </categories>
-        <disallowedThingDefs>
-          <li>Silver</li>
-          <li>Gold</li>
-          <li>WoodLog</li>
-        </disallowedThingDefs>
-      </defaultIngredientFilter>
-    </recipeMaker>
-    
-  </ThingDef>
-
-  <!--<ThingDef Name="ApiniMeleeWeapon_Blunt" ParentName="ApiniMeleeWeapon" Abstract="True">
+	<ThingDef Name="ApiniMeleeWeapon" Abstract="True" ParentName="BaseMeleeWeapon">
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponMelee</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef Name="ApiniMeleeWeapon_Sharp" ParentName="ApiniMeleeWeapon" Abstract="True">
+		<recipeMaker>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Silver</li>
+					<li>Gold</li>
+					<li>WoodLog</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+		</recipeMaker>
+	</ThingDef>
+	<!--<ThingDef Name="ApiniMeleeWeapon_Blunt" ParentName="ApiniMeleeWeapon" Abstract="True">
     <recipeMaker>
       <defaultIngredientFilter>
         <categories>
@@ -42,9 +39,7 @@
       </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>-->
-  
-  <!-- ============================================================== -->
-
+	<!-- ============================================================== -->
 	<ThingDef ParentName="ApiniMeleeWeapon_Sharp">
 		<defName>ApiniScythe</defName>
 		<label>Honeyglass Scythe</label>

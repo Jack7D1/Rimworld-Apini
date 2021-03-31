@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <WorkTypeDef>
-    <defName>HoneyMaker</defName>
-    <labelShort>Honey Maker</labelShort>
-    <pawnLabel>Honey Maker</pawnLabel>
-    <gerundLabel>Honey Making</gerundLabel>
-    <description>Any task involving the creation of delicious Apini honey.</description>
-    <verb>make</verb>
-    <naturalPriority>301</naturalPriority>
-    <alwaysStartActive>true</alwaysStartActive>
-    <requireCapableColonist>true</requireCapableColonist>
-    <relevantSkills>
-      <li>Cooking</li>
-    </relevantSkills>
-    <workTags>
-      <li>Cooking</li>
-      <li>ManualSkilled</li>
-      <li>Commoner</li>
-      <li>AllWork</li>
-    </workTags>
-  </WorkTypeDef>
+	<WorkTypeDef>
+		<defName>HoneyMaker</defName>
+		<labelShort>Honey Maker</labelShort>
+		<pawnLabel>Honey Maker</pawnLabel>
+		<gerundLabel>Honey Making</gerundLabel>
+		<description>Any task involving the creation of delicious Apini honey.</description>
+		<verb>make</verb>
+		<naturalPriority>301</naturalPriority>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+		<relevantSkills>
+			<li>Cooking</li>
+		</relevantSkills>
+		<workTags>
+			<li>Cooking</li>
+			<li>ManualSkilled</li>
+			<li>Commoner</li>
+			<li>AllWork</li>
+		</workTags>
+	</WorkTypeDef>
 </Defs>

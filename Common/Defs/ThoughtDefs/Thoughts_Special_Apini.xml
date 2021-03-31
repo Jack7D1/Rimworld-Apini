@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThoughtDef>
 		<defName>Apini_LockedInMountainVault</defName>
@@ -16,7 +16,6 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-
 	<ThoughtDef>
 		<defName>Apini_WearingBlueApparel</defName>
 		<workerClass>Apini.ThoughtWorker_WearingBlueApparel</workerClass>
@@ -28,7 +27,6 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-
 	<!-- Social Interrelational Thoughts -->
 	<!--<ThoughtDef>
 		<defName>Apini_CuteApron</defName>

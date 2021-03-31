@@ -1,22 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-  <ThingDef ParentName="PlantBase" Name="ApiniPlantBase" Abstract="True">
-    <statBases>
-      <Flammability>0.8</Flammability>
-    </statBases>
-    <graphicData>
-      <shaderType>CutoutPlant</shaderType>
-    </graphicData>
-    <plant>
+	<ThingDef ParentName="PlantBase" Name="ApiniPlantBase" Abstract="True">
+		<statBases>
+			<Flammability>0.8</Flammability>
+		</statBases>
+		<graphicData>
+			<shaderType>CutoutPlant</shaderType>
+		</graphicData>
+		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<dieIfLeafless>true</dieIfLeafless>
-      <sowWork>190</sowWork>
-      <harvestWork>260</harvestWork>
-    </plant>
-  </ThingDef>
-
-  <!-- disabled, because this is not used by anything
+			<sowWork>190</sowWork>
+			<harvestWork>260</harvestWork>
+		</plant>
+	</ThingDef>
+	<!-- disabled, because this is not used by anything
   <ThingDef ParentName="TreeBase" Name="ApiniTreeBase" Abstract="True">
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>

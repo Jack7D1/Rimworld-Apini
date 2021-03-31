@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThinkTreeDef>
 		<defName>Insert_ApiniPetInsects</defName>
@@ -10,25 +10,25 @@
 					<trainable>Obedience</trainable>
 					<subNodes>
 						<li Class="Apini.ThinkNode_ConditionalColonyHasPawnKindDef">
-						<pawnKindDefs>
-							<li>ApiniPawn</li>
-							<li>ApiniTrader</li>
-							<li>ApiniOverseer</li>
-						</pawnKindDefs>
-						<subNodes>
-							<li Class="Apini.ThinkNode_ConditionalPawnMatchesAnyDef">
-								<defs>
-									<li>Megascarab</li>
-									<li>Spelopede</li>
-									<li>Megaspider</li>
-								</defs>
-								<subNodes>
-									<li Class="Apini.JobGiver_GenericWorkGiver">
-										<workGiverDef>Mine</workGiverDef>
-									</li>
-								</subNodes>
-							</li>
-						</subNodes>
+							<pawnKindDefs>
+								<li>ApiniPawn</li>
+								<li>ApiniTrader</li>
+								<li>ApiniOverseer</li>
+							</pawnKindDefs>
+							<subNodes>
+								<li Class="Apini.ThinkNode_ConditionalPawnMatchesAnyDef">
+									<defs>
+										<li>Megascarab</li>
+										<li>Spelopede</li>
+										<li>Megaspider</li>
+									</defs>
+									<subNodes>
+										<li Class="Apini.JobGiver_GenericWorkGiver">
+											<workGiverDef>Mine</workGiverDef>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
 						</li>
 					</subNodes>
 				</li>
