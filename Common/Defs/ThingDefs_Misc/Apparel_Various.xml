@@ -159,4 +159,57 @@
 			<wornGraphicPath>Things/Apparel/Ruff</wornGraphicPath>
 		</apparel>
 	</ThingDef>
+	
+  <ThingDef ParentName="ArmorMachineableBase">
+  <!--Apini Flak Vest-->
+    <defName>ApiniVest</defName>
+    <label>apini vest</label>
+    <description>A vest with armor plates inserted on the chest and back. Designed primarily for apini soldiers, occasionally seen on some lucky Azuri raiders as well.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/ApiniVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.56</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.37</ArmorRating_Heat>
+      <Insulation_Cold>1.5</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <costList>
+      <Cloth>50</Cloth>
+      <Steel>100</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/ApiniVest</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>Bee</li>
+      </tags>
+    </apparel>
+  </ThingDef>
 </Defs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Shoulder"]</xpath>
+		<value>
+			<li>ApiniFrontLeg</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Leg"]</xpath>
+		<value>
+			<li>InsectLeg</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Hand"]</xpath>
+		<value>
+			<li>Tarsal</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Foot"]</xpath>
+		<value>
+			<li>Tarsus</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Jaw"]</xpath>
+		<value>
+			<li>InsectMouth</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Torso"]</xpath>
+		<value>
+			<li>Thorax</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Heart"]</xpath>
+		<value>
+			<li>InsectHeart</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Stomach"]</xpath>
+		<value>
+			<li>HoneyStomach</li>
+		</value>
+	</Operation>
+
+</Patch>

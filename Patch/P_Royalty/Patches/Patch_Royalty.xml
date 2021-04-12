@@ -53,6 +53,16 @@
 				</value>
 			</li>
 			<!--End fine floors beeswax tile-->
+			<li Class="PatchOperationAdd">
+				<!--Grant Bees Natural meditation-->
+				<xpath>/Defs/MeditationFocusDef[defName="Natural"]/requiredBackstoriesAny</xpath>
+				<value>
+					<li>
+						<categoryName>ApiniBackstory</categoryName>
+						<slot>Childhood</slot>
+					</li>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>

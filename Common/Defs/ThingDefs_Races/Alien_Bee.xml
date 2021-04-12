@@ -10,6 +10,7 @@
 					<li>ApiniHoneyGlassHelmet</li>
 					<li>ApiniSatchel</li>
 					<li>ApiniRuff</li>
+					<li>ApiniVest</li>
 					<!--From Apini SOS2 Expansion-->
 					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBeltDummy</li>
 					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBelt</li>

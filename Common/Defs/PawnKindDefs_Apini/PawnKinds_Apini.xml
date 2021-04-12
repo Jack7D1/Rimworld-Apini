@@ -7,13 +7,12 @@
 		<backstoryCategories>
 			<li>ApiniBackstory</li>
 		</backstoryCategories>
+		<minGenerationAge>18</minGenerationAge>
 		<aiAvoidCover>false</aiAvoidCover>
-		<combatPower>40</combatPower>
 		<invNutrition>3</invNutrition>
 		<apparelTags>
 			<li>Bee</li>
 		</apparelTags>
-		<apparelMoney>200~400</apparelMoney>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<defaultFactionType>TribeApini</defaultFactionType>
 	</PawnKindDef>
@@ -21,6 +20,24 @@
 		<defName>ApiniPawn</defName>
 		<labelMale>apini drone</labelMale>
 		<labelFemale>apini</labelFemale>
+		<apparelMoney>200~400</apparelMoney>
+		<combatPower>40</combatPower>
+		<weaponMoney>100~400</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+	</PawnKindDef>
+	<PawnKindDef ParentName="ApiniBasic">
+		<defName>ApiniSoldier</defName>
+		<label>apini soldier</label>
+		<baseRecruitDifficulty>0.85</baseRecruitDifficulty>
+		<combatPower>90</combatPower>
+		<apparelMoney>1000~1600</apparelMoney>
+		<weaponMoney>800~1100</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeAdvanced</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
 	</PawnKindDef>
 	<PawnKindDef ParentName="ApiniBasic">
 		<defName>ApiniOverseer</defName>
@@ -31,10 +48,11 @@
 		<minGenerationAge>35</minGenerationAge>
 		<factionLeader>true</factionLeader>
 		<gearHealthRange>0.7~3.0</gearHealthRange>
-		<apparelMoney>600~1600</apparelMoney>
-		<weaponMoney>800~1000</weaponMoney>
+		<apparelMoney>1600~2600</apparelMoney>
+		<weaponMoney>1000~1600</weaponMoney>
 		<weaponTags>
-			<li>NeolithicRangedDecent</li>
+			<li>IndustrialRangedBasic</li>
+			<!--B has a GUN?!-->
 		</weaponTags>
 	</PawnKindDef>
 	<PawnKindDef ParentName="ApiniBasic">
