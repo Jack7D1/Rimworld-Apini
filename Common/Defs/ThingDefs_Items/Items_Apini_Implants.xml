@@ -211,11 +211,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
-		</stuffCategories>
 	</ThingDef>
 	<!--  <ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
     <!{1}** Prosthetic Sting **{1}>
