@@ -20,7 +20,7 @@ This mod lets you play as a race of sentient giant bees called apini.
 [list]
 [*]Compatible: Combat Extended
 [*]Compatible: Consolidated Traits
-[*]Compatible: EPOE
+[*]Compatible: EPOE and EPOE Forked
 [*]Compatible: Rimbees
 [*]Compatible: Royalty
 
