@@ -4,8 +4,13 @@
 		<apparel>
 			<tags>
 				<li>Bee</li>
+				<li>Spacer</li>
+				<li>EVA</li>
 			</tags>
 		</apparel>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
 	</ThingDef>
 	<ThingDef ParentName="ApiniSpaceApparel">
 		<defName>ApiniEVASuit_Light</defName>
@@ -37,9 +42,6 @@
 			<MoveSpeed>-0.25</MoveSpeed>
 			<WorkSpeedGlobal>-0.075</WorkSpeedGlobal>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -66,10 +68,6 @@
 				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
-			<tags>
-				<li>Spacer</li>
-				<li>EVA</li>
-			</tags>
 			<defaultOutfitTags>
 			</defaultOutfitTags>
 		</apparel>
@@ -119,17 +117,13 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<tags>
-				<li>Spacer</li>
-				<li>EVA</li>
-			</tags>
 			<defaultOutfitTags>
 			</defaultOutfitTags>
 		</apparel>
 	</ThingDef>
 	<ThingDef ParentName="ApiniSpaceApparel">
 		<defName>ApiniEVASuit_Heavy</defName>
-		<label>apitech heavy EVA suit</label>
+		<label>apitech Heavy EVA suit</label>
 		<description>A heavyweight and super tough Apitech space suit! You feel as tough as an Azuri in this thing. \nIt seems they still haven't managed to remove that honey smell from it though...</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -161,9 +155,6 @@
 			<MoveSpeed>-0.4</MoveSpeed>
 			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<costList>
 			<ComponentSpacer>6</ComponentSpacer>
 			<Plasteel>100</Plasteel>
@@ -186,10 +177,6 @@
 				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
-			<tags>
-				<li>Spacer</li>
-				<li>EVA</li>
-			</tags>
 			<defaultOutfitTags>
 			</defaultOutfitTags>
 		</apparel>
@@ -265,10 +252,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<tags>
-				<li>Spacer</li>
-				<li>EVA</li>
-			</tags>
 			<defaultOutfitTags>
 			</defaultOutfitTags>
 		</apparel>
