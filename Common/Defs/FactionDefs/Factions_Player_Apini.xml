@@ -65,9 +65,9 @@
 		<basicMemberKind>AzuriPawn</basicMemberKind>
 		<pawnSingular>azuri</pawnSingular>
 		<pawnsPlural>azuri</pawnsPlural>
-		<factionNameMaker>NamerFactionHive</factionNameMaker>
-		<settlementNameMaker>NamerbaseHive</settlementNameMaker>
-		<playerInitialSettlementNameMaker>NamerbaseHive</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionSwarm</factionNameMaker>
+		<settlementNameMaker>NamerbaseSwarm</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerbaseSwarm</playerInitialSettlementNameMaker>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
 				<li>(0,35)</li>
@@ -89,7 +89,7 @@
 				</categories>
 			</li>
 		</backstoryFilters>
-		<pawnNameMaker>NamerPersonApini</pawnNameMaker>
+		<pawnNameMaker>NamerPersonAzuri</pawnNameMaker>
 		<settlementTexturePath>World/PlayerSwarmZoom</settlementTexturePath>
 		<factionIconPath>World/PlayerSwarm</factionIconPath>
 		<colorSpectrum>
