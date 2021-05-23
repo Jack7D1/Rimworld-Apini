@@ -93,7 +93,7 @@
 		<settlementTexturePath>World/PlayerSwarmZoom</settlementTexturePath>
 		<factionIconPath>World/PlayerSwarm</factionIconPath>
 		<colorSpectrum>
-			<li>(255,165,0)</li>
+			<li>(70,183,255)</li>
 		</colorSpectrum>
 		<startingResearchTags/>
 		<apparelStuffFilter>
