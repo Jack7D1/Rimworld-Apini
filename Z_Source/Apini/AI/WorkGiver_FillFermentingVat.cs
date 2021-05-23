@@ -8,7 +8,7 @@ namespace Apini
     /// <summary>
     /// Workgiver giving out jobs to fill any fermenting vats that need it.
     /// </summary>
-    class WorkGiver_FillFermentingVat : WorkGiver_Scanner
+    internal class WorkGiver_FillFermentingVat : WorkGiver_Scanner
     {
         private string TemperatureTrans;
 
@@ -52,7 +52,7 @@ namespace Apini
 
         public void Reset()
         {
-            if(TemperatureTrans == null || TemperatureTrans == "" ||
+            if (TemperatureTrans == null || TemperatureTrans == "" ||
                NoInputTrans == null || NoInputTrans == "")
             {
                 {
@@ -64,11 +64,11 @@ namespace Apini
 
         public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
-			if (!(t is Building_FermentingVat building_FermentingVat) || building_FermentingVat.Fermented || building_FermentingVat.SpaceLeftForInput <= 0)
-			{
-				return false;
-			}
-			float temperature = building_FermentingVat.Position.GetTemperature(building_FermentingVat.Map);
+            if (!(t is Building_FermentingVat building_FermentingVat) || building_FermentingVat.Fermented || building_FermentingVat.SpaceLeftForInput <= 0)
+            {
+                return false;
+            }
+            float temperature = building_FermentingVat.Position.GetTemperature(building_FermentingVat.Map);
             CompProperties_TemperatureRuinable compProperties = building_FermentingVat.def.GetCompProperties<CompProperties_TemperatureRuinable>();
             if (temperature < compProperties.minSafeTemperature + 2f || temperature > compProperties.maxSafeTemperature - 2f)
             {
@@ -103,14 +103,14 @@ namespace Apini
         public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
             Building_FermentingVat building_FermentingVat = (Building_FermentingVat)t;
-            Thing t2 = this.FindInputThing(pawn, building_FermentingVat);
+            Thing t2 = FindInputThing(pawn, building_FermentingVat);
 
             return JobMaker.MakeJob(JobDefToUse, t, t2);
         }
 
         private Thing FindInputThing(Pawn pawn, Building_FermentingVat barrel)
         {
-            Predicate<Thing> validator = (Thing x) => !x.IsForbidden(pawn) && pawn.CanReserve(x, 1, -1, null, false);
+            bool validator(Thing x) => !x.IsForbidden(pawn) && pawn.CanReserve(x, 1, -1, null, false);
             ThingDef input_def = null;
             VatProperties vatProps = barrel.def.TryGetModExtension<VatProperties>();
             if (vatProps != null)
@@ -118,7 +118,10 @@ namespace Apini
                 input_def = vatProps.inputThingDef;
             }
             //Log.Message("input_def: " + input_def);
-            return GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForDef(input_def), PathEndMode.ClosestTouch, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, false), 9999f, validator, null, 0, -1, false, RegionType.Set_Passable, false);
+            return GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForDef(input_def),
+                                                    PathEndMode.ClosestTouch,
+                                                    TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, false),
+                                                    9999f, validator, null, 0, -1, false, RegionType.Set_Passable, false);
         }
     }
 }

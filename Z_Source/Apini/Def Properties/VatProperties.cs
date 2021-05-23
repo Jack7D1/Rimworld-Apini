@@ -11,18 +11,22 @@ namespace Apini
         /// Thing that go in to ferment.
         /// </summary>
         public ThingDef inputThingDef;
+
         /// <summary>
         /// Thing that go out on successful fermentation.
         /// </summary>
         public ThingDef outputThingDef;
+
         /// <summary>
         /// Maximum capacity of inputThingDef in the vat.
         /// </summary>
         public int maxCapacity = 25;
+
         /// <summary>
         /// Modifies the default fermentation time.
         /// </summary>
         public float fermentationModifier = 1.0f;
+
         /// <summary>
         /// How much input stuff is needed to make one output stuff.
         /// </summary>
@@ -30,6 +34,7 @@ namespace Apini
 
         //Translations
         public string containsInputTranslation = "ContainsNectar";
+
         public string containsOutputTranslation = "ContainsHoney";
         public string fermentedTranslation = "Fermented";
         public string fermentationProgressTranslation = "FermentationProgress";
@@ -37,7 +42,6 @@ namespace Apini
 
         public VatProperties()
         {
-
         }
     }
 }

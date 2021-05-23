@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using Verse;
 
 namespace Apini
@@ -15,7 +12,7 @@ namespace Apini
         /// <summary>
         /// Tracks all Apini aparrel.
         /// </summary>
-        public static List<ThingDef> aparell = new List<ThingDef>();
+        public static List<ThingDef> apparel = new List<ThingDef>();
 
         /// <summary>
         /// Pawn kinds that count as Apini.
@@ -25,11 +22,11 @@ namespace Apini
         static ApiniTracker()
         {
             //Scour all ThingDefs for Apini aparrel.
-            foreach(ThingDef def in DefDatabase<ThingDef>.AllDefs)
+            foreach (ThingDef def in DefDatabase<ThingDef>.AllDefs)
             {
-                if(def.HasModExtension<ApiniAparrelProperties>())
+                if (def.HasModExtension<ApiniAparrelProperties>())
                 {
-                    aparell.Add(def);
+                    apparel.Add(def);
                 }
             }
 

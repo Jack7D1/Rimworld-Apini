@@ -1,9 +1,4 @@
-﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Verse;
+﻿using Verse;
 
 namespace Apini
 {
@@ -16,10 +11,12 @@ namespace Apini
         /// Expected thing to input into the vat.
         /// </summary>
         public ThingDef inputThingDef;
+
         /// <summary>
         /// Expected output from the vat.
         /// </summary>
         public ThingDef outputThingDef;
+
         /// <summary>
         /// JobDef to use in performing the job.
         /// </summary>
@@ -27,7 +24,6 @@ namespace Apini
 
         public WorkgiverFermentingVatProperties()
         {
-
         }
     }
 }

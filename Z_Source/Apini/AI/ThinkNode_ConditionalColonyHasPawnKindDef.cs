@@ -14,10 +14,10 @@ namespace Apini
         /// </summary>
         public List<PawnKindDef> pawnKindDefs;
 
-		/// <summary>
-		/// Performs a Deep Copy. Needed for save compatibility i reckon.
-		/// </summary>
-		public override ThinkNode DeepCopy(bool resolve = true)
+        /// <summary>
+        /// Performs a Deep Copy. Needed for save compatibility i reckon.
+        /// </summary>
+        public override ThinkNode DeepCopy(bool resolve = true)
         {
             ThinkNode_ConditionalColonyHasPawnKindDef thinkNode_ConditionalPawnMatchesAnyDef = (ThinkNode_ConditionalColonyHasPawnKindDef)base.DeepCopy(resolve);
             thinkNode_ConditionalPawnMatchesAnyDef.pawnKindDefs = new List<PawnKindDef>(pawnKindDefs);
@@ -31,18 +31,18 @@ namespace Apini
         /// <returns>True if all conditions are met. False if not.</returns>
         protected override bool Satisfied(Pawn pawn)
         {
-			if (pawnKindDefs != null && pawn != null && pawn.Map != null && pawn.Map.mapPawns != null)
-			{
-				foreach (Pawn p in Find.CurrentMap.mapPawns.AllPawnsSpawned)
-				{
-					if (p.kindDef == pawn.kindDef)
-					{
-						//Log.Message("Match found.");
-						return true;
-					}
-				}
-			}
-        return false;
+            if (pawnKindDefs != null && pawn != null && pawn.Map != null && pawn.Map.mapPawns != null)
+            {
+                foreach (Pawn p in Find.CurrentMap.mapPawns.AllPawnsSpawned)
+                {
+                    if (p.kindDef == pawn.kindDef)
+                    {
+                        //Log.Message("Match found.");
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
     }
 }

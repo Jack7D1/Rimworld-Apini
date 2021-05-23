@@ -1,8 +1,4 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Verse;
 
 namespace Apini
@@ -38,7 +34,7 @@ namespace Apini
 
             if (other.story.traits.HasTrait(trait_def))
             {
-                if(pawn_is_apini)
+                if (pawn_is_apini)
                 {
                     if (other_pawn_is_apini)
                         return ThoughtState.ActiveAtStage(1);

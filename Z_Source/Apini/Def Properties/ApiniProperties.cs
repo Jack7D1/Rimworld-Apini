@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Verse;
+﻿using Verse;
 
 namespace Apini
 {
@@ -11,6 +7,5 @@ namespace Apini
     /// </summary>
     public class ApiniProperties : DefModExtension
     {
-
     }
 }
