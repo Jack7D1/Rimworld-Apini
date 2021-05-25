@@ -5,7 +5,8 @@
 		<label>apini</label>
 		<baseRecruitDifficulty>0.75</baseRecruitDifficulty>
 		<backstoryCategories>
-			<li>ApiniBackstory</li>
+			<li>ApiniSpecific</li>
+			<li>BeeGeneral</li>
 		</backstoryCategories>
 		<minGenerationAge>18</minGenerationAge>
 		<aiAvoidCover>false</aiAvoidCover>

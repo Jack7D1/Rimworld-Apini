@@ -3,162 +3,10 @@
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<spawnCategories>
-			<li>ApiniBackstory</li>
+			<li>ApiniSpecific</li>
 		</spawnCategories>
 		<femaleCommonality>100</femaleCommonality>
 		<maleCommonality>0</maleCommonality>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniDrudge</defName>
-		<title>Drudgery worker</title>
-		<titleShort>Drudge</titleShort>
-		<baseDescription>Born as a worker under the queen, [PAWN_nameDef] will likely never live to do anything but be that which many will trade for; someone more than capable of dumb labor.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Plants</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Construction</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>ManualDumb</li>
-			<li>Cleaning</li>
-			<li>Hauling</li>
-		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniAttendant</defName>
-		<title>Royal attendant</title>
-		<titleShort>Attendant</titleShort>
-		<baseDescription>[PAWN_nameDef] was a tireless servant responsible for the caring, cleaning and feeding of the queen.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Cooking</defName>
-				<amount>5</amount>
-			</li>
-			<li>
-				<defName>Medicine</defName>
-				<amount>5</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>Social</li>
-			<li>Caring</li>
-			<li>Cleaning</li>
-		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniDisgraced</defName>
-		<title>Disgraced guard</title>
-		<titleShort>Disgraced</titleShort>
-		<baseDescription>[PAWN_nameDef] was tasked to protect [PAWN_possessive] queen from danger, but fell from grace after an embarrassing incident involving a pineapple. \nStripped of [PAWN_possessive] position and ashamed, every time [PAWN_nameDef] looks upon a piece of fruit [PAWN_pronoun] is reminded of [PAWN_possessive] failure.</baseDescription>
-		<skillGains>
-			<!-- what-->
-			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>7</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>PlantWork</li>
-		</workDisables>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<disallowedTraits>
-			<li>
-				<defName>Gourmand</defName>
-			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniScout</defName>
-		<title>Scout</title>
-		<titleShort>Scout</titleShort>
-		<baseDescription>The long periods spent out of the hive has made [PAWN_nameDef] a resilient individual, well suited to reconnaissance and vanguard work.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<skillGains>
-			<li>
-				<defName>Plants</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Medicine</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>Violent</li>
-			<li>Animals</li>
-		</requiredWorkTags>
-		<disallowedTraits>
-			<li>
-				<defName>Wimp</defName>
-			</li>
-			<li>
-				<defName>Undergrounder</defName>
-			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>UndertakerApini</defName>
-		<title>Undertaker</title>
-		<titleShort>Undertaker</titleShort>
-		<baseDescription>[PAWN_nameDef] was responsible for disposing of corpses outside of the hive. This was a thankless yet vital job, lest the dead bodies attract predators.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Medicine</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Animals</defName>
-				<amount>6</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>Hauling</li>
-		</requiredWorkTags>
-		<workDisables>
-			<li>Social</li>
-		</workDisables>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniArchitect</defName>
-		<title>Honeycomb architect</title>
-		<titleShort>Architect</titleShort>
-		<baseDescription>Responsible for secreting wax and building the honeycombs, [PAWN_nameDef] would spend most of [PAWN_possessive] time doing exactly that, and only that. Unfortunately, [PAWN_possessive] constant business had left [PAWN_possessive] with little time for socialization or other skills.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Construction</defName>
-				<amount>8</amount>
-			</li>
-			<li>
-				<defName>Crafting</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>Social</li>
-		</workDisables>
-		<requiredWorkTags>
-			<li>ManualSkilled</li>
-			<li>Crafting</li>
-		</requiredWorkTags>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniGatherer</defName>
@@ -184,38 +32,6 @@
 			<li>Hauling</li>
 			<li>PlantWork</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniHiveless</defName>
-		<title>Hiveless</title>
-		<titleShort>Hiveless</titleShort>
-		<baseDescription>[PAWN_nameDef] is without a hive, and without a home. Displaced, [PAWN_pronoun] had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around [PAWN_pronoun].</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<skillGains>
-			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Artistic</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>ManualSkilled</li>
-		</workDisables>
-		<disallowedTraits>
-			<li>
-				<defName>Abrasive</defName>
-			</li>
-			<li>
-				<defName>Psychopath</defName>
-			</li>
-		</disallowedTraits>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
 		<defName>BuzzApini</defName>
@@ -316,59 +132,6 @@
 		</disallowedTraits>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniSoldier</defName>
-		<title>Veteran soldier</title>
-		<titleShort>Soldier</titleShort>
-		<baseDescription>Dangerous and lethal, [PAWN_nameDef] is likely the definition of “nope” in many galactic textbooks. However [PAWN_pronoun] has a softer side, dutifully tending [PAWN_possessive] fellow soldiers on the battlefield.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>Violent</li>
-			<li>Caring</li>
-		</requiredWorkTags>
-		<disallowedTraits>
-			<li>
-				<defName>Wimp</defName>
-			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniPoli</defName>
-		<title>Pollen-tician</title>
-		<titleShort>Pollen-tician</titleShort>
-		<baseDescription>A recent position, made out of spite of the traditional monarchy, [PAWN_nameDef] has become a Pollen-tician, much to the despair of [PAWN_possessive] community</baseDescription>
-		<femaleCommonality>50</femaleCommonality>
-		<maleCommonality>50</maleCommonality>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>10</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>-5</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defName>Greedy</defName>
-				<chance>90</chance>
-			</li>
-		</forcedTraits>
-		<requiredWorkTags>
-			<li>Social</li>
-		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniLazer</defName>
 		<title>B-lazer</title>
 		<titleShort>B-lazer</titleShort>
@@ -391,7 +154,6 @@
 		<forcedTraits>
 			<li>
 				<defName>Pyromaniac</defName>
-				<chance>100</chance>
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
@@ -419,34 +181,6 @@
 				<defName>QuickSleeper</defName>
 			</li>
 		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>ApiniNanny</defName>
-		<title>Nanny</title>
-		<titleShort>Nanny</titleShort>
-		<baseDescription>[PAWN_nameDef] cared for the young of the hive.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Cooking</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Construction</defName>
-				<amount>-5</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>Caring</li>
-			<li>Cleaning</li>
-		</requiredWorkTags>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniCaravan</defName>
@@ -582,7 +316,7 @@
     <slot>Adulthood</slot>
     <bodyTypeGlobal>Female</bodyTypeGlobal>
       <spawnCategories>
-      <li>ApiniBackstory</li>
+      <li>ApiniSpecific</li>
     </spawnCategories>
         <skillGains>
       <li>

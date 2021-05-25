@@ -3,127 +3,8 @@
 		<slot>Childhood</slot>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<spawnCategories>
-			<li>ApiniBackstory</li>
+			<li>ApiniSpecific</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniMundane</defName>
-		<title>Mundane</title>
-		<titleShort>Mundane</titleShort>
-		<baseDescription>[PAWN_nameDef] had a typical, mundane hive-based childhood.</baseDescription>
-		<femaleCommonality>100</femaleCommonality>
-		<maleCommonality>0</maleCommonality>
-		<skillGains>
-			<li>
-				<defName>Plants</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Construction</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniCurious</defName>
-		<title>Curious grub</title>
-		<titleShort>Curious</titleShort>
-		<baseDescription>Ever since [PAWN_nameDef] was a small grub, [PAWN_pronoun] was insanely curious about the world outside the hive, often risking life and wing to witness new fauna.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Animals</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniKnave</defName>
-		<title>Prodigal knave</title>
-		<titleShort>Knave</titleShort>
-		<baseDescription>A prodigy in combat, [PAWN_nameDef] was celebrated for [PAWN_possessive] martial prowess. Little did they know that [PAWN_nameDef] had an intense phobia of critters.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Shooting</defName>
-				<amount>6</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>Animals</li>
-		</workDisables>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniOverly</defName>
-		<title>Overly encapsulated</title>
-		<titleShort>Encapsulated</titleShort>
-		<baseDescription>[PAWN_nameDef] spent too long in [PAWN_possessive] capsule, comforted by its familiar design.</baseDescription>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
-		<skillGains>
-			<li>
-				<defName>Construction</defName>
-				<amount>8</amount>
-			</li>
-		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniHelpful</defName>
-		<title>Helpful grubling</title>
-		<titleShort>Helpful</titleShort>
-		<baseDescription>As a small larva [PAWN_nameDef] was always eager to help [PAWN_possessive] elder sisters.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Crafting</defName>
-				<amount>5</amount>
-			</li>
-			<li>
-				<defName>Plants</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>ManualDumb</li>
-			<li>Cleaning</li>
-			<li>Hauling</li>
-		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniAnxious</defName>
-		<title>Anxious larva</title>
-		<titleShort>Anxious</titleShort>
-		<baseDescription>[PAWN_nameDef] was always anxious about the world outside the hive and the unknown dangers it contained. After all, humans could strike at anytime, wiping out the apini with superior technology.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Construction</defName>
-				<amount>10</amount>
-			</li>
-			<li>
-				<defName>Plants</defName>
-				<amount>-2</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>Violent</li>
-		</workDisables>
-		<forcedTraits>
-			<li>
-				<defName>Nerves</defName>
-				<degree>-1</degree>
-			</li>
-		</forcedTraits>
-		<disallowedTraits>
-			<li>
-				<defName>Tough</defName>
-			</li>
-		</disallowedTraits>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
 		<defName>ApiniHuman</defName>
@@ -154,57 +35,6 @@
 		</skillGains>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniOrphan</defName>
-		<title>Wild orphan</title>
-		<titleShort>Orphan</titleShort>
-		<baseDescription>[PAWN_nameDef] somehow ended up fending for [PAWN_possessive]self in the wilds of the Rim. [PAWN_pronoun] learnt to survive by integrating [PAWN_possessive]self into a local insect hive.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Animals</defName>
-				<amount>10</amount>
-			</li>
-			<li>
-				<defName>Plants</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>Social</li>
-		</workDisables>
-		<requiredWorkTags>
-			<li>Violent</li>
-			<li>ManualDumb</li>
-		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniCharred</defName>
-		<title>Charred child</title>
-		<titleShort>Charred</titleShort>
-		<baseDescription>A child survivor of a burnt down hive, [PAWN_nameDef] suffered painful 3rd degree burns. After being permanently scarred [PAWN_nameDef] tried to learn how to revert [PAWN_possessive] appearance to pristine form.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Medicine</defName>
-				<amount>8</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>Firefighting</li>
-		</workDisables>
-		<forcedTraits>
-			<li>
-				<defName>Beauty</defName>
-				<degree>-1</degree>
-			</li>
-		</forcedTraits>
-		<requiredWorkTags>
-			<li>Caring</li>
-		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
 		<defName>ApiniWrangler</defName>
 		<title>Megaspider wrangler</title>
 		<titleShort>Wrangler</titleShort>
@@ -233,45 +63,6 @@
 		</disallowedTraits>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniGrubnapped</defName>
-		<title>Grubnapped</title>
-		<titleShort>Grubnapped</titleShort>
-		<baseDescription>At an early age, [PAWN_nameDef] was kidnapped from [PAWN_possessive] hive and forced into slavery. [PAWN_pronoun] harbors a deep resentment towards humans for [PAWN_possessive] suffering.</baseDescription>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>-3</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>-3</amount>
-			</li>
-			<li>
-				<defName>Cooking</defName>
-				<amount>7</amount>
-			</li>
-			<li>
-				<defName>Mining</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defName>Bloodlust</defName>
-				<chance>100</chance>
-			</li>
-		</forcedTraits>
-		<requiredWorkTags>
-			<li>ManualDumb</li>
-			<li>PlantWork</li>
-		</requiredWorkTags>
-		<disallowedTraits>
-			<li>
-				<defName>Kind</defName>
-			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
 		<defName>ApiniFlower</defName>
 		<title>Flowerchild</title>
 		<titleShort>Flowerchild</titleShort>
@@ -291,25 +82,6 @@
 				<defName>Bloodlust</defName>
 			</li>
 		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>ApiniShaper</defName>
-		<title>Wax shaper</title>
-		<titleShort>Shaper</titleShort>
-		<baseDescription>The sturdy but easily shaped beeswax of the hives always entertained [PAWN_nameDef] as a larva, [PAWN_pronoun] spent most of her free time molding and sculpting the tough material. </baseDescription>
-		<skillGains>
-			<li>
-				<defName>Construction</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Artistic</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<requiredWorkTags>
-			<li>Crafting</li>
-		</requiredWorkTags>
 	</AlienRace.BackstoryDef>
 	<!--<AlienRace.BackstoryDef ParentName="ApiniChildBase">
     <defName>Apini_Drone</defName>
@@ -365,36 +137,5 @@
 			<li>Intellectual</li>
 			<li>Caring</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>Apini_Destined</defName>
-		<title>Destined</title>
-		<titleShort>Destined</titleShort>
-		<baseDescription>Growing up [PAWN_nameDef] knew [PAWN_pronoun] was destined for greatness, the nursemaids made sure [PAWN_pronoun] understood how great a role [PAWN_pronoun] will one day play. They may have neglected a detail or two...</baseDescription>
-		<femaleCommonality>0</femaleCommonality>
-		<maleCommonality>100</maleCommonality>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Artistic</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Construction</defName>
-				<amount>-4</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>-4</amount>
-			</li>
-		</skillGains>
-		<!--<forcedTraits>
-      <li>
-        <defName>ApiniDrone</defName>
-      </li>
-    </forcedTraits>-->
 	</AlienRace.BackstoryDef>
 </Defs>

@@ -5,7 +5,8 @@
 		<label>azuri</label>
 		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
 		<backstoryCategories>
-			<li>ApiniBackstory</li>
+			<li>AzuriSpecific</li>
+			<li>BeeGeneral</li>
 		</backstoryCategories>
 		<combatPower>60</combatPower>
 		<apparelTags>
@@ -50,7 +51,8 @@
 		<gearHealthRange>0.7~1.8</gearHealthRange>
 		<backstoryCategories>
 			<li>Pirate</li>
-			<li>ApiniBackstory</li>
+			<li>AzuriSpecific</li>
+			<li>BeeGeneral</li>
 		</backstoryCategories>
 		<invNutrition>2.55</invNutrition>
 		<itemQuality>Normal</itemQuality>

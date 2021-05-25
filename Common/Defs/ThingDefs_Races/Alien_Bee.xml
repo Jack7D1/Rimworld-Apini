@@ -4,6 +4,46 @@
 		<inspectorTabs/>
 		<comps/>
 		<alienRace>
+			<generalSettings>
+				<chemicalSettings>
+					<li>
+						<chemical>Smokeleaf</chemical>
+						<ingestible>true</ingestible>
+						<reactions>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>ApiniSmoke</hediffDef>
+								<severity>0.45</severity>
+							</li>
+						</reactions>
+					</li>
+				</chemicalSettings>
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>ApiniDrone</defName>
+						<chance>100</chance>
+						<commonalityMale>100</commonalityMale>
+						<commonalityFemale>-100</commonalityFemale>
+					</li>
+					<li>
+						<defName>Ascetic</defName>
+						<chance>30</chance>
+					</li>
+				</forcedRaceTraitEntries>
+				<disallowedTraits>
+					<li>
+						<defName>DrugDesire</defName>
+					</li>
+					<li>
+						<defName>Gay</defName>
+					</li>
+					<li>
+						<defName>Bisexual</defName>
+					</li>
+					<li>
+						<defName>Asexual</defName>
+					</li>
+				</disallowedTraits>
+			</generalSettings>
 			<raceRestriction>
 				<apparelList>
 					<li>ApiniApron</li>

@@ -1,0 +1,35 @@
+<Defs>
+	<AlienRace.BackstoryDef Name="AzuriAdultBase" Abstract="True">
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<spawnCategories>
+			<li>AzuriSpecific</li>
+		</spawnCategories>
+		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>0</maleCommonality>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="AzuriAdultBase">
+		<defName>AzuriPyro</defName>
+		<title>Fire Obsessed Warrior</title>
+		<titleShort>Fire Obsessed</titleShort>
+		<baseDescription>[PAWN_nameDef] has always been obsessed with fire, [PAWN_possessive] will raze villiages and hives alike to the ground after a raid. \nThis obsession also makes [PAWN_pronoun] a fantastic cook, oddly.</baseDescription>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>40</chance>
+			</li>
+		</forcedTraits>
+		<requiredWorkTags>
+			<li>Cooking</li>
+		</requiredWorkTags>
+	</AlienRace.BackstoryDef>
+</Defs>

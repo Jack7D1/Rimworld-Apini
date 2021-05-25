@@ -1,0 +1,32 @@
+<Defs>
+	<AlienRace.BackstoryDef Name="AzuriChildBase" Abstract="True">
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<spawnCategories>
+			<li>AzuriSpecific</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="AzuriChildBase">
+		<defName>AzuriBullied</defName>
+		<title>Bullied Grub</title>
+		<titleShort>Bullied</titleShort>
+		<baseDescription>The Azuri are a rough folk, [PAWN_nameDef] found [PAWN_possessive]self being the butt of much of bullying. As a result [PAWN_pronoun] is often reclusive and on edge.</baseDescription>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Kind</defName>
+			</li>
+		</disallowedTraits>
+	</AlienRace.BackstoryDef>
+</Defs>
