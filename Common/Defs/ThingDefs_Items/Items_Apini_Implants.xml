@@ -132,7 +132,7 @@
 			<MarketValue>200</MarketValue>
 		</statBases>
 	</ThingDef>
-<!--	<ThingDef ParentName="InsectBodyPartNatural">
+	<!--	<ThingDef ParentName="InsectBodyPartNatural">
 		<!{1}** Insect Sting **{1}>
 		<defName>InsectSting</defName>
 		<label>Insect sting</label>

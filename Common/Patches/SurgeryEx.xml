@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Shoulder"]</xpath>
@@ -8,7 +7,6 @@
 			<li>ApiniFrontLeg</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Leg"]</xpath>
@@ -16,7 +14,6 @@
 			<li>InsectLeg</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Hand"]</xpath>
@@ -24,7 +21,6 @@
 			<li>Tarsal</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Foot"]</xpath>
@@ -32,7 +28,6 @@
 			<li>Tarsus</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Jaw"]</xpath>
@@ -40,7 +35,6 @@
 			<li>InsectMouth</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Torso"]</xpath>
@@ -48,7 +42,6 @@
 			<li>Thorax</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Heart"]</xpath>
@@ -56,7 +49,6 @@
 			<li>InsectHeart</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>Defs/RecipeDef/appliedOnFixedBodyParts/li[text()="Stomach"]</xpath>
@@ -64,5 +56,4 @@
 			<li>HoneyStomach</li>
 		</value>
 	</Operation>
-
 </Patch>

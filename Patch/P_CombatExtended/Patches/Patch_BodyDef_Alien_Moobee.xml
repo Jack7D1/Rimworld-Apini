@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Moobee body. -->
 <Patch>
 	<Operation Class="PatchOperationSequence">
@@ -22,7 +22,7 @@
 					<li>CoveredByNaturalArmor</li>
 				</value>
 			</li>
-				<!-- Neck equivalent and its children. -->
+			<!-- Neck equivalent and its children. -->
 			<!-- I guess this bodypart is like a neck for the moobee. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/groups</xpath>
@@ -58,7 +58,7 @@
 					</groups>
 				</value>
 			</li>
-				<!-- Legs equivalent and its children. -->
+			<!-- Legs equivalent and its children. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "InsectLeg"]/groups</xpath>
 				<value>

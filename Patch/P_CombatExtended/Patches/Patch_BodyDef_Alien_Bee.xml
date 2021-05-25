@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Apini body. -->
 <Patch>
 	<Operation Class="PatchOperationSequence">
@@ -16,7 +16,7 @@
 					<li>CoveredByNaturalArmor</li>
 				</value>
 			</li>
-				<!-- Neck equivalent and its children. -->
+			<!-- Neck equivalent and its children. -->
 			<!-- I guess this bodypart is like a neck for the apini. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "Pronotum"]/groups</xpath>
@@ -48,7 +48,7 @@
 					<li>CoveredByNaturalArmor</li>
 				</value>
 			</li>
-				<!-- Arms equivalent and its children. -->
+			<!-- Arms equivalent and its children. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "ApiniFrontLeg"]/groups</xpath>
 				<value>
@@ -75,7 +75,7 @@
 					<li>CoveredByNaturalArmor</li>
 				</value>
 			</li>
-				<!-- Legs equivalent and its children. -->
+			<!-- Legs equivalent and its children. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "InsectLeg"]/groups</xpath>
 				<value>

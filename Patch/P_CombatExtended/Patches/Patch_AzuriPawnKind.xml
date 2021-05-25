@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Azuri Pawn Kinds -->
 <Patch>
 	<Operation Class="PatchOperationSequence">
@@ -28,7 +28,7 @@
 					</li>
 				</value>
 			</li>
-				<!-- AzuriBane -->
+			<!-- AzuriBane -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/PawnKindDef[defName="AzuriBane"]/weaponMoney</xpath>
 				<value>
@@ -69,14 +69,14 @@
 					</li>
 				</value>
 			</li>
-				<!-- pew pew! bees with lazers! lazer bees! -->
+			<!-- pew pew! bees with lazers! lazer bees! -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[@Name="AzuriFreelancer"]/weaponTags</xpath>
 				<value>
 					<li>SpacerGun</li>
 				</value>
-			</li>	
-				<!-- Azuri_Pirate -->
+			</li>
+			<!-- Azuri_Pirate -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/PawnKindDef[defName="Azuri_Pirate"]</xpath>
 				<value>
@@ -100,7 +100,7 @@
 					</li>
 				</value>
 			</li>
-				<!-- Azuri_Marauder -->
+			<!-- Azuri_Marauder -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/PawnKindDef[defName="Azuri_Marauder"]</xpath>
 				<value>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- A thanks to Saebbi for making this patch -->
 <Patch>
 	<Operation Class="PatchOperationSequence">
@@ -18,7 +18,7 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="ApiniApron"]/equippedStatOffsets/MoveSpeed</xpath>
 			</li>
-				<!-- ApiniSatchel -->
+			<!-- ApiniSatchel -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniSatchel"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
@@ -34,7 +34,7 @@
 					<CarryBulk>10</CarryBulk>
 				</value>
 			</li>
-				<!-- ApiniRuff -->
+			<!-- ApiniRuff -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniRuff"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
@@ -46,7 +46,7 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="ApiniRuff"]/statBases/ArmorRating_Heat</xpath>
 			</li>
-				<!-- ApiniHoneyGlassHelmet -->
+			<!-- ApiniHoneyGlassHelmet -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniHoneyGlassHelmet"]/statBases/ArmorRating_Sharp</xpath>
 				<value>

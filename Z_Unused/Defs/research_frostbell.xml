@@ -1,5 +1,4 @@
 <Defs>
-
 	<ResearchProjectDef>
 		<defName>Frostbell</defName>
 		<label>frostbell</label>
@@ -9,5 +8,4 @@
 		<researchViewX>0</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
-
 </Defs>
