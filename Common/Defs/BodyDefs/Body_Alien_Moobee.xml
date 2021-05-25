@@ -156,15 +156,15 @@
 						<li>Waist</li>
 					</groups>
 					<parts>
-						<li>
-							<!-- Sting -->
+						<!--<li>
+							<!{1}** Sting **{1}>
 							<def>InsectSting</def>
 							<coverage>0.1</coverage>
 							<height>Bottom</height>
 							<groups>
 								<li>InsectSting</li>
 							</groups>
-						</li>
+						</li>-->
 					</parts>
 				</li>
 				<li>

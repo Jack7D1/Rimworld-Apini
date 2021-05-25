@@ -15,11 +15,11 @@
 		<label>abdomen</label>
 		<listOrder>10</listOrder>
 	</BodyPartGroupDef>
-	<BodyPartGroupDef>
+<!--	<BodyPartGroupDef>
 		<defName>InsectSting</defName>
 		<label>stinger</label>
 		<listOrder>9</listOrder>
-	</BodyPartGroupDef>
+	</BodyPartGroupDef>-->
 	<BodyPartGroupDef>
 		<defName>HindLegs</defName>
 		<label>hind legs</label>
