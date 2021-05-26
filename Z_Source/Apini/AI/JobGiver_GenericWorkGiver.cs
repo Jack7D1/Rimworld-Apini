@@ -1,5 +1,5 @@
-﻿using System;
-using RimWorld;
+﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using Verse;
 using Verse.AI;
@@ -16,9 +16,8 @@ namespace Apini
 
         public override ThinkNode DeepCopy(bool resolve = true)
         {
-            JobGiver_GenericWorkGiver jobGiver_GenericWorkGiver = (JobGiver_GenericWorkGiver)base.DeepCopy(resolve);
-            jobGiver_GenericWorkGiver.workGiverDef = workGiverDef;
-            return jobGiver_GenericWorkGiver;
+            ((JobGiver_GenericWorkGiver)base.DeepCopy(resolve)).workGiverDef = workGiverDef;
+            return (JobGiver_GenericWorkGiver)base.DeepCopy(resolve);
         }
 
         public override float GetPriority(Pawn pawn)
@@ -39,7 +38,7 @@ namespace Apini
                     return ThinkResult.NoJob;
                 }
 
-                if (this.PawnCanUseWorkGiver(pawn, workGiver))
+                if (PawnCanUseWorkGiver(pawn, workGiver))
                 {
                     try
                     {
@@ -48,12 +47,11 @@ namespace Apini
                         {
                             return new ThinkResult(job2, this, new JobTag?(workGiverDef.tagToGive));
                         }
-                        WorkGiver_Scanner scanner = workGiver as WorkGiver_Scanner;
-                        if (scanner != null)
+                        if (workGiver is WorkGiver_Scanner scanner)
                         {
                             if (workGiver.def.scanThings)
                             {
-                                Predicate<Thing> predicate = (Thing t) => !t.IsForbidden(pawn) && scanner.HasJobOnThing(pawn, t, false);
+                                bool predicate(Thing t) => !t.IsForbidden(pawn) && scanner.HasJobOnThing(pawn, t, false);
                                 IEnumerable<Thing> enumerable = scanner.PotentialWorkThingsGlobal(pawn);
                                 Thing thing;
                                 if (scanner.Prioritized)
@@ -87,7 +85,7 @@ namespace Apini
                                 foreach (IntVec3 current in scanner.PotentialWorkCellsGlobal(pawn))
                                 {
                                     bool flag = false;
-                                    float num4 = (float)(current - position).LengthHorizontalSquared;
+                                    float num4 = (current - position).LengthHorizontalSquared;
                                     if (prioritized)
                                     {
                                         if (!current.IsForbidden(pawn) && scanner.HasJobOnCell(pawn, current))

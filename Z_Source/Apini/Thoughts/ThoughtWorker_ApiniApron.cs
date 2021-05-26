@@ -1,8 +1,5 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Verse;
 
 namespace Apini
@@ -35,15 +32,14 @@ namespace Apini
             }
 
             //Only affect non Apinis
-            if(!pawn_is_apini && other_pawn_is_apini && 
-                other.apparel.WornApparelCount > 0 && 
+            if (!pawn_is_apini && other_pawn_is_apini &&
+                other.apparel.WornApparelCount > 0 &&
                 other.apparel.WornApparel.Where(
-                    apparel => ApiniTracker.aparell.Contains(apparel.def) && 
-                    apparel.def.GetModExtension<ApiniAparrelProperties>().isCute).Count() > 0)
+                    apparel => ApiniTracker.apparel.Contains(apparel.def)
+                               && apparel.def.GetModExtension<ApiniAparrelProperties>().isCute).Count() > 0)
             {
                 return ThoughtState.ActiveAtStage(0);
             }
-
             return false;
         }
     }

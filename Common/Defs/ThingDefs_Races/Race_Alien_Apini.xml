@@ -295,25 +295,7 @@
 						</goodwill>
 					</li>
 				</factionRelations>
-				<chemicalSettings>
-					<li>
-						<chemical>Smokeleaf</chemical>
-						<ingestible>true</ingestible>
-						<reactions>
-							<li Class="IngestionOutcomeDoer_GiveHediff">
-								<hediffDef>ApiniSmoke</hediffDef>
-								<severity>0.45</severity>
-							</li>
-						</reactions>
-					</li>
-				</chemicalSettings>
 				<forcedRaceTraitEntries>
-					<li>
-						<defName>ApiniDrone</defName>
-						<chance>100</chance>
-						<commonalityMale>100</commonalityMale>
-						<commonalityFemale>-100</commonalityFemale>
-					</li>
 					<li>
 						<defName>Beauty</defName>
 						<degree>2</degree>
@@ -323,10 +305,6 @@
 						<defName>Industriousness</defName>
 						<degree>1</degree>
 						<chance>35</chance>
-					</li>
-					<li>
-						<defName>Ascetic</defName>
-						<chance>30</chance>
 					</li>
 					<li>
 						<defName>Industriousness</defName>
@@ -344,12 +322,6 @@
 				</forcedRaceTraitEntries>
 				<disallowedTraits>
 					<li>
-						<defName>Cannibal</defName>
-					</li>
-					<li>
-						<defName>Nudist</defName>
-					</li>
-					<li>
 						<defName>Greedy</defName>
 					</li>
 					<li>
@@ -360,17 +332,6 @@
 					</li>
 					<li>
 						<defName>Psychopath</defName>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>2</degree>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>1</degree>
-					</li>
-					<li>
-						<defName>Gay</defName>
 					</li>
 				</disallowedTraits>
 			</generalSettings>
@@ -450,6 +411,8 @@
 					<li>SleepDisturbed</li>
 					<li>SleptOnGround</li>
 					<li>Naked</li>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatAsIngredient</li>
 				</cannotReceiveThoughts>
 				<ateThoughtSpecific>
 					<li>

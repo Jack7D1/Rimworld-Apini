@@ -26,10 +26,9 @@
 	<BodyPartDef>
 		<defName>InsectWing</defName>
 		<label>insect wing</label>
-		<hitPoints>10</hitPoints>
-		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
+		<hitPoints>15</hitPoints>
+		<permanentInjuryChanceFactor>0.8</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<beautyRelated>true</beautyRelated>
 		<spawnThingOnRemoved>InsectWing</spawnThingOnRemoved>
 		<pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
 		<tags>
@@ -89,7 +88,7 @@
 			<li>ManipulationLimbDigit</li>
 		</tags>
 	</BodyPartDef>
-	<BodyPartDef>
+	<!--	<BodyPartDef>
 		<defName>InsectSting</defName>
 		<label>Sting</label>
 		<spawnThingOnRemoved>InsectSting</spawnThingOnRemoved>
@@ -100,7 +99,7 @@
 		<bleedRate>0</bleedRate>
 		<skinCovered>false</skinCovered>
 		<solid>true</solid>
-	</BodyPartDef>
+	</BodyPartDef>-->
 	<BodyPartDef>
 		<defName>Antenna</defName>
 		<label>antenna</label>

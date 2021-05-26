@@ -1,7 +1,5 @@
 ﻿using RimWorld;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using UnityEngine;
 using Verse;
@@ -14,8 +12,6 @@ namespace Apini
         public int MaxCapacity = 25;
 
         public float FermentationModifier = 1.0f;
-
-        private const float MinIdealTemperature = 7f;
 
         private int thingCount;
 
@@ -257,11 +253,11 @@ namespace Apini
                 return null;
             }
 
-            Thing thing = null;
-
             int stack_count_modifier = 1;
 
             VatProperties vatProps = def.TryGetModExtension<VatProperties>();
+
+            Thing thing;
             if (vatProps != null)
             {
                 thing = ThingMaker.MakeThing(vatProps.outputThingDef, null);
@@ -271,7 +267,7 @@ namespace Apini
             {
                 thing = ThingMaker.MakeThing(ThingDefOf.Beer, null);
             }
-            
+
             thing.stackCount = thingCount / stack_count_modifier;
             Reset();
             return thing;
@@ -302,20 +298,20 @@ namespace Apini
         {
             List<Gizmo> gizmos = new List<Gizmo>(base.GetGizmos());
 
-            if(DebugSettings.godMode)
+            if (DebugSettings.godMode)
             {
                 {
-					Command_Action debug_action = new Command_Action
-					{
-						defaultLabel = "Set progress to 1",
-						defaultDesc = "Finish fermenting.",
-						action = delegate ()
-						{
-							progressInt = 1.0f;
-						}
-					};
+                    Command_Action debug_action = new Command_Action
+                    {
+                        defaultLabel = "Set progress to 1",
+                        defaultDesc = "Finish fermenting.",
+                        action = delegate ()
+                        {
+                            progressInt = 1.0f;
+                        }
+                    };
 
-					gizmos.Add(debug_action);
+                    gizmos.Add(debug_action);
                 }
             }
 

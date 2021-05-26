@@ -1,8 +1,5 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Verse;
 
 namespace Apini
@@ -33,13 +30,11 @@ namespace Apini
             //Iterate through incoming drop pods.
             foreach (Thing pod in map.listerThings.ThingsInGroup(ThingRequestGroup.ActiveDropPod))
             {
-                DropPodIncoming dropPod = pod as DropPodIncoming;
-                if (dropPod != null)
+                if (pod is DropPodIncoming dropPod)
                 {
                     foreach (Thing thing in dropPod.Contents.innerContainer.AsEnumerable())
                     {
-                        Pawn pawn = thing as Pawn;
-                        if (pawn != null)
+                        if (thing is Pawn pawn)
                         {
                             ApplyToPawn(pawn, map);
                         }

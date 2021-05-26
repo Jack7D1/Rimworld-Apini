@@ -132,15 +132,15 @@
 			<MarketValue>200</MarketValue>
 		</statBases>
 	</ThingDef>
-	<ThingDef ParentName="InsectBodyPartNatural">
-		<!-- Insect Sting -->
+	<!--	<ThingDef ParentName="InsectBodyPartNatural">
+		<!{1}** Insect Sting **{1}>
 		<defName>InsectSting</defName>
 		<label>Insect sting</label>
 		<description>A barbed stinger full of venom, a single prick could spell doom.</description>
 		<statBases>
 			<MarketValue>500</MarketValue>
 		</statBases>
-	</ThingDef>
+	</ThingDef>-->
 	<!-- ============================ Body Parts : Prosthetic ========================== -->
 	<ThingDef ParentName="InsectBodyPartApiniProstheticsTech">
 		<!-- Prosthetic Wing -->
@@ -501,7 +501,7 @@
 	<ThingDef ParentName="InsectBodyPartApitech">
 		<defName>SignalReceptor_Apini</defName>
 		<label>Signal Receptor</label>
-		<description>Allows an antenna to pick up additional information previously imperceptible.</description>
+		<description>Allows an antenna to pick up additional information previously imperceptible. Let your antennae be tiny radios!</description>
 		<statBases>
 			<MarketValue>1400</MarketValue>
 			<Mass>0.2</Mass>

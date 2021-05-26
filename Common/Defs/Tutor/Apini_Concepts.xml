@@ -3,7 +3,7 @@
 		<defName>BeeswaxMaking</defName>
 		<label>Creating Beeswax</label>
 		<priority>1</priority>
-		<helpText>Wax can be produced by Apini at a crafting spot.</helpText>
+		<helpText>Wax can be produced by Apini or Azuri at a crafting spot using wood and any other plant material.</helpText>
 	</ConceptDef>
 	<ConceptDef>
 		<defName>ApiniMakingHoney</defName>

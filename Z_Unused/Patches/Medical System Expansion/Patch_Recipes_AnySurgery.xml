@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Compatibility patch for MSE. -->
 <Patch>
 	<Operation Class="PatchOperationFindMod">
@@ -17,7 +17,6 @@
 						<li>Azuri</li>
 					</value>
 				</li>
-
 				<!-- Of course, the beelien body has differences to the human body. -->
 				<!-- ================ Recipes_PartsSurgery ================ -->
 				<!-- Yeah, that's right - I'll just fit all of the patches here. Less space wasted by checking if the mod exists. -->
@@ -42,7 +41,6 @@
 						<li>Tarsal</li>
 					</value>
 				</li>
-
 				<!-- ======== Archotech. ======== -->
 				<!-- Heart. -->
 				<li Class="PatchOperationAdd">
@@ -80,7 +78,6 @@
 						<li>InsectMouth</li>
 					</value>
 				</li>
-
 				<!-- ======== Special Bionic. ======== -->
 				<!-- Front Legs. -->
 				<li Class="PatchOperationAdd">
@@ -95,7 +92,6 @@
 						<li>ApiniFrontLeg</li>
 					</value>
 				</li>
-
 				<!-- ======== Bionic. ======== -->
 				<!-- Tarsus. -->
 				<li Class="PatchOperationAdd">
@@ -118,7 +114,6 @@
 						<li>InsectMouth</li>
 					</value>
 				</li>
-
 				<!-- ======== Simple. ======== -->
 				<!-- Tarsus. -->
 				<li Class="PatchOperationAdd">
@@ -141,7 +136,6 @@
 						<li>InsectMouth</li>
 					</value>
 				</li>
-
 				<!-- ======== Basic. ======== -->
 				<!-- Front Legs -->
 				<li Class="PatchOperationAdd">
@@ -157,7 +151,6 @@
 						<li>Tarsal</li>
 					</value>
 				</li>
-				
 				<!-- ================ Recipes_PartsSurgery ================ -->
 				<!-- ======== Archotech. ======== -->
 				<!-- Thorax. -->
@@ -182,7 +175,6 @@
 					</value>
 				</li>
 				<!-- Not adding the honey stomach to the advanced appetite suppressant surgery, since the honey stomach is for storage - not digestion. -->
-
 				<!-- ======== Bionic. ======== -->
 				<!-- Thorax. -->
 				<li Class="PatchOperationAdd">
@@ -206,7 +198,6 @@
 					</value>
 				</li>
 				<!-- Not adding the honey stomach to the appetite suppressant surgery, since the honey stomach is for storage - not digestion. -->
-				
 				<!-- ================ Recipes_ModulesSurgery ================ -->
 				<!-- ======== Special Archotech. ======== -->
 				<!-- Tarsals -->
@@ -216,7 +207,6 @@
 						<li>Tarsal</li>
 					</value>
 				</li>
-
 				<!-- ======== Archotech. ======== -->
 				<!-- Tarsals -->
 				<li Class="PatchOperationAdd">
@@ -232,7 +222,6 @@
 						<li>Tarsus</li>
 					</value>
 				</li>
-
 				<!-- ======== Special Bionic. ======== -->
 				<!-- Tarsals -->
 				<li Class="PatchOperationAdd">
@@ -241,7 +230,6 @@
 						<li>Tarsal</li>
 					</value>
 				</li>
-
 				<!-- ======== Bionic. ======== -->
 				<!-- Tarsals -->
 				<li Class="PatchOperationAdd">

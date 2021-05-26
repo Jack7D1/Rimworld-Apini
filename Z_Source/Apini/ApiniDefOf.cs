@@ -1,8 +1,4 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Verse;
 
 namespace Apini
@@ -14,10 +10,6 @@ namespace Apini
     public static class ApiniDefOf
     {
         /// <summary>
-        /// Apini pawn kind.
-        /// </summary>
-        public static PawnKindDef ApiniPawn;
-        /// <summary>
         /// Apini hive discord.
         /// </summary>
         //public static TraitDef ApiniHiveDiscord;
@@ -25,5 +17,10 @@ namespace Apini
         /// Apini apron apparel.
         /// </summary>
         public static ThingDef ApiniApron;
+
+        /// <summary>
+        /// Apini pawn kind.
+        /// </summary>
+        public static PawnKindDef ApiniPawn;
     }
 }

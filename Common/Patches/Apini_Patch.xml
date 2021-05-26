@@ -1,7 +1,7 @@
 <Patch>
-  <!--============================ Insect Parts ===============================-->
-  
-	<Operation Class="PatchOperationSequence">  <!-- Insect Heart -->
+	<!--============================ Insect Parts ===============================-->
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Heart -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -16,8 +16,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Insect Mouth -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Mouth -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -32,8 +32,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Insect Antenna -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Antenna -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -48,10 +48,9 @@
 			</li>
 		</operations>
 	</Operation>
-	
-  <!--============================ Amputation Restriction ===============================-->
-	
-	<Operation Class="PatchOperationSequence">  <!-- Snake Body -->
+	<!--============================ Amputation Restriction ===============================-->
+	<Operation Class="PatchOperationSequence">
+		<!-- Snake Body -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -66,8 +65,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Snake Head -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Snake Head -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -82,8 +81,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Snake Mouth -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Snake Mouth -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -98,8 +97,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Insect Head -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Head -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -114,8 +113,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Insect Heart -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Heart -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -130,8 +129,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Insect Nostril -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Nostril -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -146,8 +145,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Pronotum -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Pronotum -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -162,8 +161,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Shell -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Shell -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -178,8 +177,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Turtle Shell -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Turtle Shell -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
@@ -194,8 +193,8 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<Operation Class="PatchOperationSequence">  <!-- Plastron -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Plastron -->
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">

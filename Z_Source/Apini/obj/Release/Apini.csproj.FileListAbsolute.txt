@@ -33,3 +33,8 @@ H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\obj\R
 H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\obj\Release\Apini.dll
 H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\1.2\Assemblies\Apini.dll
 H:\SteamLibrary\steamapps\common\RimWorld\Mods\Rimworld-Apini\Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+H:\github\Rimworld-Apini\1.2\Assemblies\Apini.dll.config
+H:\github\Rimworld-Apini\1.2\Assemblies\Apini.dll
+H:\github\Rimworld-Apini\Z_Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+H:\github\Rimworld-Apini\Z_Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+H:\github\Rimworld-Apini\Z_Source\Apini\obj\Release\Apini.dll

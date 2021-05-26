@@ -295,18 +295,6 @@
 						</goodwill>
 					</li>
 				</factionRelations>
-				<chemicalSettings>
-					<li>
-						<chemical>Smokeleaf</chemical>
-						<ingestible>true</ingestible>
-						<reactions>
-							<li Class="IngestionOutcomeDoer_GiveHediff">
-								<hediffDef>ApiniSmoke</hediffDef>
-								<severity>0.45</severity>
-							</li>
-						</reactions>
-					</li>
-				</chemicalSettings>
 				<disallowedTraits>
 					<li>
 						<defName>Cannibal</defName>
@@ -314,31 +302,11 @@
 					<li>
 						<defName>Nudist</defName>
 					</li>
-					<li>
-						<defName>Pyromaniac</defName>
-					</li>
-					<li>
-						<defName>Gay</defName>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>1</degree>
-					</li>
-					<li>
-						<defName>DrugDesire</defName>
-						<degree>2</degree>
-					</li>
 				</disallowedTraits>
 				<forcedRaceTraitEntries>
 					<li>
-						<defName>ApiniDrone</defName>
-						<chance>100</chance>
-						<commonalityMale>100</commonalityMale>
-						<commonalityFemale>-100</commonalityFemale>
-					</li>
-					<li>
 						<defName>Psychopath</defName>
-						<chance>80</chance>
+						<chance>70</chance>
 					</li>
 					<li>
 						<defName>Bloodlust</defName>
@@ -348,10 +316,6 @@
 						<defName>Beauty</defName>
 						<degree>2</degree>
 						<chance>30</chance>
-					</li>
-					<li>
-						<defName>Ascetic</defName>
-						<chance>40</chance>
 					</li>
 				</forcedRaceTraitEntries>
 			</generalSettings>

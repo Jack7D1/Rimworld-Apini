@@ -9,17 +9,11 @@ namespace Apini
 	/// </summary>
 	public class JobDriver_FillFermentingVat : JobDriver
 	{
-		private const TargetIndex VatInd = TargetIndex.A;
-
-		private const TargetIndex InputInd = TargetIndex.B;
-
-		private const int Duration = 200;
-
-		protected Building_FermentingVat Vat
+        protected Building_FermentingVat Vat
 		{
 			get
 			{
-				return (Building_FermentingVat)base.job.GetTarget(TargetIndex.A).Thing;
+				return (Building_FermentingVat)job.GetTarget(TargetIndex.A).Thing;
 			}
 		}
 
@@ -27,22 +21,22 @@ namespace Apini
 		{
 			get
 			{
-				return base.job.GetTarget(TargetIndex.B).Thing;
+				return job.GetTarget(TargetIndex.B).Thing;
 			}
         }
 
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
-            return this.pawn.Reserve(this.Vat, this.job, 1, -1, null, errorOnFailed) && this.pawn.Reserve(this.InputThing, this.job, 1, -1, null, errorOnFailed);
+            return pawn.Reserve(Vat, job, 1, -1, null, errorOnFailed) && pawn.Reserve(InputThing, job, 1, -1, null, errorOnFailed);
         }
 
         protected override IEnumerable<Toil> MakeNewToils()
 		{
 			this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
 			this.FailOnBurningImmobile(TargetIndex.A);
-            base.AddEndCondition(delegate
+            AddEndCondition(delegate
             {
-                if (this.Vat.SpaceLeftForInput > 0)
+                if (Vat.SpaceLeftForInput > 0)
                     return JobCondition.Ongoing;
                 return JobCondition.Succeeded;
             }
@@ -50,11 +44,11 @@ namespace Apini
             yield return Toils_General.DoAtomic(delegate
             {
 				//Log.Message("this.Vat.SpaceLeftForInput returns: " + this.Vat.SpaceLeftForInput);
-				if(this.Vat.SpaceLeftForInput > InputThing.stackCount)
+				if(Vat.SpaceLeftForInput > InputThing.stackCount)
                 {
-					this.job.count = InputThing.stackCount;
+					job.count = InputThing.stackCount;
                 }
-				else this.job.count = this.Vat.SpaceLeftForInput;
+				else job.count = Vat.SpaceLeftForInput;
             });
 			Toil reserveThing = Toils_Reserve.Reserve(TargetIndex.B, 1);
 			yield return reserveThing;

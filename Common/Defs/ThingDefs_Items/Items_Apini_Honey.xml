@@ -20,7 +20,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<MarketValue>5.0</MarketValue>
 			<Mass>0.4</Mass>
-			<DeteriorationRate>2</DeteriorationRate>
+			<DeteriorationRate>10</DeteriorationRate>
 			<Flammability>0.4</Flammability>
 			<Beauty>2</Beauty>
 			<Nutrition>0.4</Nutrition>
@@ -33,14 +33,6 @@
 			<li>HoneyCategory</li>
 		</thingCategories>
 		<alwaysHaulable>true</alwaysHaulable>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Ingredients"/>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>120</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
 		<pathCost>15</pathCost>
 		<resourceReadoutPriority>Last</resourceReadoutPriority>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -53,13 +45,13 @@
 		</ingestible>
 	</ThingDef>
 	<ThingDef ParentName="HoneyBase" Name="SpecialHoney" Abstract="True">
-		<!-- HoneyBase -->
+		<!-- SpecialHoneyBase -->
 		<statBases>
 			<MarketValue>10.0</MarketValue>
 		</statBases>
 		<ingestible>
 			<drugCategory>Medical</drugCategory>
-			<preferability>MealLavish</preferability>
+			<preferability>DesperateOnlyForHumanlikes</preferability>
 		</ingestible>
 	</ThingDef>
 	<ThingDef ParentName="SpecialHoney">

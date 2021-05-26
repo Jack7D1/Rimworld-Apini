@@ -58,7 +58,15 @@
 				<xpath>/Defs/MeditationFocusDef[defName="Natural"]/requiredBackstoriesAny</xpath>
 				<value>
 					<li>
-						<categoryName>ApiniBackstory</categoryName>
+						<categoryName>ApiniSpecific</categoryName>
+						<slot>Childhood</slot>
+					</li>
+					<li>
+						<categoryName>AzuriSpecific</categoryName>
+						<slot>Childhood</slot>
+					</li>
+					<li>
+						<categoryName>BeeGeneral</categoryName>
 						<slot>Childhood</slot>
 					</li>
 				</value>

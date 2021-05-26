@@ -43,17 +43,12 @@
 		<defName>NamerPersonAzuri</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>name->[blue] '[badass]' [badassanimal]</li>
-				<li>name->[blue] '[badass]' [negative]</li>
 				<li>name->[blue] '[azuribadass]' [badassanimal]</li>
 				<li>name->[blue] '[azuribadass]' [negative]</li>
-				<li>name(p=0.24)->[blue] '[games]' [badass]</li>
-				<li>name(p=0.24)->[badass] '[games]' [blue]</li>
-				<li>name->[badassanimal] '[badass]' [blue]</li>
+				<li>name(p=0.24)->[blue] '[games]' [azuribadass]</li>
+				<li>name(p=0.24)->[azuribadass] '[games]' [blue]</li>
 				<li>name->[badassanimal] '[azuribadass]' [blue]</li>
-				<li>name->[games] '[negative]' [blue]</li>
 				<li>name->[blue] [negative]</li>
-				<li>name->[blue] [badass]</li>
 				<li>name->[blue] [azuribadass]</li>
 			</rulesStrings>
 			<rulesRaw>
@@ -64,10 +59,6 @@
 				<li Class="Rule_File">
 					<keyword>animal</keyword>
 					<path>Words/Nouns/Animals</path>
-				</li>
-				<li Class="Rule_File">
-					<keyword>badass</keyword>
-					<path>Words/Nouns/People_Badass</path>
 				</li>
 				<li Class="Rule_File">
 					<keyword>games</keyword>

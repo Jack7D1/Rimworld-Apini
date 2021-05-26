@@ -1,445 +1,439 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="InjuryBase">
-    <!-- Bionic Sting Injury -->
-    <defName>BioSting</defName>
-    <label>Bee Sting</label>
-	<description>a bee sting.</description>
-    <displayWound>false</displayWound>
-    <tendable>true</tendable>
-    <stages>
-      <li>
-        <minSeverity>1</minSeverity>
-        <partEfficiencyOffset>-.05</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>2</minSeverity>
-        <partEfficiencyOffset>-.10</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>3</minSeverity>
-        <partEfficiencyOffset>-.15</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>4</minSeverity>
-        <partEfficiencyOffset>-.20</partEfficiencyOffset>
-      </li>
-    </stages>
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>tended</labelTendedWell>
-        <labelTendedWellInner>treated</labelTendedWellInner>
-        <labelSolidTendedWell>well-treated</labelSolidTendedWell>
-      </li>
-      <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0</infectionChance>
-      </li>
-      <li Class="HediffCompProperties_GetsPermanent">
-        <permanentLabel>partially necrotized</permanentLabel>
-      </li>
-    </comps>
-    <injuryProps>
-      <painPerSeverity>0.005</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.00125</averagePainPerSeverityPermanent>
-      <bleedRate>0</bleedRate>
-      <canMerge>true</canMerge>
-      <destroyedLabel>necrotized</destroyedLabel>
-      <destroyedOutLabel>fallen out</destroyedOutLabel>
-    </injuryProps>
-  </HediffDef>
-
-  <HediffDef ParentName="InjuryBase">
-    <!-- Advanced Bionic Sting Injury -->
-    <defName>AdvBioSting</defName>
-    <label>Bee Sting</label>
-	<description>a bee sting.</description>
-    <displayWound>false</displayWound>
-    <tendable>true</tendable>
-    <stages>
-      <li>
-        <minSeverity>1</minSeverity>
-        <partEfficiencyOffset>-.10</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>2</minSeverity>
-        <partEfficiencyOffset>-.20</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>3</minSeverity>
-        <partEfficiencyOffset>-.30</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>4</minSeverity>
-        <partEfficiencyOffset>-.40</partEfficiencyOffset>
-      </li>
-    </stages>
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>tended</labelTendedWell>
-        <labelTendedWellInner>treated</labelTendedWellInner>
-        <labelSolidTendedWell>well-treated</labelSolidTendedWell>
-      </li>
-      <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0</infectionChance>
-      </li>
-      <li Class="HediffCompProperties_GetsPermanent">
-        <permanentLabel>partially necrotized</permanentLabel>
-      </li>
-    </comps>
-    <injuryProps>
-      <painPerSeverity>0.0075</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.0025</averagePainPerSeverityPermanent>
-      <bleedRate>0</bleedRate>
-      <canMerge>true</canMerge>
-      <destroyedLabel>necrotized</destroyedLabel>
-      <destroyedOutLabel>fallen out</destroyedOutLabel>
-    </injuryProps>
-  </HediffDef>
-
-  <HediffDef>
-    <!-- Bionic Venom -->
-    <defName>BioVenom</defName>
-    <hediffClass>HediffWithComps</hediffClass>
-	<description>venom from a bee sting.</description>
-    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
-    <label>Apini Venom</label>
-    <makesSickThought>true</makesSickThought>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.25</severityPerDay>
-      </li>
-    </comps>
-    <stages>
-      <li>
-        <label>initial-hidden</label>
-        <becomeVisible>false</becomeVisible>
-      </li>
-      <li>
-        <label>initial</label>
-        <minSeverity>0.04</minSeverity>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.025</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>minor</label>
-        <minSeverity>0.2</minSeverity>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.05</offset>
-          </li>
-        </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Hypothermia</hediff>
-            <mtbDays>1</mtbDays>
-          </li>
-        </hediffGivers>
-      </li>
-      <li>
-        <label>moderate</label>
-        <minSeverity>0.40</minSeverity>
-        <vomitMtbDays>10</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.10</offset>
-          </li>
-        </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Hypothermia</hediff>
-            <mtbDays>1</mtbDays>
-          </li>
-        </hediffGivers>
-      </li>
-      <li>
-        <label>serious</label>
-        <minSeverity>0.60</minSeverity>
-        <vomitMtbDays>5</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.15</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>extreme</label>
-        <minSeverity>0.80</minSeverity>
-        <vomitMtbDays>1</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.25</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>critical</label>
-        <minSeverity>1</minSeverity>
-        <vomitMtbDays>0.5</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <setMax>0.10</setMax>
-          </li>
-        </capMods>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef>
-    <!-- Advanced Bionic Venom -->
-    <defName>AdvBioVenom</defName>
-    <hediffClass>HediffWithComps</hediffClass>
-	<description>venom from a bee sting.</description>
-    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
-    <label>Dire Apini Venom</label>
-    <makesSickThought>true</makesSickThought>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.25</severityPerDay>
-      </li>
-    </comps>
-    <stages>
-      <li>
-        <label>initial-hidden</label>
-        <becomeVisible>false</becomeVisible>
-      </li>
-      <li>
-        <label>initial</label>
-        <minSeverity>0.04</minSeverity>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.04</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>minor</label>
-        <minSeverity>0.2</minSeverity>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.075</offset>
-          </li>
-        </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Hypothermia</hediff>
-            <mtbDays>1</mtbDays>
-          </li>
-        </hediffGivers>
-      </li>
-      <li>
-        <label>moderate</label>
-        <minSeverity>0.40</minSeverity>
-        <vomitMtbDays>7.5</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.125</offset>
-          </li>
-        </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Hypothermia</hediff>
-            <mtbDays>1</mtbDays>
-          </li>
-        </hediffGivers>
-      </li>
-      <li>
-        <label>serious</label>
-        <minSeverity>0.60</minSeverity>
-        <vomitMtbDays>2.5</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.175</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>extreme</label>
-        <minSeverity>0.80</minSeverity>
-        <vomitMtbDays>.75</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.35</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>critical</label>
-        <minSeverity>1</minSeverity>
-        <vomitMtbDays>0.35</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <setMax>0.10</setMax>
-          </li>
-        </capMods>
-      </li>
-    </stages>
-  </HediffDef>
-  
-  <HediffDef ParentName="InjuryBase">
-    <!-- Venomous Sting Injury -->
-    <defName>BeeSting</defName>
-    <label>Bee Sting</label>
-	<description>a bee sting.</description>
-    <displayWound>false</displayWound>
-    <tendable>true</tendable>
-    <stages>
-      <li>
-        <minSeverity>1</minSeverity>
-        <partEfficiencyOffset>-.20</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>2</minSeverity>
-        <partEfficiencyOffset>-.40</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>3</minSeverity>
-        <partEfficiencyOffset>-.60</partEfficiencyOffset>
-      </li>
-      <li>
-        <minSeverity>4</minSeverity>
-        <partEfficiencyOffset>-.80</partEfficiencyOffset>
-      </li>
-    </stages>
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>tended</labelTendedWell>
-        <labelTendedWellInner>treated</labelTendedWellInner>
-        <labelSolidTendedWell>well-treated</labelSolidTendedWell>
-      </li>
-      <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0</infectionChance>
-      </li>
-      <li Class="HediffCompProperties_GetsPermanent">
-        <permanentLabel>partially necrotized</permanentLabel>
-      </li>
-    </comps>
-    <injuryProps>
-      <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0</bleedRate>
-      <canMerge>true</canMerge>
-      <destroyedLabel>necrotized</destroyedLabel>
-      <destroyedOutLabel>fallen out</destroyedOutLabel>
-    </injuryProps>
-  </HediffDef>
-
-  <HediffDef>
-    <!-- Sting Venom -->
-    <defName>A_StingerVenom</defName>
-    <label>Deadly Apini Venom</label>
-	<description>deadly venom from a bee sting.</description>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
-    <lethalSeverity>2</lethalSeverity>
-    <makesSickThought>true</makesSickThought>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.25</severityPerDay>
-      </li>
-    </comps>
-    <stages>
-      <li>
-        <label>initial-hidden</label>
-        <becomeVisible>false</becomeVisible>
-      </li>
-      <li>
-        <label>initial</label>
-        <minSeverity>0.04</minSeverity>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.05</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>minor</label>
-        <minSeverity>0.2</minSeverity>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.10</offset>
-          </li>
-        </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Hypothermia</hediff>
-            <mtbDays>1</mtbDays>
-          </li>
-        </hediffGivers>
-      </li>
-      <li>
-        <label>moderate</label>
-        <minSeverity>0.40</minSeverity>
-        <vomitMtbDays>5</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.15</offset>
-          </li>
-        </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Hypothermia</hediff>
-            <mtbDays>1</mtbDays>
-          </li>
-        </hediffGivers>
-      </li>
-      <li>
-        <label>serious</label>
-        <minSeverity>0.60</minSeverity>
-        <vomitMtbDays>1</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.25</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>extreme</label>
-        <minSeverity>0.80</minSeverity>
-        <vomitMtbDays>0.5</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.5</offset>
-          </li>
-        </capMods>
-      </li>
-      <li>
-        <label>critical</label>
-        <minSeverity>1</minSeverity>
-        <vomitMtbDays>0.25</vomitMtbDays>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <setMax>0.10</setMax>
-          </li>
-        </capMods>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <!-- <HediffDef ParentName="ApitechMutationBase">
+	<HediffDef ParentName="InjuryBase">
+		<!-- Bionic Sting Injury -->
+		<defName>BioSting</defName>
+		<label>Bee Sting</label>
+		<description>a bee sting.</description>
+		<displayWound>false</displayWound>
+		<tendable>true</tendable>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<partEfficiencyOffset>-.05</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>2</minSeverity>
+				<partEfficiencyOffset>-.10</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>3</minSeverity>
+				<partEfficiencyOffset>-.15</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>4</minSeverity>
+				<partEfficiencyOffset>-.20</partEfficiencyOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>tended</labelTendedWell>
+				<labelTendedWellInner>treated</labelTendedWellInner>
+				<labelSolidTendedWell>well-treated</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>partially necrotized</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.005</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.00125</averagePainPerSeverityPermanent>
+			<bleedRate>0</bleedRate>
+			<canMerge>true</canMerge>
+			<destroyedLabel>necrotized</destroyedLabel>
+			<destroyedOutLabel>fallen out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	<HediffDef ParentName="InjuryBase">
+		<!-- Advanced Bionic Sting Injury -->
+		<defName>AdvBioSting</defName>
+		<label>Bee Sting</label>
+		<description>a bee sting.</description>
+		<displayWound>false</displayWound>
+		<tendable>true</tendable>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<partEfficiencyOffset>-.10</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>2</minSeverity>
+				<partEfficiencyOffset>-.20</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>3</minSeverity>
+				<partEfficiencyOffset>-.30</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>4</minSeverity>
+				<partEfficiencyOffset>-.40</partEfficiencyOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>tended</labelTendedWell>
+				<labelTendedWellInner>treated</labelTendedWellInner>
+				<labelSolidTendedWell>well-treated</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>partially necrotized</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.0075</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.0025</averagePainPerSeverityPermanent>
+			<bleedRate>0</bleedRate>
+			<canMerge>true</canMerge>
+			<destroyedLabel>necrotized</destroyedLabel>
+			<destroyedOutLabel>fallen out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	<HediffDef>
+		<!-- Bionic Venom -->
+		<defName>BioVenom</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>venom from a bee sting.</description>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<label>Apini Venom</label>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial-hidden</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>initial</label>
+				<minSeverity>0.04</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.025</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Hypothermia</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.40</minSeverity>
+				<vomitMtbDays>10</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Hypothermia</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.60</minSeverity>
+				<vomitMtbDays>5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.80</minSeverity>
+				<vomitMtbDays>1</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.25</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>critical</label>
+				<minSeverity>1</minSeverity>
+				<vomitMtbDays>0.5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.10</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<!-- Advanced Bionic Venom -->
+		<defName>AdvBioVenom</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>venom from a bee sting.</description>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<label>Dire Apini Venom</label>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial-hidden</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>initial</label>
+				<minSeverity>0.04</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.04</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.075</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Hypothermia</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.40</minSeverity>
+				<vomitMtbDays>7.5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.125</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Hypothermia</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.60</minSeverity>
+				<vomitMtbDays>2.5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.175</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.80</minSeverity>
+				<vomitMtbDays>.75</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.35</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>critical</label>
+				<minSeverity>1</minSeverity>
+				<vomitMtbDays>0.35</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.10</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef ParentName="InjuryBase">
+		<!-- Venomous Sting Injury -->
+		<defName>BeeSting</defName>
+		<label>Bee Sting</label>
+		<description>a bee sting.</description>
+		<displayWound>false</displayWound>
+		<tendable>true</tendable>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<partEfficiencyOffset>-.20</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>2</minSeverity>
+				<partEfficiencyOffset>-.40</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>3</minSeverity>
+				<partEfficiencyOffset>-.60</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>4</minSeverity>
+				<partEfficiencyOffset>-.80</partEfficiencyOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>tended</labelTendedWell>
+				<labelTendedWellInner>treated</labelTendedWellInner>
+				<labelSolidTendedWell>well-treated</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>partially necrotized</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<bleedRate>0</bleedRate>
+			<canMerge>true</canMerge>
+			<destroyedLabel>necrotized</destroyedLabel>
+			<destroyedOutLabel>fallen out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	<HediffDef>
+		<!-- Sting Venom -->
+		<defName>A_StingerVenom</defName>
+		<label>Deadly Apini Venom</label>
+		<description>deadly venom from a bee sting.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<lethalSeverity>2</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial-hidden</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>initial</label>
+				<minSeverity>0.04</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Hypothermia</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.40</minSeverity>
+				<vomitMtbDays>5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Hypothermia</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.60</minSeverity>
+				<vomitMtbDays>1</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.25</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.80</minSeverity>
+				<vomitMtbDays>0.5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.5</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>critical</label>
+				<minSeverity>1</minSeverity>
+				<vomitMtbDays>0.25</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.10</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- <HediffDef ParentName="ApitechMutationBase">
     Cheat
     <defName>ApitechMechaniteMutation</defName>
     <label>Apitech Mechanite Mutation</label>
@@ -553,5 +547,4 @@
       </li>
     </stages>
   </HediffDef> -->
-
 </Defs>

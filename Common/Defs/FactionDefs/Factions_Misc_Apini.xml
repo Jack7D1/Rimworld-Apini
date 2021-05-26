@@ -53,7 +53,8 @@
 		<backstoryFilters>
 			<li>
 				<categories>
-					<li>ApiniBackstory</li>
+					<li>ApiniSpecific</li>
+					<li>BeeGeneral</li>
 				</categories>
 			</li>
 		</backstoryFilters>
