@@ -64,7 +64,7 @@
 		<defName>AzuriChampion</defName>
 		<title>Ringfighting Champion</title>
 		<titleShort>Champion</titleShort>
-		<baseDescription>Of many violent Azuri pass-times and cultural phenomena, gladitorial-like ring fighting is all the buzz. [PAWN_nameDef] was the ringfighting champion of [PAWN_possessive] hive, and slated to rise to the top of all Azuri. Sadly [PAWN_pronoun] was permanently banned from future participation after tearing out the antennae of another Azuri after the match had ended. \n[PAWN_nameDef] is exceptionally well familiar in hand to hand combat and dislikes ranged weaponry.</baseDescription>
+		<baseDescription>Of many violent Azuri pass-times and cultural phenomena, gladitorial-like ring fighting is all the buzz. [PAWN_nameDef] was the ringfighting champion of [PAWN_possessive] hive, and slated to rise to the top of all Azuri. \nSadly [PAWN_pronoun] was permanently banned from future participation after tearing out the antennae of another Azuri after the match had ended. \n[PAWN_nameDef] is exceptionally well familiar in hand to hand combat and dislikes ranged weaponry.</baseDescription>
 		<skillGains>
 			<li>
 				<defName>Melee</defName>

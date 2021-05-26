@@ -62,4 +62,49 @@
 			<li>Intellectual</li>
 		</requiredWorkTags>
 	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="AzuriChildBase">
+		<defName>AzuriPacifist</defName>
+		<title>Pacifistic Grub</title>
+		<titleShort>Pacifist</titleShort>
+		<baseDescription>Unlike most Azuri, [PAWN_nameDef] grew up with a strong sense of empathy. Sadly this meant that [PAWN_pronoun] was unable to make meaningful connections with other Azuri. \n[PAWN_pronoun] found happiness in [PAWN_possessive] artwork despite this.
+		</baseDescription>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Kind</defName>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>1</degree>
+				<chance>40</chance>
+			</li>
+			<li>
+				<defName>TorturedArtist</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Bloodlust</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
 </Defs>
