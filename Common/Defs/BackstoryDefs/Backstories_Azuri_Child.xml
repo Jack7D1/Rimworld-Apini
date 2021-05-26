@@ -29,4 +29,37 @@
 			</li>
 		</disallowedTraits>
 	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="AzuriChildBase">
+		<defName>AzuriDoom</defName>
+		<title>Doomsayer</title>
+		<titleShort>Doomsayer</titleShort>
+		<baseDescription>As a young grub, [PAWN_nameDef] showed remarkable ability to predict the future. Many times [PAWN_pronoun] would chant constantly of impending doom by winterfall. Indeed this prediction came to fruition, and the entire hive nearly froze to death. \nWhether this is actual premonition or common sense remains to be seen.</baseDescription>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+	</AlienRace.BackstoryDef>
 </Defs>
