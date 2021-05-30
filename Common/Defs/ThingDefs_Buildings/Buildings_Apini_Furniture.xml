@@ -212,6 +212,7 @@
 					</thingDefs>
 				</fuelFilter>
 				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>
