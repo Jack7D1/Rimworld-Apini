@@ -30,7 +30,6 @@
 				<li>(70, 50)</li>
 				<li>(700, 100)</li>
 				<li>(1300, 150)</li>
-				<li>(100000, 10000)</li>
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<colorSpectrum>
@@ -80,6 +79,7 @@
 				<kindDef>Combat</kindDef>
 				<options>
 					<ApiniPawn>100</ApiniPawn>
+					<ApiniSoldier>200</ApiniSoldier>
 					<ApiniOverseer>10</ApiniOverseer>
 				</options>
 			</li>
@@ -93,13 +93,15 @@
 					<Muffalo>1</Muffalo>
 				</carriers>
 				<guards>
-					<ApiniPawn>150</ApiniPawn>
+					<ApiniSoldier>200</ApiniSoldier>
+					<ApiniPawn>100</ApiniPawn>
 					<ApiniOverseer>25</ApiniOverseer>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
+					<ApiniSoldier>20</ApiniSoldier>
 					<ApiniPawn>150</ApiniPawn>
 					<ApiniOverseer>5</ApiniOverseer>
 				</options>
@@ -107,8 +109,9 @@
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<ApiniPawn>150</ApiniPawn>
-					<ApiniOverseer>100</ApiniOverseer>
+					<ApiniSoldier>100</ApiniSoldier>
+					<ApiniPawn>200</ApiniPawn>
+					<ApiniOverseer>50</ApiniOverseer>
 				</options>
 			</li>
 		</pawnGroupMakers>
@@ -123,6 +126,9 @@
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<canMakeRandomly>true</canMakeRandomly>
 		<humanlikeFaction>true</humanlikeFaction>
+		<permanentEnemyToEveryoneExcept>
+			<li>TribalAzuriPlayer</li>
+		</permanentEnemyToEveryoneExcept>
 		<raidCommonalityFromPointsCurve>
 			<points>
 				<li>(700, 0.1)</li>
@@ -143,7 +149,6 @@
 				<li>(70, 50)</li>
 				<li>(700, 100)</li>
 				<li>(1300, 150)</li>
-				<li>(100000, 10000)</li>
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<colorSpectrum>
