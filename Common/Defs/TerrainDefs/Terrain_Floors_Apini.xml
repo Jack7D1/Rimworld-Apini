@@ -19,6 +19,7 @@
 		<description>Floor made from beeswax. Has a sweet aroma.</description>
 		<texturePath>Things/Terrain/Honeycomb</texturePath>
 		<color>(255,228,181)</color>
+		<edgeType>Fade</edgeType>
 		<statBases>
 			<WorkToBuild>100</WorkToBuild>
 			<Beauty>2</Beauty>
