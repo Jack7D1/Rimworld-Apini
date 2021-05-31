@@ -30,7 +30,7 @@
 		<itemQuality>Superior</itemQuality>
 		<minGenerationAge>10</minGenerationAge>
 		<factionLeader>true</factionLeader>
-		<combatPower>150</combatPower>
+		<combatPower>180</combatPower>
 		<apparelMoney>1100~2500</apparelMoney>
 		<weaponMoney>2000~5000</weaponMoney>
 		<weaponTags>
