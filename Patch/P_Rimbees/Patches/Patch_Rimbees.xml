@@ -72,23 +72,24 @@
 					<RB_Beeswax>3</RB_Beeswax>
 				</value>
 			</li>
-			<!-- ApiniWaxTile, Different amounts of wax depending if Royalty installed due to fine floors -->
+			<!-- ApiniFineWaxFloor depending if Royalty is installed-->
 			<li Class="PatchOperationFindMod">
 				<mods>
 					<li>Royalty</li>
 				</mods>
 				<match Class="PatchOperationReplace">
-					<xpath>Defs/TerrainDef[defName = "ApiniWaxTile"]/costList/ApiniWax</xpath>
+					<xpath>Defs/TerrainDef[defName = "ApiniFineWaxFloor"]/costList/ApiniWax</xpath>
 					<value>
 						<RB_Beeswax>50</RB_Beeswax>
 					</value>
 				</match>
-				<nomatch Class="PatchOperationReplace">
-					<xpath>Defs/TerrainDef[defName = "ApiniWaxTile"]/costList/ApiniWax</xpath>
-					<value>
-						<RB_Beeswax>15</RB_Beeswax>
-					</value>
-				</nomatch>
+			</li>
+			<!--ApiniWaxTile-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "ApiniWaxTile"]/costList/ApiniWax</xpath>
+				<value>
+					<RB_Beeswax>15</RB_Beeswax>
+				</value>
 			</li>
 			<!-- Furniture -->
 			<!-- Small Honeycomb Bed -->

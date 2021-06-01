@@ -40,7 +40,7 @@
 		<defName>BeeSickly</defName>
 		<title>Sickly Grub</title>
 		<titleShort>Sickly</titleShort>
-		<baseDescription>[PAWN_nameDef] was frequently ailed with various parasites and fungus diseases as a young grub, several time [PAWN_pronoun] was near death due to these diseases. \nFortunately for [PAWN_pronoun] the nursemaids were highly skilled, and nursed her back to health each and every time. \n[PAWN_nameDef] never got much social interaction, but finds it easy to empathize with [PAWN_possessive] patients.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was unusually plagues by various diseases, several times [PAWN_pronoun] was near death due to these diseases. \nFortunately for [PAWN_possessive], the nursemaids were highly skilled and nursed her back to health each and every time. \n[PAWN_nameDef] never got much social interaction, but finds it easy to empathize with [PAWN_possessive] patients.</baseDescription>
 		<femaleCommonality>100</femaleCommonality>
 		<maleCommonality>0</maleCommonality>
 		<skillGains>

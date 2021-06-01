@@ -23,9 +23,9 @@
 		<labelFemale>apini</labelFemale>
 		<apparelMoney>200~400</apparelMoney>
 		<combatPower>40</combatPower>
-		<weaponMoney>100~400</weaponMoney>
+		<weaponMoney>200~400</weaponMoney>
 		<weaponTags>
-			<li>NeolithicMeleeBasic</li>
+			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 	</PawnKindDef>
 	<PawnKindDef ParentName="ApiniBasic">
@@ -37,8 +37,11 @@
 		<weaponMoney>800~1100</weaponMoney>
 		<weaponTags>
 			<li>NeolithicMeleeAdvanced</li>
-			<li>NeolithicMeleeDecent</li>
+			<li>Gun</li>
 		</weaponTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
 	</PawnKindDef>
 	<PawnKindDef ParentName="ApiniBasic">
 		<defName>ApiniOverseer</defName>
@@ -52,7 +55,7 @@
 		<apparelMoney>1600~2600</apparelMoney>
 		<weaponMoney>1000~1600</weaponMoney>
 		<weaponTags>
-			<li>IndustrialRangedBasic</li>
+			<li>EliteGun</li>
 			<!--B has a GUN?!-->
 		</weaponTags>
 	</PawnKindDef>

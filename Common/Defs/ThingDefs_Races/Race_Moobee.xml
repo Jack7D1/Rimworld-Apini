@@ -60,6 +60,7 @@
 		</comps>
 		<race>
 			<body>Moobee</body>
+			<packAnimal>true</packAnimal>
 			<baseBodySize>3</baseBodySize>
 			<baseHealthScale>3</baseHealthScale>
 			<baseHungerRate>0.5</baseHungerRate>
@@ -70,7 +71,7 @@
 			<fleshType>Insectoid</fleshType>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<bloodDef>Filth_BloodMoobee</bloodDef>
-			<makesFootprints>false</makesFootprints>
+			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>10</lifeExpectancy>
 			<manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
 			<lifeStageAges>

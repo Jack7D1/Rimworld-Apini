@@ -1,0 +1,29 @@
+<Defs>
+	<TerrainDef ParentName="ApiniFloorBase">
+		<defName>ApiniFineWaxFloor</defName>
+		<label>fine beeswax floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Layers upon layers of carefully laid beeswax, fused with a dab of honey make up this luxurious flooring. \nWhile this flooring takes tremendous effort and wax to build; it's made up for with a gorgeous honey-lavendar scent. \nThis floor is fit for a queen! The incredibly smooth and continuous surface also makes it very easy to clean!</description>
+		<texturePath>Things/Terrain/FineHoneycomb</texturePath>
+		<color>(240,195,78)</color>
+		<edgeType>Fade</edgeType>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+			<Beauty>10</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<ApiniWax>50</ApiniWax>
+			<ApiniHoney>1</ApiniHoney>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+		<researchPrerequisites>
+			<li>HoneyConditioning</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<constructEffect>ConstructWood</constructEffect>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	</TerrainDef>
+</Defs>
