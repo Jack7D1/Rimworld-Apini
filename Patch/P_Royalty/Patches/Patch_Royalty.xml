@@ -12,7 +12,10 @@
 				</value>
 			</li>
 			<li Class="PatchOperationInsert">
+				<!--Double honeycomb beds are fit for double bed bedroom requirements-->
+				<xpath>/Defs/RoyalTitleDef/bedroomRequirements/li[@Class='RoomRequirement_ThingAnyOf']/things/li</xpath>
 				<value>
+					<li>HoneycombBed_L</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
