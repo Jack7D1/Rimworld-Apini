@@ -127,7 +127,7 @@
 			<li>Insect</li>
 		</tradeTags>
 	</ThingDef>
-	<PawnKindDef Name="MoobeeKind">
+	<PawnKindDef Name="MoobeeKind" ParentName="AnimalKindBase">
 		<defName>Moobee</defName>
 		<label>Moobee</label>
 		<race>Moobee</race>
