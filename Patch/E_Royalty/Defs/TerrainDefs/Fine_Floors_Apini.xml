@@ -4,9 +4,9 @@
 		<label>fine beeswax floor</label>
 		<renderPrecedence>250</renderPrecedence>
 		<description>Layers upon layers of carefully laid beeswax, fused with a dab of honey make up this luxurious flooring. \nWhile this flooring takes tremendous effort and wax to build; it's made up for with a gorgeous honey-lavendar scent. \nThis floor is fit for a queen! The incredibly smooth and continuous surface also makes it very easy to clean!</description>
-		<texturePath>Things/Terrain/FineHoneycomb</texturePath>
+		<texturePath>Things/Terrain/finehex</texturePath>
 		<color>(240,195,78)</color>
-		<edgeType>Fade</edgeType>
+		<edgeType>Hard</edgeType>
 		<statBases>
 			<WorkToBuild>1500</WorkToBuild>
 			<Beauty>10</Beauty>
