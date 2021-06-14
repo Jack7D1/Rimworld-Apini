@@ -7,7 +7,7 @@
 		<gerundLabel>Honey Making</gerundLabel>
 		<description>Any task involving the creation of delicious Apini honey.</description>
 		<verb>make</verb>
-		<naturalPriority>301</naturalPriority>
+		<naturalPriority>991</naturalPriority>
 		<alwaysStartActive>true</alwaysStartActive>
 		<requireCapableColonist>true</requireCapableColonist>
 		<relevantSkills>
