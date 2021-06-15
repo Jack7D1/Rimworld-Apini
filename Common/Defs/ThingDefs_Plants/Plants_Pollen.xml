@@ -217,123 +217,124 @@
 		<thingCategories>
 			<li>PollenBall</li>
 		</thingCategories>
-		<ThingDef ParentName="PollenBase">
-			<!-- Pollen -->
-			<defName>Pollen</defName>
-			<label>Pollen</label>
-			<description>Raw pollen extracted from pollen balls.  Used by Apini in various recipies.</description>
-			<thingCategories>
-				<li>Pollen</li>
-			</thingCategories>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball -->
-			<defName>PollenBall</defName>
-			<label>Pollen Ball</label>
-			<description>A ball of pollen and nectar gathered from plants. The vital ingredient to make unflavored honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Pollen>10</Pollen>
-				<Nectar>13</Nectar>
-			</smeltProducts>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball (Frostbell) -->
-			<defName>PollenBall_F</defName>
-			<label>Pollen Ball (Frostbell)</label>
-			<description>A ball of pollen and nectar gathered from frostbells. The vital ingredient to make cool honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall_Frostbell</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Nectar_F>1</Nectar_F>
-				<Pollen>1</Pollen>
-			</smeltProducts>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball (Emberose) -->
-			<defName>PollenBall_E</defName>
-			<label>Pollen Ball (Emberose)</label>
-			<description>A ball of pollen and nectar gathered from Emberoses. The vital ingredient to make hot honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall_Emberose</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Nectar>6</Nectar>
-				<Nectar_E>7</Nectar_E>
-				<Pollen>10</Pollen>
-			</smeltProducts>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball (Metalily) -->
-			<defName>PollenBall_M</defName>
-			<label>Pollen Ball (Metalily)</label>
-			<description>A ball of pollen and nectar gathered from Metalilies. The vital ingredient to make Rough honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall_Metalily</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Nectar>6</Nectar>
-				<Nectar_M>7</Nectar_M>
-				<Pollen>10</Pollen>
-			</smeltProducts>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball (Bardsong) -->
-			<defName>PollenBall_B</defName>
-			<label>Pollen Ball (Bardsong)</label>
-			<description>A ball of pollen and nectar gathered from Bardsongs. The vital ingredient to make Smooth honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall_Bardsong</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Nectar>6</Nectar>
-				<Nectar_B>7</Nectar_B>
-				<Pollen>10</Pollen>
-			</smeltProducts>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball (Rushthorn) -->
-			<defName>PollenBall_R</defName>
-			<label>Pollen Ball (Rushthorn)</label>
-			<description>A ball of pollen and nectar gathered from Rushthorns. The vital ingredient to make Swift honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall_Rushthorn</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Nectar>6</Nectar>
-				<Nectar_R>7</Nectar_R>
-				<Pollen>10</Pollen>
-			</smeltProducts>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball (Wiserbud) -->
-			<defName>PollenBall_W</defName>
-			<label>Pollen Ball (Wiserbud)</label>
-			<description>A ball of pollen and nectar gathered from Wiserbuds. The vital ingredient to make Smart honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall_Wiserbud</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Nectar>6</Nectar>
-				<Nectar_W>7</Nectar_W>
-				<Pollen>10</Pollen>
-			</smeltProducts>
-		</ThingDef>
-		<ThingDef ParentName="PollenBallBase">
-			<!-- Pollen Ball (Vigorbloom) -->
-			<defName>PollenBall_V</defName>
-			<label>Pollen Ball (Vigorbloom)</label>
-			<description>A ball of pollen and nectar gathered from Vigorblooms. The vital ingredient to make Brute honey.</description>
-			<graphicData>
-				<texPath>Things/Item/PollenBall/PollenBall_Vigorbloom</texPath>
-			</graphicData>
-			<smeltProducts>
-				<Nectar>6</Nectar>
-				<Nectar_V>7</Nectar_V>
-				<Pollen>10</Pollen>
-			</smeltProducts>
-		</ThingDef>
-	</Defs>
+	</ThingDef>
+	<ThingDef ParentName="PollenBase">
+		<!-- Pollen -->
+		<defName>Pollen</defName>
+		<label>Pollen</label>
+		<description>Raw pollen extracted from pollen balls.  Used by Apini in various recipies.</description>
+		<thingCategories>
+			<li>Pollen</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball -->
+		<defName>PollenBall</defName>
+		<label>Pollen Ball</label>
+		<description>A ball of pollen and nectar gathered from plants. The vital ingredient to make unflavored honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Pollen>10</Pollen>
+			<Nectar>13</Nectar>
+		</smeltProducts>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball (Frostbell) -->
+		<defName>PollenBall_F</defName>
+		<label>Pollen Ball (Frostbell)</label>
+		<description>A ball of pollen and nectar gathered from frostbells. The vital ingredient to make cool honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall_Frostbell</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Nectar_F>1</Nectar_F>
+			<Pollen>1</Pollen>
+		</smeltProducts>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball (Emberose) -->
+		<defName>PollenBall_E</defName>
+		<label>Pollen Ball (Emberose)</label>
+		<description>A ball of pollen and nectar gathered from Emberoses. The vital ingredient to make hot honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall_Emberose</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Nectar>6</Nectar>
+			<Nectar_E>7</Nectar_E>
+			<Pollen>10</Pollen>
+		</smeltProducts>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball (Metalily) -->
+		<defName>PollenBall_M</defName>
+		<label>Pollen Ball (Metalily)</label>
+		<description>A ball of pollen and nectar gathered from Metalilies. The vital ingredient to make Rough honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall_Metalily</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Nectar>6</Nectar>
+			<Nectar_M>7</Nectar_M>
+			<Pollen>10</Pollen>
+		</smeltProducts>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball (Bardsong) -->
+		<defName>PollenBall_B</defName>
+		<label>Pollen Ball (Bardsong)</label>
+		<description>A ball of pollen and nectar gathered from Bardsongs. The vital ingredient to make Smooth honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall_Bardsong</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Nectar>6</Nectar>
+			<Nectar_B>7</Nectar_B>
+			<Pollen>10</Pollen>
+		</smeltProducts>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball (Rushthorn) -->
+		<defName>PollenBall_R</defName>
+		<label>Pollen Ball (Rushthorn)</label>
+		<description>A ball of pollen and nectar gathered from Rushthorns. The vital ingredient to make Swift honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall_Rushthorn</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Nectar>6</Nectar>
+			<Nectar_R>7</Nectar_R>
+			<Pollen>10</Pollen>
+		</smeltProducts>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball (Wiserbud) -->
+		<defName>PollenBall_W</defName>
+		<label>Pollen Ball (Wiserbud)</label>
+		<description>A ball of pollen and nectar gathered from Wiserbuds. The vital ingredient to make Smart honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall_Wiserbud</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Nectar>6</Nectar>
+			<Nectar_W>7</Nectar_W>
+			<Pollen>10</Pollen>
+		</smeltProducts>
+	</ThingDef>
+	<ThingDef ParentName="PollenBallBase">
+		<!-- Pollen Ball (Vigorbloom) -->
+		<defName>PollenBall_V</defName>
+		<label>Pollen Ball (Vigorbloom)</label>
+		<description>A ball of pollen and nectar gathered from Vigorblooms. The vital ingredient to make Brute honey.</description>
+		<graphicData>
+			<texPath>Things/Item/PollenBall/PollenBall_Vigorbloom</texPath>
+		</graphicData>
+		<smeltProducts>
+			<Nectar>6</Nectar>
+			<Nectar_V>7</Nectar_V>
+			<Pollen>10</Pollen>
+		</smeltProducts>
+	</ThingDef>
+</Defs>
