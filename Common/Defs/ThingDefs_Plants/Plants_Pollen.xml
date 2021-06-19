@@ -32,7 +32,7 @@
 			<fertilityMin>1</fertilityMin>
 			<fertilitySensitivity>2</fertilitySensitivity>
 			<growDays>5</growDays>
-			<harvestYield>10</harvestYield>
+			<harvestYield>7</harvestYield>
 			<harvestWork>800</harvestWork>
 			<harvestFailable>false</harvestFailable>
 			<harvestAfterGrowth>0.50</harvestAfterGrowth>
@@ -42,7 +42,6 @@
 			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
 			<sowTags>
 				<li>Ground</li>
-				<li>Decorative</li>
 				<li>Hydroponic</li>
 			</sowTags>
 			<topWindExposure>0.3</topWindExposure>
@@ -237,7 +236,7 @@
 		</graphicData>
 		<smeltProducts>
 			<Pollen>10</Pollen>
-			<Nectar>13</Nectar>
+			<Nectar>7</Nectar>
 		</smeltProducts>
 	</ThingDef>
 	<ThingDef ParentName="PollenBallBase">
@@ -249,8 +248,9 @@
 			<texPath>Things/Item/PollenBall/PollenBall_Frostbell</texPath>
 		</graphicData>
 		<smeltProducts>
-			<Nectar_F>1</Nectar_F>
-			<Pollen>1</Pollen>
+			<Nectar>4</Nectar>
+			<Nectar_E>5</Nectar_F>
+			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
 	<ThingDef ParentName="PollenBallBase">
@@ -262,8 +262,8 @@
 			<texPath>Things/Item/PollenBall/PollenBall_Emberose</texPath>
 		</graphicData>
 		<smeltProducts>
-			<Nectar>6</Nectar>
-			<Nectar_E>7</Nectar_E>
+			<Nectar>4</Nectar>
+			<Nectar_E>5</Nectar_E>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -276,8 +276,8 @@
 			<texPath>Things/Item/PollenBall/PollenBall_Metalily</texPath>
 		</graphicData>
 		<smeltProducts>
-			<Nectar>6</Nectar>
-			<Nectar_M>7</Nectar_M>
+			<Nectar>4</Nectar>
+			<Nectar_M>5</Nectar_M>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -290,8 +290,8 @@
 			<texPath>Things/Item/PollenBall/PollenBall_Bardsong</texPath>
 		</graphicData>
 		<smeltProducts>
-			<Nectar>6</Nectar>
-			<Nectar_B>7</Nectar_B>
+			<Nectar>4</Nectar>
+			<Nectar_B>5</Nectar_B>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -304,8 +304,8 @@
 			<texPath>Things/Item/PollenBall/PollenBall_Rushthorn</texPath>
 		</graphicData>
 		<smeltProducts>
-			<Nectar>6</Nectar>
-			<Nectar_R>7</Nectar_R>
+			<Nectar>4</Nectar>
+			<Nectar_R>5</Nectar_R>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -318,8 +318,8 @@
 			<texPath>Things/Item/PollenBall/PollenBall_Wiserbud</texPath>
 		</graphicData>
 		<smeltProducts>
-			<Nectar>6</Nectar>
-			<Nectar_W>7</Nectar_W>
+			<Nectar>4</Nectar>
+			<Nectar_W>5</Nectar_W>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -332,8 +332,8 @@
 			<texPath>Things/Item/PollenBall/PollenBall_Vigorbloom</texPath>
 		</graphicData>
 		<smeltProducts>
-			<Nectar>6</Nectar>
-			<Nectar_V>7</Nectar_V>
+			<Nectar>4</Nectar>
+			<Nectar_V>5</Nectar_V>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
