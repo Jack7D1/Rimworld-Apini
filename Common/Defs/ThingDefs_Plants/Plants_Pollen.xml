@@ -2,9 +2,15 @@
 <Defs>
 	<ThingCategoryDef>
 		<defName>Pollen</defName>
-		<label>Pollen</label>
-		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
+		<label>pollen</label>
+		<iconPath>Things/Item/Resource/Pollen/Pollen</iconPath>
 		<parent>PlantMatter</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>PollenBall</defName>
+		<label>pollen balls</label>
+		<iconPath>Things/Item/PollenBall/PollenBall</iconPath>
+		<parent>Pollen</parent>
 	</ThingCategoryDef>
 	<!--============================ Flowers ===============================-->
 	<ThingDef ParentName="ApiniPlantBase" Name="ApiniPlants" Abstract="True">
@@ -26,7 +32,7 @@
 			<fertilityMin>1</fertilityMin>
 			<fertilitySensitivity>2</fertilitySensitivity>
 			<growDays>5</growDays>
-			<harvestYield>10</harvestYield>
+			<harvestYield>7</harvestYield>
 			<harvestWork>800</harvestWork>
 			<harvestFailable>false</harvestFailable>
 			<harvestAfterGrowth>0.50</harvestAfterGrowth>
@@ -36,7 +42,6 @@
 			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
 			<sowTags>
 				<li>Ground</li>
-				<li>Decorative</li>
 				<li>Hydroponic</li>
 			</sowTags>
 			<topWindExposure>0.3</topWindExposure>
@@ -205,8 +210,11 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="PollenBase" Name="PollenBallBase" Abstract="True">
+		<!--PollenBallBase-->
 		<thingCategories>
-			<li>Pollen</li>
+			<li>PollenBall</li>
 		</thingCategories>
 	</ThingDef>
 	<ThingDef ParentName="PollenBase">
@@ -214,8 +222,11 @@
 		<defName>Pollen</defName>
 		<label>Pollen</label>
 		<description>Raw pollen extracted from pollen balls.  Used by Apini in various recipies.</description>
+		<thingCategories>
+			<li>Pollen</li>
+		</thingCategories>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball -->
 		<defName>PollenBall</defName>
 		<label>Pollen Ball</label>
@@ -223,8 +234,12 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Pollen>10</Pollen>
+			<Nectar>7</Nectar>
+		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball (Frostbell) -->
 		<defName>PollenBall_F</defName>
 		<label>Pollen Ball (Frostbell)</label>
@@ -232,8 +247,13 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Frostbell</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Nectar>2</Nectar>
+			<Nectar_F>5</Nectar_F>
+			<Pollen>10</Pollen>
+		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball (Emberose) -->
 		<defName>PollenBall_E</defName>
 		<label>Pollen Ball (Emberose)</label>
@@ -241,8 +261,13 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Emberose</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Nectar>2</Nectar>
+			<Nectar_E>5</Nectar_E>
+			<Pollen>10</Pollen>
+		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball (Metalily) -->
 		<defName>PollenBall_M</defName>
 		<label>Pollen Ball (Metalily)</label>
@@ -250,8 +275,13 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Metalily</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Nectar>2</Nectar>
+			<Nectar_M>5</Nectar_M>
+			<Pollen>10</Pollen>
+		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball (Bardsong) -->
 		<defName>PollenBall_B</defName>
 		<label>Pollen Ball (Bardsong)</label>
@@ -259,8 +289,13 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Bardsong</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Nectar>2</Nectar>
+			<Nectar_B>5</Nectar_B>
+			<Pollen>10</Pollen>
+		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball (Rushthorn) -->
 		<defName>PollenBall_R</defName>
 		<label>Pollen Ball (Rushthorn)</label>
@@ -268,8 +303,13 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Rushthorn</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Nectar>2</Nectar>
+			<Nectar_R>5</Nectar_R>
+			<Pollen>10</Pollen>
+		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball (Wiserbud) -->
 		<defName>PollenBall_W</defName>
 		<label>Pollen Ball (Wiserbud)</label>
@@ -277,8 +317,13 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Wiserbud</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Nectar>2</Nectar>
+			<Nectar_W>5</Nectar_W>
+			<Pollen>10</Pollen>
+		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="PollenBallBase">
 		<!-- Pollen Ball (Vigorbloom) -->
 		<defName>PollenBall_V</defName>
 		<label>Pollen Ball (Vigorbloom)</label>
@@ -286,5 +331,10 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Vigorbloom</texPath>
 		</graphicData>
+		<smeltProducts>
+			<Nectar>2</Nectar>
+			<Nectar_V>5</Nectar_V>
+			<Pollen>10</Pollen>
+		</smeltProducts>
 	</ThingDef>
 </Defs>

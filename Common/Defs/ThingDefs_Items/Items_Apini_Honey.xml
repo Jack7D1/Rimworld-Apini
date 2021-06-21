@@ -6,7 +6,7 @@
 		<parent>FoodMeals</parent>
 		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
 	</ThingCategoryDef>
-	<ThingDef Name="HoneyBase" Abstract="True">
+	<ThingDef ParentName="ResourceBase" Name="HoneyBase" Abstract="True">
 		<!-- HoneyBase -->
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey</texPath>
@@ -18,12 +18,12 @@
 		<selectable>true</selectable>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
-			<MarketValue>5.0</MarketValue>
+			<MarketValue>2.5</MarketValue>
 			<Mass>0.4</Mass>
 			<DeteriorationRate>10</DeteriorationRate>
 			<Flammability>0.4</Flammability>
 			<Beauty>2</Beauty>
-			<Nutrition>0.4</Nutrition>
+			<Nutrition>0.35</Nutrition>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<stackLimit>100</stackLimit>
@@ -41,17 +41,18 @@
 			<preferability>MealFine</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Ingest_Beer</ingestSound>
-			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
 		</ingestible>
 	</ThingDef>
 	<ThingDef ParentName="HoneyBase" Name="SpecialHoney" Abstract="True">
 		<!-- SpecialHoneyBase -->
 		<statBases>
-			<MarketValue>10.0</MarketValue>
+			<MarketValue>3.40</MarketValue>
+			<Nutrition>0.1</Nutrition>
 		</statBases>
 		<ingestible>
 			<drugCategory>Medical</drugCategory>
-			<preferability>DesperateOnlyForHumanlikes</preferability>
+			<preferability>NeverForNutrition</preferability>
 		</ingestible>
 	</ThingDef>
 	<ThingDef ParentName="SpecialHoney">

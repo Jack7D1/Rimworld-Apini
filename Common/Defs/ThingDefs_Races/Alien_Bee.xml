@@ -70,22 +70,8 @@
 				<recipeList>
 					<li>MakeApiniWax</li>
 					<li>MakeApiniWaxBulk</li>
-					<li>Nectar_U</li>
-					<li>Nectar_F</li>
-					<li>Nectar_E</li>
-					<li>Nectar_M</li>
-					<li>Nectar_B</li>
-					<li>Nectar_R</li>
-					<li>Nectar_W</li>
-					<li>Nectar_V</li>
-					<li>Nectar_U10</li>
-					<li>Nectar_F10</li>
-					<li>Nectar_E10</li>
-					<li>Nectar_M10</li>
-					<li>Nectar_B10</li>
-					<li>Nectar_R10</li>
-					<li>Nectar_W10</li>
-					<li>Nectar_V10</li>
+					<li>ApiniMake_NectarAny</li>
+					<li>ApiniMake_BulkNectarAny</li>
 				</recipeList>
 				<!--<researchList>
           <li>
