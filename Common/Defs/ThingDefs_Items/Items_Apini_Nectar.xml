@@ -16,7 +16,7 @@
 		<stackLimit>200</stackLimit>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
-			<MarketValue>10</MarketValue>
+			<MarketValue>0.5</MarketValue>
 			<Mass>0.02</Mass>
 			<Beauty>4</Beauty>
 			<Nutrition>0.03</Nutrition>
