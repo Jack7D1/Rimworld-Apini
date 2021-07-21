@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<FactionDef>
+	<FactionDef ParentName="FactionBase">
 		<defName>TribeApini</defName>
 		<label>tribal hive</label>
 		<description>A tribal hive of Apini, they toil hard and long everyday to survive. Apini are not the most intelligent sort, many communities never surpassing a neolithic level of technology. They range from friendly to outright hostile, depending on their previous interactions with humans. \n \nThey are often raided for their delicious honey.</description>
@@ -37,14 +37,6 @@
 			<li>(255,215,0)</li>
 			<li>(102, 0, 0)</li>
 		</colorSpectrum>
-		<startingGoodwill>
-			<min>10</min>
-			<max>30</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-50</min>
-			<max>10</max>
-		</naturalColonyGoodwill>
 		<mustStartOneEnemy>false</mustStartOneEnemy>
 		<factionNameMaker>NamerFactionHive</factionNameMaker>
 		<settlementNameMaker>NamerbaseHive</settlementNameMaker>
@@ -58,9 +50,6 @@
 			</li>
 		</backstoryFilters>
 		<leaderTitle>Head Overseer</leaderTitle>
-		<hairTags>
-			<li>Apini</li>
-		</hairTags>
 		<caravanTraderKinds>
 			<li>Caravan_Apini_BulkGoods</li>
 		</caravanTraderKinds>
@@ -117,7 +106,7 @@
 		</pawnGroupMakers>
 	</FactionDef>
 	<!-- Azuri -->
-	<FactionDef>
+	<FactionDef ParentName="FactionBase">
 		<defName>TribeAzuri</defName>
 		<label>tribal swarm</label>
 		<description>A ravenous swarm of Azuri, out for Apini ichor. \n\nBest to avoid.</description>
@@ -167,9 +156,6 @@
 			</li>
 		</backstoryFilters>
 		<leaderTitle>Ichorborne</leaderTitle>
-		<hairTags>
-			<li>Azuri</li>
-		</hairTags>
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Combat</kindDef>

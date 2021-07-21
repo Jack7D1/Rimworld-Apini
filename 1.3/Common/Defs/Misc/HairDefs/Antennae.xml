@@ -2,15 +2,15 @@
 <Defs>
 	<HairDef Name="Apini_Antenna" Abstract="True">
 		<hairGender>Any</hairGender>
-		<hairTags>
+		<styleTags>
 			<li>Apini</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	<HairDef Name="Azuri_Antenna" Abstract="True">
 		<hairGender>Any</hairGender>
-		<hairTags>
+		<styleTags>
 			<li>Azuri</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	<HairDef ParentName="Apini_Antenna">
 		<defName>CurlAntenna</defName>

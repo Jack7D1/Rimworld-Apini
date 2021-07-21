@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<FactionDef Abstract="True" Name="Playerbase">
+	<FactionDef Abstract="True" Name="Playerbase" ParentName="FactionBase">
 		<settlementTexturePath>World/WorldObjects/Defaultbase</settlementTexturePath>
 		<colorSpectrum>
 			<li>(0, 0.737, 0.847)</li>
@@ -27,10 +27,6 @@
 				<li>(100000, 10000)</li>
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
-		<hairTags>
-			<li>Tribal</li>
-			<li>Urban</li>
-		</hairTags>
 		<techLevel>Neolithic</techLevel>
 		<backstoryFilters>
 			<li>
@@ -78,10 +74,6 @@
 				<li>(100000, 10000)</li>
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
-		<hairTags>
-			<li>Tribal</li>
-			<li>Urban</li>
-		</hairTags>
 		<techLevel>Animal</techLevel>
 		<backstoryFilters>
 			<li>
