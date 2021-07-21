@@ -36,7 +36,6 @@
 				</categories>
 			</li>
 		</backstoryFilters>
-		<pawnNameMaker>NamerPersonApini</pawnNameMaker>
 		<settlementTexturePath>World/PlayerHiveZoom</settlementTexturePath>
 		<factionIconPath>World/PlayerHive</factionIconPath>
 		<colorSpectrum>
@@ -83,7 +82,6 @@
 				</categories>
 			</li>
 		</backstoryFilters>
-		<pawnNameMaker>NamerPersonAzuri</pawnNameMaker>
 		<settlementTexturePath>World/PlayerSwarmZoom</settlementTexturePath>
 		<factionIconPath>World/PlayerSwarm</factionIconPath>
 		<colorSpectrum>

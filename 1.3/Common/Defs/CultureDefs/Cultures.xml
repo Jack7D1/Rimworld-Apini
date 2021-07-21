@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<CultureDef>
+<!--	<CultureDef>
 		<defName>ApiniCulture</defName>
 		<label>Apini</label>
 		<description>Bzzzzz</description>
@@ -25,5 +25,5 @@
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
-	</CultureDef>
+	</CultureDef>-->
 </Defs>

@@ -387,12 +387,25 @@
 					<head>Things/Pawn/Alien_Races/Apini/Adult/Head/</head>
 				</li>
 			</graphicPaths>
-			<hairSettings>
-				<hasHair>true</hasHair>
-				<hairTags>
-					<li>Apini</li>
-				</hairTags>
-			</hairSettings>
+			<styleSettings>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTags>
+							<li>NoBeard</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTags>
+						</styleTags>
+					</value>
+				</li>
+			</styleSettings>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
 				<relationChanceModifierExLover>1</relationChanceModifierExLover>

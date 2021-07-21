@@ -23,6 +23,8 @@
 	</PawnKindDef>
 	<PawnKindDef ParentName="AzuriBasic">
 		<defName>AzuriPawn</defName>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 	<PawnKindDef ParentName="AzuriBasic">
 		<defName>AzuriBane</defName>
@@ -37,12 +39,16 @@
 			<li>Gun</li>
 			<li>EliteGun</li>
 		</weaponTags>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
 	</PawnKindDef>
 	<PawnKindDef ParentName="AzuriBasic">
 		<defName>AzuriTrader</defName>
 		<combatPower>90</combatPower>
 		<trader>true</trader>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 	<PawnKindDef Name="AzuriFreelancer" ParentName="AzuriBasic" Abstract="True">
 		<race>Azuri</race>
@@ -99,13 +105,17 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 	<PawnKindDef Name="AzuriPirate" ParentName="AzuriFreelancer">
-		<defName>Azuri_Pirate</defName>
+		<defName>AzuriPirate</defName>
 		<label>azuri pirate</label>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>14~23</initialResistanceRange>
 	</PawnKindDef>
 	<PawnKindDef Name="AzuriMarauder" ParentName="AzuriFreelancer">
-		<defName>Azuri_Marauder</defName>
+		<defName>AzuriMarauder</defName>
 		<label>azuri marauder</label>
 		<itemQuality>Superior</itemQuality>
 		<combatPower>150</combatPower>
@@ -119,5 +129,7 @@
 			<li>Advanced</li>
 		</techHediffsTags>
 		<weaponMoney>1200~5000</weaponMoney>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>14~23</initialResistanceRange>
 	</PawnKindDef>
 </Defs>
