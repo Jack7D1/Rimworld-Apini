@@ -27,6 +27,7 @@
 	</modDependencies>
 	<loadAfter>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>UnlimitedHugs.HugsLib</li>
 	</loadAfter>
 	<loadBefore>
 		<li>sarg.rimbees</li>
