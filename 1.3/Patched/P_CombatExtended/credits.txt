@@ -1,0 +1,2 @@
+Patch_ApiniAzuri_AlienRaces, Patch_Apparel_Bee - by Saebbi, modfied and rebalanced by Almantuxas.
+Patch_ApiniPawnKind, Patch_AzuriPawnKind, Patch_Implants_Apini, Patch_Stuff_Wax, Patch_Thing_ApiniScythe, Patch_BodyDef_Alien_Bee, Patch_BodyDef_Alien_Moobee, Patch_Items_Resource_Stuff_ApiniChitin - by Almantuxas

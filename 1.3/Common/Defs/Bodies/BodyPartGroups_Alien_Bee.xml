@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<BodyPartGroupDef>
+		<defName>ApiniFrontLeg</defName>
+		<label>front leg</label>
+		<listOrder>82</listOrder>
+	</BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>InsectWings</defName>
+		<label>wings</label>
+		<listOrder>99</listOrder>
+	</BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>Abdomen</defName>
+		<label>abdomen</label>
+		<listOrder>10</listOrder>
+	</BodyPartGroupDef>
+	<!--	<BodyPartGroupDef>
+		<defName>InsectSting</defName>
+		<label>stinger</label>
+		<listOrder>9</listOrder>
+	</BodyPartGroupDef>-->
+	<BodyPartGroupDef>
+		<defName>HindLegs</defName>
+		<label>hind legs</label>
+		<listOrder>2</listOrder>
+	</BodyPartGroupDef>
+</Defs>
