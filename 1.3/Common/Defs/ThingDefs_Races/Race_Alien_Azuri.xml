@@ -65,6 +65,33 @@
 					</alienbodytypes>
 					<useGenderedHeads>true</useGenderedHeads>
 					<useGenderedBodies>false</useGenderedBodies>
+					<bodyAddons>
+						<li>
+							<path>Things/Pawn/Alien_Races/Azuri/Antennae/AzuriR</path>
+							<bodyPart>right antenna</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<drawnInBed>true</drawnInBed>
+							<drawnDesiccated>true</drawnDesiccated>
+							<colorChannel>hair</colorChannel>
+							<hiddenUnderApparelTag>
+								<li MayRequire="kentington.saveourship2">EVA</li>
+							</hiddenUnderApparelTag>
+						</li>
+						<li>
+							<path>Things/Pawn/Alien_Races/Azuri/Antennae/AzuriL</path>
+							<bodyPart>left antenna</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<drawnInBed>true</drawnInBed>
+							<drawnDesiccated>true</drawnDesiccated>
+							<colorChannel>hair</colorChannel>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+							<hiddenUnderApparelTag>
+								<li MayRequire="kentington.saveourship2">EVA</li>
+							</hiddenUnderApparelTag>
+						</li>
+					</bodyAddons>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -371,26 +398,6 @@
 					<head>Things/Pawn/Alien_Races/Azuri/Adult/Head/</head>
 				</li>
 			</graphicPaths>
-			<styleSettings>
-				<li>
-					<key>BeardDef</key>
-					<value>
-						<hasStyle>true</hasStyle>
-						<styleTags>
-							<li>NoBeard</li>
-						</styleTags>
-					</value>
-				</li>
-				<li>
-					<key>HairDef</key>
-					<value>
-						<hasStyle>true</hasStyle>
-						<styleTags>
-							<li>Azuri</li>
-						</styleTags>
-					</value>
-				</li>
-			</styleSettings>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
 				<relationChanceModifierExLover>1</relationChanceModifierExLover>

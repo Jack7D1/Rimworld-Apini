@@ -44,6 +44,22 @@
 					</li>
 				</disallowedTraits>
 			</generalSettings>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags/>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags/>
+					</value>
+				</li>
+			</styleSettings>
 			<raceRestriction>
 				<apparelList>
 					<li>ApiniApron</li>
