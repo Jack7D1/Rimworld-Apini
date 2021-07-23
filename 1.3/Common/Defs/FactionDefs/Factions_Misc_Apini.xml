@@ -104,6 +104,8 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>226260</configurationListOrderPriority>
 	</FactionDef>
 	<!-- Azuri -->
 	<FactionDef ParentName="FactionBase">
@@ -188,5 +190,7 @@
 		</pawnGroupMakers>
 		<!--No retreat, kill or be killed-->
 		<autoFlee>false</autoFlee>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>226261</configurationListOrderPriority>
 	</FactionDef>
 </Defs>
