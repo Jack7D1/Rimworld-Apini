@@ -44,7 +44,7 @@
 			<li Class="CompProperties_Egglayer">
 				<eggFertilizedDef>MoobeeEgg</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>6</eggLayIntervalDays>
+				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -53,7 +53,7 @@
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>ApiniHoney</milkDef>
-				<milkIntervalDays>1</milkIntervalDays>
+				<milkIntervalDays>2</milkIntervalDays>
 				<milkAmount>10</milkAmount>
 				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
@@ -81,23 +81,23 @@
 				</li>
 				<li>
 					<def>ApiniLarva2</def>
-					<minAge>0.1</minAge>
+					<minAge>.5</minAge>
 				</li>
 				<li>
 					<def>ApiniPupa</def>
-					<minAge>0.2</minAge>
+					<minAge>1</minAge>
 				</li>
 				<li>
 					<def>ApiniYouth</def>
-					<minAge>0.3</minAge>
+					<minAge>2</minAge>
 				</li>
 				<li>
 					<def>MoobeeTeen</def>
-					<minAge>0.4</minAge>
+					<minAge>2.5</minAge>
 				</li>
 				<li>
 					<def>MoobeeAdult</def>
-					<minAge>0.5</minAge>
+					<minAge>3</minAge>
 					<soundWounded>Pawn_Moobee_Wounded</soundWounded>
 					<soundDeath>Pawn_Moobee_Death</soundDeath>
 					<soundCall>Pawn_Moobee_Wounded</soundCall>

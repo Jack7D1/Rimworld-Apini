@@ -107,6 +107,7 @@
 										<li>Eyes</li>
 										<li>FullHead</li>
 									</groups>
+									<woundAnchorTag>LeftEye</woundAnchorTag>
 								</li>
 								<li>
 									<def>Eye</def>
@@ -116,6 +117,7 @@
 										<li>Eyes</li>
 										<li>FullHead</li>
 									</groups>
+									<woundAnchorTag>RightEye</woundAnchorTag>
 								</li>
 								<li>
 									<def>Antenna</def>
