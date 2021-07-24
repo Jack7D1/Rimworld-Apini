@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!--	<CultureDef>
+		<defName>ApiniCulture</defName>
+		<label>Apini</label>
+		<description>Bzzzzz</description>
+		<iconPath>World/ApiniHive</iconPath>
+		<styleItemTags>
+			<li>
+				<tag>Apini</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</CultureDef>
+	<CultureDef>
+		<defName>AzuriCulture</defName>
+		<label>Azuri</label>
+		<description>Bzzzzz</description>
+		<iconPath>World/AzuriSwarm</iconPath>
+		<styleItemTags>
+			<li>
+				<tag>Azuri</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</CultureDef>-->
+</Defs>

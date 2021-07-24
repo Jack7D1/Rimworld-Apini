@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Apini implants -->
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!--			<!{1}** ProstheticSting **{1}>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="ProstheticSting"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>prosthetic sting</label>
+							<capacities>
+								<li>Stab</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>1.11</cooldownTime>
+							<armorPenetrationBlunt>0.15</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.02</armorPenetrationSharp>
+						</li>
+					</tools>
+				</value>
+			</li>-->
+			<!-- EnhancedMouth_Crusher_Apini -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EnhancedMouth_Monarch_Apini"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>monarch mandibles</label>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>24</power>
+							<cooldownTime>1.46</cooldownTime>
+							<armorPenetrationBlunt>5.063</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.68</armorPenetrationSharp>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<!-- EnhancedMouth_Crusher_Apini -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EnhancedMouth_Crusher_Apini"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>crusher mandibles</label>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>14</power>
+							<cooldownTime>1.97</cooldownTime>
+							<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.15</armorPenetrationSharp>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<!-- EnhancedEye_Apini -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EnhancedEye_Apini"]/stages/li/statOffsets/ShootingAccuracyPawn</xpath>
+				<value>
+					<AimingAccuracy>0.4</AimingAccuracy>
+					<MeleeParryChance>0.2</MeleeParryChance>
+					<MeleeCritChance>0.2</MeleeCritChance>
+				</value>
+			</li>
+			<!-- EnhancedArm_Apini -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/HediffDef[defName="EnhancedArm_Apini"]/stages/li/statOffsets</xpath>
+				<value>
+					<AimingAccuracy>0.1</AimingAccuracy>
+					<MeleeParryChance>0.2</MeleeParryChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

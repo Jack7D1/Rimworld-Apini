@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Moobee body. -->
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Torso equivalent and some of its children. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Abdomen"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Abdomen"]/parts/li[def = "InsectSting"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<!-- Neck equivalent and its children. -->
+			<!-- I guess this bodypart is like a neck for the moobee. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/parts/li[def = "InsectNostril"]</xpath>
+				<value>
+					<groups>
+						<li>CoveredByNaturalArmor</li>
+					</groups>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/parts/li[def = "InsectMouth"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Pronotum"]/parts/li[def = "Head"]/parts/li[def = "InsectMouth"]/parts/li[def = "Mandible"]</xpath>
+				<value>
+					<groups>
+						<li>CoveredByNaturalArmor</li>
+					</groups>
+				</value>
+			</li>
+			<!-- Legs equivalent and its children. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "InsectLeg"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "InsectLeg"]/parts/li[def = "Tarsus"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

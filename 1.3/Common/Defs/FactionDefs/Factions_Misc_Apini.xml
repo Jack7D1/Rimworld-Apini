@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<FactionDef ParentName="FactionBase">
+		<defName>TribeApini</defName>
+		<label>tribal hive</label>
+		<description>A tribal hive of Apini, they toil hard and long everyday to survive. Apini are not the most intelligent sort, many communities never surpassing a neolithic level of technology. They range from friendly to outright hostile, depending on their previous interactions with humans. \n \nThey are often raided for their delicious honey.</description>
+		<pawnsPlural>tribal apinis</pawnsPlural>
+		<pawnSingular>tribal apini</pawnSingular>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<canMakeRandomly>true</canMakeRandomly>
+		<basicMemberKind>ApiniPawn</basicMemberKind>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(40, 1)</li>
+				<li>(500, 0.5)</li>
+				<li>(1500, 0.4)</li>
+				<li>(3500, 0.2)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<canUseAvoidGrid>true</canUseAvoidGrid>
+		<settlementTexturePath>World/ApiniHiveZoom</settlementTexturePath>
+		<factionIconPath>World/ApiniHive</factionIconPath>
+		<humanlikeFaction>true</humanlikeFaction>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<colorSpectrum>
+			<li>(255,127,80)</li>
+			<li>(255,215,0)</li>
+			<li>(102, 0, 0)</li>
+		</colorSpectrum>
+		<mustStartOneEnemy>false</mustStartOneEnemy>
+		<factionNameMaker>NamerFactionHive</factionNameMaker>
+		<settlementNameMaker>NamerbaseHive</settlementNameMaker>
+		<techLevel>Neolithic</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>ApiniSpecific</li>
+					<li>BeeGeneral</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<leaderTitle>Head Overseer</leaderTitle>
+		<caravanTraderKinds>
+			<li>Caravan_Apini_BulkGoods</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Neolithic_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>base_Apini_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-5</min>
+			<max>50</max>
+		</allowedArrivalTemperatureRange>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<options>
+					<ApiniPawn>100</ApiniPawn>
+					<ApiniSoldier>200</ApiniSoldier>
+					<ApiniOverseer>10</ApiniOverseer>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<ApiniTrader>1</ApiniTrader>
+				</traders>
+				<carriers>
+					<Dromedary>2</Dromedary>
+					<Muffalo>1</Muffalo>
+				</carriers>
+				<guards>
+					<ApiniSoldier>200</ApiniSoldier>
+					<ApiniPawn>100</ApiniPawn>
+					<ApiniOverseer>25</ApiniOverseer>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<ApiniSoldier>20</ApiniSoldier>
+					<ApiniPawn>150</ApiniPawn>
+					<ApiniOverseer>5</ApiniOverseer>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<ApiniSoldier>100</ApiniSoldier>
+					<ApiniPawn>200</ApiniPawn>
+					<ApiniOverseer>50</ApiniOverseer>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>226260</configurationListOrderPriority>
+	</FactionDef>
+	<!-- Azuri -->
+	<FactionDef ParentName="FactionBase">
+		<defName>TribeAzuri</defName>
+		<label>tribal swarm</label>
+		<description>A ravenous swarm of Azuri, out for Apini ichor. \n\nBest to avoid.</description>
+		<pawnsPlural>azuri swarm</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<canMakeRandomly>true</canMakeRandomly>
+		<humanlikeFaction>true</humanlikeFaction>
+		<permanentEnemyToEveryoneExcept>
+			<li>TribalAzuriPlayer</li>
+		</permanentEnemyToEveryoneExcept>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(700, 0.1)</li>
+				<li>(900, 0.2)</li>
+				<li>(1200, 1)</li>
+				<li>(4000, 1.5)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<canSiege>false</canSiege>
+		<canStageAttacks>false</canStageAttacks>
+		<basicMemberKind>AzuriPawn</basicMemberKind>
+		<pawnSingular>azuri</pawnSingular>
+		<settlementTexturePath>World/AzuriSwarmZoom</settlementTexturePath>
+		<factionIconPath>World/AzuriSwarm</factionIconPath>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<colorSpectrum>
+			<li>(178,193,255)</li>
+			<li>(70,183,255)</li>
+			<li>(0, 222,255)</li>
+		</colorSpectrum>
+		<factionNameMaker>NamerFactionSwarm</factionNameMaker>
+		<settlementNameMaker>NamerbaseSwarm</settlementNameMaker>
+		<techLevel>Neolithic</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<leaderTitle>Ichorborne</leaderTitle>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<options>
+					<AzuriPawn>200</AzuriPawn>
+					<AzuriBane>100</AzuriBane>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<options>
+					<AzuriPawn>200</AzuriPawn>
+					<AzuriBane>20</AzuriBane>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<AzuriPawn>200</AzuriPawn>
+					<AzuriBane>200</AzuriBane>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<AzuriPawn>100</AzuriPawn>
+					<AzuriBane>25</AzuriBane>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<!--No retreat, kill or be killed-->
+		<autoFlee>false</autoFlee>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>226261</configurationListOrderPriority>
+	</FactionDef>
+</Defs>

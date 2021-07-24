@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--============================ Apitech Mutation ===============================-->
+	<!-- Mutation Base -->
+	<HediffDef Name="ApitechMutationBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(1, 0.85, 0.3)</defaultLabelColor>
+		<isBad>false</isBad>
+		<initialSeverity>0.5</initialSeverity>
+	</HediffDef>
+	<!-- Enhanced Cognitive Functions (Brain) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedBrain_Apini</defName>
+		<label>Enhanced Cognitive Functions</label>
+		<description>Enhanced cognitive functions.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Neuroenhancer_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.5</partEfficiencyOffset>
+				<statOffsets>
+					<GlobalLearningFactor>0.25</GlobalLearningFactor>
+					<ResearchSpeed>0.25</ResearchSpeed>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Enhanced Visual Acuity (Eyes) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedEye_Apini</defName>
+		<label>Enhanced Visual Acuity</label>
+		<description>Enhanced visual acuity.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OcularEnhancement_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.5</partEfficiencyOffset>
+				<statOffsets>
+					<AimingDelayFactor>-.05</AimingDelayFactor>
+					<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+					<MeleeHitChance>0.5</MeleeHitChance>
+					<MeleeDodgeChance>0.25</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Enhanced Auditory Range (Antennae) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedAntenna_Apini</defName>
+		<label>Enhanced Auditory Range</label>
+		<description>Enhanced auditory range.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SignalReceptor_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.5</partEfficiencyOffset>
+				<statOffsets>
+					<TradePriceImprovement>0.1</TradePriceImprovement>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Monarch Mandibles (Mouth) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedMouth_Monarch_Apini</defName>
+		<label>Monarch Mandibles</label>
+		<description>Installed Monarch Mandibles.</description>
+		<descriptionHyperlinks>
+			<ThingDef>MonarchMandibles_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.5</SocialImpact>
+					<TradePriceImprovement>0.25</TradePriceImprovement>
+					<TameAnimalChance>0.25</TameAnimalChance>
+					<TrainAnimalChance>0.25</TrainAnimalChance>
+					<MiningSpeed>0.25</MiningSpeed>
+					<MiningYield>0.25</MiningYield>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>monarch mandibles</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<cooldownTime>2</cooldownTime>
+						<power>25</power>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+	<!-- Crusher Mandibles (Mouth) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedMouth_Crusher_Apini</defName>
+		<label>Crusher Mandibles</label>
+		<description>Installed Crusher Mandibles.</description>
+		<descriptionHyperlinks>
+			<ThingDef>CrusherMandibles_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<MiningSpeed>0.5</MiningSpeed>
+					<MiningYield>0.5</MiningYield>
+					<ConstructionSpeed>0.5</ConstructionSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>crusher mandibles</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<cooldownTime>2.5</cooldownTime>
+						<power>20</power>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+	<!-- Songstress Mandibles (Mouth) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedMouth_Songstress_Apini</defName>
+		<label>Songstress Mandibles</label>
+		<description>Installed Songstress Mandibles.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SongstressMandibles_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.4</SocialImpact>
+					<TradePriceImprovement>0.2</TradePriceImprovement>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	<!-- Proboscis Enhancement (Mouth) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedMouth_Eating_Apini</defName>
+		<label>Proboscis Enhancement</label>
+		<description>A proboscis enhancement.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ProboscisEnhancement_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<hungerRateFactor>0.8</hungerRateFactor>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.4</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Aerator Implant (Wings) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedWing_Aerator_Apini</defName>
+		<label>Aerator Implant</label>
+		<description>An aerator implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WingAerator_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.25</partEfficiencyOffset>
+				<statOffsets>
+					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+					<ComfyTemperatureMax>10</ComfyTemperatureMax>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.5</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Breezer Implant (Wings) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedWing_Breezer_Apini</defName>
+		<label>Breezer Implant</label>
+		<description>A breezer implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WingBreezer_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.25</partEfficiencyOffset>
+				<statOffsets>
+					<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+					<ComfyTemperatureMax>35</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Warmer Implant (Wings) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedWing_Warmer_Apini</defName>
+		<label>Warmer Implant</label>
+		<description>A warmer implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WingWarmer_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.25</partEfficiencyOffset>
+				<statOffsets>
+					<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+					<ComfyTemperatureMax>5</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Enhanced Vitality (Heart) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedHeart_Apini</defName>
+		<label>Enhanced Vitality</label>
+		<description>Enhanced vitality.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RegenerativeEnzymes_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_HealPermanentWounds"/>
+		</comps>
+		<stages>
+			<li>
+				<restFallFactor>0.75</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Enhanced Metabolism (Stomach) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedStomach_Apini</defName>
+		<label>Enhanced Metabolism</label>
+		<description>Enhanced metabolism.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DigestiveEnzymes_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.25</partEfficiencyOffset>
+				<hungerRateFactor>0.75</hungerRateFactor>
+				<capMods>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Enhanced Dexterity (Arms) -->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedArm_Apini</defName>
+		<label>Enhanced Dexterity</label>
+		<description>Enhanced dexterity.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ReflexEnhancement_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.5</partEfficiencyOffset>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-0.1</MeleeWeapon_CooldownMultiplier>
+					<RangedWeapon_Cooldown>-0.1</RangedWeapon_Cooldown>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Enhanced Plant Collection (Arms)-->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedArm_Growing_Apini</defName>
+		<label>Enhanced Plant Collection</label>
+		<description>Enhanced leg hairs.</description>
+		<descriptionHyperlinks>
+			<ThingDef>GathererFrontLeg_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.25</partEfficiencyOffset>
+				<statOffsets>
+					<PlantWorkSpeed>0.75</PlantWorkSpeed>
+					<PlantHarvestYield>0.5</PlantHarvestYield>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Enhanced Agility (Legs)-->
+	<HediffDef ParentName="ApitechMutationBase">
+		<defName>EnhancedLeg_Apini</defName>
+		<label>Enhanced Agility</label>
+		<description>Enhanced agility.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ReflexEnhancement_Apini</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.5</partEfficiencyOffset>
+				<statOffsets>
+					<MeleeDodgeChance>0.5</MeleeDodgeChance>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThoughtDef>
+		<!-- WBZZ Radio -->
+		<defName>GoodVibes</defName>
+		<label>Good Vibes</label>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EnhancedAntenna_Apini</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>Good Vibes</label>
+				<description>You are tuned into WBZZ radio, your one stop shop for the best hive music. You can't feel down when you got a good tune to hum along to.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- <HediffDef ParentName="ApitechMutationBase">
+    Venomous Barbes (Sting)
+    <defName>A_Sting</defName>
+    <label>Venomous Barbes</label>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.25</defaultCooldownTime>
+            <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+            <meleeDamageDef>A_Sting</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+  </HediffDef> -->
+</Defs>

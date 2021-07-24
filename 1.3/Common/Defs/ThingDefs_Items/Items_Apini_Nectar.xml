@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>NectarCategory</defName>
+		<label>Nectar</label>
+		<parent>PlantFoodRaw</parent>
+		<iconPath>Things/Item/Nectar/Nectar</iconPath>
+	</ThingCategoryDef>
+	<!--============================ Nectar ===============================-->
+	<ThingDef ParentName="ResourceBase" Name="NectarBase" Abstract="True">
+		<!-- NectarBase -->
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>200</stackLimit>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>0.5</MarketValue>
+			<Mass>0.02</Mass>
+			<Beauty>4</Beauty>
+			<Nutrition>0.03</Nutrition>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Ingredients"/>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>6</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<thingCategories>
+			<li>NectarCategory</li>
+		</thingCategories>
+		<tickerType>Rare</tickerType>
+		<pathCost>15</pathCost>
+		<resourceReadoutPriority>Last</resourceReadoutPriority>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<ingestible>
+			<foodType>Fluid</foodType>
+			<preferability>DesperateOnly</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (unflavored) -->
+		<defName>Nectar</defName>
+		<label>Nectar (unflavored)</label>
+		<description>Unflavored nectar. The vital ingredient to make normal honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (Frostbell) -->
+		<defName>Nectar_F</defName>
+		<label>Nectar (Frostbell)</label>
+		<description>The sweet fragrant essence of a frostbell. The vital ingredient to make cool honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar_Frostbell</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (Emberose) -->
+		<defName>Nectar_E</defName>
+		<label>Nectar (Emberose)</label>
+		<description>The sweet fragrant essence of an emberose. The vital ingredient to make hot honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar_Emberose</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (Metalily) -->
+		<defName>Nectar_M</defName>
+		<label>Nectar (Metalily)</label>
+		<description>The sweet fragrant essence of a metalily. The vital ingredient to make Rough honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar_Metalily</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (Bardsong) -->
+		<defName>Nectar_B</defName>
+		<label>Nectar (Bardsong)</label>
+		<description>The sweet fragrant essence of a bardsong. The vital ingredient to make Rough honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar_Bardsong</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (Rushthorn) -->
+		<defName>Nectar_R</defName>
+		<label>Nectar (Rushthorn)</label>
+		<description>The sweet fragrant essence of a rushthorn. The vital ingredient to make Rough honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar_Rushthorn</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (Wiserbud) -->
+		<defName>Nectar_W</defName>
+		<label>Nectar (Wiserbud)</label>
+		<description>The sweet fragrant essence of a wiserbud. The vital ingredient to make Rough honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar_Wiserbud</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="NectarBase">
+		<!-- Nectar (Vigorbloom) -->
+		<defName>Nectar_V</defName>
+		<label>Nectar (Vigorbloom)</label>
+		<description>The sweet fragrant essence of a vigorbloom. The vital ingredient to make Rough honey.</description>
+		<graphicData>
+			<texPath>Things/Item/Nectar/Nectar_Vigorbloom</texPath>
+		</graphicData>
+	</ThingDef>
+	<!--Nectar Distilling-->
+	<RecipeDef Name="NectarCraftBase" Abstract="True">
+		<jobString>distilling Nectar.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>400</workAmount>
+		<workSkillLearnFactor>5</workSkillLearnFactor>
+		<requiredGiverWorkType>HoneyMaker</requiredGiverWorkType>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ApiniNectarStill</li>
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Pollen</li>
+			</categories>
+			<!--			<exceptedThingDefs>
+				<li>Pollen</li>
+				<!{1}**Bland pollen containing no nectar, which are in the same thingcategory as pollenballs**{1}>
+			</exceptedThingDefs>-->
+		</fixedIngredientFilter>
+		<specialProducts>
+			<li>Smelted</li>
+		</specialProducts>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase" Name="NectarCraftBulk" Abstract="True">
+		<jobString>distilling lots of Nectar.</jobString>
+		<workAmount>2000</workAmount>
+		<workSkillLearnFactor>20</workSkillLearnFactor>
+		<specialProducts>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+			<li>Smelted</li>
+		</specialProducts>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<defName>ApiniMake_NectarAny</defName>
+		<label>distill nectar</label>
+		<description>Distills pollenballs into nectar and pollen.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PollenBall</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<defName>ApiniMake_BulkNectarAny</defName>
+		<label>distill nectar in bulk</label>
+		<description>Distills pollenballs in bulk into nectar and pollen.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PollenBall</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+	<!--<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar **{1}>
+		<defName>Nectar_U</defName>
+		<label>Nectar (unflavored)</label>
+		<description>distill unflavored nectar from 10 pollen balls.</description>
+		<skillRequirements/>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Pollen>10</Pollen>
+			<Nectar>13</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar (Frostbell) **{1}>
+		<defName>Nectar_F</defName>
+		<label>Nectar (Frostbell)</label>
+		<description>distill frostbell nectar from 10 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_F</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_F</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_F>1</Nectar_F>
+			<Pollen>10</Pollen>
+			<Nectar>12</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar (Emberose) **{1}>
+		<defName>Nectar_E</defName>
+		<label>Nectar (Emberose)</label>
+		<description>distill emberose nectar from 10 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_E</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_E</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_E>1</Nectar_E>
+			<Pollen>10</Pollen>
+			<Nectar>12</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar (Metalily) **{1}>
+		<defName>Nectar_M</defName>
+		<label>Nectar (Metalily)</label>
+		<description>distill metalily nectar from 10 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_M</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_M</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_M>1</Nectar_M>
+			<Pollen>10</Pollen>
+			<Nectar>12</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar (Bardsong) **{1}>
+		<defName>Nectar_B</defName>
+		<label>Nectar (Bardsong)</label>
+		<description>distill bardsong nectar from 10 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_B</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_B</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_B>1</Nectar_B>
+			<Pollen>10</Pollen>
+			<Nectar>12</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar (Rushthorn) **{1}>
+		<defName>Nectar_R</defName>
+		<label>Nectar (Rushthorn)</label>
+		<description>distill rushthorn nectar from 10 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_R</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_R</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_R>1</Nectar_R>
+			<Pollen>10</Pollen>
+			<Nectar>12</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar (Wiserbud) **{1}>
+		<defName>Nectar_W</defName>
+		<label>Nectar (Wiserbud)</label>
+		<description>distill wiserbud nectar from 10 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_W</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_W</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_W>1</Nectar_W>
+			<Pollen>10</Pollen>
+			<Nectar>12</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBase">
+		<!{1}** Nectar (Vigorbloom) **{1}>
+		<defName>Nectar_V</defName>
+		<label>Nectar (Vigorbloom)</label>
+		<description>distill vigorbloom nectar from 10 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_V</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_V</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_V>1</Nectar_V>
+			<Pollen>10</Pollen>
+			<Nectar>12</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (unflavored) x10 **{1}>
+		<defName>Nectar_U10</defName>
+		<label>Nectar (unflavored) x10</label>
+		<description>distill 140 unflavored nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Pollen>100</Pollen>
+			<Nectar>140</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (Frostbell) x10 **{1}>
+		<defName>Nectar_F10</defName>
+		<label>Nectar (Frostbell) x10</label>
+		<description>distill 20 frostbell nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_F</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_F</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_F>20</Nectar_F>
+			<Pollen>100</Pollen>
+			<Nectar>120</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (Emberose) x10 **{1}>
+		<defName>Nectar_E10</defName>
+		<label>Nectar (Emberose) x10</label>
+		<description>distill 20 emberose nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_E</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_E</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_E>20</Nectar_E>
+			<Pollen>100</Pollen>
+			<Nectar>120</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (Metalily) x10 **{1}>
+		<defName>Nectar_M10</defName>
+		<label>Nectar (Metalily) x10</label>
+		<description>distill 20 metalily nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_M</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_M</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_M>20</Nectar_M>
+			<Pollen>100</Pollen>
+			<Nectar>120</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (Bardsong) x10 **{1}>
+		<defName>Nectar_B10</defName>
+		<label>Nectar (Bardsong) x10</label>
+		<description>distill 20 bardsong nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_B</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_B</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_B>20</Nectar_B>
+			<Pollen>100</Pollen>
+			<Nectar>120</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (Rushthorn) x10 **{1}>
+		<defName>Nectar_R10</defName>
+		<label>Nectar (Rushthorn) x10</label>
+		<description>distill 20 rushthorn nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_R</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_R</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_R>20</Nectar_R>
+			<Pollen>100</Pollen>
+			<Nectar>120</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (Wiserbud) x10 **{1}>
+		<defName>Nectar_W10</defName>
+		<label>Nectar (Wiserbud) x10</label>
+		<description>distill 20 wiserbud nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_W</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_W</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_W>20</Nectar_W>
+			<Pollen>100</Pollen>
+			<Nectar>120</Nectar>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<!{1}** Nectar (Vigorbloom) x10 **{1}>
+		<defName>Nectar_V10</defName>
+		<label>Nectar (Vigorbloom) x10</label>
+		<description>distill 20 vigorbloom nectar from 100 pollen balls.</description>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PollenBall_V</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PollenBall_V</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Nectar_V>20</Nectar_V>
+			<Pollen>100</Pollen>
+			<Nectar>120</Nectar>
+		</products>
+	</RecipeDef>-->
+</Defs>

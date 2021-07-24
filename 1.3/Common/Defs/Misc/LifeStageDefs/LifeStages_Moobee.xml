@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<LifeStageDef>
+		<defName>MoobeeTeen</defName>
+		<label>adolescent</label>
+		<voxPitch>1.1</voxPitch>
+		<foodMaxFactor>2.75</foodMaxFactor>
+		<healthScaleFactor>0.9</healthScaleFactor>
+		<hungerRateFactor>0.9</hungerRateFactor>
+		<marketValueFactor>3</marketValueFactor>
+		<milkable>true</milkable>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+	<LifeStageDef>
+		<defName>MoobeeAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<foodMaxFactor>3</foodMaxFactor>
+		<reproductive>true</reproductive>
+		<milkable>true</milkable>
+		<shearable>true</shearable>
+	</LifeStageDef>
+</Defs>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Tribe -->
+	<RulePackDef>
+		<defName>NamerFactionHive</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->Apidaetum [color] [flower]</li>
+				<li>name->The [positive] Hive of the [color] [terrainfeature]</li>
+				<li>name->[flower] Apini [politicalunion]</li>
+				<li>name->Apidaetum [color] [terrainfeature]</li>
+				<li>name->Apini [politicalunion] of [positive]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>politicalunion</keyword>
+					<path>Words/Nouns/PoliticalUnions_Outlander</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>positive</keyword>
+					<path>Words/Nouns/Concepts_Positive</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>flower</keyword>
+					<path>ApiniNames/Flower</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerbaseHive</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[color] [terrainfeature] Hive</li>
+				<li>name->[flower] [terrainfeature] Hive</li>
+				<li>name->[flower] [positive] Hive</li>
+				<li>name->[color] [positive] Hive</li>
+				<li>name->[terrainfeature] [positive] Hive</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>terrainfeature</keyword>
+					<path>Words/Nouns/TerrainFeatures</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>positive</keyword>
+					<path>Words/Nouns/Concepts_Positive</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>flower</keyword>
+					<path>ApiniNames/Flower</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</Defs>

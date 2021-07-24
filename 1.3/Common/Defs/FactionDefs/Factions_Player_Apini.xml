@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<FactionDef Abstract="True" Name="Playerbase" ParentName="FactionBase">
+		<settlementTexturePath>World/WorldObjects/Defaultbase</settlementTexturePath>
+		<colorSpectrum>
+			<li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+	</FactionDef>
+	<!-- Apini player faction -->
+	<FactionDef ParentName="Playerbase">
+		<defName>TribalApiniPlayer</defName>
+		<label>Hive</label>
+		<description>A tribe of neolithic Apini.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>ApiniPawn</basicMemberKind>
+		<pawnSingular>apini</pawnSingular>
+		<pawnsPlural>apini</pawnsPlural>
+		<factionNameMaker>NamerFactionHive</factionNameMaker>
+		<settlementNameMaker>NamerbaseHive</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerbaseHive</playerInitialSettlementNameMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<techLevel>Neolithic</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>ApiniSpecific</li>
+					<li>BeeGeneral</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<settlementTexturePath>World/PlayerHiveZoom</settlementTexturePath>
+		<factionIconPath>World/PlayerHive</factionIconPath>
+		<colorSpectrum>
+			<li>(255,165,0)</li>
+		</colorSpectrum>
+		<startingResearchTags>
+			<li>TribalStart</li>
+			<li>TribalStartTechprints</li>
+			<li>Apiculture</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+	<!-- Azuri Player faction -->
+	<FactionDef ParentName="Playerbase">
+		<defName>TribalAzuriPlayer</defName>
+		<label>Settled Swarm</label>
+		<description>A settled swarm of Azuri.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>AzuriPawn</basicMemberKind>
+		<pawnSingular>azuri</pawnSingular>
+		<pawnsPlural>azuri</pawnsPlural>
+		<factionNameMaker>NamerFactionSwarm</factionNameMaker>
+		<settlementNameMaker>NamerbaseSwarm</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerbaseSwarm</playerInitialSettlementNameMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<techLevel>Animal</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>AzuriSpecific</li>
+					<li>BeeGeneral</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<settlementTexturePath>World/PlayerSwarmZoom</settlementTexturePath>
+		<factionIconPath>World/PlayerSwarm</factionIconPath>
+		<colorSpectrum>
+			<li>(70,183,255)</li>
+		</colorSpectrum>
+		<startingResearchTags/>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+</Defs>

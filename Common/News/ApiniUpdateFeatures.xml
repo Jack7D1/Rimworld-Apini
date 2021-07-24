@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<modNameReadable>Apini Continued</modNameReadable>
+		<modIdentifier>sera.apinialienrace</modIdentifier>
+		<linkUrl>https://discord.gg/CJwh6YZk4G</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>ApiniNews_1_3_0_1</defName>
+		<assemblyVersion>1.3.1</assemblyVersion>
+		<content>Hello and I hope you're enjoying the Apini mod! |Version 1.3 is upon us and that means that development for 1.2 has frozen. While it'll remain present for backcompatibility, all future changes will be in the latest version. This is the first time that I've given hugslib's update thingy a whirl so I hope this works well! As a result now I can better relay major changes so that there's less confusion. |For more updates and/or a direct line to development, visit our discord at the link above! There is a verification channel that you have to send a message in proving you aren't a spambot, but once you do that you get access. |Again thank you for being one of the thousands who share my love for bees :> |Jack7D1 "Ely"</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>

@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A patch to make the Apini mod compatable with RimBees, assuming a 1:1 ratio of rimbees beeswax and apini beeswax -->
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Operations -->
+			<!-- InstallDenture_Apini -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "InstallDenture_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "InstallDenture_Apini"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<categories>
+							<li>Medicine</li>
+						</categories>
+						<thingDefs>
+							<li>RB_Beeswax</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Scenarios -->
+			<!-- Lost Hive -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ScenarioDef[defName = "LostHive"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
+				<value>
+					<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
+						<thingDef>RB_Beeswax</thingDef>
+						<count>1000</count>
+					</li>
+				</value>
+			</li>
+			<!-- "Peaceful" Azuri Swarm -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ScenarioDef[defName = "CivilizedAzuriSwarm"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
+				<value>
+					<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
+						<thingDef>RB_Beeswax</thingDef>
+						<count>200</count>
+					</li>
+				</value>
+			</li>
+			<!-- Removing Apini Beeswax floors because RimBees already have them (and yes, I know that some of the floors textures are used from Apini (pretty funny tbh)) -->
+			<!-- ApiniWaxFloor -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "ApiniWaxFloor"]/costList/ApiniWax</xpath>
+				<value>
+					<RB_Beeswax>3</RB_Beeswax>
+				</value>
+			</li>
+			<!-- ApiniFineWaxFloor depending if Royalty is installed-->
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Royalty</li>
+				</mods>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/TerrainDef[defName = "ApiniFineWaxFloor"]/costList/ApiniWax</xpath>
+					<value>
+						<RB_Beeswax>50</RB_Beeswax>
+					</value>
+				</match>
+			</li>
+			<!--ApiniWaxTile-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "ApiniWaxTile"]/costList/ApiniWax</xpath>
+				<value>
+					<RB_Beeswax>15</RB_Beeswax>
+				</value>
+			</li>
+			<!-- Furniture -->
+			<!-- Small Honeycomb Bed -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "HoneycombBed_S"]/stuffCategories</xpath>
+				<value>
+					<li>RB_Waxy</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HoneycombBed_S"]/costList</xpath>
+				<value>
+					<costList>
+						<ApiniHoney>60</ApiniHoney>
+						<RB_Beeswax>30</RB_Beeswax>
+					</costList>
+				</value>
+			</li>
+			<!-- Large Honeycomb Bed -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "HoneycombBed_L"]/stuffCategories</xpath>
+				<value>
+					<li>RB_Waxy</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HoneycombBed_L"]/costList</xpath>
+				<value>
+					<costList>
+						<ApiniHoney>80</ApiniHoney>
+						<RB_Beeswax>60</RB_Beeswax>
+					</costList>
+				</value>
+			</li>
+			<!-- Wax Candle -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "BeeswaxCandle"]/costList/ApiniWax</xpath>
+				<value>
+					<RB_Beeswax>5</RB_Beeswax>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "BeeswaxCandle"]/comps/li/fuelFilter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>RB_Beeswax</li>
+					</thingDefs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "BeeswaxCandle"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<!-- Why am I only allowing brittle and normal wax? It's because nobody wants to waste special wax on something as simple as a candle, or forbidding and forgetting to unforbid -->
+						<li>RB_Beeswax</li>
+						<li>RB_Brittlewax</li>
+					</thingDefs>
+				</value>
+			</li>
+			<!-- Production buildings -->
+			<!-- HoneyCapsule -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HoneyCapsule"]/costList/ApiniWax</xpath>
+				<value>
+					<RB_Beeswax>30</RB_Beeswax>
+				</value>
+			</li>
+			<!-- ApiniNectarStill -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "ApiniNectarStill"]/costList/ApiniWax</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ApiniNectarStill"]</xpath>
+				<value>
+					<stuffCategories>
+						<li>RB_Waxy</li>
+					</stuffCategories>
+					<costStuffCount>40</costStuffCount>
+				</value>
+			</li>
+			<!-- ApiniProstheticsTable -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ApiniProstheticsTable"]/costList</xpath>
+				<value>
+					<costList>
+						<RB_Beeswax>30</RB_Beeswax>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ApiniProstheticsTable"]/stuffCategories</xpath>
+				<value>
+					<li>RB_Waxy</li>
+				</value>
+			</li>
+			<!-- ApitechTable -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ApitechTable"]/costList</xpath>
+				<value>
+					<costList>
+						<RB_Beeswax>80</RB_Beeswax>
+						<ComponentIndustrial>3</ComponentIndustrial>
+						<Steel>200</Steel>
+					</costList>
+				</value>
+			</li>
+			<!-- ApitechSynthesizer -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ApitechSynthesizer"]/costList</xpath>
+				<value>
+					<costList>
+						<RB_Beeswax>50</RB_Beeswax>
+						<Steel>200</Steel>
+						<Plasteel>50</Plasteel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+			<!-- @VatBase -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name = "VatBase"]/costList</xpath>
+				<value>
+					<costList>
+						<RB_Beeswax>30</RB_Beeswax>
+					</costList>
+				</value>
+			</li>
+			<!-- HoneyVat -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HoneyVat"]/costList</xpath>
+				<value>
+					<costList>
+						<RB_Beeswax>300</RB_Beeswax>
+					</costList>
+				</value>
+			</li>
+			<!-- Beeswax production -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeApiniWax"]/products</xpath>
+				<value>
+					<products>
+						<RB_Beeswax>10</RB_Beeswax>
+					</products>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeApiniWaxBulk"]/products</xpath>
+				<value>
+					<products>
+						<RB_Beeswax>100</RB_Beeswax>
+					</products>
+				</value>
+			</li>
+			<!-- No more Apini Beeswax from traders - only RimBees wax -->
+			<!-- Apini Caravan -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraderKindDef[defName = "Caravan_Apini_BulkGoods"]/stockGenerators/li[thingDef = "ApiniWax"]</xpath>
+				<value>
+					<li Class="StockGenerator_MultiDef">
+						<thingDefs>
+							<li>RB_Beeswax</li>
+							<li>RB_Brittlewax</li>
+							<li>RB_RedBeeswax</li>
+							<li>RB_WhiteBeeswax</li>
+							<li>RB_BlackBeeswax</li>
+						</thingDefs>
+						<countRange>
+							<min>-100</min>
+							<max>250</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+			<!-- Base Apini Trader -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraderKindDef[defName = "base_Apini_Standard"]/stockGenerators/li[thingDef = "ApiniWax"]</xpath>
+				<value>
+					<li Class="StockGenerator_MultiDef">
+						<thingDefs>
+							<li>RB_Beeswax</li>
+							<li>RB_Brittlewax</li>
+							<li>RB_RedBeeswax</li>
+							<li>RB_WhiteBeeswax</li>
+							<li>RB_BlackBeeswax</li>
+						</thingDefs>
+						<countRange>
+							<min>-50</min>
+							<max>400</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+			<!-- Patching the RimBees wax to be buyable and sellable. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="RB_BeesWaxBase"]/tradeability</xpath>
+				<value>
+					<tradeability>All</tradeability>
+				</value>
+			</li>
+			<!--Redefining apitech creafting recipies containing beeswax to RB wax-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateBionicWing"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Synthread</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateAdvancedBionicWing"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>BionicWing</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>4</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateAdvancedBionicAntenna"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>BionicAntenna</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>3</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeApitechMechanites"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Gold</li>
+								</thingDefs>
+							</filter>
+							<count>3</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApiniJelly</li>
+								</thingDefs>
+							</filter>
+							<count>3</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeApitechMechanitesMore"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Gold</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApiniJelly</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>8</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeApitechMechanitesMost"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Gold</li>
+								</thingDefs>
+							</filter>
+							<count>200</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApiniJelly</li>
+								</thingDefs>
+							</filter>
+							<count>200</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>50</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateMonarchMandibles_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>CrusherMandibles_Apini</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>SongstressMandibles_Apini</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>5</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Gold</li>
+								</thingDefs>
+							</filter>
+							<count>200</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateAeratorImplant_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>3</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Synthread</li>
+								</thingDefs>
+							</filter>
+							<count>20</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateDigestiveEnzymes_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateRegenerativeEnzymes_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>8</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateOcularEnhancement_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateSignalReceptor_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateNeuroenhancer_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>10</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateProboscisEnhancement_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateGathererFrontLeg_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>3</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateReflexEnhancement_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateBreezerImplant_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>DevilstrandCloth</li>
+								</thingDefs>
+							</filter>
+							<count>20</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "CreateWarmerImplant_Apini"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RB_Beeswax</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>25</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ApitechMechanites</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<!--End apitech recipies-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ApiniWax"]/stuffProps/commonality</xpath>
+				<value>
+					<!-- In case Apiniwax is not undefined, this prevent old Apini wax spawning as ruins walls-->
+					<commonality>0.0</commonality>
+				</value>
+			</li>
+			<!-- Removing Apini Beeswax, since why have it if it's not used? -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="ApiniWax"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
