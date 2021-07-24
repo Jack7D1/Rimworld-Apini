@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Compatibility patch for EPOE. -->
+<Patch>
+	<Operation Class="PatchOperationReplace>
+		<!-- Patch to assure that Apini and Azuri have the proper reaction to Smokeleaf Industry's drugs and hediffs. -->
+		<xpath>Defs/ThingDef[defName="Alien_Bee"]/alienRace/generalSettings/chemicalSettings/li/chemical</xpath>
+			<value>
+				<chemical>SLI_Smokeleaf</chemical>
+			</value>
+		</li>
+	</Operation>
+</Patch>
