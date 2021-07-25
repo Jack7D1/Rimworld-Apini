@@ -58,6 +58,7 @@ New Team: 		(Individual contributions visible on github)
 [*]Brunter - Coder
 [*]Hirohito - Coder/Artist
 [*]Argón (León) - Artist
+[*]Mayonnaise - Coder
 [/list]
 
 [h1]Support:[/h1]
