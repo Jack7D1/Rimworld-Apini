@@ -16,12 +16,12 @@
 					<li>CoveredByNaturalArmor</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
+			<!-- 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyDef[defName = "Moobee"]/corePart/parts/li[def = "Abdomen"]/parts/li[def = "InsectSting"]/groups</xpath>
 				<value>
 					<li>CoveredByNaturalArmor</li>
 				</value>
-			</li>
+			</li> -->
 			<!-- Neck equivalent and its children. -->
 			<!-- I guess this bodypart is like a neck for the moobee. -->
 			<li Class="PatchOperationAdd">
