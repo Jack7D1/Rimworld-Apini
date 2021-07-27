@@ -26,8 +26,11 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+<li>UnlimitedHugs.HugsLib</li>
 		<li>erdelf.HumanoidAlienRaces</li>
-		<li>UnlimitedHugs.HugsLib</li>
 	</loadAfter>
 	<loadBefore>
 		<li>sarg.rimbees</li>
@@ -38,7 +41,6 @@
 	<description>
 		Report bugs over on the github page!
 		Want headgear from a certain mod? Drop the def name in the discord or github!
-		
 		Want to contribute or want to know about upcoming changes and updates? Check out our github every now and then!
 		Certain features of some mods may extremely buff or extremely nerf Apini! This mod is best played with few other Non-Vanilla content mods
 		Mods that are definitely incompatible, or mods that should be guaranteed compatible are listed on the workshop page.
