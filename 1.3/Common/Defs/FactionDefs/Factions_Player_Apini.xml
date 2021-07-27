@@ -28,6 +28,16 @@
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<techLevel>Neolithic</techLevel>
+		<allowedCultures>
+			<li>Corunan</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		</disallowedPrecepts>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -74,6 +84,19 @@
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<techLevel>Animal</techLevel>
+		<allowedCultures>
+			<li>Kriminul</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		</disallowedPrecepts>
 		<backstoryFilters>
 			<li>
 				<categories>

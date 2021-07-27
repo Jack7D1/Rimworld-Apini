@@ -78,7 +78,7 @@
 			</li>
 			<!-- Azuri_Pirate -->
 			<li Class="PatchOperationAddModExtension">
-				<xpath>Defs/PawnKindDef[defName="AzuriPirate"]</xpath>
+				<xpath>Defs/PawnKindDef[defName="Azuri_Pirate"]</xpath>
 				<value>
 					<li Class="CombatExtended.LoadoutPropertiesExtension">
 						<primaryMagazineCount>
@@ -102,7 +102,7 @@
 			</li>
 			<!-- Azuri_Marauder -->
 			<li Class="PatchOperationAddModExtension">
-				<xpath>Defs/PawnKindDef[defName="AzuriMarauder"]</xpath>
+				<xpath>Defs/PawnKindDef[defName="Azuri_Marauder"]</xpath>
 				<value>
 					<li Class="CombatExtended.LoadoutPropertiesExtension">
 						<primaryMagazineCount>

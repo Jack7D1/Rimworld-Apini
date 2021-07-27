@@ -175,20 +175,6 @@
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">OrbitalTargeterMechCluster</li>
-					<!--From Ideology-->
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_VisageMask</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Slicecap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Collar</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_AuthorityCap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
 					<!--From Apparello-->
 					<li MayRequire="Shinzy.Apparello">Apparello_Beret</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Cardshark</li>
@@ -293,15 +279,6 @@
 					<li MayRequire="n7huntsman.combatshields">Apparel_TacShield</li>
 					<li MayRequire="n7huntsman.combatshields">Apparel_BallisticShield</li>
 					<li MayRequire="n7huntsman.combatshields">Apparel_ImperialShield</li>
-					<!--From Rimatomics-->
-					<li MayRequire="Dubwise.Rimatomics">Apparel_RadiationSuit</li>
-					<!--From Flower Crowns-->
-					<li MayRequire="MengDe.FlowerCrowns">FC_Pink</li>
-					<li MayRequire="MengDe.FlowerCrowns">FC_Multi</li>
-					<li MayRequire="MengDe.FlowerCrowns">FC_Pini</li>
-					<li MayRequire="MengDe.FlowerCrowns">FC_Sunny</li>
-					<li MayRequire="MengDe.FlowerCrowns">FC_Silver</li>
-					<li MayRequire="MengDe.FlowerCrowns">FC_Gold</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
