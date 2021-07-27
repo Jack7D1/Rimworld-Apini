@@ -26,8 +26,11 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
 		<li>UnlimitedHugs.HugsLib</li>
+		<li>erdelf.HumanoidAlienRaces</li>
 	</loadAfter>
 	<loadBefore>
 		<li>sarg.rimbees</li>
