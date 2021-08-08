@@ -71,6 +71,8 @@
 			<thingDefs>
 				<li>Hay</li>
 				<li>WoodLog</li>
+				<li MayRequire="sarg.alphabiomes">GU_RedWood</li>
+				<li MayRequire="sarg.alphabiomes">AB_MushroomWoodLog</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
@@ -96,6 +98,8 @@
 				<filter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li MayRequire="sarg.alphabiomes">GU_RedWood</li>
+						<li MayRequire="sarg.alphabiomes">AB_MushroomWoodLog</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -127,6 +131,8 @@
 				<filter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li MayRequire="sarg.alphabiomes">GU_RedWood</li>
+						<li MayRequire="sarg.alphabiomes">AB_MushroomWoodLog</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
