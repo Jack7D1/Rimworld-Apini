@@ -55,6 +55,7 @@
     <Compile Include="ApiniDefOf.cs" />
     <Compile Include="ApiniExtensionUtility.cs" />
     <Compile Include="ApiniTracker.cs" />
+    <Compile Include="Comps\CompApiniInsectRelations.cs" />
     <Compile Include="Def Properties\ApiniApparelProperties.cs" />
     <Compile Include="Def Properties\ApiniProperties.cs" />
     <Compile Include="Legacy\WorkGiverDynamicDefLegacy.cs" />
@@ -68,16 +69,14 @@
     <Compile Include="ScenParts\ScenPart_ForcePawn.cs" />
     <Compile Include="ScenParts\ScenPart_ForceTrain.cs" />
     <Compile Include="Thoughts\ThoughtWorker_ApiniApron.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_ApiniHiveDiscord.cs" />
     <Compile Include="Thoughts\ThoughtWorker_LockedInMountainVault.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_WearingBlueApparel.cs" />
     <Compile Include="Def Properties\VatProperties.cs" />
     <Compile Include="Def Properties\WorkgiverFermentingVatProperties.cs" />
     <Compile Include="AI\WorkGiver_FillFermentingVat.cs" />
     <Compile Include="AI\WorkGiver_TakeThingOutOfFermenter.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_WearingBlueApparel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Comps\" />
     <Folder Include="Defs\" />
     <Folder Include="Patches\" />
   </ItemGroup>

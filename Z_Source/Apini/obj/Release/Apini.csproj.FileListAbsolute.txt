@@ -43,3 +43,8 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimworld mod hotseat
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimworld mod hotseat\Z_Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimworld mod hotseat\Z_Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimworld mod hotseat\Z_Source\Apini\obj\Release\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\apini\1.3\Common\Assemblies\Apini.dll.config
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\apini\1.3\Common\Assemblies\Apini.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\apini\Z_Source\Apini\obj\Release\Apini.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\apini\Z_Source\Apini\obj\Release\Apini.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\apini\Z_Source\Apini\obj\Release\Apini.dll

@@ -1,43 +1,27 @@
-﻿using System.Collections.Generic;
+﻿using RimWorld;
+using System.Collections.Generic;
 using Verse;
 
 namespace Apini
 {
-    /// <summary>
-    /// Tracks everything to do with Apinis.
-    /// </summary>
+    //Keeps track of generic apini types.
     [StaticConstructorOnStartup]
     public static class ApiniTracker
     {
-        /// <summary>
-        /// Tracks all Apini aparrel.
-        /// </summary>
         public static List<ThingDef> apparel = new List<ThingDef>();
-
-        /// <summary>
-        /// Pawn kinds that count as Apini.
-        /// </summary>
-        public static List<PawnKindDef> apiniKind = new List<PawnKindDef>();
+        public static List<ThingDef> beeliens = new List<ThingDef> { ApiniDefOf.Apini, ApiniDefOf.Azuri };
+        public static List<FactionDef> playerfactions = new List<FactionDef> { ApiniDefOf.TribalApiniPlayer, ApiniDefOf.TribalAzuriPlayer };
+        public static List<PawnKindDef> pawnkinds = new List<PawnKindDef>();
 
         static ApiniTracker()
         {
-            //Scour all ThingDefs for Apini aparrel.
             foreach (ThingDef def in DefDatabase<ThingDef>.AllDefs)
-            {
                 if (def.HasModExtension<ApiniAparrelProperties>())
-                {
                     apparel.Add(def);
-                }
-            }
 
-            //Scour all PawnKindDefs for Apinis.
             foreach (PawnKindDef def in DefDatabase<PawnKindDef>.AllDefs)
-            {
-                if (def.HasModExtension<ApiniProperties>())
-                {
-                    apiniKind.Add(def);
-                }
-            }
+                if (def.race == ApiniDefOf.Apini || def.race == ApiniDefOf.Azuri)
+                    pawnkinds.Add(def);
         }
     }
 }

@@ -10,10 +10,10 @@
 		<defName>ApiniMakingHoney</defName>
 		<label>Creating Honey</label>
 		<priority>1</priority>
-		<helpText>Honey is the central aspect of any Apini colony, highly nutritious, never spoils and quite valuable; it's the perfect food. 
-		\nAs you just start your colony you will want to grow a small field of Lavendar or Apini Daisies. \nUpon harvest these will yield pollen balls, you can continue to repeatedly grow and harvest these flowers for their entire lifespan. \nTake these pollen balls to a Nectar Distillery (Under Apitecture) and create a bill to distill nectar. \nAt this point you should have Nectar and Pollen, the nectar should be placed into a Honey Cell to ferment. After a few days you should have some delicious honey! 
-		\nAs your colony grows you may feel inclined to further research flavored honeys! Specialized flowers produce less nutritious nectar, but instead nectar with special properties! 
-		\nThere are 8 different kinds of honey Apini can produce! \nUnflavored; Very nutritious and used in building. \nFrostbell; Makes your colonists more tolerant to heat. \nEmberose; Makes your colonists more tolerant to cold. \nMetalily; Makes your colonists tougher. \nBardsong; Makes your colonists better with negotiations. \nRushthorn; Makes your colonists faster! \nWiserbud; Makes your colonists smarter! \nVigorbloom; Makes your colonists stronger! \nThese effects start at full strength for 1 day, they will then fade over the course of the next day.</helpText>
+		<helpText>Honey is the central aspect of any Apini colony, highly nutritious, never spoils and quite valuable; it's the perfect food.
+			\nAs you just start your colony you will want to grow a small field of Lavendar or Apini Daisies. \nUpon harvest these will yield pollen balls, you can continue to repeatedly grow and harvest these flowers for their entire lifespan. \nTake these pollen balls to a Nectar Distillery (Under Apitecture) and create a bill to distill nectar. \nAt this point you should have Nectar and Pollen, the nectar should be placed into a Honey Cell to ferment. After a few days you should have some delicious honey!
+			\nAs your colony grows you may feel inclined to further research flavored honeys! Specialized flowers produce less nutritious nectar, but instead nectar with special properties!
+			\nThere are 8 different kinds of honey Apini can produce! \nUnflavored; Very nutritious and used in building. \nFrostbell; Makes your colonists more tolerant to heat. \nEmberose; Makes your colonists more tolerant to cold. \nMetalily; Makes your colonists tougher. \nBardsong; Makes your colonists better with negotiations. \nRushthorn; Makes your colonists faster! \nWiserbud; Makes your colonists smarter! \nVigorbloom; Makes your colonists stronger! \nThese effects start at full strength for 1 day, they will then fade over the course of the next day.</helpText>
 	</ConceptDef>
 	<ConceptDef>
 		<defName>ApiniRespiratoryFailure</defName>
@@ -21,16 +21,15 @@
 		<priority>1</priority>
 		<helpText>Apini do not posess the same lung structure that humans have and react poorly to smoke. \nAdministering smokeleaf to Apini is highly discouraged. </helpText>
 	</ConceptDef>
-	<!--Triggered Modally-->
+	<!--Opportunistic-->
 	<ConceptDef>
 		<defName>ApiniInsectRelations</defName>
 		<label>Bug Politics</label>
-		<priority>-1000</priority>
+		<priority>50</priority>
+		<needsOpportunity>True</needsOpportunity>
 		<helpText>Apini are traditionally afforded tolerance by Insectoids due to their ability to vaguely communicate intent via pheromone. These pheromones also linger on non apini members of your faction.
 			\nThis truce is highly fragile however, as the insectoids still view Apini with great suspicion. Any attempt to harm members of the hive or the hive itsself will result in a complete breakdown of this truce.
-			\nFortunately for you, Insectoids are also not the most intelligent. While melee attacks are a surefire way to draw their ire, attacking from a distance may leave them confused.
-			\nAttacking with ranged weapons such as guns, grenades, launchers and bows may cause them to misplace the blame. However, depending on your colonists hunter stealth, this can be a risky affair and they attack.
-			\nAttacking with long distance explosives or fires, such as mortars and fires will never draw their ire.
-			\n\nHaving an infestation around may seem appealing due to the source of insect jelly and protection against raids, however they will also attack traders and other visitors. This could end up being disastrous in other ways.</helpText>
+			\nFortunately for you, Insectoids are also not the most intelligent. While melee attacks are a surefire way to draw their ire, attacking from a distance may leave them confused. Fire will never provoke them towards you.
+		</helpText>
 	</ConceptDef>
 </Defs>
