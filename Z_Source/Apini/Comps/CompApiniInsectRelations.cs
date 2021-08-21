@@ -28,7 +28,7 @@ namespace Apini.Comps
             int attackDist = (int)Math.Ceiling(dinfo.Instigator.Position.DistanceTo(parent.Position));
             if (AttackDistanceProvokes(attackDist) && dinfo.Category != DamageInfo.SourceCategory.Collapse)
             {
-                Faction.OfInsects.SetRelationDirect(Faction.OfPlayer, FactionRelationKind.Hostile);
+                Faction.OfInsects.SetRelationDirect(Faction.OfPlayer, FactionRelationKind.Hostile, true);
             }
         }
 
@@ -37,15 +37,6 @@ namespace Apini.Comps
         {
             // (<=1 = 1) ∪ (>=15 = 0)
             return Rand.Chance(1f - (0.07f * d)); //Rand.Chance clamps values already so there is no need to do it here.
-        }
-    }
-
-    public class IncidentWorkerApini_HiveAngered : IncidentWorker
-    {
-        protected override bool TryExecuteWorker(IncidentParms parms = null)
-        {
-            Faction.OfInsects.SetRelationDirect(Faction.OfPlayer, FactionRelationKind.Hostile, true, "You dun fucked up");
-            return true;
         }
     }
 }
