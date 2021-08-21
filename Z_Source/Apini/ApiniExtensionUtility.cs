@@ -11,7 +11,7 @@ namespace Apini
         /// <returns>True if it is a Apini.</returns>
         public static bool IsApini(this PawnKindDef def)
         {
-            return ApiniTracker.apiniKind.Contains(def);
+            return ApiniTracker.pawnkinds.Contains(def);
         }
 
         /// <summary>

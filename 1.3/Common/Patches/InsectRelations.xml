@@ -1,0 +1,10 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name = "BaseInsect"]/comps</xpath>
+		<value>
+			<li>
+				<compClass>Apini.Comps.CompApiniInsectRelations</compClass>
+			</li>
+		</value>
+	</Operation>
+</Patch>

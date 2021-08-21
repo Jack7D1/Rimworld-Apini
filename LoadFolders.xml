@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Never load content that is not going to be used in the current configuration (IE expansion content that won't be called due to the absence of its mod) as this will have a detriment on loading time. Textures are the largest contributor to loading time.-->
 <loadFolders>
 	<v1.2>
-		<!--1.2 is now frozen and left in as a historical copy for back compatibility-->
+		<!--1.2 is frozen and left in as a historical copy for players yet to update.-->
 		<li>1.2/Common</li>
 		<li>Common</li>
 		<!--Patches for mod compatibility-->

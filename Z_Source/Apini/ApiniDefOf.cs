@@ -9,6 +9,8 @@ namespace Apini
     [DefOf]
     public static class ApiniDefOf
     {
+        public static ThingDef Apini;
+
         /// <summary>
         /// Apini hive discord.
         /// </summary>
@@ -18,9 +20,12 @@ namespace Apini
         /// </summary>
         public static ThingDef ApiniApron;
 
-        /// <summary>
-        /// Apini pawn kind.
-        /// </summary>
-        public static PawnKindDef ApiniPawn;
+        public static ConceptDef ApiniInsectRelations;
+        public static ThingDef Azuri;
+
+        public static FactionDef TribalApiniPlayer;
+        public static FactionDef TribalAzuriPlayer;
+        public static FactionDef TribeApini;
+        public static FactionDef TribeAzuri;
     }
 }
