@@ -304,6 +304,45 @@
 					<li MayRequire="MengDe.FlowerCrowns">FC_Sunny</li>
 					<li MayRequire="MengDe.FlowerCrowns">FC_Silver</li>
 					<li MayRequire="MengDe.FlowerCrowns">FC_Gold</li>
+					<!--From Rimworld Of Magic-->
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDefense</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDeflection</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDefense</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfKeenIntellect</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfBlood</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfEternalBlue</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfMalice</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfConviction</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfSouls</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfSouls_Full</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfEternal</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_NecroticOrb</li>
+					<li MayRequire="Torran.ARimworldOfMagic">DemonLordCloak</li>
+					<li MayRequire="Torran.ARimworldOfMagic">DarkRobe</li>
+					<li MayRequire="Torran.ARimworldOfMagic">AncientMail</li>
+					<li MayRequire="Torran.ARimworldOfMagic">RoyalArmor</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_DreamcatcherBuckskin</li>
+					<li MayRequire="Torran.ARimworldOfMagic">ArchMageRobe</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_WizardHat</li>
+					<li MayRequire="Torran.ARimworldOfMagic">ArcaneHood</li>
+					<li MayRequire="Torran.ARimworldOfMagic">HoodOfMadness</li>
+					<li MayRequire="Torran.ARimworldOfMagic">RoyalHelm</li>
+					<li MayRequire="Torran.ARimworldOfMagic">ParagonHelm</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_DreamcatcherCoronet</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Silver</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Slate</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Medicine</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Limestone</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Granite</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Marble</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Sandstone</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Steel</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Iron</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Jade</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Gold</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Magicyte</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Wood</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_MaestersCloak</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
