@@ -28,11 +28,6 @@ This mod lets you play as a race of sentient giant bees called apini.
 [*]Incompatible: Multiplayer
 [/list]
 
-[h1]Community:[/h1]
-[url=https://github.com/Jack7D1/Rimworld-Apini] This mod is open source at our GitHub Here! [/url]
-[url=https://discord.gg/CJwh6YZk4G] Talk about the mod, post / look at pictures of cool bugs and other bug meme things in this Discord Server! [/url]
-You'll need to post a message in the verification channel to access the server.
-
 [h1]Credits:[/h1]
 [list]
 [*]Sera/Miss Bones – Apini race mod base and original creator
@@ -62,10 +57,24 @@ New Team: 		(Individual contributions visible on github)
 [*]Mayonnaise - Coder
 [/list]
 
-[h1]Support:[/h1]
-[url=https://github.com/Jack7D1/Rimworld-Apini/issues] Have ideas for features, or want to report a bug? Put them here in our GitHub Issue Tracker so they get noticed! [/url]
-[url=https://discord.gg/CJwh6YZk4G] Want to share your opinions, suggestions, concerns or general ideas? Meet us in this Discord Server! [/url]
-You'll need to post a message in the verification channel to access the server.
-Posting in the comments is discouraged as it's messy and hard to keep track of!
+
+[h1]Community and Support:[/h1]
+[url=https://github.com/Jack7D1/Rimworld-Apini_Necropini] Have ideas for features, or want to report a bug? Put them here in our GitHub Issue Tracker so they get noticed! This is an open source mod and contributions are appreciated![/url]
+[url=https://discord.gg/CJwh6YZk4G] Want to share your opinions, suggestions, or general ideas? Or maybe just hang around with some sweet bug memes/art? Meet us in this Discord Server![/url]
+[i]You'll need to post a message in the verification channel to access the server.[/i]
+
+[h2]FAQ:[/h2]
+[list]
+[*]Q: How do I do this?
+[*]A: Before all else, check the learning helper! The most confusing aspects of apini are listed there! If you can't find what you're looking for still; create and issue on the github page as it should be there!
+
+[*]Q: Why am I getting an error of the older versions of this mod?
+[*]A: Older versions are 'frozen' and cannot be changed. Only the latest version of rimworld recieves mod updates. However before this freeze happens the version is extensively debugged and checked to ensure everything is in proper order. As a result many errors are usually very specific cases caused by rimworld itsself.
+
+[*]Q: Why am I getting an error/incompatibility?
+[*]A: First and foremost make sure that it is actually Apini causing this error. If it is apini note that before release all updates are bugtested quite extensively; so your case is likely very specific. Please make a guthub issue listing the configuration and nature or the error so this can be fixed. You're welcome to pop into our discord and chat live with a coder for help!
+[/list]
+
+[u][b]Posting in the comments is highly discouraged as it's messy and hard to keep track of![/b]
 Making a discussion thread or a github issue is a surefire way to guarantee a response!
-Bugs in the github issues cannot be forgotten or ignored!
+Bugs in the github issues cannot be forgotten or ignored![/u]
