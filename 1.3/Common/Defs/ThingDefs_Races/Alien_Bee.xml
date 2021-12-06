@@ -304,6 +304,11 @@
 					<li MayRequire="MengDe.FlowerCrowns">FC_Sunny</li>
 					<li MayRequire="MengDe.FlowerCrowns">FC_Silver</li>
 					<li MayRequire="MengDe.FlowerCrowns">FC_Gold</li>
+					<!-- From Shields, Shields. SHIELDS! -->
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldRegenerator</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldCapacitor</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldBeltVTwo</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_JumpPackWithShield</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
