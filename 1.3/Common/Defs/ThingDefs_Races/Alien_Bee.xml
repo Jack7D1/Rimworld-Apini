@@ -343,6 +343,11 @@
 					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Magicyte</li>
 					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Wood</li>
 					<li MayRequire="Torran.ARimworldOfMagic">TM_MaestersCloak</li>
+					<!-- From Shields, Shields. SHIELDS! -->
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldRegenerator</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldCapacitor</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldBeltVTwo</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_JumpPackWithShield</li>
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
