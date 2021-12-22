@@ -234,6 +234,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Pollen>10</Pollen>
 			<Nectar>7</Nectar>
@@ -247,6 +248,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Frostbell</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Nectar>2</Nectar>
 			<Nectar_F>5</Nectar_F>
@@ -261,6 +263,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Emberose</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Nectar>2</Nectar>
 			<Nectar_E>5</Nectar_E>
@@ -275,6 +278,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Metalily</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Nectar>2</Nectar>
 			<Nectar_M>5</Nectar_M>
@@ -289,6 +293,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Bardsong</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Nectar>2</Nectar>
 			<Nectar_B>5</Nectar_B>
@@ -303,6 +308,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Rushthorn</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Nectar>2</Nectar>
 			<Nectar_R>5</Nectar_R>
@@ -317,6 +323,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Wiserbud</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Nectar>2</Nectar>
 			<Nectar_W>5</Nectar_W>
@@ -331,6 +338,7 @@
 		<graphicData>
 			<texPath>Things/Item/PollenBall/PollenBall_Vigorbloom</texPath>
 		</graphicData>
+		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Nectar>2</Nectar>
 			<Nectar_V>5</Nectar_V>

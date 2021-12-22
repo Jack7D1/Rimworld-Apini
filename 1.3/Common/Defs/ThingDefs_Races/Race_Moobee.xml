@@ -124,7 +124,7 @@
 			</hediffGiverSets>
 		</race>
 		<tradeTags>
-			<li>Insect</li>
+			<li>AnimalInsect</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef Name="MoobeeKind" ParentName="AnimalKindBase">
