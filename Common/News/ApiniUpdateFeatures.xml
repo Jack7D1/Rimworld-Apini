@@ -15,4 +15,9 @@
 		<assemblyVersion>1.3.2</assemblyVersion>
 		<content>Hello! On August 21st, 2020 Apini Continued was first published to the steam workshop! It first started out as a simple revival of the mod with a few bugfixes, but I never would have expected it to become so much more than that! |To celebrate Apini Continued's birthday some new features have been added! Most notably: Insectoids now have a truce function. While previously they were infinitely forgiving, now if you anger the hive they stay mad! This is explained further in the learning helper. |Speaking of, the learning helper got a big upgrade! This should make honeymaking and beeswax more accessible to newer players. Thank you for all your support and making this year incredibly fun! |Jack7D1 "Ely"</content>
 	</HugsLib.UpdateFeatureDef>
+		<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>ApiniNews_1_3_0_3</defName>
+		<assemblyVersion>1.3.3</assemblyVersion>
+		<content>Hello everyone, I hope you enjoyed your christmas and new years! On the discord server, linked above, a vote was posed. By an overwhelming majority it was decided that support for older versions of rimworld will only be present on the steam version for 6 months. As a result the steam copy you have now no longer supports 1.2. |Don't fret! If you are or plan on playing rimworld for 1.2 then it is still available on our github in the branch 'legacy_1.2': https://github.com/Jack7D1/Rimworld-Apini/tree/legacy_1.2 |Just download the branch and place the folder into your rimworlds mods folder! Don't be afraid to ask questions in the discord server. |Jack7D1 "Ely"</content>
+	</HugsLib.UpdateFeatureDef>
 </Defs>
