@@ -1,4 +1,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://media.discordapp.net/attachments/410903611674066974/818644032078086224/unknown.png)
+THIS IS A LEGACY BUILD OF THE MOD FOR RIMWORLD 1.2 AND WILL NOT RECIEVE UPDATES.
 # Rimworld-Apini
 The open source repository for the Rimworld Apini mod!
 
