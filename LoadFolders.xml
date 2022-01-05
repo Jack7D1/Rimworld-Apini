@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Never load content that is not going to be used in the current configuration (IE expansion content that won't be called due to the absence of its mod) as this will have a detriment on loading time. Textures are the largest contributor to loading time.-->
 <loadFolders>
-	<v1.2>
-		<!--1.2 is frozen and left in as a historical copy for players yet to update.-->
-		<li>1.2/Common</li>
-		<li>Common</li>
-		<!--Patches for mod compatibility-->
-		<li IfModActive="consolidatedtraits.kv.rw">1.2/Patched/P_ConsolidatedTraits</li>
-		<li IfModActive="Ykara.EPOE">1.2/Patched/P_EPOE</li>
-		<li IfModActive="vat.epoeforked">1.2/Patched/P_EPOEForked</li>
-		<li IfModActive="sarg.rimbees">1.2/Patched/P_Rimbees</li>
-		<li IfModActive="CETeam.CombatExtended">1.2/Patched/P_CombatExtended</li>
-		<!--Expanded content for mods, probably with compatability patches as well.-->
-		<li IfModActive="Ludeon.Rimworld.Royalty">1.2/Expanded/E_Royalty</li>
-		<li IfModActive="kentington.saveourship2">1.2/Expanded/E_SOS2</li>
-	</v1.2>
 	<v1.3>
 		<li>1.3/Common</li>
 		<li>Common</li>
