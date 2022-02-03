@@ -1,5 +1,4 @@
 ﻿using RimWorld;
-using System;
 using System.Collections.Generic;
 using Verse;
 using Verse.AI;
@@ -11,7 +10,7 @@ namespace Apini
     /// </summary>
     public class JobDriver_TakeThingOutOfFermentingVat : JobDriver
     {
-        private const TargetIndex VatInd = TargetIndex.A;
+         private const TargetIndex VatInd = TargetIndex.A;
 
         private const TargetIndex ThingToHaulInd = TargetIndex.B;
 
