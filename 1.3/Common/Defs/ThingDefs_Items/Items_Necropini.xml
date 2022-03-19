@@ -44,9 +44,27 @@
 		</comps>
 	</ThingDef>
 	<!--Make Meat Slurry-->
-	<RecipeDef ParentName="NectarCraftBase">
+	<RecipeDef Name="NpiniSlurryCraftBase" Abstract="True">
+		<jobString>distilling Meat Slurry.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>400</workAmount>
+		<workSkillLearnFactor>5</workSkillLearnFactor>
+		<requiredGiverWorkType>HoneyMaker</requiredGiverWorkType>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ApiniNectarStill</li>
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	<RecipeDef ParentName="NpiniSlurryCraftBase">
 		<defName>NpiniMake_Slurry</defName>
-		<label>distill nectar</label>
+		<label>distill meat slurry</label>
 		<description>Processes raw meat into meat slurry.</description>
 		<ingredients>
 			<li>
@@ -55,13 +73,16 @@
 						<li>MeatRaw</li>
 					</categories>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 		</ingredients>
+		<products>
+			<NpiniMeatSlurry>10</NpiniMeatSlurry>
+		</products>
 	</RecipeDef>
-	<RecipeDef ParentName="NectarCraftBulk">
+	<RecipeDef ParentName="NpiniSlurryCraftBase">
 		<defName>NpiniMake_BulkSlurry</defName>
-		<label>distill nectar in bulk</label>
+		<label>distill nemeat slurry in bulk</label>
 		<description>Processes lots of raw meat into meat slurry.</description>
 		<ingredients>
 			<li>
@@ -73,5 +94,8 @@
 				<count>100</count>
 			</li>
 		</ingredients>
+		<products>
+			<NpiniMeatSlurry>200</NpiniMeatSlurry>
+		</products>
 	</RecipeDef>
 </Defs>

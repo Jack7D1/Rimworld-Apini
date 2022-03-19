@@ -17,9 +17,9 @@
 				<inputThingDef>NpiniMeatSlurry</inputThingDef>
 				<outputThingDef>NpiniMeatHoney</outputThingDef>
 				<maxCapacity>200</maxCapacity>
-				<fermentationModifier>3</fermentationModifier>
+				<fermentationModifier>2</fermentationModifier>
 				<!-- 1:4 ratio -->
-				<inputToOutputRatio>4</inputToOutputRatio>
+				<inputToOutputRatio>10</inputToOutputRatio>
 				<!-- Translations, point to custom translation lines. -->
 				<containsInputTranslation>ContainsNectar</containsInputTranslation>
 				<containsOutputTranslation>ContainsHoney</containsOutputTranslation>
@@ -55,7 +55,7 @@
 				<maxSafeTemperature>60</maxSafeTemperature>
 			</li>
 		</comps>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<rotatable>true</rotatable>
 		<designationCategory>Apitecture</designationCategory>
 		<constructEffect>ConstructWood</constructEffect>

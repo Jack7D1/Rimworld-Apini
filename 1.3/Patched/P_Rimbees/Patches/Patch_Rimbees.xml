@@ -66,7 +66,7 @@
 			</li>
 			<!-- Necropini Default Scenario-->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ScenarioDef[defName = "NpiniScenario"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
+				<xpath>Defs/ScenarioDef[defName = "NpiniScen_Default"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
 				<value>
 					<li Class="ScenPart_StartingThing_Defined">
 						<def>StartingThing_Defined</def>
