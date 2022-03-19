@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using RimWorld;
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace Apini
     {
         static HarmonyPatches()
         {
-            var harmony = HarmonyInstance.Create("Apini");
+            var harmony = new Harmony("Apini");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }

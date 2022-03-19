@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/Apini.csproj": {}
+  },
+  "projects": {
+    "/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/Apini.csproj": {
+      "version": "1.3.0.2",
+      "restore": {
+        "projectUniqueName": "/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/Apini.csproj",
+        "projectName": "Apini",
+        "projectPath": "/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/Apini.csproj",
+        "packagesPath": "/home/jack/.nuget/packages/",
+        "outputPath": "/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jack/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

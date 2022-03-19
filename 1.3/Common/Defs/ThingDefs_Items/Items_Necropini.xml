@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="SpecialHoney">
+		<defName>NpiniMeatHoney</defName>
+		<label>meat honey</label>
+		<description>A honeylike substance created by Necropini. However this honey is made out of meat, specifically broken down proteins that are kept preserved similarly to traditional honey.</description>
+		<descriptionHyperlinks>
+			<HediffDef>SmoothHoneyBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/MeatHoney</texPath>
+		</graphicData>
+		<ingestible>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>SmoothHoneyBuff</hediffDef>
+					<severity>2</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>3004</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>NpiniMeatSlurry</defName>
+		<label>meat slurry</label>
+		<graphicData>
+			<texPath>Things/Item/Resource/Pollen/Pollen</texPath>
+			<color>(128,64,64)</color>
+		</graphicData>
+
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<description>A random assortment of raw meat ground up and mixed with necropini saliva, spoils extremely quickly. Put this straight into the meat honey cell.</description>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>1</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	<!--Make Meat Slurry-->
+	<RecipeDef ParentName="NectarCraftBase">
+		<defName>NpiniMake_Slurry</defName>
+		<label>distill nectar</label>
+		<description>Processes raw meat into meat slurry.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+	<RecipeDef ParentName="NectarCraftBulk">
+		<defName>NpiniMake_BulkSlurry</defName>
+		<label>distill nectar in bulk</label>
+		<description>Processes lots of raw meat into meat slurry.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+</Defs>
