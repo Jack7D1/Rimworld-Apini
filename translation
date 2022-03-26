@@ -9,7 +9,7 @@ Replace the defnames on the left column with the the replacements on the same ro
 This can be aplpied to code depending on Apini, or to saves or anything in general. Just be aware of possible collision outside of saves.
 
 START
-NecropiniMeatHoneyVat NpiniMeatHoneyVat
+NecropiniMeatHoneyVat NpiniVat
 NecropiniMeatSlurry NpiniMeatSlurry
 NecropiniMeatHoney NpiniMeatHoney
 NecropiniPawn NpiniPawn

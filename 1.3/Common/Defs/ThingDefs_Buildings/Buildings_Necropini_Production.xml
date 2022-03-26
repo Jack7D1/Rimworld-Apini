@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<!--Meat Honey Vat-->
 	<ThingDef ParentName="ApiniBuildingBase">
 		<defName>NpiniMeatHoneyVat</defName>
-		<label>meat honey vat</label>
-		<description>A massive pot for creating Meat Honey from meat slurry. The saliva breaks the meat down into a protein-rich secretion which then re-secretes the resulting proteins as a decay-resistant edible substance resembling honey.</description>
-		<graphicData>
-			<texPath>Things/Building/MeatHoneyVat</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<damageData>
-				<rect>(0.05,0.1,0.9,0.9)</rect>
-			</damageData>
-		</graphicData>
-				<thingClass>Apini.Building_FermentingVat</thingClass>
+		<label>meat honey capsule</label>
+		<description>A pot for creating Meat Honey from meat slurry. The saliva breaks the meat down into a protein-rich secretion which then re-secretes the resulting proteins as a decay-resistant edible substance resembling honey.</description>
+		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
 				<inputThingDef>NpiniMeatSlurry</inputThingDef>
@@ -28,6 +22,13 @@
 				<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
 			</li>
 		</modExtensions>
+		<graphicData>
+			<texPath>Things/Building/MeatHoneyVat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+		</graphicData>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -57,7 +58,6 @@
 		</comps>
 		<tickerType>Rare</tickerType>
 		<rotatable>true</rotatable>
-		<designationCategory>Apitecture</designationCategory>
 		<constructEffect>ConstructWood</constructEffect>
 	</ThingDef>
 </Defs>

@@ -41,7 +41,7 @@
 			<preferability>DesperateOnly</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Ingest_Beer</ingestSound>
-			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
 			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
 		</ingestible>
 	</ThingDef>
