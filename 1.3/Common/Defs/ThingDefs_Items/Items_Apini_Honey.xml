@@ -6,8 +6,8 @@
 		<parent>FoodMeals</parent>
 		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
 	</ThingCategoryDef>
-	<ThingDef ParentName="ResourceBase" Name="HoneyBase" Abstract="True">
-		<!-- HoneyBase -->
+	<ThingDef ParentName="ResourceBase" Name="ApiniHoneyBase" Abstract="True">
+		<!-- ApiniHoneyBase -->
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -44,7 +44,7 @@
 			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
 		</ingestible>
 	</ThingDef>
-	<ThingDef ParentName="HoneyBase" Name="SpecialHoney" Abstract="True">
+	<ThingDef ParentName="ApiniHoneyBase" Name="ApiniSpecialHoney" Abstract="True">
 		<!-- SpecialHoneyBase -->
 		<statBases>
 			<MarketValue>3.40</MarketValue>
@@ -55,13 +55,13 @@
 			<preferability>NeverForNutrition</preferability>
 		</ingestible>
 	</ThingDef>
-	<ThingDef ParentName="SpecialHoney">
+	<ThingDef ParentName="ApiniSpecialHoney">
 		<!-- Honey (Frostbell) -->
-		<defName>Honey_F</defName>
+		<defName>ApiniHoney_F</defName>
 		<label>Honey (Frostbell)</label>
 		<description>A cool minty flavor, this honey is the perfect refreshing thing to have on a hot summer day.</description>
 		<descriptionHyperlinks>
-			<HediffDef>CoolHoneyBuff</HediffDef>
+			<HediffDef>ApiniCoolHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey_Frostbell</texPath>
@@ -69,7 +69,7 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>CoolHoneyBuff</hediffDef>
+					<hediffDef>ApiniCoolHoneyBuff</hediffDef>
 					<severity>2</severity>
 				</li>
 			</outcomeDoers>
@@ -80,13 +80,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="SpecialHoney">
+	<ThingDef ParentName="ApiniSpecialHoney">
 		<!-- Honey (Emberose) -->
-		<defName>Honey_E</defName>
+		<defName>ApiniHoney_E</defName>
 		<label>Honey (Emberose)</label>
 		<description>Sweet yet spicy, using this you can withstand the coldest winter night.</description>
 		<descriptionHyperlinks>
-			<HediffDef>HotHoneyBuff</HediffDef>
+			<HediffDef>ApiniHotHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey_Emberose</texPath>
@@ -94,7 +94,7 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>HotHoneyBuff</hediffDef>
+					<hediffDef>ApiniHotHoneyBuff</hediffDef>
 					<severity>2</severity>
 				</li>
 			</outcomeDoers>
@@ -105,13 +105,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="SpecialHoney">
+	<ThingDef ParentName="ApiniSpecialHoney">
 		<!-- Honey (Metalily) -->
-		<defName>Honey_M</defName>
+		<defName>ApiniHoney_M</defName>
 		<label>Honey (Metalily)</label>
 		<description>Rough and crunchy, eating this makes you feel invincible!</description>
 		<descriptionHyperlinks>
-			<HediffDef>RoughHoneyBuff</HediffDef>
+			<HediffDef>ApiniRoughHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey_Metalily</texPath>
@@ -119,7 +119,7 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>RoughHoneyBuff</hediffDef>
+					<hediffDef>ApiniRoughHoneyBuff</hediffDef>
 					<severity>2</severity>
 				</li>
 			</outcomeDoers>
@@ -130,13 +130,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="SpecialHoney">
+	<ThingDef ParentName="ApiniSpecialHoney">
 		<!-- Honey (Bardsong) -->
-		<defName>Honey_B</defName>
+		<defName>ApiniHoney_B</defName>
 		<label>Honey (Bardsong)</label>
 		<description>A delicious treat that makes you feel more smooth.  If you were once rejected, try again after a sip of this.</description>
 		<descriptionHyperlinks>
-			<HediffDef>SmoothHoneyBuff</HediffDef>
+			<HediffDef>ApiniSmoothHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey_Bardsong</texPath>
@@ -144,7 +144,7 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>SmoothHoneyBuff</hediffDef>
+					<hediffDef>ApiniSmoothHoneyBuff</hediffDef>
 					<severity>2</severity>
 				</li>
 			</outcomeDoers>
@@ -155,13 +155,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="SpecialHoney">
+	<ThingDef ParentName="ApiniSpecialHoney">
 		<!-- Honey (Rushthorn) -->
-		<defName>Honey_R</defName>
+		<defName>ApiniHoney_R</defName>
 		<label>Honey (Rushthorn)</label>
 		<description>A sweet treat that will move your feet! Some say they feel like a blue hedgehog when they eat this... whatever that means.</description>
 		<descriptionHyperlinks>
-			<HediffDef>SwiftHoneyBuff</HediffDef>
+			<HediffDef>ApiniSwiftHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey_Rushthorn</texPath>
@@ -169,7 +169,7 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>SwiftHoneyBuff</hediffDef>
+					<hediffDef>ApiniSwiftHoneyBuff</hediffDef>
 					<severity>2</severity>
 				</li>
 			</outcomeDoers>
@@ -180,13 +180,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="SpecialHoney">
+	<ThingDef ParentName="ApiniSpecialHoney">
 		<!-- Honey (Wiserbud) -->
-		<defName>Honey_W</defName>
+		<defName>ApiniHoney_W</defName>
 		<label>Honey (Wiserbud)</label>
 		<description>The secret behind the Apini's ingenuity, need to cram for a test? Try this flavor, its a great for your grey matter!</description>
 		<descriptionHyperlinks>
-			<HediffDef>SmartHoneyBuff</HediffDef>
+			<HediffDef>ApiniSmartHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey_Wiserbud</texPath>
@@ -194,7 +194,7 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>SmartHoneyBuff</hediffDef>
+					<hediffDef>ApiniSmartHoneyBuff</hediffDef>
 					<severity>2</severity>
 				</li>
 			</outcomeDoers>
@@ -205,13 +205,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="SpecialHoney">
+	<ThingDef ParentName="ApiniSpecialHoney">
 		<!-- Honey (Vigorbloom) -->
-		<defName>Honey_V</defName>
+		<defName>ApiniHoney_V</defName>
 		<label>Honey (Vigorbloom)</label>
 		<description>The secret behind Azuri's wrath, before every battle, to the death or otherwise, this honey is your wingman.</description>
 		<descriptionHyperlinks>
-			<HediffDef>BruteHoneyBuff</HediffDef>
+			<HediffDef>ApiniBruteHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey_Vigorbloom</texPath>
@@ -219,7 +219,7 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>BruteHoneyBuff</hediffDef>
+					<hediffDef>ApiniBruteHoneyBuff</hediffDef>
 					<severity>2</severity>
 				</li>
 			</outcomeDoers>
@@ -230,7 +230,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="HoneyBase">
+	<ThingDef ParentName="ApiniHoneyBase">
 		<!-- Apini Honey -->
 		<defName>ApiniHoney</defName>
 		<label>Honey (Unflavored)</label>
@@ -252,11 +252,11 @@
 	</HediffDef>
 	<HediffDef ParentName="ApiniHoneyEffects">
 		<!-- Cool Buff -->
-		<defName>CoolHoneyBuff</defName>
+		<defName>ApiniCoolHoneyBuff</defName>
 		<label>Chilled</label>
 		<description>frostbell honey in the bloodstream.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Honey_F</ThingDef>
+			<ThingDef>ApiniHoney_F</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -296,11 +296,11 @@
 	</HediffDef>
 	<HediffDef ParentName="ApiniHoneyEffects">
 		<!-- Hot Buff -->
-		<defName>HotHoneyBuff</defName>
+		<defName>ApiniHotHoneyBuff</defName>
 		<label>Heated</label>
 		<description>emberose honey in the bloodstream.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Honey_E</ThingDef>
+			<ThingDef>ApiniHoney_E</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -340,11 +340,11 @@
 	</HediffDef>
 	<HediffDef ParentName="ApiniHoneyEffects">
 		<!-- Rough Buff -->
-		<defName>RoughHoneyBuff</defName>
+		<defName>ApiniRoughHoneyBuff</defName>
 		<label>Rough Exterior</label>
 		<description>metalily honey in the bloodstream.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Honey_M</ThingDef>
+			<ThingDef>ApiniHoney_M</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -394,11 +394,11 @@
 	</HediffDef>
 	<HediffDef ParentName="ApiniHoneyEffects">
 		<!-- Smooth Buff -->
-		<defName>SmoothHoneyBuff</defName>
+		<defName>ApiniSmoothHoneyBuff</defName>
 		<label>Smooth Talk</label>
 		<description>bardsong honey in the bloodstream.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Honey_B</ThingDef>
+			<ThingDef>ApiniHoney_B</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -483,11 +483,11 @@
 	</HediffDef>
 	<HediffDef ParentName="ApiniHoneyEffects">
 		<!-- Swift Buff -->
-		<defName>SwiftHoneyBuff</defName>
+		<defName>ApiniSwiftHoneyBuff</defName>
 		<label>Swift Speed</label>
 		<description>rushthorn honey in the bloodstream.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Honey_R</ThingDef>
+			<ThingDef>ApiniHoney_R</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -597,11 +597,11 @@
 	</HediffDef>
 	<HediffDef ParentName="ApiniHoneyEffects">
 		<!-- Smart Buff -->
-		<defName>SmartHoneyBuff</defName>
+		<defName>ApiniSmartHoneyBuff</defName>
 		<label>Mental Boost</label>
 		<description>wiserbud honey in the bloodstream.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Honey_W</ThingDef>
+			<ThingDef>ApiniHoney_W</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -691,11 +691,11 @@
 	</HediffDef>
 	<HediffDef ParentName="ApiniHoneyEffects">
 		<!-- Brute Buff -->
-		<defName>BruteHoneyBuff</defName>
+		<defName>ApiniBruteHoneyBuff</defName>
 		<label>Brute Strength</label>
 		<description>vigorbloom honey in the bloodstream.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Honey_V</ThingDef>
+			<ThingDef>ApiniHoney_V</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>

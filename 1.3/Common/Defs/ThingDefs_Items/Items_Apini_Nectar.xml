@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingCategoryDef>
-		<defName>NectarCategory</defName>
-		<label>Nectar</label>
+		<defName>ApiniNectarCategory</defName>
+		<label>ApiniNectar</label>
 		<parent>PlantFoodRaw</parent>
-		<iconPath>Things/Item/Nectar/Nectar</iconPath>
+		<iconPath>Things/Item/ApiniNectar/ApiniNectar</iconPath>
 	</ThingCategoryDef>
-	<!--============================ Nectar ===============================-->
-	<ThingDef ParentName="ResourceBase" Name="NectarBase" Abstract="True">
-		<!-- NectarBase -->
+	<!--============================ ApiniNectar ===============================-->
+	<ThingDef ParentName="ResourceBase" Name="ApiniNectarBase" Abstract="True">
+		<!-- ApiniNectarBase -->
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar</texPath>
+			<texPath>Things/Item/ApiniNectar/ApiniNectar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>200</stackLimit>
@@ -30,7 +30,7 @@
 		</comps>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<thingCategories>
-			<li>NectarCategory</li>
+			<li>ApiniNectarCategory</li>
 		</thingCategories>
 		<tickerType>Rare</tickerType>
 		<pathCost>15</pathCost>
@@ -45,81 +45,81 @@
 			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
 		</ingestible>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (unflavored) -->
-		<defName>Nectar</defName>
-		<label>Nectar (unflavored)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (unflavored) -->
+		<defName>ApiniNectar</defName>
+		<label>ApiniNectar (unflavored)</label>
 		<description>Unflavored nectar. The vital ingredient to make normal honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar</texPath>
+			<texPath>Things/Item/ApiniNectar/ApiniNectar</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (Frostbell) -->
-		<defName>Nectar_F</defName>
-		<label>Nectar (Frostbell)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (Frostbell) -->
+		<defName>ApiniNectar_F</defName>
+		<label>ApiniNectar (Frostbell)</label>
 		<description>The sweet fragrant essence of a frostbell. The vital ingredient to make cool honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar_Frostbell</texPath>
+			<texPath>Things/Item/ApiniNectar/Nectar_Frostbell</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (Emberose) -->
-		<defName>Nectar_E</defName>
-		<label>Nectar (Emberose)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (Emberose) -->
+		<defName>ApiniNectar_E</defName>
+		<label>ApiniNectar (Emberose)</label>
 		<description>The sweet fragrant essence of an emberose. The vital ingredient to make hot honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar_Emberose</texPath>
+			<texPath>Things/Item/ApiniNectar/Nectar_Emberose</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (Metalily) -->
-		<defName>Nectar_M</defName>
-		<label>Nectar (Metalily)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (Metalily) -->
+		<defName>ApiniNectar_M</defName>
+		<label>ApiniNectar (Metalily)</label>
 		<description>The sweet fragrant essence of a metalily. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar_Metalily</texPath>
+			<texPath>Things/Item/ApiniNectar/Nectar_Metalily</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (Bardsong) -->
-		<defName>Nectar_B</defName>
-		<label>Nectar (Bardsong)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (Bardsong) -->
+		<defName>ApiniNectar_B</defName>
+		<label>ApiniNectar (Bardsong)</label>
 		<description>The sweet fragrant essence of a bardsong. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar_Bardsong</texPath>
+			<texPath>Things/Item/ApiniNectar/Nectar_Bardsong</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (Rushthorn) -->
-		<defName>Nectar_R</defName>
-		<label>Nectar (Rushthorn)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (Rushthorn) -->
+		<defName>ApiniNectar_R</defName>
+		<label>ApiniNectar (Rushthorn)</label>
 		<description>The sweet fragrant essence of a rushthorn. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar_Rushthorn</texPath>
+			<texPath>Things/Item/ApiniNectar/Nectar_Rushthorn</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (Wiserbud) -->
-		<defName>Nectar_W</defName>
-		<label>Nectar (Wiserbud)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (Wiserbud) -->
+		<defName>ApiniNectar_W</defName>
+		<label>ApiniNectar (Wiserbud)</label>
 		<description>The sweet fragrant essence of a wiserbud. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar_Wiserbud</texPath>
+			<texPath>Things/Item/ApiniNectar/Nectar_Wiserbud</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="NectarBase">
-		<!-- Nectar (Vigorbloom) -->
-		<defName>Nectar_V</defName>
-		<label>Nectar (Vigorbloom)</label>
+	<ThingDef ParentName="ApiniNectarBase">
+		<!-- ApiniNectar (Vigorbloom) -->
+		<defName>ApiniNectar_V</defName>
+		<label>ApiniNectar (Vigorbloom)</label>
 		<description>The sweet fragrant essence of a vigorbloom. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/Nectar/Nectar_Vigorbloom</texPath>
+			<texPath>Things/Item/ApiniNectar/Nectar_Vigorbloom</texPath>
 		</graphicData>
 	</ThingDef>
-	<!--Nectar Distilling-->
-	<RecipeDef Name="NectarCraftBase" Abstract="True">
-		<jobString>distilling Nectar.</jobString>
+	<!--ApiniNectar Distilling-->
+	<RecipeDef Name="ApiniNectarCraftBase" Abstract="True">
+		<jobString>distilling ApiniNectar.</jobString>
 		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
@@ -139,8 +139,8 @@
 			<li>Smelted</li>
 		</specialProducts>
 	</RecipeDef>
-	<RecipeDef ParentName="NectarCraftBase" Name="NectarCraftBulk" Abstract="True">
-		<jobString>distilling lots of Nectar.</jobString>
+	<RecipeDef ParentName="ApiniNectarCraftBase" Name="ApiniNectarCraftBulk" Abstract="True">
+		<jobString>distilling lots of ApiniNectar.</jobString>
 		<workAmount>2000</workAmount>
 		<workSkillLearnFactor>20</workSkillLearnFactor>
 		<specialProducts>
@@ -156,7 +156,7 @@
 			<li>Smelted</li>
 		</specialProducts>
 	</RecipeDef>
-	<RecipeDef ParentName="NectarCraftBase">
+	<RecipeDef ParentName="ApiniNectarCraftBase">
 		<defName>ApiniMake_NectarAny</defName>
 		<label>distill nectar</label>
 		<description>Distills pollenballs into nectar and pollen.</description>
@@ -171,7 +171,7 @@
 			</li>
 		</ingredients>
 	</RecipeDef>
-	<RecipeDef ParentName="NectarCraftBulk">
+	<RecipeDef ParentName="ApiniNectarCraftBulk">
 		<defName>ApiniMake_BulkNectarAny</defName>
 		<label>distill nectar in bulk</label>
 		<description>Distills pollenballs in bulk into nectar and pollen.</description>

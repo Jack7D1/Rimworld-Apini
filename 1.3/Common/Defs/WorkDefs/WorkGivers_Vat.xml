@@ -7,8 +7,8 @@
 		<defName>FillHoneyVat</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>HoneyVat</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniHoneyVat</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -26,8 +26,8 @@
 		<defName>FillHoneyCapsule</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>HoneyCapsule</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniHoneyCapsule</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -45,8 +45,8 @@
 		<defName>FillVat_F</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_F</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_F</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -64,8 +64,8 @@
 		<defName>FillVat_E</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_E</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_E</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -83,8 +83,8 @@
 		<defName>FillVat_M</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_M</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_M</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -102,8 +102,8 @@
 		<defName>FillVat_B</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_B</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_B</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -121,8 +121,8 @@
 		<defName>FillVat_R</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_R</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_R</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -140,8 +140,8 @@
 		<defName>FillVat_W</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_W</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_W</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -159,8 +159,8 @@
 		<defName>FillVat_V</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_V</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_V</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -179,7 +179,7 @@
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
 				<inputThingDef>NpiniMeatHoneyVat</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
@@ -198,8 +198,8 @@
 		<defName>TakeHoneyOutOfFermentingVat</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>HoneyVat</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniHoneyVat</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -217,8 +217,8 @@
 		<defName>EmptyHoneyCapsule</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>HoneyCapsule</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniHoneyCapsule</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -236,8 +236,8 @@
 		<defName>EmptyVat_F</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_F</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_F</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -255,8 +255,8 @@
 		<defName>EmptyVat_E</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_E</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_E</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -274,8 +274,8 @@
 		<defName>EmptyVat_M</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_M</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_M</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -293,8 +293,8 @@
 		<defName>EmptyVat_B</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_B</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_B</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -312,8 +312,8 @@
 		<defName>EmptyVat_R</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_R</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_R</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -331,8 +331,8 @@
 		<defName>EmptyVat_W</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_W</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_W</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -350,8 +350,8 @@
 		<defName>EmptyVat_V</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_V</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_V</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
@@ -370,7 +370,7 @@
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
 				<outputThingDef>NpiniMeatHoneyVat</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>

@@ -108,28 +108,28 @@
 					<li>PlantDaisyApini</li>
 				</plantList>
 				<buildingList>
-					<li>HoneyCapsule</li>
-					<li>HoneyVat</li>
+					<li>ApiniHoneyCapsule</li>
+					<li>ApiniHoneyVat</li>
 					<!--<li>ApiniWaxFloor</li>
 					<li>ApiniWaxTile</li>
 					<li>Honey_Shallow</li>
 					<li>Honey_Deep</li>
 					<li>Honey_StickyShallow</li>
 					<li>Honey_StickyDeep</li>-->
-					<li>HoneycombBed_S</li>
-					<li>HoneycombBed_L</li>
-					<li>BeeswaxCandle</li>
+					<li>ApiniHoneycombBed_S</li>
+					<li>ApiniHoneycombBed_L</li>
+					<li>ApiniWaxCandle</li>
 					<li>ApiniNectarStill</li>
 					<li>ApiniProstheticsTable</li>
 					<li>ApitechTable</li>
 					<li>ApitechSynthesizer</li>
-					<li>Vat_F</li>
-					<li>Vat_E</li>
-					<li>Vat_M</li>
-					<li>Vat_B</li>
-					<li>Vat_R</li>
-					<li>Vat_W</li>
-					<li>Vat_V</li>
+					<li>ApiniVat_F</li>
+					<li>ApiniVat_E</li>
+					<li>ApiniVat_M</li>
+					<li>ApiniVat_B</li>
+					<li>ApiniVat_R</li>
+					<li>ApiniVat_W</li>
+					<li>ApiniVat_V</li>
 					<li>NpiniMeatHoneyVat</li>
 				</buildingList>
 				<conceptList>
@@ -355,30 +355,30 @@
 		<!-- No sting surgeries because they don't have those. -->
 		<recipes>
 			<!-- Natural Surgeries
-	  <li>InstallInsectAntenna_Apini</li>
-	  <li>InstallInsectHeart_Apini</li>
-	  <li>InstallInsectMouth_Apini</li>
-	  <li>InstallHoneyStomach_Apini</li>
-	  <li>InstallInsectWing_Apini</li>
-	  <li>InstallInsectArm_Apini</li>
-	  <li>InstallInsectLeg_Apini</li> -->
+	  <li>ApiniInstallInsectAntenna</li>
+	  <li>ApiniInstallInsectHeart</li>
+	  <li>ApiniInstallInsectMouth</li>
+	  <li>ApiniInstallHoneyStomach</li>
+	  <li>ApiniInstallInsectWing</li>
+	  <li>ApiniInstallInsectArm</li>
+	  <li>ApiniInstallInsectLeg</li> -->
 			<!-- Shoddy Surgeries
-	  <li>InstallPegLeg_Apini</li>
-	  <li>InstallDenture_Apini</li> -->
+	  <li>ApiniInstallPegLeg</li>
+	  <li>ApiniInstallDenture</li> -->
 			<!-- Prosthetic Surgeries
-	  <li>InstallSimpleProstheticLeg_Apini</li>
-	  <li>InstallSimpleProstheticArm_Apini</li>
-	  <li>InstallProstheticWing_Apini</li>
-	  <li>InstallProstheticAntenna_Apini</li> -->
+	  <li>ApiniInstallSimpleProstheticLeg</li>
+	  <li>ApiniInstallSimpleProstheticArm</li>
+	  <li>ApiniInstallProstheticWing</li>
+	  <li>ApiniInstallProstheticAntenna</li> -->
 			<!-- Bionic Surgieries -->
 			<li>InstallBionicEye</li>
-			<!-- <li>InstallBionicLeg_Apini</li>
-	  <li>InstallBionicArm_Apini</li>
-	  <li>InstallBionicWing_Apini</li>
-	  <li>InstallBionicAntenna_Apini</li> -->
+			<!-- <li>ApiniInstallBionicLeg</li>
+	  <li>ApiniInstallBionicArm</li>
+	  <li>ApiniInstallBionicWing</li>
+	  <li>ApiniInstallBionicAntenna</li> -->
 			<!-- Advanced Bionic Surgeries
-	  <li>InstallAdvancedBionicWing_Apini</li>
-	  <li>InstallBionicAdvancedAntenna_Apini</li> -->
+	  <li>ApiniInstallAdvancedBionicWing</li>
+	  <li>ApiniInstallBionicAdvancedAntenna</li> -->
 			<!-- Apitech surgeries -->
 			<!-- Other surgeries -->
 			<!--<li>InstallApiniScytherBlade</li>-->
@@ -387,7 +387,7 @@
 			<li>RemoveBodyPart</li>
 			<li>ExciseCarcinoma</li>
 			<li>Euthanize</li>
-			<!--<li>InstallPowerClaw_Apini</li>
+			<!--<li>ApiniInstallPowerClaw</li>
 	  <li>Reconstruct_Brain_Apini</li>
 	  <li>Reconstruct_Eye_Apini</li>
 	  <li>Reconstruct_Antenna_Apini</li>

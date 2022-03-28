@@ -5,13 +5,13 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>Defs/BodyPartDef[defName = "InsectHeart"]/spawnThingOnRemoved</xpath>
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]/spawnThingOnRemoved</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyPartDef[defName = "InsectHeart"]</xpath>
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]</xpath>
 				<value>
-					<spawnThingOnRemoved>InsectHeart</spawnThingOnRemoved>
+					<spawnThingOnRemoved>ApiniInsectHeart</spawnThingOnRemoved>
 				</value>
 			</li>
 		</operations>
@@ -27,7 +27,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyPartDef[defName = "InsectMouth"]</xpath>
 				<value>
-					<spawnThingOnRemoved>InsectMouth</spawnThingOnRemoved>
+					<spawnThingOnRemoved>ApiniInsectMouth</spawnThingOnRemoved>
 				</value>
 			</li>
 		</operations>
@@ -43,7 +43,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyPartDef[defName = "Antenna"]</xpath>
 				<value>
-					<spawnThingOnRemoved>InsectAntenna</spawnThingOnRemoved>
+					<spawnThingOnRemoved>ApiniInsectAntenna</spawnThingOnRemoved>
 				</value>
 			</li>
 		</operations>
@@ -118,11 +118,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>Defs/BodyPartDef[defName = "InsectHeart"]/canSuggestAmputation</xpath>
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]/canSuggestAmputation</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyPartDef[defName = "InsectHeart"]</xpath>
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]</xpath>
 				<value>
 					<canSuggestAmputation>false</canSuggestAmputation>
 				</value>

@@ -8,9 +8,9 @@
 		<basicMemberKind>NpiniPawn</basicMemberKind>
 		<pawnSingular>necropini</pawnSingular>
 		<pawnsPlural>necropini</pawnsPlural>
-		<factionNameMaker>NamerFactionHive</factionNameMaker>
-		<settlementNameMaker>NamerbaseHive</settlementNameMaker>
-		<playerInitialSettlementNameMaker>NamerbaseHive</playerInitialSettlementNameMaker>
+		<factionNameMaker>ApiniNamerFactionHive</factionNameMaker>
+		<settlementNameMaker>ApiniNamerbaseHive</settlementNameMaker>
+		<playerInitialSettlementNameMaker>ApiniNamerbaseHive</playerInitialSettlementNameMaker>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
 				<li>(0,35)</li>

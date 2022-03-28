@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<SoundDef>
-		<defName>Pawn_Apini_Death</defName>
+		<defName>Apini_Pawn_Death</defName>
 		<context>MapOnly</context>
 		<eventNames/>
 		<subSounds>
@@ -28,7 +28,7 @@
 		</subSounds>
 	</SoundDef>
 	<SoundDef>
-		<defName>Pawn_Apini_Wounded</defName>
+		<defName>Apini_Pawn_Wounded</defName>
 		<context>MapOnly</context>
 		<eventNames/>
 		<subSounds>
@@ -55,7 +55,7 @@
 		</subSounds>
 	</SoundDef>
 	<SoundDef>
-		<defName>Pawn_Moobee_Wounded</defName>
+		<defName>Moobee_Pawn_Wounded</defName>
 		<context>MapOnly</context>
 		<eventNames/>
 		<subSounds>
@@ -83,7 +83,7 @@
 		</subSounds>
 	</SoundDef>
 	<SoundDef>
-		<defName>Pawn_Moobee_Death</defName>
+		<defName>Moobee_Pawn_Death</defName>
 		<context>MapOnly</context>
 		<eventNames/>
 		<subSounds>

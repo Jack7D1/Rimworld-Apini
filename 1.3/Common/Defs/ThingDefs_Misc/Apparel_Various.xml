@@ -118,7 +118,7 @@
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>Abdomen</li>
+				<li>ApiniInsectAbdomen</li>
 				<li>Waist</li>
 			</bodyPartGroups>
 			<layers>

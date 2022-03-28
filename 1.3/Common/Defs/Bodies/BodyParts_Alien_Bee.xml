@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<BodyPartDef>
-		<defName>HoneyStomach</defName>
+		<defName>ApiniHoneyStomach</defName>
 		<label>Honey Stomach</label>
-		<spawnThingOnRemoved>HoneyStomach</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniHoneyStomach</spawnThingOnRemoved>
 		<hitPoints>25</hitPoints>
 		<permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
@@ -13,7 +13,7 @@
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>Tarsus</defName>
+		<defName>ApiniInsectTarsus</defName>
 		<label>tarsus</label>
 		<hitPoints>20</hitPoints>
 		<permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
@@ -24,20 +24,20 @@
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>InsectWing</defName>
+		<defName>ApiniInsectWing</defName>
 		<label>insect wing</label>
 		<hitPoints>15</hitPoints>
 		<permanentInjuryChanceFactor>0.8</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<spawnThingOnRemoved>InsectWing</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniInsectWing</spawnThingOnRemoved>
 		<pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
 		<tags>
 			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>Abdomen</defName>
-		<label>Abdomen</label>
+		<defName>ApiniInsectAbdomen</defName>
+		<label>ApiniInsectAbdomen</label>
 		<hitPoints>75</hitPoints>
 		<permanentInjuryChanceFactor>0.1</permanentInjuryChanceFactor>
 		<canSuggestAmputation>true</canSuggestAmputation>
@@ -47,9 +47,9 @@
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>InsectMouth</defName>
+		<defName>ApiniInsectMouth</defName>
 		<label>mouth</label>
-		<spawnThingOnRemoved>InsectMouth</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniInsectMouth</spawnThingOnRemoved>
 		<hitPoints>10</hitPoints>
 		<beautyRelated>true</beautyRelated>
 		<permanentInjuryChanceFactor>0.1</permanentInjuryChanceFactor>
@@ -62,9 +62,9 @@
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>InsectHeart</defName>
+		<defName>ApiniInsectHeart</defName>
 		<label>heart</label>
-		<spawnThingOnRemoved>InsectHeart</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniInsectHeart</spawnThingOnRemoved>
 		<hitPoints>20</hitPoints>
 		<permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
@@ -76,7 +76,7 @@
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>Tarsal</defName>
+		<defName>ApiniInsectTarsalClaw</defName>
 		<label>tarsal claw</label>
 		<hitPoints>12</hitPoints>
 		<frostbiteVulnerability>8</frostbiteVulnerability>
@@ -89,9 +89,9 @@
 		</tags>
 	</BodyPartDef>
 	<!--	<BodyPartDef>
-		<defName>InsectSting</defName>
+		<defName>ApiniInsectSting</defName>
 		<label>Sting</label>
-		<spawnThingOnRemoved>InsectSting</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniInsectSting</spawnThingOnRemoved>
 		<hitPoints>10</hitPoints>
 		<frostbiteVulnerability>8</frostbiteVulnerability>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
@@ -101,10 +101,10 @@
 		<solid>true</solid>
 	</BodyPartDef>-->
 	<BodyPartDef>
-		<defName>Antenna</defName>
+		<defName>ApiniInsectAntenna</defName>
 		<label>antenna</label>
 		<hitPoints>10</hitPoints>
-		<spawnThingOnRemoved>InsectAntenna</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniInsectAntenna</spawnThingOnRemoved>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
 		<beautyRelated>true</beautyRelated>
@@ -115,7 +115,7 @@
 		<frostbiteVulnerability>5</frostbiteVulnerability>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>Mandible</defName>
+		<defName>ApiniInsectMandible</defName>
 		<label>mandible</label>
 		<hitPoints>10</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
@@ -130,7 +130,7 @@
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>Thorax</defName>
+		<defName>ApiniInsectThorax</defName>
 		<label>thorax</label>
 		<hitPoints>60</hitPoints>
 		<beautyRelated>false</beautyRelated>
@@ -157,7 +157,7 @@
 		</tags>
 	</BodyPartDef>
 	<BodyPartDef>
-		<defName>InsectLeg</defName>
+		<defName>ApiniInsectLeg</defName>
 		<label>insect leg</label>
 		<hitPoints>25</hitPoints>
 		<frostbiteVulnerability>0.1</frostbiteVulnerability>

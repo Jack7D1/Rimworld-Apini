@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="ApiniBuildingBase">
 		<!-- Honey Wall -->
-		<defName>HoneyWall</defName>
+		<defName>ApiniHoneyWall</defName>
 		<label>Honey wall</label>
 		<thingClass>Building</thingClass>
 		<description>A wall made of congealed honey. You can walk through it with great difficulty.</description>

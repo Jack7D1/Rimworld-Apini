@@ -20,7 +20,7 @@
 			<li>FineFloor</li>
 		</tags>
 		<researchPrerequisites>
-			<li>HoneyConditioning</li>
+			<li>ApiniHoneyConditioning</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<constructEffect>ConstructWood</constructEffect>

@@ -4,9 +4,9 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- Operations -->
-			<!-- InstallDenture_Apini -->
+			<!-- ApiniInstallDenture -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "InstallDenture_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniInstallDenture"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -29,7 +29,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "InstallDenture_Apini"]/fixedIngredientFilter</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniInstallDenture"]/fixedIngredientFilter</xpath>
 				<value>
 					<fixedIngredientFilter>
 						<categories>
@@ -44,7 +44,7 @@
 			<!-- Scenarios -->
 			<!-- Lost Hive -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ScenarioDef[defName = "LostHive"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
+				<xpath>Defs/ScenarioDef[defName = "ApiniScenLostHive"]/scenario/parts/li[thingDef = "ApiniWax"]</xpath>
 				<value>
 					<li Class="ScenPart_StartingThing_Defined">
 						<def>StartingThing_Defined</def>
@@ -105,13 +105,13 @@
 			<!-- Furniture -->
 			<!-- Small Honeycomb Bed -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "HoneycombBed_S"]/stuffCategories</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniHoneycombBed_S"]/stuffCategories</xpath>
 				<value>
 					<li>RB_Waxy</li>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "HoneycombBed_S"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniHoneycombBed_S"]/costList</xpath>
 				<value>
 					<costList>
 						<ApiniHoney>60</ApiniHoney>
@@ -121,13 +121,13 @@
 			</li>
 			<!-- Large Honeycomb Bed -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "HoneycombBed_L"]/stuffCategories</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniHoneycombBed_L"]/stuffCategories</xpath>
 				<value>
 					<li>RB_Waxy</li>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "HoneycombBed_L"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniHoneycombBed_L"]/costList</xpath>
 				<value>
 					<costList>
 						<ApiniHoney>80</ApiniHoney>
@@ -137,13 +137,13 @@
 			</li>
 			<!-- Wax Candle -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "BeeswaxCandle"]/costList/ApiniWax</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniWaxCandle"]/costList/ApiniWax</xpath>
 				<value>
 					<RB_Beeswax>5</RB_Beeswax>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "BeeswaxCandle"]/comps/li/fuelFilter/thingDefs</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniWaxCandle"]/comps/li/fuelFilter/thingDefs</xpath>
 				<value>
 					<thingDefs>
 						<li>RB_Beeswax</li>
@@ -151,7 +151,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "BeeswaxCandle"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniWaxCandle"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
 				<value>
 					<thingDefs>
 						<!-- Why am I only allowing brittle and normal wax? It's because nobody wants to waste special wax on something as simple as a candle, or forbidding and forgetting to unforbid -->
@@ -161,9 +161,9 @@
 				</value>
 			</li>
 			<!-- Production buildings -->
-			<!-- HoneyCapsule -->
+			<!-- ApiniHoneyCapsule -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "HoneyCapsule"]/costList/ApiniWax</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniHoneyCapsule"]/costList/ApiniWax</xpath>
 				<value>
 					<RB_Beeswax>30</RB_Beeswax>
 				</value>
@@ -220,18 +220,18 @@
 					</costList>
 				</value>
 			</li>
-			<!-- @VatBase -->
+			<!-- @ApiniVatBase -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name = "VatBase"]/costList</xpath>
+				<xpath>Defs/ThingDef[@Name = "ApiniVatBase"]/costList</xpath>
 				<value>
 					<costList>
 						<RB_Beeswax>30</RB_Beeswax>
 					</costList>
 				</value>
 			</li>
-			<!-- HoneyVat -->
+			<!-- ApiniHoneyVat -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "HoneyVat"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName = "ApiniHoneyVat"]/costList</xpath>
 				<value>
 					<costList>
 						<RB_Beeswax>300</RB_Beeswax>
@@ -310,7 +310,7 @@
 			</li>
 			<!--Redefining apitech creafting recipies containing beeswax to RB wax-->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateBionicWing"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateBionicWing"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -341,13 +341,13 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateAdvancedBionicWing"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateAdvancedBionicWing"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
 							<filter>
 								<thingDefs>
-									<li>BionicWing</li>
+									<li>ApiniBionicWing</li>
 								</thingDefs>
 							</filter>
 							<count>1</count>
@@ -380,13 +380,13 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateAdvancedBionicAntenna"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateAdvancedBionicAntenna"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
 							<filter>
 								<thingDefs>
-									<li>BionicAntenna</li>
+									<li>ApiniBionicAntenna</li>
 								</thingDefs>
 							</filter>
 							<count>1</count>
@@ -419,7 +419,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "MakeApitechMechanites"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniMakeApitechMechanites"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -458,7 +458,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "MakeApitechMechanitesMore"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniMakeApitechMechanitesMore"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -497,7 +497,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "MakeApitechMechanitesMost"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniMakeApitechMechanitesMost"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -536,13 +536,13 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateMonarchMandibles_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateMonarchMandibles"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
 							<filter>
 								<thingDefs>
-									<li>CrusherMandibles_Apini</li>
+									<li>ApiniCrusherMandibles</li>
 								</thingDefs>
 							</filter>
 							<count>1</count>
@@ -550,7 +550,7 @@
 						<li>
 							<filter>
 								<thingDefs>
-									<li>SongstressMandibles_Apini</li>
+									<li>ApiniSongstressMandibles</li>
 								</thingDefs>
 							</filter>
 							<count>1</count>
@@ -583,7 +583,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateAeratorImplant_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateAeratorImplant"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -614,7 +614,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateDigestiveEnzymes_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateDigestiveEnzymes"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -645,7 +645,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateRegenerativeEnzymes_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateRegenerativeEnzymes"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -676,7 +676,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateOcularEnhancement_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateOcularEnhancement"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -707,7 +707,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateSignalReceptor_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateSignalReceptor"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -738,7 +738,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateNeuroenhancer_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateNeuroenhancer"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -769,7 +769,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateProboscisEnhancement_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateProboscisEnhancement"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -800,7 +800,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateGathererFrontLeg_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateGathererFrontLeg"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -831,7 +831,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateReflexEnhancement_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateReflexEnhancement"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -862,7 +862,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateBreezerImplant_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateBreezerImplant"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>
@@ -893,7 +893,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "CreateWarmerImplant_Apini"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName = "ApiniCreateWarmerImplant"]/ingredients</xpath>
 				<value>
 					<ingredients>
 						<li>

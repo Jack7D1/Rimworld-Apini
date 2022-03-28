@@ -71,7 +71,7 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>HoneyConditioning</defName>
+		<defName>ApiniHoneyConditioning</defName>
 		<label>Honey Conditioning</label>
 		<description>Manipulate the texture and consistency of honey, from a coagulated honey mixture with rejuvinating properties to a honey you can swim in.</description>
 		<baseCost>400</baseCost>
@@ -84,7 +84,7 @@
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>HoneyRefining</defName>
+		<defName>ApiniHoneyRefining</defName>
 		<label>Honey Refining</label>
 		<description>Allows the construction of specialized capsules to ferment distilled nectar into honey.</description>
 		<baseCost>400</baseCost>
@@ -104,7 +104,7 @@
     <baseCost>2000</baseCost>
     <techLevel>Neolithic</techLevel>
     <prerequisites>
-      <li>HoneyRefining</li>
+      <li>ApiniHoneyRefining</li>
     </prerequisites>
     <tab>Apiculture</tab>
     <researchViewX>2</researchViewX>
@@ -132,7 +132,7 @@
 		<baseCost>400</baseCost>
 		<prerequisites>
 			<li>ApiniPlantKnowledgeBasic</li>
-			<li>HoneyRefining</li>
+			<li>ApiniHoneyRefining</li>
 		</prerequisites>
 		<tab>Apiculture</tab>
 		<techLevel>Neolithic</techLevel>

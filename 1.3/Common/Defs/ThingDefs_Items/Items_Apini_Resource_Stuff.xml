@@ -53,7 +53,7 @@
 		</techHediffsTags>
 		<!--    <storedConceptLearnOpportunity>BeeswaxMaking</storedConceptLearnOpportunity> -->
 	</ThingDef>
-	<RecipeDef Name="WaxcraftBase" Abstract="True">
+	<RecipeDef Name="ApiniWaxcraftBase" Abstract="True">
 		<description>Create wax from plant matter.</description>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -76,7 +76,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
-	<RecipeDef ParentName="WaxcraftBase">
+	<RecipeDef ParentName="ApiniWaxcraftBase">
 		<defName>MakeApiniWax</defName>
 		<label>make beeswax</label>
 		<jobString>Making wax.</jobString>
@@ -109,7 +109,7 @@
 			<ApiniWax>10</ApiniWax>
 		</products>
 	</RecipeDef>
-	<RecipeDef ParentName="WaxcraftBase">
+	<RecipeDef ParentName="ApiniWaxcraftBase">
 		<defName>MakeApiniWaxBulk</defName>
 		<label>make beeswax in bulk</label>
 		<jobString>Making a lot of wax.</jobString>

@@ -2,7 +2,7 @@
 <Defs>
 	<!-- Tribe -->
 	<RulePackDef>
-		<defName>NamerFactionHive</defName>
+		<defName>ApiniNamerFactionHive</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->Apidaetum [color] [flower]</li>
@@ -28,7 +28,7 @@
 		</rulePack>
 	</RulePackDef>
 	<RulePackDef>
-		<defName>NamerbaseHive</defName>
+		<defName>ApiniNamerbaseHive</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->[color] [terrainfeature] Hive</li>

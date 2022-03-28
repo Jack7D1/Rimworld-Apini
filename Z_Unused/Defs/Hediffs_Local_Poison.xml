@@ -450,7 +450,7 @@
             <hediff>A_Sting</hediff>
             <mtbDays>.02</mtbDays>
             <partsToAffect>
-              <li>InsectSting</li>
+              <li>ApiniInsectSting</li>
             </partsToAffect>
           </li>
           <li Class="HediffGiver_Random">
@@ -467,7 +467,7 @@
             <mtbDays>.02</mtbDays>
             <partsToAffect>
               <li>Heart</li>
-              <li>InsectHeart</li>
+              <li>ApiniInsectHeart</li>
               <li>Kidney</li>
             </partsToAffect>
             <countToAffect>3</countToAffect>
@@ -478,7 +478,7 @@
             <mtbDays>.02</mtbDays>
             <partsToAffect>
               <li>Stomach</li>
-              <li>HoneyStomach</li>
+              <li>ApiniHoneyStomach</li>
               <li>Liver</li>
             </partsToAffect>
             <countToAffect>2</countToAffect>
@@ -488,7 +488,7 @@
             <hediff>A_Aerator</hediff>
             <mtbDays>.02</mtbDays>
             <partsToAffect>
-              <li>InsectWing</li>
+              <li>ApiniInsectWing</li>
               <li>Lung</li>
               <li>Nose</li>
               <li>InsectNostril</li>
@@ -510,7 +510,7 @@
             <mtbDays>.02</mtbDays>
             <partsToAffect>
               <li>Ear</li>
-              <li>Antenna</li>
+              <li>ApiniInsectAntenna</li>
             </partsToAffect>
             <countToAffect>2</countToAffect>
           </li>
@@ -520,7 +520,7 @@
             <mtbDays>.02</mtbDays>
             <partsToAffect>
               <li>Jaw</li>
-              <li>InsectMouth</li>
+              <li>ApiniInsectMouth</li>
             </partsToAffect>
           </li>
           <li Class="HediffGiver_Random">
@@ -538,7 +538,7 @@
             <mtbDays>.02</mtbDays>
             <partsToAffect>
               <li>ApiniFrontLeg</li>
-              <li>InsectLeg</li>
+              <li>ApiniInsectLeg</li>
               <li>Leg</li>
             </partsToAffect>
             <countToAffect>6</countToAffect>

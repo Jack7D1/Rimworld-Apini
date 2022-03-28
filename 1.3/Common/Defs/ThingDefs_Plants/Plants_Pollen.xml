@@ -237,7 +237,7 @@
 		<smeltable>true</smeltable>
 		<smeltProducts>
 			<Pollen>10</Pollen>
-			<Nectar>7</Nectar>
+			<ApiniNectar>7</ApiniNectar>
 		</smeltProducts>
 	</ThingDef>
 	<ThingDef ParentName="PollenBallBase">
@@ -250,8 +250,8 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_F>5</Nectar_F>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_F>5</ApiniNectar_F>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -265,8 +265,8 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_E>5</Nectar_E>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_E>5</ApiniNectar_E>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -280,8 +280,8 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_M>5</Nectar_M>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_M>5</ApiniNectar_M>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -295,8 +295,8 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_B>5</Nectar_B>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_B>5</ApiniNectar_B>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -310,8 +310,8 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_R>5</Nectar_R>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_R>5</ApiniNectar_R>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -325,8 +325,8 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_W>5</Nectar_W>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_W>5</ApiniNectar_W>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>
@@ -340,8 +340,8 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_V>5</Nectar_V>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_V>5</ApiniNectar_V>
 			<Pollen>10</Pollen>
 		</smeltProducts>
 	</ThingDef>

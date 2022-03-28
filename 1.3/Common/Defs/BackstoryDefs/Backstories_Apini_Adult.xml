@@ -34,7 +34,7 @@
 		</requiredWorkTags>
 	</AlienRace.BackstoryDef>
 	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
-		<defName>BuzzApini</defName>
+		<defName>ApiniBuzz</defName>
 		<title>BuzzArtist</title>
 		<titleShort>Confectioner</titleShort>
 		<baseDescription>[PAWN_nameDef] is an entrepreneur in what humans called confectionery. [PAWN_pronoun] had experimented in making many tasty honey based creations.</baseDescription>

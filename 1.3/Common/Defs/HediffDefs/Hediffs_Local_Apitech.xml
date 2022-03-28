@@ -10,11 +10,11 @@
 	</HediffDef>
 	<!-- Enhanced Cognitive Functions (Brain) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedBrain_Apini</defName>
+		<defName>ApiniEnhancedBrain</defName>
 		<label>Enhanced Cognitive Functions</label>
 		<description>Enhanced cognitive functions.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Neuroenhancer_Apini</ThingDef>
+			<ThingDef>ApiniNeuroenhancer</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -29,11 +29,11 @@
 	</HediffDef>
 	<!-- Enhanced Visual Acuity (Eyes) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedEye_Apini</defName>
+		<defName>ApiniEnhancedEye</defName>
 		<label>Enhanced Visual Acuity</label>
 		<description>Enhanced visual acuity.</description>
 		<descriptionHyperlinks>
-			<ThingDef>OcularEnhancement_Apini</ThingDef>
+			<ThingDef>ApiniOcularEnhancement</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -49,11 +49,11 @@
 	</HediffDef>
 	<!-- Enhanced Auditory Range (Antennae) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedAntenna_Apini</defName>
+		<defName>ApiniEnhancedAntenna</defName>
 		<label>Enhanced Auditory Range</label>
 		<description>Enhanced auditory range.</description>
 		<descriptionHyperlinks>
-			<ThingDef>SignalReceptor_Apini</ThingDef>
+			<ThingDef>ApiniSignalReceptor</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -72,11 +72,11 @@
 	</HediffDef>
 	<!-- Monarch Mandibles (Mouth) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedMouth_Monarch_Apini</defName>
+		<defName>ApiniEnhancedMouth_Monarch</defName>
 		<label>Monarch Mandibles</label>
 		<description>Installed Monarch Mandibles.</description>
 		<descriptionHyperlinks>
-			<ThingDef>MonarchMandibles_Apini</ThingDef>
+			<ThingDef>ApiniMonarchMandibles</ThingDef>
 		</descriptionHyperlinks>
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<stages>
@@ -122,11 +122,11 @@
 	</HediffDef>
 	<!-- Crusher Mandibles (Mouth) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedMouth_Crusher_Apini</defName>
+		<defName>ApiniEnhancedMouth_Crusher</defName>
 		<label>Crusher Mandibles</label>
 		<description>Installed Crusher Mandibles.</description>
 		<descriptionHyperlinks>
-			<ThingDef>CrusherMandibles_Apini</ThingDef>
+			<ThingDef>ApiniCrusherMandibles</ThingDef>
 		</descriptionHyperlinks>
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<stages>
@@ -165,11 +165,11 @@
 	</HediffDef>
 	<!-- Songstress Mandibles (Mouth) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedMouth_Songstress_Apini</defName>
+		<defName>ApiniEnhancedMouth_Songstress</defName>
 		<label>Songstress Mandibles</label>
 		<description>Installed Songstress Mandibles.</description>
 		<descriptionHyperlinks>
-			<ThingDef>SongstressMandibles_Apini</ThingDef>
+			<ThingDef>ApiniSongstressMandibles</ThingDef>
 		</descriptionHyperlinks>
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<stages>
@@ -193,11 +193,11 @@
 	</HediffDef>
 	<!-- Proboscis Enhancement (Mouth) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedMouth_Eating_Apini</defName>
+		<defName>ApiniEnhancedMouth_Eating</defName>
 		<label>Proboscis Enhancement</label>
 		<description>A proboscis enhancement.</description>
 		<descriptionHyperlinks>
-			<ThingDef>ProboscisEnhancement_Apini</ThingDef>
+			<ThingDef>ApiniProboscisEnhancement</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -213,11 +213,11 @@
 	</HediffDef>
 	<!-- Aerator Implant (Wings) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedWing_Aerator_Apini</defName>
+		<defName>ApiniEnhancedWing_Aerator</defName>
 		<label>Aerator Implant</label>
 		<description>An aerator implant.</description>
 		<descriptionHyperlinks>
-			<ThingDef>WingAerator_Apini</ThingDef>
+			<ThingDef>ApiniWingAerator</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -237,11 +237,11 @@
 	</HediffDef>
 	<!-- Breezer Implant (Wings) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedWing_Breezer_Apini</defName>
+		<defName>ApiniEnhancedWing_Breezer</defName>
 		<label>Breezer Implant</label>
 		<description>A breezer implant.</description>
 		<descriptionHyperlinks>
-			<ThingDef>WingBreezer_Apini</ThingDef>
+			<ThingDef>ApiniWingBreezer</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -259,7 +259,7 @@
 		<label>Warmer Implant</label>
 		<description>A warmer implant.</description>
 		<descriptionHyperlinks>
-			<ThingDef>WingWarmer_Apini</ThingDef>
+			<ThingDef>ApiniWingWarmer</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -273,11 +273,11 @@
 	</HediffDef>
 	<!-- Enhanced Vitality (Heart) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedHeart_Apini</defName>
+		<defName>ApiniEnhancedHeart</defName>
 		<label>Enhanced Vitality</label>
 		<description>Enhanced vitality.</description>
 		<descriptionHyperlinks>
-			<ThingDef>RegenerativeEnzymes_Apini</ThingDef>
+			<ThingDef>ApiniRegenerativeEnzymes</ThingDef>
 		</descriptionHyperlinks>
 		<comps>
 			<li Class="HediffCompProperties_HealPermanentWounds"/>
@@ -300,11 +300,11 @@
 	</HediffDef>
 	<!-- Enhanced Metabolism (Stomach) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedStomach_Apini</defName>
+		<defName>ApiniEnhancedStomach</defName>
 		<label>Enhanced Metabolism</label>
 		<description>Enhanced metabolism.</description>
 		<descriptionHyperlinks>
-			<ThingDef>DigestiveEnzymes_Apini</ThingDef>
+			<ThingDef>ApiniDigestiveEnzymes</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -321,11 +321,11 @@
 	</HediffDef>
 	<!-- Enhanced Dexterity (Arms) -->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedArm_Apini</defName>
+		<defName>ApiniEnhancedArm</defName>
 		<label>Enhanced Dexterity</label>
 		<description>Enhanced dexterity.</description>
 		<descriptionHyperlinks>
-			<ThingDef>ReflexEnhancement_Apini</ThingDef>
+			<ThingDef>ApiniReflexEnhancement</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -346,11 +346,11 @@
 	</HediffDef>
 	<!-- Enhanced Plant Collection (Arms)-->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedArm_Growing_Apini</defName>
+		<defName>ApiniEnhancedArm_Growing</defName>
 		<label>Enhanced Plant Collection</label>
 		<description>Enhanced leg hairs.</description>
 		<descriptionHyperlinks>
-			<ThingDef>GathererFrontLeg_Apini</ThingDef>
+			<ThingDef>ApiniGathererFrontLeg</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -370,11 +370,11 @@
 	</HediffDef>
 	<!-- Enhanced Agility (Legs)-->
 	<HediffDef ParentName="ApitechMutationBase">
-		<defName>EnhancedLeg_Apini</defName>
+		<defName>ApiniEnhancedLeg</defName>
 		<label>Enhanced Agility</label>
 		<description>Enhanced agility.</description>
 		<descriptionHyperlinks>
-			<ThingDef>ReflexEnhancement_Apini</ThingDef>
+			<ThingDef>ApiniReflexEnhancement</ThingDef>
 		</descriptionHyperlinks>
 		<stages>
 			<li>
@@ -397,7 +397,7 @@
 		<defName>GoodVibes</defName>
 		<label>Good Vibes</label>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
-		<hediff>EnhancedAntenna_Apini</hediff>
+		<hediff>ApiniEnhancedAntenna</hediff>
 		<validWhileDespawned>true</validWhileDespawned>
 		<stages>
 			<li>

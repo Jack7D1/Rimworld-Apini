@@ -461,7 +461,7 @@
 		</alienRace>
 		<race>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
-			<nameGenerator>NamerPersonAzuri</nameGenerator>
+			<nameGenerator>AzuriNamerPerson</nameGenerator>
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>false</makesFootprints>
@@ -509,13 +509,13 @@
 				<li>
 					<def>ApiniAdult</def>
 					<minAge>15</minAge>
-					<soundWounded>Pawn_Apini_Wounded</soundWounded>
-					<soundDeath>Pawn_Apini_Death</soundDeath>
-					<soundCall>Pawn_Apini_Wounded</soundCall>
-					<soundAngry>Pawn_Apini_Wounded</soundAngry>
+					<soundWounded>Apini_Pawn_Wounded</soundWounded>
+					<soundDeath>Apini_Pawn_Death</soundDeath>
+					<soundCall>Apini_Pawn_Wounded</soundCall>
+					<soundAngry>Apini_Pawn_Wounded</soundAngry>
 				</li>
 			</lifeStageAges>
-			<soundMeleeHitPawn>Pawn_Apini_Wounded</soundMeleeHitPawn>
+			<soundMeleeHitPawn>Apini_Pawn_Wounded</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>

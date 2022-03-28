@@ -3,10 +3,10 @@
 	<!--============================ Insect Body Parts ===============================-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<!-- Insect Wing -->
-		<defName>InsectWing</defName>
+		<defName>ApiniInsectWing</defName>
 		<label>insect wing</label>
 		<description>An installed insect wing.</description>
-		<spawnThingOnRemoved>InsectWing</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniInsectWing</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1</partEfficiency>
@@ -14,13 +14,13 @@
 	</HediffDef>
 	<HediffDef ParentName="AddedBodyPartBase">
 		<!-- Prosthetic Wing -->
-		<defName>ProstheticWing</defName>
+		<defName>ApiniProstheticWing</defName>
 		<label>prosthetic wing</label>
 		<description>An installed prosthetic wing.</description>
 		<descriptionHyperlinks>
-			<ThingDef>ProstheticWing</ThingDef>
+			<ThingDef>ApiniProstheticWing</ThingDef>
 		</descriptionHyperlinks>
-		<spawnThingOnRemoved>ProstheticWing</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniProstheticWing</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>0.85</partEfficiency>
@@ -28,13 +28,13 @@
 	</HediffDef>
 	<HediffDef ParentName="AddedBodyPartBase">
 		<!-- Bionic Wing -->
-		<defName>BionicWing</defName>
+		<defName>ApiniBionicWing</defName>
 		<label>bionic wing</label>
 		<description>An installed bionic wing.</description>
 		<descriptionHyperlinks>
-			<ThingDef>BionicWing</ThingDef>
+			<ThingDef>ApiniBionicWing</ThingDef>
 		</descriptionHyperlinks>
-		<spawnThingOnRemoved>BionicWing</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniBionicWing</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.25</partEfficiency>
@@ -42,13 +42,13 @@
 	</HediffDef>
 	<HediffDef ParentName="AddedBodyPartBase">
 		<!-- Advanced Bionic Wing -->
-		<defName>AdvancedBionicWing</defName>
+		<defName>ApiniAdvancedBionicWing</defName>
 		<label>advanced bionic wing</label>
 		<description>An installed advanced bionic wing.</description>
 		<descriptionHyperlinks>
-			<ThingDef>AdvancedBionicWing</ThingDef>
+			<ThingDef>ApiniAdvancedBionicWing</ThingDef>
 		</descriptionHyperlinks>
-		<spawnThingOnRemoved>AdvancedBionicWing</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniAdvancedBionicWing</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.4</partEfficiency>
@@ -109,13 +109,13 @@
   </HediffDef>-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<!-- Prosthetic Antenna -->
-		<defName>ProstheticAntenna</defName>
+		<defName>ApiniProstheticAntenna</defName>
 		<label>prosthetic antenna</label>
 		<description>An installed prosthetic antenna.</description>
 		<descriptionHyperlinks>
-			<ThingDef>ProstheticAntenna</ThingDef>
+			<ThingDef>ApiniProstheticAntenna</ThingDef>
 		</descriptionHyperlinks>
-		<spawnThingOnRemoved>ProstheticAntenna</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniProstheticAntenna</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>0.85</partEfficiency>
@@ -123,13 +123,13 @@
 	</HediffDef>
 	<HediffDef ParentName="AddedBodyPartBase">
 		<!-- Bionic Antenna -->
-		<defName>BionicAntenna</defName>
+		<defName>ApiniBionicAntenna</defName>
 		<label>bionic antenna</label>
 		<description>An installed bionic antenna.</description>
 		<descriptionHyperlinks>
-			<ThingDef>BionicAntenna</ThingDef>
+			<ThingDef>ApiniBionicAntenna</ThingDef>
 		</descriptionHyperlinks>
-		<spawnThingOnRemoved>BionicAntenna</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniBionicAntenna</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.25</partEfficiency>
@@ -137,13 +137,13 @@
 	</HediffDef>
 	<HediffDef ParentName="AddedBodyPartBase">
 		<!-- Advanced Bionic Antenna -->
-		<defName>AdvancedBionicAntenna</defName>
+		<defName>ApiniAdvancedBionicAntenna</defName>
 		<label>advanced bionic antenna</label>
 		<description>An installed advanced bionic antenna.</description>
 		<descriptionHyperlinks>
-			<ThingDef>AdvancedBionicAntenna</ThingDef>
+			<ThingDef>ApiniAdvancedBionicAntenna</ThingDef>
 		</descriptionHyperlinks>
-		<spawnThingOnRemoved>AdvancedBionicAntenna</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ApiniAdvancedBionicAntenna</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.4</partEfficiency>

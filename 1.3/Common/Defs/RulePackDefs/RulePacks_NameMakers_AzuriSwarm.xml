@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<RulePackDef>
-		<defName>NamerFactionSwarm</defName>
+		<defName>AzuriNamerFactionSwarm</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->[blue] Swarm</li>
@@ -27,7 +27,7 @@
 		</rulePack>
 	</RulePackDef>
 	<RulePackDef>
-		<defName>NamerbaseSwarm</defName>
+		<defName>AzuriNamerbaseSwarm</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->[blue] hive of [negative] [TerrainFeature]</li>

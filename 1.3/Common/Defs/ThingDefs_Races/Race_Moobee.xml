@@ -98,13 +98,13 @@
 				<li>
 					<def>MoobeeAdult</def>
 					<minAge>3</minAge>
-					<soundWounded>Pawn_Moobee_Wounded</soundWounded>
-					<soundDeath>Pawn_Moobee_Death</soundDeath>
-					<soundCall>Pawn_Moobee_Wounded</soundCall>
-					<soundAngry>Pawn_Moobee_Wounded</soundAngry>
+					<soundWounded>Moobee_Pawn_Wounded</soundWounded>
+					<soundDeath>Moobee_Pawn_Death</soundDeath>
+					<soundCall>Moobee_Pawn_Wounded</soundCall>
+					<soundAngry>Moobee_Pawn_Wounded</soundAngry>
 				</li>
 			</lifeStageAges>
-			<soundMeleeHitPawn>Pawn_Moobee_Wounded</soundMeleeHitPawn>
+			<soundMeleeHitPawn>Moobee_Pawn_Wounded</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<ageGenerationCurve>

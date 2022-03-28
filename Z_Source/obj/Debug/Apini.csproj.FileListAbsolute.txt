@@ -1,0 +1,7 @@
+/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/obj/Debug/Apini.csproj.AssemblyReference.cache
+/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/obj/Debug/Apini.GeneratedMSBuildEditorConfig.editorconfig
+/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/obj/Debug/Apini.csproj.CoreCompileInputs.cache
+/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/1.3/Common/Assemblies/Apini.dll
+/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/obj/Debug/Apini.csproj.CopyComplete
+/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/Z_Source/obj/Debug/Apini.dll
+/home/jack/.local/share/Steam/steamapps/common/RimWorld/Mods/Rimworld-Apini/1.3/Common/Assemblies/Apini.dll

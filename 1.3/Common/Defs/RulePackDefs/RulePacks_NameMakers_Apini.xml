@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<RulePackDef>
-		<defName>NamerPersonApini</defName>
+		<defName>ApiniNamerPerson</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->[apini] [flower]</li>
@@ -40,7 +40,7 @@
 		</rulePack>
 	</RulePackDef>
 	<RulePackDef>
-		<defName>NamerPersonAzuri</defName>
+		<defName>AzuriNamerPerson</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->[blue] '[azuribadass]' [badassanimal]</li>

@@ -38,7 +38,7 @@ namespace Apini
                     return defProps.jobDef;
                 }
 
-                return DefDatabase<JobDef>.GetNamed("FillFermentingVat");
+                return DefDatabase<JobDef>.GetNamed("ApiniFillFermentingVat");
             }
         }
 

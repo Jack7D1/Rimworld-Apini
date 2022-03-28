@@ -107,7 +107,7 @@
     </forcedTraits>
   </AlienRace.BackstoryDef> -->
 	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
-		<defName>Apini_Outcast</defName>
+		<defName>ApiniOutcast</defName>
 		<title>Outcast</title>
 		<titleShort>Outcast</titleShort>
 		<baseDescription>[PAWN_nameDef] was unfortunate to be born in a hive where there was no need for more workers. Cast out, [PAWN_pronoun] survived primarily by instinct.</baseDescription>
