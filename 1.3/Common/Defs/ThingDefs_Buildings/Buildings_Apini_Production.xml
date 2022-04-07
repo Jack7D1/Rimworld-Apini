@@ -44,7 +44,7 @@
 		</statBases>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<costList>
-			<Pollen>20</Pollen>
+			<ApiniPollen>20</ApiniPollen>
 			<WoodLog>10</WoodLog>
 			<ApiniWax>30</ApiniWax>
 		</costList>
@@ -395,7 +395,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<costList>
-			<Pollen>20</Pollen>
+			<ApiniPollen>20</ApiniPollen>
 			<WoodLog>10</WoodLog>
 			<ApiniWax>30</ApiniWax>
 		</costList>
@@ -639,7 +639,7 @@
 		<size>(3,3)</size>
 		<description>A massive hexagonal container for creating honey from unflavored nectar.</description>
 		<costList>
-			<Pollen>250</Pollen>
+			<ApiniPollen>250</ApiniPollen>
 			<WoodLog>250</WoodLog>
 			<ApiniWax>300</ApiniWax>
 		</costList>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="PlantBase" Name="ApiniPlantBase" Abstract="True">
+	<ThingDef Name="ApiniPlantBase" ParentName="PlantBase" Abstract="True">
 		<statBases>
 			<Flammability>0.8</Flammability>
 		</statBases>

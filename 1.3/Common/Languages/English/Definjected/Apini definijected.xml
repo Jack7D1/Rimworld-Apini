@@ -56,8 +56,8 @@
 	<ApiniApron.description>A basic work apron often worn by Apini. Worn to combat the cold or provide the guise of human decency.</ApiniApron.description>
 	<ApiniWaxFloor.label>beeswax floor</ApiniWaxFloor.label>
 	<ApiniWaxFloor.description>Floor made from beeswax. Has a sweet aroma.</ApiniWaxFloor.description>
-	<PlantFrostbell.label>frostbell</PlantFrostbell.label>
-	<PlantFrostbell.description>A unique flower that has been cultivated by the apini for centuries. It is often cool to the touch.</PlantFrostbell.description>
+	<ApiniPlantFrostbell.label>frostbell</ApiniPlantFrostbell.label>
+	<ApiniPlantFrostbell.description>A unique flower that has been cultivated by the apini for centuries. It is often cool to the touch.</ApiniPlantFrostbell.description>
 	<ApiniWax.label>beeswax</ApiniWax.label>
 	<ApiniWax.description>Wax produced by Apini. Often used for constucting sturdy buildings.</ApiniWax.description>
 	<ApiniHoney.label>apini honey</ApiniHoney.label>

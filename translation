@@ -1,14 +1,50 @@
+<6>
 Apini/Necropini defname translation table.
 
 Schema:
-IGNORE UNTIL EXCLUDING "START\n",
-"{oldDefName} {newDefName}\n": REPEAT UNTIL STOP ON EXCLUDING "\n<EOF>";
+
+::START
+READLINE check
+IF check == "START" THEN: GOTO LOOP
+GOTO START
+
+::LOOP
+NEXTLINE
+READLINE check
+IF check == "STOP" THEN: END
+READLINEAS "{oldDefName} {newDefName}"
+REPLACE ">{oldDefname}<" WITH ">{newDefName}<"
+REPLACE "<{oldDefname}>" WITH "<{newDefName}>"
+REPLACE "</{oldDefname}>" WITH "</{newDefName}>"
+GOTO LOOP
+
 End Schema
 
 Replace the defnames on the left column with the the replacements on the same row on the right column.
 This can be aplpied to code depending on Apini, or to saves or anything in general. Just be aware of possible collision outside of saves.
 
 START
+PollenBall_V ApiniPollenBall_V
+PollenBall_W ApiniPollenBall_W
+PollenBall_R ApiniPollenBall_R
+PollenBall_B ApiniPollenBall_B
+PollenBall_M ApiniPollenBall_M
+PollenBall_E ApiniPollenBall_E
+PollenBall_F ApiniPollenBall_F
+PollenBall ApiniPollenBall
+PollenBallBase ApiniPollenBallBase
+PollenBase ApiniPollenBase
+PlantVigorbloom ApiniPlantVigorbloom
+PlantWiserbud ApiniPlantWiserbud
+PlantRushthorn ApiniPlantRushthorn
+PlantBardsong ApiniPlantBardsong
+PlantMetalily ApiniPlantMetalily
+PlantEmberose ApiniPlantEmberose
+PlantFrostbell ApiniPlantFrostbell
+PlantDaisyApini ApiniPlantDaisy
+PlantLavenderApini ApiniPlantLavender
+Pollen ApiniPollen
+BaseHemolymph ApiniHemolymphBase
 WaxcraftBase ApiniWaxcraftBase
 NectarCraftBulk ApiniNectarCraftBulk
 NectarCraftBase ApiniNectarCraftBase
@@ -207,3 +243,4 @@ NecropiniMake_Slurry NpiniMake_Slurry
 NecropiniMake_BulkSlurry NpiniMake_BulkSlurry
 BuzzApini ApiniBuzz
 Apini_Outcast ApiniOutcast
+STOP

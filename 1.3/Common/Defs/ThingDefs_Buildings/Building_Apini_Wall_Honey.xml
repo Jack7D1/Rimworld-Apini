@@ -34,7 +34,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Pollen>20</Pollen>
+			<ApiniPollen>20</ApiniPollen>
 			<ApiniHoney>5</ApiniHoney>
 		</costList>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>

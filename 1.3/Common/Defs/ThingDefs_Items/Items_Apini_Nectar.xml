@@ -132,7 +132,7 @@
 		</recipeUsers>
 		<fixedIngredientFilter>
 			<categories>
-				<li>Pollen</li>
+				<li>ApiniPollen</li>
 			</categories>
 		</fixedIngredientFilter>
 		<specialProducts>
@@ -164,7 +164,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>PollenBall</li>
+						<li>ApiniPollenBall</li>
 					</categories>
 				</filter>
 				<count>10</count>
@@ -179,7 +179,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>PollenBall</li>
+						<li>ApiniPollenBall</li>
 					</categories>
 				</filter>
 				<count>100</count>

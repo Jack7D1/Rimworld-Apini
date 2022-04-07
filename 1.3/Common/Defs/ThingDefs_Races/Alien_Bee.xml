@@ -97,15 +97,15 @@
           </li>
         </researchList> -->
 				<plantList>
-					<li>PlantFrostbell</li>
-					<li>PlantEmberose</li>
-					<li>PlantMetalily</li>
-					<li>PlantBardsong</li>
-					<li>PlantRushthorn</li>
-					<li>PlantWiserbud</li>
-					<li>PlantVigorbloom</li>
-					<li>PlantLavenderApini</li>
-					<li>PlantDaisyApini</li>
+					<li>ApiniPlantFrostbell</li>
+					<li>ApiniPlantEmberose</li>
+					<li>ApiniPlantMetalily</li>
+					<li>ApiniPlantBardsong</li>
+					<li>ApiniPlantRushthorn</li>
+					<li>ApiniPlantWiserbud</li>
+					<li>ApiniPlantVigorbloom</li>
+					<li>ApiniPlantLavender</li>
+					<li>ApiniPlantDaisy</li>
 				</plantList>
 				<buildingList>
 					<li>ApiniHoneyCapsule</li>

@@ -44,7 +44,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<costList>
-			<Pollen>20</Pollen>
+			<ApiniPollen>20</ApiniPollen>
 			<WoodLog>10</WoodLog>
 			<ApiniWax>30</ApiniWax>
 		</costList>
