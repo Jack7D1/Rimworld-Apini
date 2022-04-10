@@ -4,13 +4,13 @@
 		<defName>ApiniNectarCategory</defName>
 		<label>ApiniNectar</label>
 		<parent>PlantFoodRaw</parent>
-		<iconPath>Things/Item/ApiniNectar/ApiniNectar</iconPath>
+		<iconPath>Things/Item/Nectar/Nectar</iconPath>
 	</ThingCategoryDef>
 	<!--============================ ApiniNectar ===============================-->
 	<ThingDef ParentName="ResourceBase" Name="ApiniNectarBase" Abstract="True">
 		<!-- ApiniNectarBase -->
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/ApiniNectar</texPath>
+			<texPath>Things/Item/Nectar/Nectar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>200</stackLimit>
@@ -51,7 +51,7 @@
 		<label>ApiniNectar (unflavored)</label>
 		<description>Unflavored nectar. The vital ingredient to make normal honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/ApiniNectar</texPath>
+			<texPath>Things/Item/Nectar/Nectar</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="ApiniNectarBase">
@@ -60,7 +60,7 @@
 		<label>ApiniNectar (Frostbell)</label>
 		<description>The sweet fragrant essence of a frostbell. The vital ingredient to make cool honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/Nectar_Frostbell</texPath>
+			<texPath>Things/Item/Nectar/Nectar_Frostbell</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="ApiniNectarBase">
@@ -69,7 +69,7 @@
 		<label>ApiniNectar (Emberose)</label>
 		<description>The sweet fragrant essence of an emberose. The vital ingredient to make hot honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/Nectar_Emberose</texPath>
+			<texPath>Things/Item/Nectar/Nectar_Emberose</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="ApiniNectarBase">
@@ -78,7 +78,7 @@
 		<label>ApiniNectar (Metalily)</label>
 		<description>The sweet fragrant essence of a metalily. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/Nectar_Metalily</texPath>
+			<texPath>Things/Item/Nectar/Nectar_Metalily</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="ApiniNectarBase">
@@ -87,7 +87,7 @@
 		<label>ApiniNectar (Bardsong)</label>
 		<description>The sweet fragrant essence of a bardsong. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/Nectar_Bardsong</texPath>
+			<texPath>Things/Item/Nectar/Nectar_Bardsong</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="ApiniNectarBase">
@@ -96,7 +96,7 @@
 		<label>ApiniNectar (Rushthorn)</label>
 		<description>The sweet fragrant essence of a rushthorn. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/Nectar_Rushthorn</texPath>
+			<texPath>Things/Item/Nectar/Nectar_Rushthorn</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="ApiniNectarBase">
@@ -105,7 +105,7 @@
 		<label>ApiniNectar (Wiserbud)</label>
 		<description>The sweet fragrant essence of a wiserbud. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/Nectar_Wiserbud</texPath>
+			<texPath>Things/Item/Nectar/Nectar_Wiserbud</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="ApiniNectarBase">
@@ -114,7 +114,7 @@
 		<label>ApiniNectar (Vigorbloom)</label>
 		<description>The sweet fragrant essence of a vigorbloom. The vital ingredient to make Rough honey.</description>
 		<graphicData>
-			<texPath>Things/Item/ApiniNectar/Nectar_Vigorbloom</texPath>
+			<texPath>Things/Item/Nectar/Nectar_Vigorbloom</texPath>
 		</graphicData>
 	</ThingDef>
 	<!--ApiniNectar Distilling-->
@@ -125,7 +125,7 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workAmount>400</workAmount>
 		<workSkillLearnFactor>5</workSkillLearnFactor>
-		<requiredGiverWorkType>HoneyMaker</requiredGiverWorkType>
+		<requiredGiverWorkType>ApiniHoneyMaker</requiredGiverWorkType>
 		<workSkill>Cooking</workSkill>
 		<recipeUsers>
 			<li>ApiniNectarStill</li>

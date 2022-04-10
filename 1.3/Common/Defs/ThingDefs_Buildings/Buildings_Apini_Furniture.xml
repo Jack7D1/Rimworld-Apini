@@ -168,7 +168,7 @@
 		<description>A candle made with a wad of beeswax and a wick made of fine Apini hairs.</description>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Things/Building/Furniture/ApiniWaxCandle</texPath>
+			<texPath>Things/Building/Furniture/BeeswaxCandle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
 			<damageData>

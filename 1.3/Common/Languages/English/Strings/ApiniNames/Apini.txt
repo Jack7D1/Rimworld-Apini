@@ -21,7 +21,6 @@ Cilxin
 Cobalt
 Drone
 Fluorescente
-Fuzzster
 Grub
 Hex
 Honig
@@ -30,14 +29,11 @@ Indanthrone Blue
 Indigo
 Indiotine
 Jerry
-Kiro
 Klobbax
 Larvy
 Lazuli
 Lemonscarf
 Morpho
-Naenia
-Narnar
 Oprah
 Osirini
 Perianth
@@ -48,7 +44,6 @@ Sapphire
 Sera
 Stamen
 Stinger
-Teiya
 Ultramarine
 Ultraviolet
 Vialait

@@ -1,4 +1,3 @@
-<6>
 Apini/Necropini defname translation table.
 
 Schema:
@@ -6,6 +5,7 @@ Schema:
 ::START
 READLINE check
 IF check == "START" THEN: GOTO LOOP
+NEXTLINE
 GOTO START
 
 ::LOOP
@@ -16,6 +16,7 @@ READLINEAS "{oldDefName} {newDefName}"
 REPLACE ">{oldDefname}<" WITH ">{newDefName}<"
 REPLACE "<{oldDefname}>" WITH "<{newDefName}>"
 REPLACE "</{oldDefname}>" WITH "</{newDefName}>"
+REPLACE "\"oldDefname}\"" WITH "\"{newDefName}\""
 GOTO LOOP
 
 End Schema
@@ -24,6 +25,28 @@ Replace the defnames on the left column with the the replacements on the same ro
 This can be aplpied to code depending on Apini, or to saves or anything in general. Just be aware of possible collision outside of saves.
 
 START
+EmptyVat_V ApiniEmptyVat_V
+EmptyVat_W ApiniEmptyVat_W
+EmptyVat_R ApiniEmptyVat_R
+EmptyVat_B ApiniEmptyVat_B
+EmptyVat_M ApiniEmptyVat_M
+EmptyVat_E ApiniEmptyVat_E
+EmptyVat_F ApiniEmptyVat_F
+EmptyHoneyCapsule ApiniEmptyHoneyCapsule
+TakeHoneyOutOfFermentingVat ApiniTakeHoneyOutOfFermentingVat
+FillVat_V ApiniFillVat_V
+FillVat_W ApiniFillVat_W
+FillVat_R ApiniFillVat_R
+FillVat_B ApiniFillVat_B
+FillVat_M ApiniFillVat_M
+FillVat_E ApiniFillVat_E
+FillVat_F ApiniFillVat_F
+FillHoneyCapsule ApiniFillHoneyCapsule
+FillHoneyVat ApiniFillHoneyVat
+HoneyMaker ApiniHoneyMaker
+BeeswaxMaking ApiniBeeswaxMaking
+Apini_PetBase ApiniPetBase
+Alien_Bee ApiniBeelien
 PollenBall_V ApiniPollenBall_V
 PollenBall_W ApiniPollenBall_W
 PollenBall_R ApiniPollenBall_R

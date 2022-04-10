@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef Name="Alien_Bee" ParentName="BasePawn" Abstract="True">
+	<ThingDef Name="ApiniBeelien" ParentName="BasePawn" Abstract="True">
 		<inspectorTabs/>
 		<comps/>
 		<alienRace>
@@ -133,7 +133,7 @@
 					<li>NpiniMeatHoneyVat</li>
 				</buildingList>
 				<conceptList>
-					<li>BeeswaxMaking</li>
+					<li>ApiniBeeswaxMaking</li>
 					<li>ApiniMakingHoney</li>
 					<li>ApiniRespiratoryFailure</li>
 					<li>ApiniInsectRelations</li>

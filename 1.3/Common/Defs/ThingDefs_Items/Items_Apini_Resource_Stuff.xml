@@ -51,7 +51,7 @@
 		<techHediffsTags>
 			<li>Poor</li>
 		</techHediffsTags>
-		<!--    <storedConceptLearnOpportunity>BeeswaxMaking</storedConceptLearnOpportunity> -->
+		<!--    <storedConceptLearnOpportunity>ApiniBeeswaxMaking</storedConceptLearnOpportunity> -->
 	</ThingDef>
 	<RecipeDef Name="ApiniWaxcraftBase" Abstract="True">
 		<description>Create wax from plant matter.</description>

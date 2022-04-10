@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<AlienRace.ThingDef_AlienRace ParentName="Alien_Bee">
+	<AlienRace.ThingDef_AlienRace ParentName="ApiniBeelien">
 		<defName>Necropini</defName>
 		<label>necropini</label>
 		<description>What happens if you want to terraform a planet that has very poor or even no soil? What if there are hostile flora and fauna? The Apini terraform and survive by planting and harvesting flowers. You would need to create a race that was better at fighting and able to use an alternate food source.A more hearty alternative for planets where the Apini can't survive long enough to terraform the planet.And so with a slight change to the Apini DNA, splicing in Vulture/Carrior bee genes, the Necropini were born. Stronger and more resistant than normal Apini, and with the ability to make “meat honey”;the Necropini (or Death Bees) were created to terraform worlds that normal Apini would not survive on.</description>

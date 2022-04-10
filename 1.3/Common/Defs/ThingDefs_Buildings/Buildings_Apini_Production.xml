@@ -22,7 +22,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Things/Building/Capsules/ApiniHoneyCapsule</texPath>
+			<texPath>Things/Building/Capsules/HoneyCapsule</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
 				<rect>(0.05,0.1,0.9,0.9)</rect>
@@ -370,7 +370,7 @@
 	<ThingDef Name="ApiniVatBase" ParentName="ApiniBuildingBase" Abstract="True">
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Capsules/ApiniHoneyCapsule</texPath>
+			<texPath>Things/Building/Capsules/HoneyCapsule</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
 				<rect>(0.05,0.1,0.9,0.9)</rect>
@@ -615,7 +615,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Things/Building/Capsules/ApiniHoneyVat</texPath>
+			<texPath>Things/Building/Capsules/HoneyVat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<damageData>

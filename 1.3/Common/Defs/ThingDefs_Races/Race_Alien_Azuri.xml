@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<AlienRace.ThingDef_AlienRace ParentName="Alien_Bee">
+	<AlienRace.ThingDef_AlienRace ParentName="ApiniBeelien">
 		<defName>Azuri</defName>
 		<label>azuri</label>
 		<description>An azure offshoot of the Apini, Azuri are simple-minded ravenous insectoids with a swarm like structure. They propagate by laying their eggs in hapless Apini, eventually killing the host bee in the process.\nNoone knows where the Azuri originated from, but it is well known how they spread across the rim. Many an urbworld (with a government based on a basic set of ethics) have reached a level of development where the primitive Apini are an obstruction. However removing them would be considered genocide of sapient beings. To circumvent ethical laws, some leaders will stealthily import live Azuri eggs. \nThe Azuri are like wildfire; they will destroy all Apini hives they come across, hunting down any stragglers. Unfortunately, they do not prepare like Apini, often dying of starvation and cold (usually after they run out of to kill).\n\n“No, that's the beautiful part. When wintertime rolls around, the Azuri simply freeze to death”</description>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<AlienRace.ThingDef_AlienRace ParentName="Alien_Bee">
+	<AlienRace.ThingDef_AlienRace ParentName="ApiniBeelien">
 		<defName>Apini</defName>
 		<label>apini</label>
 		<description>Genetically modified giant sentient bee-ings. Originally created by humans as a terraforming bio-tool for the proliferation of angiosperms, these flightless bees are found on countless terraformed rimworlds.\n Apini are often wiped out by the point a planet reaches urbworld status. \n They possess some mamalian DNA, such as complex lung structure. Apini will also happily intergrate themselves into human "hives" if they feel like they have purpose.</description>

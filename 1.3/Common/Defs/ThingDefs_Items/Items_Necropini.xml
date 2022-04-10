@@ -59,7 +59,7 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workAmount>400</workAmount>
 		<workSkillLearnFactor>5</workSkillLearnFactor>
-		<requiredGiverWorkType>HoneyMaker</requiredGiverWorkType>
+		<requiredGiverWorkType>ApiniHoneyMaker</requiredGiverWorkType>
 		<workSkill>Cooking</workSkill>
 		<recipeUsers>
 			<li>ApiniNectarStill</li>
