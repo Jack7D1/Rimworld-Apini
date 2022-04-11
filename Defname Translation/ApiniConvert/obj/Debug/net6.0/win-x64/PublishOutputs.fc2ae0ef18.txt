@@ -1,0 +1,2 @@
+/home/jack/Downloads/ApiniConvert/build/ApiniConvert.pdb
+/home/jack/Downloads/ApiniConvert/build/ApiniConvert.exe
