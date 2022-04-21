@@ -7,7 +7,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniApron"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
-					<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+					<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
 					<Bulk>5</Bulk>
 					<WornBulk>1.5</WornBulk>
 				</value>
@@ -18,6 +18,7 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="ApiniApron"]/equippedStatOffsets/MoveSpeed</xpath>
 			</li>
+
 			<!-- ApiniSatchel -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniSatchel"]/statBases/StuffEffectMultiplierArmor</xpath>
@@ -31,9 +32,10 @@
 				<xpath>Defs/ThingDef[defName="ApiniSatchel"]/equippedStatOffsets</xpath>
 				<value>
 					<CarryWeight>5</CarryWeight>
-					<CarryBulk>10</CarryBulk>
+					<CarryBulk>30</CarryBulk>
 				</value>
 			</li>
+
 			<!-- ApiniRuff -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniRuff"]/statBases/StuffEffectMultiplierArmor</xpath>
@@ -46,6 +48,7 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="ApiniRuff"]/statBases/ArmorRating_Heat</xpath>
 			</li>
+
 			<!-- ApiniHoneyGlassHelmet -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniHoneyGlassHelmet"]/statBases/ArmorRating_Sharp</xpath>
@@ -58,13 +61,128 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniHoneyGlassHelmet"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+					<ArmorRating_Blunt>7.5</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiniHoneyGlassHelmet"]/statBases/ArmorRating_Heat</xpath>
 				<value>
 					<ArmorRating_Heat>0.1</ArmorRating_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="ApiniHoneyGlassHelmet"]/equippedStatOffsets/MoveSpeed</xpath>
+			</li>
+
+			<!-- ApiniVest -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>8</ArmorRating_Sharp>
+					<Bulk>10</Bulk>
+					<WornBulk>5</WornBulk>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]/statBases/Mass</xpath>
+				<value>
+					<Mass>10</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>12</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]/statBases/ArmorRating_Heat</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>100</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]/equippedStatOffsets/MoveSpeed</xpath>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="ApiniVest"]</xpath>
+				<value>
+					<li Class="CombatExtended.PartialArmorExt">
+						<stats>
+							<li>
+								<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+								<parts>
+									<li>Neck</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+								<parts>
+									<li>Neck</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+								<parts>
+									<li>Shoulder</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+								<parts>
+									<li>Shoulder</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+								<parts>
+									<li>Arm</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+								<parts>
+									<li>Arm</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+								<parts>
+									<li>Waist</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+								<parts>
+									<li>Waist</li>
+								</parts>
+							</li>
+							<!-- Glass honey wing protectors? -->
+							<li>
+								<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+								<parts>
+									<li>InsectWing</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+								<parts>
+									<li>InsectWing</li>
+								</parts>
+							</li>
+						</stats>
+					</li>
 				</value>
 			</li>
 		</operations>

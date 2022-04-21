@@ -34,7 +34,7 @@
 				</capacities>
 				<power>7</power>
 				<cooldownTime>1.3</cooldownTime>
-				<linkedBodyPartsGroup>ApiniFrontLeg</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>ApiniFrontLegs</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>

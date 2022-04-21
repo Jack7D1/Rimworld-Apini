@@ -156,7 +156,6 @@
 					<li>Apparel_PsychicFoilHelmet</li>
 					<li>Apparel_ShieldBelt</li>
 					<li>Apparel_SmokepopBelt</li>
-					<li>Apparel_FlakVest</li>
 					<li>TornadoGenerator</li>
 					<li>OrbitalTargeterPowerBeam</li>
 					<li>OrbitalTargeterBombardment</li>
@@ -230,11 +229,8 @@
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_Balaclava</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_BallisticGoggles</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_WoodenArmor</li>
-					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_LightPlateArmor</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_PlateShoulderpads</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_NightVisionGoggles</li>
-					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_BulletproofVest</li>
-					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_AdvancedVest</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_HeavyMarineHelmet</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_StoneWarMask</li>
 					<!--From Vanilla Apparel Expanded-->
@@ -274,7 +270,6 @@
 					<!--From Combat Extended-->
 					<li MayRequire="CETeam.CombatExtended">Apparel_MeleeShield</li>
 					<li MayRequire="CETeam.CombatExtended">Apparel_BallisticShield</li>
-					<li MayRequire="CETeam.CombatExtended">Apparel_TacVest</li>
 					<!--From Ivory and Jade Carving-->
 					<li MayRequire="Mlie.IvoryAndJadeCarving">jade_band</li>
 					<!--From Rim of Madness-->
