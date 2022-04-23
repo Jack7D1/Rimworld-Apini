@@ -158,11 +158,6 @@ namespace Apini
         public void AddInput(int count)
         {
             base.GetComp<CompTemperatureRuinable>().Reset();
-            if (Fermented)
-            {
-                Log.Warning("Tried to add wort to a barrel full of beer. Colonists should take the beer first.", false);
-                return;
-            }
             int num = Mathf.Min(count, MaxCapacity - thingCount);
             if (num <= 0)
             {
