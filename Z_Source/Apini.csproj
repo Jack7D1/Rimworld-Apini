@@ -32,6 +32,11 @@
       <Private>False</Private>
     </Reference>
 
+    <!--Humanoid Alien Races-->
+        <Reference Include="../../../../../workshop/content/294100/839005762/1.3/Assemblies/AlienRace.dll">
+      <Private>False</Private>
+    </Reference>
+
     <!-- Harmony -->
     <PackageReference Include="Lib.Harmony" Version="2.2.0" />
   </ItemGroup>
