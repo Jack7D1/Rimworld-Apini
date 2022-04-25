@@ -10,11 +10,11 @@
 			<ToxicSensitivity>2</ToxicSensitivity>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>46</ComfyTemperatureMax>
-			<LeatherAmount>100</LeatherAmount>
+			<LeatherAmount>75</LeatherAmount>
 			<MarketValue>1000</MarketValue>
 			<MoveSpeed>4</MoveSpeed>
 			<Flammability>0.75</Flammability>
-			<CarryingCapacity>1000</CarryingCapacity>
+			<CarryingCapacity>500</CarryingCapacity>
 			<MentalBreakThreshold>0.01</MentalBreakThreshold>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
@@ -61,7 +61,7 @@
 		<race>
 			<body>Moobee</body>
 			<packAnimal>true</packAnimal>
-			<baseBodySize>3</baseBodySize>
+			<baseBodySize>2</baseBodySize>
 			<baseHealthScale>3</baseHealthScale>
 			<baseHungerRate>0.5</baseHungerRate>
 			<foodType>VegetarianRoughAnimal, Fluid</foodType>

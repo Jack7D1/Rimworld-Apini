@@ -52,7 +52,7 @@
 		</statBases>
 		<ingestible>
 			<drugCategory>Medical</drugCategory>
-			<preferability>NeverForNutrition</preferability>
+			<preferability>DesperateOnly</preferability>
 		</ingestible>
 	</ThingDef>
 	<ThingDef ParentName="ApiniSpecialHoney">

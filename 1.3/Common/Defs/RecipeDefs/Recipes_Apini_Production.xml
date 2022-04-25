@@ -525,10 +525,10 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ApiniJelly</li>
+						<li>ApiniHoney</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
@@ -575,10 +575,10 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ApiniJelly</li>
+						<li>ApiniHoney</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>125</count>
 			</li>
 			<li>
 				<filter>
@@ -629,10 +629,10 @@ Bionic sting crafting recipies commented out until working purpose and function-
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ApiniJelly</li>
+						<li>ApiniHoney</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>1000</count>
 			</li>
 			<li>
 				<filter>
