@@ -240,7 +240,7 @@
 			</li>
 			<!--Meat Honey Vat-->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "MeatHoneyVat"]/costList/ApiniWax</xpath>
+				<xpath>Defs/ThingDef[defName = "NpiniMeatHoneyVat"]/costList</xpath>
 				<value>
 					<costList>
 						<RB_Beeswax>30</RB_Beeswax>
