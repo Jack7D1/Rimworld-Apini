@@ -38,8 +38,8 @@
 			<li>(102, 0, 0)</li>
 		</colorSpectrum>
 		<mustStartOneEnemy>false</mustStartOneEnemy>
-		<factionNameMaker>NamerFactionHive</factionNameMaker>
-		<settlementNameMaker>NamerbaseHive</settlementNameMaker>
+		<factionNameMaker>ApiniNamerFactionHive</factionNameMaker>
+		<settlementNameMaker>ApiniNamerbaseHive</settlementNameMaker>
 		<techLevel>Neolithic</techLevel>
 		<allowedCultures>
 			<li>Corunan</li>
@@ -167,8 +167,8 @@
 			<li>(70,183,255)</li>
 			<li>(0, 222,255)</li>
 		</colorSpectrum>
-		<factionNameMaker>NamerFactionSwarm</factionNameMaker>
-		<settlementNameMaker>NamerbaseSwarm</settlementNameMaker>
+		<factionNameMaker>AzuriNamerFactionSwarm</factionNameMaker>
+		<settlementNameMaker>AzuriNamerbaseSwarm</settlementNameMaker>
 		<techLevel>Neolithic</techLevel>
 		<allowedCultures>
 			<li>Kriminul</li>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef Name="BaseHemolymph" ParentName="BaseFilth" Abstract="True">
+	<ThingDef Name="ApiniHemolymphBase" ParentName="BaseFilth" Abstract="True">
 		<statBases>
 			<Beauty>-15</Beauty>
 			<Cleanliness>-5</Cleanliness>
@@ -11,7 +11,7 @@
 			<canFilthAttach>true</canFilthAttach>
 		</filth>
 	</ThingDef>
-	<ThingDef ParentName="BaseHemolymph">
+	<ThingDef ParentName="ApiniHemolymphBase">
 		<defName>Filth_BloodApini</defName>
 		<label>apini hemolymph</label>
 		<graphicData>
@@ -19,7 +19,7 @@
 			<color>(228, 223, 176, 160)</color>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="BaseHemolymph">
+	<ThingDef ParentName="ApiniHemolymphBase">
 		<defName>Filth_BloodAzuri</defName>
 		<label>azuri hemolymph</label>
 		<graphicData>
@@ -27,7 +27,7 @@
 			<color>(222, 189, 169, 180)</color>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="BaseHemolymph">
+	<ThingDef ParentName="ApiniHemolymphBase">
 		<defName>Filth_BloodMoobee</defName>
 		<label>moobee hemolymph</label>
 		<graphicData>

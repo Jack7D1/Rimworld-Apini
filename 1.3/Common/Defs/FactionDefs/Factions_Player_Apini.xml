@@ -15,9 +15,9 @@
 		<basicMemberKind>ApiniPawn</basicMemberKind>
 		<pawnSingular>apini</pawnSingular>
 		<pawnsPlural>apini</pawnsPlural>
-		<factionNameMaker>NamerFactionHive</factionNameMaker>
-		<settlementNameMaker>NamerbaseHive</settlementNameMaker>
-		<playerInitialSettlementNameMaker>NamerbaseHive</playerInitialSettlementNameMaker>
+		<factionNameMaker>ApiniNamerFactionHive</factionNameMaker>
+		<settlementNameMaker>ApiniNamerbaseHive</settlementNameMaker>
+		<playerInitialSettlementNameMaker>ApiniNamerbaseHive</playerInitialSettlementNameMaker>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
 				<li>(0,35)</li>
@@ -71,9 +71,9 @@
 		<basicMemberKind>AzuriPawn</basicMemberKind>
 		<pawnSingular>azuri</pawnSingular>
 		<pawnsPlural>azuri</pawnsPlural>
-		<factionNameMaker>NamerFactionSwarm</factionNameMaker>
-		<settlementNameMaker>NamerbaseSwarm</settlementNameMaker>
-		<playerInitialSettlementNameMaker>NamerbaseSwarm</playerInitialSettlementNameMaker>
+		<factionNameMaker>AzuriNamerFactionSwarm</factionNameMaker>
+		<settlementNameMaker>AzuriNamerbaseSwarm</settlementNameMaker>
+		<playerInitialSettlementNameMaker>AzuriNamerbaseSwarm</playerInitialSettlementNameMaker>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
 				<li>(0,35)</li>

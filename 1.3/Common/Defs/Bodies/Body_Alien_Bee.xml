@@ -5,7 +5,7 @@
 		<defName>Apini</defName>
 		<label>apini</label>
 		<corePart>
-			<def>Thorax</def>
+			<def>ApiniInsectThorax</def>
 			<height>Middle</height>
 			<depth>Outside</depth>
 			<groups>
@@ -13,39 +13,39 @@
 			</groups>
 			<parts>
 				<li>
-					<def>InsectWing</def>
+					<def>ApiniInsectWing</def>
 					<customLabel>left forewing</customLabel>
 					<coverage>0.04</coverage>
 					<depth>Outside</depth>
 					<groups>
-						<li>InsectWings</li>
+						<li>ApiniInsectWings</li>
 					</groups>
 				</li>
 				<li>
-					<def>InsectWing</def>
+					<def>ApiniInsectWing</def>
 					<customLabel>right forewing</customLabel>
 					<coverage>0.04</coverage>
 					<depth>Outside</depth>
 					<groups>
-						<li>InsectWings</li>
+						<li>ApiniInsectWings</li>
 					</groups>
 				</li>
 				<li>
-					<def>InsectWing</def>
+					<def>ApiniInsectWing</def>
 					<customLabel>left hindwing</customLabel>
 					<coverage>0.04</coverage>
 					<depth>Outside</depth>
 					<groups>
-						<li>InsectWings</li>
+						<li>ApiniInsectWings</li>
 					</groups>
 				</li>
 				<li>
-					<def>InsectWing</def>
+					<def>ApiniInsectWing</def>
 					<customLabel>right hindwing</customLabel>
 					<coverage>0.04</coverage>
 					<depth>Outside</depth>
 					<groups>
-						<li>InsectWings</li>
+						<li>ApiniInsectWings</li>
 					</groups>
 				</li>
 				<li>
@@ -57,7 +57,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>HoneyStomach</def>
+					<def>ApiniHoneyStomach</def>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 					<groups>
@@ -65,7 +65,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>InsectHeart</def>
+					<def>ApiniInsectHeart</def>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 					<groups>
@@ -120,7 +120,7 @@
 									<woundAnchorTag>RightEye</woundAnchorTag>
 								</li>
 								<li>
-									<def>Antenna</def>
+									<def>ApiniInsectAntenna</def>
 									<customLabel>left antenna</customLabel>
 									<coverage>0.05</coverage>
 									<groups>
@@ -129,7 +129,7 @@
 									</groups>
 								</li>
 								<li>
-									<def>Antenna</def>
+									<def>ApiniInsectAntenna</def>
 									<customLabel>right antenna</customLabel>
 									<coverage>0.05</coverage>
 									<groups>
@@ -145,7 +145,7 @@
 									</groups>
 								</li>
 								<li>
-									<def>InsectMouth</def>
+									<def>ApiniInsectMouth</def>
 									<coverage>0.07</coverage>
 									<groups>
 										<li>Mouth</li>
@@ -155,7 +155,7 @@
 									</groups>
 									<parts>
 										<li>
-											<def>Mandible</def>
+											<def>ApiniInsectMandible</def>
 											<customLabel>left mandible</customLabel>
 											<coverage>0.08</coverage>
 											<groups>
@@ -165,7 +165,7 @@
 											</groups>
 										</li>
 										<li>
-											<def>Mandible</def>
+											<def>ApiniInsectMandible</def>
 											<customLabel>right mandible</customLabel>
 											<coverage>0.08</coverage>
 											<groups>
@@ -181,12 +181,12 @@
 					</parts>
 				</li>
 				<li>
-					<def>Abdomen</def>
+					<def>ApiniInsectAbdomen</def>
 					<customLabel>abdomen</customLabel>
 					<coverage>0.11</coverage>
 					<height>Middle</height>
 					<groups>
-						<li>Abdomen</li>
+						<li>ApiniInsectAbdomen</li>
 						<li>Waist</li>
 					</groups>
 				</li>
@@ -203,7 +203,7 @@
 					</groups>
 					<parts>
 						<li>
-							<def>Tarsal</def>
+							<def>ApiniInsectTarsalClaw</def>
 							<customLabel>left first tarsal claw</customLabel>
 							<coverage>0.03</coverage>
 							<groups>
@@ -212,7 +212,7 @@
 							</groups>
 						</li>
 						<li>
-							<def>Tarsal</def>
+							<def>ApiniInsectTarsalClaw</def>
 							<customLabel>left second tarsal claw</customLabel>
 							<coverage>0.03</coverage>
 							<groups>
@@ -221,7 +221,7 @@
 							</groups>
 						</li>
 						<li>
-							<def>Tarsal</def>
+							<def>ApiniInsectTarsalClaw</def>
 							<customLabel>left third tarsal claw</customLabel>
 							<coverage>0.02</coverage>
 							<groups>
@@ -243,7 +243,7 @@
 					</groups>
 					<parts>
 						<li>
-							<def>Tarsal</def>
+							<def>ApiniInsectTarsalClaw</def>
 							<customLabel>right first tarsal claw</customLabel>
 							<coverage>0.03</coverage>
 							<groups>
@@ -252,7 +252,7 @@
 							</groups>
 						</li>
 						<li>
-							<def>Tarsal</def>
+							<def>ApiniInsectTarsalClaw</def>
 							<customLabel>right second tarsal claw</customLabel>
 							<coverage>0.03</coverage>
 							<groups>
@@ -261,7 +261,7 @@
 							</groups>
 						</li>
 						<li>
-							<def>Tarsal</def>
+							<def>ApiniInsectTarsalClaw</def>
 							<customLabel>right third tarsal claw</customLabel>
 							<coverage>0.02</coverage>
 							<groups>
@@ -272,17 +272,17 @@
 					</parts>
 				</li>
 				<li>
-					<def>InsectLeg</def>
+					<def>ApiniInsectLeg</def>
 					<customLabel>left middle leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<groups>
 						<li>Legs</li>
-						<li>HindLegs</li>
+						<li>ApiniHindLegs</li>
 					</groups>
 					<parts>
 						<li>
-							<def>Tarsus</def>
+							<def>ApiniInsectTarsus</def>
 							<customLabel>left middle tarsus</customLabel>
 							<coverage>0.04</coverage>
 							<height>Bottom</height>
@@ -293,17 +293,17 @@
 					</parts>
 				</li>
 				<li>
-					<def>InsectLeg</def>
+					<def>ApiniInsectLeg</def>
 					<customLabel>right middle leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<groups>
 						<li>Legs</li>
-						<li>HindLegs</li>
+						<li>ApiniHindLegs</li>
 					</groups>
 					<parts>
 						<li>
-							<def>Tarsus</def>
+							<def>ApiniInsectTarsus</def>
 							<customLabel>right middle tarsus</customLabel>
 							<coverage>0.04</coverage>
 							<height>Bottom</height>
@@ -314,17 +314,17 @@
 					</parts>
 				</li>
 				<li>
-					<def>InsectLeg</def>
+					<def>ApiniInsectLeg</def>
 					<customLabel>left rear leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<groups>
 						<li>Legs</li>
-						<li>HindLegs</li>
+						<li>ApiniHindLegs</li>
 					</groups>
 					<parts>
 						<li>
-							<def>Tarsus</def>
+							<def>ApiniInsectTarsus</def>
 							<customLabel>left rear tarsus</customLabel>
 							<coverage>0.04</coverage>
 							<height>Bottom</height>
@@ -335,17 +335,17 @@
 					</parts>
 				</li>
 				<li>
-					<def>InsectLeg</def>
+					<def>ApiniInsectLeg</def>
 					<customLabel>right rear leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<groups>
 						<li>Legs</li>
-						<li>HindLegs</li>
+						<li>ApiniHindLegs</li>
 					</groups>
 					<parts>
 						<li>
-							<def>Tarsus</def>
+							<def>ApiniInsectTarsus</def>
 							<customLabel>right rear tarsus</customLabel>
 							<coverage>0.04</coverage>
 							<height>Bottom</height>

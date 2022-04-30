@@ -37,8 +37,8 @@
 	<ApiniSmokeThought.stages.7.label>respiratory failure</ApiniSmokeThought.stages.7.label>
 	<ApiniSmokeThought.stages.7.description>Can't b-b-breath...</ApiniSmokeThought.stages.7.description>
 	<!-- Jobs/Work -->
-	<FillFermentingVat.reportString>filling TargetA.</FillFermentingVat.reportString>
-	<TakeThingOutOfFermentingVat.reportString>taking thing out of TargetA.</TakeThingOutOfFermentingVat.reportString>
+	<ApiniFillFermentingVat.reportString>filling TargetA.</ApiniFillFermentingVat.reportString>
+	<ApiniTakeThingOutOfFermentingVat.reportString>taking thing out of TargetA.</ApiniTakeThingOutOfFermentingVat.reportString>
 	<FillHoneyFermentingVat.label>fill fermenting vats</FillHoneyFermentingVat.label>
 	<FillHoneyFermentingVat.verb>fill</FillHoneyFermentingVat.verb>
 	<FillHoneyFermentingVat.gerund>filling</FillHoneyFermentingVat.gerund>
@@ -46,24 +46,24 @@
 	<TakeHoneyOutOfFermentingVat.verb>take honey</TakeHoneyOutOfFermentingVat.verb>
 	<TakeHoneyOutOfFermentingVat.gerund>taking honey from</TakeHoneyOutOfFermentingVat.gerund>
 	<!--Scenario -->
-	<LostHive.label>Rebuild the Hive</LostHive.label>
-	<LostHive.description>Territorial humans burnt down your hive, and performed unceremonious regicide upon your queen. You and some other survivors have taken all you could salvage from the wreckage of your hive. \n\n With hopes of rebuilding your hive, you set forth.</LostHive.description>
-	<LostHive.scenario.name>Rebuild the Hive</LostHive.scenario.name>
-	<LostHive.scenario.summary>Five lost Apini attempt to rebuild their ransacked hive.</LostHive.scenario.summary>
-	<LostHive.scenario.description>Territorial humans burnt down your hive, and performed unceremonious regicide upon your queen. You and some other survivors have taken all you could salvage from the wreckage of your hive. \n\n With hopes of rebuilding your hive, you set forth.</LostHive.scenario.description>
+	<ApiniScenLostHive.label>Rebuild the Hive</ApiniScenLostHive.label>
+	<ApiniScenLostHive.description>Territorial humans burnt down your hive, and performed unceremonious regicide upon your queen. You and some other survivors have taken all you could salvage from the wreckage of your hive. \n\n With hopes of rebuilding your hive, you set forth.</ApiniScenLostHive.description>
+	<ApiniScenLostHive.scenario.name>Rebuild the Hive</ApiniScenLostHive.scenario.name>
+	<ApiniScenLostHive.scenario.summary>Five lost Apini attempt to rebuild their ransacked hive.</ApiniScenLostHive.scenario.summary>
+	<ApiniScenLostHive.scenario.description>Territorial humans burnt down your hive, and performed unceremonious regicide upon your queen. You and some other survivors have taken all you could salvage from the wreckage of your hive. \n\n With hopes of rebuilding your hive, you set forth.</ApiniScenLostHive.scenario.description>
 	<!-- Things -->
 	<ApiniApron.label>apini apron</ApiniApron.label>
 	<ApiniApron.description>A basic work apron often worn by Apini. Worn to combat the cold or provide the guise of human decency.</ApiniApron.description>
 	<ApiniWaxFloor.label>beeswax floor</ApiniWaxFloor.label>
 	<ApiniWaxFloor.description>Floor made from beeswax. Has a sweet aroma.</ApiniWaxFloor.description>
-	<PlantFrostbell.label>frostbell</PlantFrostbell.label>
-	<PlantFrostbell.description>A unique flower that has been cultivated by the apini for centuries. It is often cool to the touch.</PlantFrostbell.description>
+	<ApiniPlantFrostbell.label>frostbell</ApiniPlantFrostbell.label>
+	<ApiniPlantFrostbell.description>A unique flower that has been cultivated by the apini for centuries. It is often cool to the touch.</ApiniPlantFrostbell.description>
 	<ApiniWax.label>beeswax</ApiniWax.label>
 	<ApiniWax.description>Wax produced by Apini. Often used for constucting sturdy buildings.</ApiniWax.description>
 	<ApiniHoney.label>apini honey</ApiniHoney.label>
 	<ApiniHoney.description>Delicious honey produced by the apini.</ApiniHoney.description>
-	<HoneyCapsule.label>honey capsule</HoneyCapsule.label>
-	<HoneyCapsule.description>A hexagonal container for creating honey from unflavored nectar.</HoneyCapsule.description>
+	<ApiniHoneyCapsule.label>honey capsule</ApiniHoneyCapsule.label>
+	<ApiniHoneyCapsule.description>A hexagonal container for creating honey from unflavored nectar.</ApiniHoneyCapsule.description>
 	<Pollen.label>pollen</Pollen.label>
 	<Pollen.description>A ball of pollen and nectar gathered from flowers. The vital ingredient to make honey.</Pollen.description>
 	<!-- Thoughts -->

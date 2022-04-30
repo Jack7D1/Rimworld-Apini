@@ -6,22 +6,22 @@
 		<listOrder>82</listOrder>
 	</BodyPartGroupDef>
 	<BodyPartGroupDef>
-		<defName>InsectWings</defName>
+		<defName>ApiniInsectWings</defName>
 		<label>wings</label>
 		<listOrder>99</listOrder>
 	</BodyPartGroupDef>
 	<BodyPartGroupDef>
-		<defName>Abdomen</defName>
+		<defName>ApiniInsectAbdomen</defName>
 		<label>abdomen</label>
 		<listOrder>10</listOrder>
 	</BodyPartGroupDef>
 	<!--	<BodyPartGroupDef>
-		<defName>InsectSting</defName>
+		<defName>ApiniInsectSting</defName>
 		<label>stinger</label>
 		<listOrder>9</listOrder>
 	</BodyPartGroupDef>-->
 	<BodyPartGroupDef>
-		<defName>HindLegs</defName>
+		<defName>ApiniHindLegs</defName>
 		<label>hind legs</label>
 		<listOrder>2</listOrder>
 	</BodyPartGroupDef>

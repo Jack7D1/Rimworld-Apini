@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Meat Honey-->
+	<ThingDef ParentName="ApiniSpecialHoney">
+		<defName>NpiniMeatHoney</defName>
+		<label>meat honey</label>
+		<description>A honeylike substance created by Necropini. However this honey is made out of meat, specifically broken down proteins that are kept preserved similarly to traditional honey.</description>
+		<descriptionHyperlinks>
+			<HediffDef>ApiniSmoothHoneyBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/MeatHoney</texPath>
+		</graphicData>
+		<ingestible>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ApiniSmoothHoneyBuff</hediffDef>
+					<severity>2</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>3004</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	<!--Meat Slurry-->
+	<ThingDef ParentName="ApiniNectarBase">
+		<defName>NpiniMeatSlurry</defName>
+		<label>meat slurry</label>
+		<description>A random assortment of raw meat ground up and mixed with necropini saliva, spoils extremely quickly. Put this straight into the meat honey cell.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Pollen/Pollen</texPath>
+			<color>(128,64,64)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>0</MarketValue>
+			<Mass>0.04</Mass>
+			<Beauty>-4</Beauty>
+			<Nutrition>0.10</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Fluid</foodType>
+			<preferability>RawBad</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
+			<optimalityOffsetHumanlikes>0</optimalityOffsetHumanlikes>
+		</ingestible>
+	</ThingDef>
+
+	<!--Make Meat Slurry-->
+	<RecipeDef Name="NpiniSlurryCraftBase" Abstract="True">
+		<jobString>distilling Meat Slurry.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>400</workAmount>
+		<workSkillLearnFactor>5</workSkillLearnFactor>
+		<requiredGiverWorkType>ApiniHoneyMaker</requiredGiverWorkType>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ApiniNectarStill</li>
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	<RecipeDef ParentName="NpiniSlurryCraftBase">
+		<defName>NpiniMake_Slurry</defName>
+		<label>distill meat slurry</label>
+		<description>Processes raw meat into meat slurry.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<NpiniMeatSlurry>10</NpiniMeatSlurry>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="NpiniSlurryCraftBase">
+		<defName>NpiniMake_BulkSlurry</defName>
+		<label>distill meat slurry in bulk</label>
+		<description>Processes lots of raw meat into meat slurry.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<NpiniMeatSlurry>200</NpiniMeatSlurry>
+		</products>
+	</RecipeDef>
+</Defs>

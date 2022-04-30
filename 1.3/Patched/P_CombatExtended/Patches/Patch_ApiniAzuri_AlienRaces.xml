@@ -6,13 +6,13 @@
 		<operations>
 			<!-- Inventory -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name="Alien_Bee"]/inspectorTabs</xpath>
+				<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/inspectorTabs</xpath>
 				<value>
 					<li>CombatExtended.ITab_Inventory</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name="Alien_Bee"]/comps</xpath>
+				<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/comps</xpath>
 				<value>
 					<li Class="CombatExtended.CompProperties_Inventory"/>
 				</value>

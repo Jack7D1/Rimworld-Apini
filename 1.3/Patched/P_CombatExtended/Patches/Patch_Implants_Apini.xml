@@ -21,7 +21,7 @@
 					</tools>
 				</value>
 			</li>-->
-			<!-- EnhancedMouth_Crusher_Apini -->
+			<!-- ApiniEnhancedMouth_Crusher -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName="EnhancedMouth_Monarch_Apini"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
 				<value>
@@ -39,9 +39,9 @@
 					</tools>
 				</value>
 			</li>
-			<!-- EnhancedMouth_Crusher_Apini -->
+			<!-- ApiniEnhancedMouth_Crusher -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="EnhancedMouth_Crusher_Apini"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<xpath>Defs/HediffDef[defName="ApiniEnhancedMouth_Crusher"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">

@@ -118,7 +118,7 @@
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>Abdomen</li>
+				<li>ApiniInsectAbdomen</li>
 				<li>Waist</li>
 			</bodyPartGroups>
 			<layers>
@@ -206,6 +206,8 @@
 				<li>Torso</li>
 				<li>Neck</li>
 				<li>Shoulders</li>
+				<li>ApiniInsectWings</li>
+				<li>ApiniInsectAbdomen</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/ApiniVest</wornGraphicPath>
 			<layers>

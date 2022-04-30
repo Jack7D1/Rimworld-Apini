@@ -2,7 +2,7 @@
 <Defs>
 	<!-- Apini Hive Scenario -->
 	<ScenarioDef>
-		<defName>LostHive</defName>
+		<defName>ApiniScenLostHive</defName>
 		<label>Rebuild the Hive</label>
 		<description>Territorial humans burnt down your hive, and performed unceremonious regicide upon your queen. You and some other survivors have taken all you could salvage from the wreckage of your hive. \n\nWith hopes of rebuilding your hive, you set forth.</description>
 		<scenario>

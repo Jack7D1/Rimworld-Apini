@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "J3n74gWzbHhzNlborZJo2jUx/PJfDhzh9HZTjh5U/hYdO3UIOnKsnS+23+NXVIM/M6sdAfVouvoqlpjgAPANGA==",
+  "success": true,
+  "projectFilePath": "/home/jack/Downloads/ApiniConvert/ApiniConvert.csproj",
+  "expectedPackageFiles": [
+    "/home/jack/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.3/microsoft.netcore.app.runtime.linux-x64.6.0.3.nupkg.sha512",
+    "/home/jack/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.3/microsoft.aspnetcore.app.runtime.linux-x64.6.0.3.nupkg.sha512",
+    "/home/jack/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/6.0.3/microsoft.netcore.app.crossgen2.linux-x64.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<AlienRace.ThingDef_AlienRace ParentName="Alien_Bee">
+	<AlienRace.ThingDef_AlienRace ParentName="ApiniBeelien">
 		<defName>Apini</defName>
 		<label>apini</label>
 		<description>Genetically modified giant sentient bee-ings. Originally created by humans as a terraforming bio-tool for the proliferation of angiosperms, these flightless bees are found on countless terraformed rimworlds.\n Apini are often wiped out by the point a planet reaches urbworld status. \n They possess some mamalian DNA, such as complex lung structure. Apini will also happily intergrate themselves into human "hives" if they feel like they have purpose.</description>
@@ -471,7 +471,7 @@
 		</alienRace>
 		<race>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
-			<nameGenerator>NamerPersonApini</nameGenerator>
+			<nameGenerator>ApiniNamerPerson</nameGenerator>
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>false</makesFootprints>
@@ -519,13 +519,13 @@
 				<li>
 					<def>ApiniAdult</def>
 					<minAge>15</minAge>
-					<soundWounded>Pawn_Apini_Wounded</soundWounded>
-					<soundDeath>Pawn_Apini_Death</soundDeath>
-					<soundCall>Pawn_Apini_Wounded</soundCall>
-					<soundAngry>Pawn_Apini_Wounded</soundAngry>
+					<soundWounded>Apini_Pawn_Wounded</soundWounded>
+					<soundDeath>Apini_Pawn_Death</soundDeath>
+					<soundCall>Apini_Pawn_Wounded</soundCall>
+					<soundAngry>Apini_Pawn_Wounded</soundAngry>
 				</li>
 			</lifeStageAges>
-			<soundMeleeHitPawn>Pawn_Apini_Wounded</soundMeleeHitPawn>
+			<soundMeleeHitPawn>Apini_Pawn_Wounded</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>

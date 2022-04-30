@@ -61,7 +61,7 @@
 		<pathCost>80</pathCost>
 		<costList>
 			<ApiniHoney>5</ApiniHoney>
-			<Pollen>20</Pollen>
+			<ApiniPollen>20</ApiniPollen>
 		</costList>
 		<color>(.9, .9, .9)</color>
 	</TerrainDef>
@@ -76,7 +76,7 @@
 		<pathCost>95</pathCost>
 		<costList>
 			<ApiniHoney>10</ApiniHoney>
-			<Pollen>40</Pollen>
+			<ApiniPollen>40</ApiniPollen>
 		</costList>
 		<color>(.9, .9, .9)</color>
 	</TerrainDef>

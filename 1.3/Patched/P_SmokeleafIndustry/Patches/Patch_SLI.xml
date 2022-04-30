@@ -3,7 +3,7 @@
 <Patch>
 	<Operation Class="PatchOperationReplace">
 		<!-- Patch to assure that Apini and Azuri have the proper reaction to Smokeleaf Industry's drugs and hediffs. -->
-		<xpath>Defs/ThingDef[@Name="Alien_Bee"]/alienRace/generalSettings/chemicalSettings/li/chemical</xpath>
+		<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/alienRace/generalSettings/chemicalSettings/li/chemical</xpath>
 			<value>
 				<chemical>SLI_Smokeleaf</chemical>
 			</value>

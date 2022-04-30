@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef Name="NpiniBasic" Abstract="True">
+		<race>Necropini</race>
+		<label>necropini</label>
+		<baseRecruitDifficulty>0.75</baseRecruitDifficulty>
+		<backstoryCategories>
+			<li>ApiniSpecific</li>
+			<li>BeeGeneral</li>
+		</backstoryCategories>
+		<minGenerationAge>18</minGenerationAge>
+		<aiAvoidCover>false</aiAvoidCover>
+		<invNutrition>3</invNutrition>
+		<apparelTags>
+			<li>Bee</li>
+		</apparelTags>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<defaultFactionType>TribeApini</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="NpiniBasic">
+		<defName>NpiniPawn</defName>
+		<labelMale>necropini drone</labelMale>
+		<labelFemale>necropini</labelFemale>
+		<apparelMoney>200~400</apparelMoney>
+		<combatPower>40</combatPower>
+		<weaponMoney>200~400</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="NpiniBasic">
+		<defName>NpiniSoldier</defName>
+		<label>necropini soldier</label>
+		<baseRecruitDifficulty>0.85</baseRecruitDifficulty>
+		<combatPower>90</combatPower>
+		<apparelMoney>1000~1600</apparelMoney>
+		<weaponMoney>800~1100</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeAdvanced</li>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
+	</PawnKindDef>
+	<PawnKindDef ParentName="NpiniBasic">
+		<defName>NpiniOverseer</defName>
+		<label>overseer</label>
+		<combatPower>120</combatPower>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<itemQuality>Superior</itemQuality>
+		<minGenerationAge>35</minGenerationAge>
+		<factionLeader>true</factionLeader>
+		<gearHealthRange>0.7~3.0</gearHealthRange>
+		<apparelMoney>1600~2600</apparelMoney>
+		<weaponMoney>1000~1600</weaponMoney>
+		<weaponTags>
+			<li>EliteGun</li>
+			<!--B has a GUN?!-->
+		</weaponTags>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>7~11</initialResistanceRange>
+	</PawnKindDef>
+	<PawnKindDef ParentName="NpiniBasic">
+		<defName>NpiniTrader</defName>
+		<label>necropini trader</label>
+		<trader>true</trader>
+		<combatPower>60</combatPower>
+		<apparelMoney>500~1000</apparelMoney>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>12~20</initialResistanceRange>
+	</PawnKindDef>
+</Defs>

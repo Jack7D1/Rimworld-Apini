@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<!-- Honey Capsule -->
 	<ThingDef ParentName="ApiniBuildingBase">
-		<!-- Honey Capsule -->
-		<defName>HoneyCapsule</defName>
+		<defName>ApiniHoneyCapsule</defName>
 		<label>honey capsule</label>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar</inputThingDef>
+				<inputThingDef>ApiniNectar</inputThingDef>
 				<outputThingDef>ApiniHoney</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>2</fermentationModifier>
@@ -44,7 +44,7 @@
 		</statBases>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<costList>
-			<Pollen>20</Pollen>
+			<ApiniPollen>20</ApiniPollen>
 			<WoodLog>10</WoodLog>
 			<ApiniWax>30</ApiniWax>
 		</costList>
@@ -62,9 +62,9 @@
 		<constructEffect>ConstructWood</constructEffect>
 	</ThingDef>
 	<ThingDef ParentName="ApiniBuildingBase">
-		<!-- Nectar Still -->
+		<!-- ApiniNectar Still -->
 		<defName>ApiniNectarStill</defName>
-		<label>Apini Nectar Still</label>
+		<label>Apini ApiniNectar Still</label>
 		<thingClass>Building_WorkTable</thingClass>
 		<description>Primarily used to separate nectar from the pollen balls Apini form when harvesting flowers.</description>
 		<graphicData>
@@ -367,7 +367,7 @@
 			<li>ApicultureBasics</li>
 		</researchPrerequisites>
 	</ThingDef>
-	<ThingDef Name="VatBase" ParentName="ApiniBuildingBase" Abstract="True">
+	<ThingDef Name="ApiniVatBase" ParentName="ApiniBuildingBase" Abstract="True">
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Capsules/HoneyCapsule</texPath>
@@ -380,7 +380,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<researchPrerequisites>
-			<li>HoneyRefining</li>
+			<li>ApiniHoneyRefining</li>
 		</researchPrerequisites>
 		<fillPercent>0.45</fillPercent>
 		<pathCost>60</pathCost>
@@ -395,7 +395,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<costList>
-			<Pollen>20</Pollen>
+			<ApiniPollen>20</ApiniPollen>
 			<WoodLog>10</WoodLog>
 			<ApiniWax>30</ApiniWax>
 		</costList>
@@ -411,16 +411,16 @@
 		<rotatable>true</rotatable>
 		<constructEffect>ConstructWood</constructEffect>
 	</ThingDef>
-	<ThingDef ParentName="VatBase">
+	<ThingDef ParentName="ApiniVatBase">
 		<!-- Honey Vat (Frostbell) -->
-		<defName>Vat_F</defName>
+		<defName>ApiniVat_F</defName>
 		<label>Honey Capsule (Frostbell)</label>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar_F</inputThingDef>
-				<outputThingDef>Honey_F</outputThingDef>
+				<inputThingDef>ApiniNectar_F</inputThingDef>
+				<outputThingDef>ApiniHoney_F</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>3</fermentationModifier>
 				<!-- 1:4 ratio -->
@@ -437,16 +437,16 @@
 			<texPath>Things/Building/Capsules/HoneyCapsule_Frostbell</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="VatBase">
+	<ThingDef ParentName="ApiniVatBase">
 		<!-- Honey Vat (Emberose) -->
-		<defName>Vat_E</defName>
+		<defName>ApiniVat_E</defName>
 		<label>Honey Capsule (Emberose)</label>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar_E</inputThingDef>
-				<outputThingDef>Honey_E</outputThingDef>
+				<inputThingDef>ApiniNectar_E</inputThingDef>
+				<outputThingDef>ApiniHoney_E</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>3</fermentationModifier>
 				<!-- 1:4 ratio -->
@@ -463,16 +463,16 @@
 			<texPath>Things/Building/Capsules/HoneyCapsule_Emberose</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="VatBase">
+	<ThingDef ParentName="ApiniVatBase">
 		<!-- Honey Vat (Metalily) -->
-		<defName>Vat_M</defName>
+		<defName>ApiniVat_M</defName>
 		<label>Honey Capsule (Metalily)</label>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar_M</inputThingDef>
-				<outputThingDef>Honey_M</outputThingDef>
+				<inputThingDef>ApiniNectar_M</inputThingDef>
+				<outputThingDef>ApiniHoney_M</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>3</fermentationModifier>
 				<!-- 1:4 ratio -->
@@ -489,16 +489,16 @@
 			<texPath>Things/Building/Capsules/HoneyCapsule_Metalily</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="VatBase">
+	<ThingDef ParentName="ApiniVatBase">
 		<!-- Honey Vat (Bardsong) -->
-		<defName>Vat_B</defName>
+		<defName>ApiniVat_B</defName>
 		<label>Honey Capsule (Bardsong)</label>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar_B</inputThingDef>
-				<outputThingDef>Honey_B</outputThingDef>
+				<inputThingDef>ApiniNectar_B</inputThingDef>
+				<outputThingDef>ApiniHoney_B</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>3</fermentationModifier>
 				<!-- 1:4 ratio -->
@@ -515,16 +515,16 @@
 			<texPath>Things/Building/Capsules/HoneyCapsule_Bardsong</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="VatBase">
+	<ThingDef ParentName="ApiniVatBase">
 		<!-- Honey Vat (Rushthorn) -->
-		<defName>Vat_R</defName>
+		<defName>ApiniVat_R</defName>
 		<label>Honey Capsule (Rushthorn)</label>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar_R</inputThingDef>
-				<outputThingDef>Honey_R</outputThingDef>
+				<inputThingDef>ApiniNectar_R</inputThingDef>
+				<outputThingDef>ApiniHoney_R</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>3</fermentationModifier>
 				<!-- 1:4 ratio -->
@@ -541,16 +541,16 @@
 			<texPath>Things/Building/Capsules/HoneyCapsule_Rushthorn</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="VatBase">
+	<ThingDef ParentName="ApiniVatBase">
 		<!-- Honey Vat (Wiserbud) -->
-		<defName>Vat_W</defName>
+		<defName>ApiniVat_W</defName>
 		<label>Honey Capsule (Wiserbud)</label>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar_W</inputThingDef>
-				<outputThingDef>Honey_W</outputThingDef>
+				<inputThingDef>ApiniNectar_W</inputThingDef>
+				<outputThingDef>ApiniHoney_W</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>3</fermentationModifier>
 				<!-- 1:4 ratio -->
@@ -567,16 +567,16 @@
 			<texPath>Things/Building/Capsules/HoneyCapsule_Wiserbud</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="VatBase">
+	<ThingDef ParentName="ApiniVatBase">
 		<!-- Honey Vat (Vigorbloom) -->
-		<defName>Vat_V</defName>
+		<defName>ApiniVat_V</defName>
 		<label>Honey Capsule (Vigorbloom)</label>
 		<description>A hexagonal container for creating honey from nectar.</description>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar_V</inputThingDef>
-				<outputThingDef>Honey_V</outputThingDef>
+				<inputThingDef>ApiniNectar_V</inputThingDef>
+				<outputThingDef>ApiniHoney_V</outputThingDef>
 				<maxCapacity>200</maxCapacity>
 				<fermentationModifier>3</fermentationModifier>
 				<!-- 1:4 ratio -->
@@ -595,12 +595,12 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniBuildingBase">
 		<!-- Honey Vat -->
-		<defName>HoneyVat</defName>
+		<defName>ApiniHoneyVat</defName>
 		<label>honey vat</label>
 		<thingClass>Apini.Building_FermentingVat</thingClass>
 		<modExtensions>
 			<li Class="Apini.VatProperties">
-				<inputThingDef>Nectar</inputThingDef>
+				<inputThingDef>ApiniNectar</inputThingDef>
 				<outputThingDef>ApiniHoney</outputThingDef>
 				<maxCapacity>5000</maxCapacity>
 				<fermentationModifier>1</fermentationModifier>
@@ -639,7 +639,7 @@
 		<size>(3,3)</size>
 		<description>A massive hexagonal container for creating honey from unflavored nectar.</description>
 		<costList>
-			<Pollen>250</Pollen>
+			<ApiniPollen>250</ApiniPollen>
 			<WoodLog>250</WoodLog>
 			<ApiniWax>300</ApiniWax>
 		</costList>
@@ -655,7 +655,7 @@
 		<rotatable>false</rotatable>
 		<constructEffect>ConstructWood</constructEffect>
 		<researchPrerequisites>
-			<li>HoneyRefining</li>
+			<li>ApiniHoneyRefining</li>
 		</researchPrerequisites>
 	</ThingDef>
 </Defs>

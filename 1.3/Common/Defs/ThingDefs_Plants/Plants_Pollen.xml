@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingCategoryDef>
-		<defName>Pollen</defName>
+		<defName>ApiniPollen</defName>
 		<label>pollen</label>
 		<iconPath>Things/Item/Resource/Pollen/Pollen</iconPath>
 		<parent>PlantMatter</parent>
 	</ThingCategoryDef>
 	<ThingCategoryDef>
-		<defName>PollenBall</defName>
+		<defName>ApiniPollenBall</defName>
 		<label>pollen balls</label>
 		<iconPath>Things/Item/PollenBall/PollenBall</iconPath>
-		<parent>Pollen</parent>
+		<parent>ApiniPollen</parent>
 	</ThingCategoryDef>
 	<!--============================ Flowers ===============================-->
 	<ThingDef ParentName="ApiniPlantBase" Name="ApiniPlants" Abstract="True">
@@ -50,14 +50,14 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Lavender -->
-		<defName>PlantLavenderApini</defName>
+		<defName>ApiniPlantLavender</defName>
 		<label>Lavender</label>
 		<description>A hardy herb known for its calming fragrance.</description>
 		<graphicData>
 			<texPath>Things/Plant/Lavender</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall</harvestedThingDef>
 			<fertilityMin>0.2</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<growDays>3</growDays>
@@ -67,7 +67,7 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Apini Daisy -->
-		<defName>PlantDaisyApini</defName>
+		<defName>ApiniPlantDaisy</defName>
 		<label>Apini daisy</label>
 		<description>A pleasant flower that was one of the first to be grown by Apini. It produces so much pollen that some hives can't manage it.</description>
 		<graphicData>
@@ -75,7 +75,7 @@
 		</graphicData>
 		<plant>
 			<harvestYield>15</harvestYield>
-			<harvestedThingDef>PollenBall</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall</harvestedThingDef>
 			<sowMinSkill>2</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeBasic</li>
@@ -84,14 +84,14 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Frostbell -->
-		<defName>PlantFrostbell</defName>
+		<defName>ApiniPlantFrostbell</defName>
 		<label>Frostbell</label>
 		<description>A unique flower that has been cultivated by the Apini for centuries. It is often cool to the touch.</description>
 		<graphicData>
 			<texPath>Things/Plant/Frostbell</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall_F</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall_F</harvestedThingDef>
 			<sowMinSkill>2</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeBasic</li>
@@ -100,14 +100,14 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Emberose -->
-		<defName>PlantEmberose</defName>
+		<defName>ApiniPlantEmberose</defName>
 		<label>Emberose</label>
 		<description>A beautiful flower that draws many admirers with its bright glow. Its temperature is highest when touched.</description>
 		<graphicData>
 			<texPath>Things/Plant/Emberose</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall_E</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall_E</harvestedThingDef>
 			<sowMinSkill>4</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeAdvanced</li>
@@ -116,14 +116,14 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Metalily -->
-		<defName>PlantMetalily</defName>
+		<defName>ApiniPlantMetalily</defName>
 		<label>Metalily</label>
 		<description>A flower with a steely appearance, though it's petals are soft to touch, they are just as resitant to damage as their name would suggest.</description>
 		<graphicData>
 			<texPath>Things/Plant/Metalily</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall_M</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall_M</harvestedThingDef>
 			<sowMinSkill>4</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeAdvanced</li>
@@ -132,14 +132,14 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Bardsong -->
-		<defName>PlantBardsong</defName>
+		<defName>ApiniPlantBardsong</defName>
 		<label>Bardsong</label>
 		<description>A strange flower that carries a tune.  Sometimes a sound will be picked up from another flower a great distance away.</description>
 		<graphicData>
 			<texPath>Things/Plant/Bardsong</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall_B</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall_B</harvestedThingDef>
 			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeMind</li>
@@ -148,14 +148,14 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Rushthorn -->
-		<defName>PlantRushthorn</defName>
+		<defName>ApiniPlantRushthorn</defName>
 		<label>Rushthorn</label>
 		<description>The wind that pass by these plants actually pick up in speed.  At one time there was a valley full of these, and every passing breeze turned into a thrashing gale.</description>
 		<graphicData>
 			<texPath>Things/Plant/Rushthorn</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall_R</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall_R</harvestedThingDef>
 			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeBody</li>
@@ -164,14 +164,14 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Wiserbud -->
-		<defName>PlantWiserbud</defName>
+		<defName>ApiniPlantWiserbud</defName>
 		<label>Wiserbud</label>
 		<description>Thoughts seem to flow easier and quicker when sipping the nectar of this flower.  Supposedly this is how the Apini gained their independance.</description>
 		<graphicData>
 			<texPath>Things/Plant/Wiserbud</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall_W</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall_W</harvestedThingDef>
 			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeMind</li>
@@ -180,22 +180,22 @@
 	</ThingDef>
 	<ThingDef ParentName="ApiniPlants">
 		<!-- Vigorbloom -->
-		<defName>PlantVigorbloom</defName>
+		<defName>ApiniPlantVigorbloom</defName>
 		<label>Vigorbloom</label>
 		<description>An invigorating aromatic flower. While Apini who harvested Wiserbuds gained a stronger sense of self, Azuri prefered the flavor of the Vigorbloom.</description>
 		<graphicData>
 			<texPath>Things/Plant/Vigorbloom</texPath>
 		</graphicData>
 		<plant>
-			<harvestedThingDef>PollenBall_V</harvestedThingDef>
+			<harvestedThingDef>ApiniPollenBall_V</harvestedThingDef>
 			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>ApiniPlantKnowledgeBody</li>
 			</sowResearchPrerequisites>
 		</plant>
 	</ThingDef>
-	<ThingDef ParentName="RoughPlantBase" Name="PollenBase" Abstract="True">
-		<!-- PollenBase -->
+	<ThingDef Name="ApiniPollenBase" ParentName="RoughPlantBase" Abstract="True">
+		<!-- ApiniPollenBase -->
 		<stackLimit>1000</stackLimit>
 		<graphicData>
 			<texPath>Things/Item/Resource/Pollen/Pollen</texPath>
@@ -211,24 +211,24 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase" Name="PollenBallBase" Abstract="True">
-		<!--PollenBallBase-->
+	<ThingDef Name="ApiniPollenBallBase" ParentName="ApiniPollenBase" Abstract="True">
+		<!--ApiniPollenBallBase-->
 		<thingCategories>
-			<li>PollenBall</li>
+			<li>ApiniPollenBall</li>
 		</thingCategories>
 	</ThingDef>
-	<ThingDef ParentName="PollenBase">
+	<ThingDef ParentName="ApiniPollenBase">
 		<!-- Pollen -->
-		<defName>Pollen</defName>
-		<label>Pollen</label>
+		<defName>ApiniPollen</defName>
+		<label>ApiniPollen</label>
 		<description>Raw pollen extracted from pollen balls.  Used by Apini in various recipies.</description>
 		<thingCategories>
-			<li>Pollen</li>
+			<li>ApiniPollen</li>
 		</thingCategories>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball -->
-		<defName>PollenBall</defName>
+		<defName>ApiniPollenBall</defName>
 		<label>Pollen Ball</label>
 		<description>A ball of pollen and nectar gathered from plants. The vital ingredient to make unflavored honey.</description>
 		<graphicData>
@@ -236,13 +236,13 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Pollen>10</Pollen>
-			<Nectar>7</Nectar>
+			<ApiniPollen>10</ApiniPollen>
+			<ApiniNectar>7</ApiniNectar>
 		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball (Frostbell) -->
-		<defName>PollenBall_F</defName>
+		<defName>ApiniPollenBall_F</defName>
 		<label>Pollen Ball (Frostbell)</label>
 		<description>A ball of pollen and nectar gathered from frostbells. The vital ingredient to make cool honey.</description>
 		<graphicData>
@@ -250,14 +250,14 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_F>5</Nectar_F>
-			<Pollen>10</Pollen>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_F>5</ApiniNectar_F>
+			<ApiniPollen>10</ApiniPollen>
 		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball (Emberose) -->
-		<defName>PollenBall_E</defName>
+		<defName>ApiniPollenBall_E</defName>
 		<label>Pollen Ball (Emberose)</label>
 		<description>A ball of pollen and nectar gathered from Emberoses. The vital ingredient to make hot honey.</description>
 		<graphicData>
@@ -265,14 +265,14 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_E>5</Nectar_E>
-			<Pollen>10</Pollen>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_E>5</ApiniNectar_E>
+			<ApiniPollen>10</ApiniPollen>
 		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball (Metalily) -->
-		<defName>PollenBall_M</defName>
+		<defName>ApiniPollenBall_M</defName>
 		<label>Pollen Ball (Metalily)</label>
 		<description>A ball of pollen and nectar gathered from Metalilies. The vital ingredient to make Rough honey.</description>
 		<graphicData>
@@ -280,14 +280,14 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_M>5</Nectar_M>
-			<Pollen>10</Pollen>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_M>5</ApiniNectar_M>
+			<ApiniPollen>10</ApiniPollen>
 		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball (Bardsong) -->
-		<defName>PollenBall_B</defName>
+		<defName>ApiniPollenBall_B</defName>
 		<label>Pollen Ball (Bardsong)</label>
 		<description>A ball of pollen and nectar gathered from Bardsongs. The vital ingredient to make Smooth honey.</description>
 		<graphicData>
@@ -295,14 +295,14 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_B>5</Nectar_B>
-			<Pollen>10</Pollen>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_B>5</ApiniNectar_B>
+			<ApiniPollen>10</ApiniPollen>
 		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball (Rushthorn) -->
-		<defName>PollenBall_R</defName>
+		<defName>ApiniPollenBall_R</defName>
 		<label>Pollen Ball (Rushthorn)</label>
 		<description>A ball of pollen and nectar gathered from Rushthorns. The vital ingredient to make Swift honey.</description>
 		<graphicData>
@@ -310,14 +310,14 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_R>5</Nectar_R>
-			<Pollen>10</Pollen>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_R>5</ApiniNectar_R>
+			<ApiniPollen>10</ApiniPollen>
 		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball (Wiserbud) -->
-		<defName>PollenBall_W</defName>
+		<defName>ApiniPollenBall_W</defName>
 		<label>Pollen Ball (Wiserbud)</label>
 		<description>A ball of pollen and nectar gathered from Wiserbuds. The vital ingredient to make Smart honey.</description>
 		<graphicData>
@@ -325,14 +325,14 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_W>5</Nectar_W>
-			<Pollen>10</Pollen>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_W>5</ApiniNectar_W>
+			<ApiniPollen>10</ApiniPollen>
 		</smeltProducts>
 	</ThingDef>
-	<ThingDef ParentName="PollenBallBase">
+	<ThingDef ParentName="ApiniPollenBallBase">
 		<!-- Pollen Ball (Vigorbloom) -->
-		<defName>PollenBall_V</defName>
+		<defName>ApiniPollenBall_V</defName>
 		<label>Pollen Ball (Vigorbloom)</label>
 		<description>A ball of pollen and nectar gathered from Vigorblooms. The vital ingredient to make Brute honey.</description>
 		<graphicData>
@@ -340,9 +340,9 @@
 		</graphicData>
 		<smeltable>true</smeltable>
 		<smeltProducts>
-			<Nectar>2</Nectar>
-			<Nectar_V>5</Nectar_V>
-			<Pollen>10</Pollen>
+			<ApiniNectar>2</ApiniNectar>
+			<ApiniNectar_V>5</ApiniNectar_V>
+			<ApiniPollen>10</ApiniPollen>
 		</smeltProducts>
 	</ThingDef>
 </Defs>

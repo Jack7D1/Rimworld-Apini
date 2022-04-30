@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<WorkTypeDef>
-		<defName>HoneyMaker</defName>
+		<defName>ApiniHoneyMaker</defName>
 		<labelShort>Honey Maker</labelShort>
 		<pawnLabel>Honey Maker</pawnLabel>
 		<gerundLabel>Honey Making</gerundLabel>

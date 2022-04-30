@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- ============================ Moobee Base ========================== -->
-	<ThingDef ParentName="AnimalThingBase" Name="Apini_PetBase">
+	<ThingDef ParentName="AnimalThingBase" Name="ApiniPetBase">
 		<defName>Moobee</defName>
 		<label>Moobee</label>
 		<description>Distant relative to the Apini. These gigantic bees harvest vast quantities of nectar and self-produce honey.\n While they do possess some mamalian DNA like their cousins, these docile beasts prefer to go about blissfully ignorant of the world around them caring only for their next meal.\n The hive they host within the walls of their thorax fills to a harvestable amount daily, producing a steady flow of delicious honey for those that care for them.</description>
@@ -10,11 +10,11 @@
 			<ToxicSensitivity>2</ToxicSensitivity>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>46</ComfyTemperatureMax>
-			<LeatherAmount>100</LeatherAmount>
+			<LeatherAmount>75</LeatherAmount>
 			<MarketValue>1000</MarketValue>
 			<MoveSpeed>4</MoveSpeed>
 			<Flammability>0.75</Flammability>
-			<CarryingCapacity>1000</CarryingCapacity>
+			<CarryingCapacity>500</CarryingCapacity>
 			<MentalBreakThreshold>0.01</MentalBreakThreshold>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
@@ -61,7 +61,7 @@
 		<race>
 			<body>Moobee</body>
 			<packAnimal>true</packAnimal>
-			<baseBodySize>3</baseBodySize>
+			<baseBodySize>2</baseBodySize>
 			<baseHealthScale>3</baseHealthScale>
 			<baseHungerRate>0.5</baseHungerRate>
 			<foodType>VegetarianRoughAnimal, Fluid</foodType>
@@ -98,13 +98,13 @@
 				<li>
 					<def>MoobeeAdult</def>
 					<minAge>3</minAge>
-					<soundWounded>Pawn_Moobee_Wounded</soundWounded>
-					<soundDeath>Pawn_Moobee_Death</soundDeath>
-					<soundCall>Pawn_Moobee_Wounded</soundCall>
-					<soundAngry>Pawn_Moobee_Wounded</soundAngry>
+					<soundWounded>Moobee_Pawn_Wounded</soundWounded>
+					<soundDeath>Moobee_Pawn_Death</soundDeath>
+					<soundCall>Moobee_Pawn_Wounded</soundCall>
+					<soundAngry>Moobee_Pawn_Wounded</soundAngry>
 				</li>
 			</lifeStageAges>
-			<soundMeleeHitPawn>Pawn_Moobee_Wounded</soundMeleeHitPawn>
+			<soundMeleeHitPawn>Moobee_Pawn_Wounded</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<ageGenerationCurve>

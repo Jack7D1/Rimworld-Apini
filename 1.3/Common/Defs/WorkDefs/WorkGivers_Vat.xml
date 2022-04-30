@@ -4,16 +4,16 @@
 	<!--============================ Fill Vat ===============================-->
 	<WorkGiverDef>
 		<!-- Fill Vat -->
-		<defName>FillHoneyVat</defName>
+		<defName>ApiniFillHoneyVat</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>HoneyVat</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniHoneyVat</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -23,16 +23,16 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Capsule -->
-		<defName>FillHoneyCapsule</defName>
+		<defName>ApiniFillHoneyCapsule</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>HoneyCapsule</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniHoneyCapsule</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -42,16 +42,16 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Vat (Frostbell) -->
-		<defName>FillVat_F</defName>
+		<defName>ApiniFillVat_F</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_F</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_F</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -61,16 +61,16 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Vat (Emberose) -->
-		<defName>FillVat_E</defName>
+		<defName>ApiniFillVat_E</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_E</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_E</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -80,16 +80,16 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Vat (Metalily) -->
-		<defName>FillVat_M</defName>
+		<defName>ApiniFillVat_M</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_M</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_M</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -99,16 +99,16 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Vat (Bardsong) -->
-		<defName>FillVat_B</defName>
+		<defName>ApiniFillVat_B</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_B</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_B</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -118,16 +118,16 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Vat (Rushthorn) -->
-		<defName>FillVat_R</defName>
+		<defName>ApiniFillVat_R</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_R</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_R</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -137,16 +137,16 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Vat (Wiserbud) -->
-		<defName>FillVat_W</defName>
+		<defName>ApiniFillVat_W</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_W</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_W</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -156,16 +156,35 @@
 	</WorkGiverDef>
 	<WorkGiverDef>
 		<!-- Fill Vat (Vigorbloom) -->
-		<defName>FillVat_V</defName>
+		<defName>ApiniFillVat_V</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<inputThingDef>Vat_V</inputThingDef>
-				<jobDef>FillFermentingVat</jobDef>
+				<inputThingDef>ApiniVat_V</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>fill fermenting vats</label>
 		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>5</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+		<WorkGiverDef>
+		<!-- Fill Vat (Meat Honey) -->
+		<defName>NpiniFillVat</defName>
+		<modExtensions>
+			<li Class="Apini.WorkgiverFermentingVatProperties">
+				<inputThingDef>NpiniMeatHoneyVat</inputThingDef>
+				<jobDef>ApiniFillFermentingVat</jobDef>
+			</li>
+		</modExtensions>
+		<label>fill fermenting vats</label>
+		<giverClass>Apini.WorkGiver_FillFermentingVat</giverClass>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>fill</verb>
 		<gerund>filling</gerund>
 		<priorityInType>5</priorityInType>
@@ -179,13 +198,13 @@
 		<defName>TakeHoneyOutOfFermentingVat</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>HoneyVat</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniHoneyVat</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -198,13 +217,13 @@
 		<defName>EmptyHoneyCapsule</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>HoneyCapsule</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniHoneyCapsule</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -217,13 +236,13 @@
 		<defName>EmptyVat_F</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_F</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_F</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -236,13 +255,13 @@
 		<defName>EmptyVat_E</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_E</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_E</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -255,13 +274,13 @@
 		<defName>EmptyVat_M</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_M</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_M</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -274,13 +293,13 @@
 		<defName>EmptyVat_B</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_B</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_B</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -293,13 +312,13 @@
 		<defName>EmptyVat_R</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_R</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_R</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -312,13 +331,13 @@
 		<defName>EmptyVat_W</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_W</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_W</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -331,13 +350,32 @@
 		<defName>EmptyVat_V</defName>
 		<modExtensions>
 			<li Class="Apini.WorkgiverFermentingVatProperties">
-				<outputThingDef>Vat_V</outputThingDef>
-				<jobDef>TakeThingOutOfFermentingVat</jobDef>
+				<outputThingDef>ApiniVat_V</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
 			</li>
 		</modExtensions>
 		<label>take honey out of fermenting vat</label>
 		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
+		<verb>take honey</verb>
+		<gerund>taking honey from</gerund>
+		<priorityInType>20</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+		<WorkGiverDef>
+		<!-- Empty Vat (Meat Honey) -->
+		<defName>NpiniEmptyVat</defName>
+		<modExtensions>
+			<li Class="Apini.WorkgiverFermentingVatProperties">
+				<outputThingDef>NpiniMeatHoneyVat</outputThingDef>
+				<jobDef>ApiniTakeThingOutOfFermentingVat</jobDef>
+			</li>
+		</modExtensions>
+		<label>take honey out of fermenting vat</label>
+		<giverClass>Apini.WorkGiver_TakeThingOutOfFermenter</giverClass>
+		<workType>ApiniHoneyMaker</workType>
 		<verb>take honey</verb>
 		<gerund>taking honey from</gerund>
 		<priorityInType>20</priorityInType>
@@ -349,7 +387,7 @@
 		<defName>NectarStillBill</defName>
 		<label>distill nectar from pollen balls</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
-		<workType>HoneyMaker</workType>
+		<workType>ApiniHoneyMaker</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
 			<li>ApiniNectarStill</li>

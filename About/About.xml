@@ -36,6 +36,7 @@
 	</loadBefore>
 	<incompatibleWith>
 		<li>rwmt.Multiplayer</li>
+		<li>InfinityKage.Necropini</li>
 	</incompatibleWith>
 	<description>
 		Report bugs over on the github page!
