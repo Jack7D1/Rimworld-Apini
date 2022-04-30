@@ -1,5 +1,0 @@
-/home/jack/Downloads/ApiniConvert/bin/Debug/net6.0/publish/ApiniConvert
-/home/jack/Downloads/ApiniConvert/bin/Debug/net6.0/publish/ApiniConvert.dll
-/home/jack/Downloads/ApiniConvert/bin/Debug/net6.0/publish/ApiniConvert.deps.json
-/home/jack/Downloads/ApiniConvert/bin/Debug/net6.0/publish/ApiniConvert.runtimeconfig.json
-/home/jack/Downloads/ApiniConvert/bin/Debug/net6.0/publish/ApiniConvert.pdb
