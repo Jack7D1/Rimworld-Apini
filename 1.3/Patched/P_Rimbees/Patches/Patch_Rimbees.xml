@@ -168,7 +168,7 @@
 					<RB_Beeswax>30</RB_Beeswax>
 				</value>
 			</li>
-			
+
 			<!-- ApiniNectarStill -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "ApiniNectarStill"]/costList/ApiniWax</xpath>
@@ -238,11 +238,13 @@
 					</costList>
 				</value>
 			</li>
-						<!--Meat Honey Vat-->
+			<!--Meat Honey Vat-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "MeatHoneyVat"]/costList/ApiniWax</xpath>
 				<value>
-					<RB_Beeswax>30</RB_Beeswax>
+					<costList>
+						<RB_Beeswax>30</RB_Beeswax>
+					</costList>
 				</value>
 			</li>
 			<!-- Beeswax production -->
