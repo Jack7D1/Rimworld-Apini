@@ -3,18 +3,50 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
+			<!-- ApiniSoldier -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="ApiniSoldier"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>2</min>
+							<max>4</max>
+						</primaryMagazineCount>
+						<shieldMoney>
+							<min>200</min>
+							<max>500</max>
+						</shieldMoney>
+						<shieldTags>
+							<li>TribalShield</li>
+						</shieldTags>
+						<shieldChance>0.6</shieldChance>
+						<sidearms>
+							<li>
+								<sidearmMoney>
+									<min>300</min>
+									<max>900</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>CE_Sidearm_Tribal</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+
 			<!-- ApiniOverseer -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/PawnKindDef[defName="ApiniOverseer"]</xpath>
 				<value>
 					<li Class="CombatExtended.LoadoutPropertiesExtension">
 						<primaryMagazineCount>
-							<min>30</min>
-							<max>60</max>
+							<min>2</min>
+							<max>4</max>
 						</primaryMagazineCount>
 						<shieldMoney>
 							<min>300</min>
-							<max>747</max>
+							<max>800</max>
 						</shieldMoney>
 						<shieldTags>
 							<li>TribalShield</li>
