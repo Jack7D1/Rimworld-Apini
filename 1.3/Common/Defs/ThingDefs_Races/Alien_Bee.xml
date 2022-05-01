@@ -157,7 +157,6 @@
 					<li>Apparel_PsychicFoilHelmet</li>
 					<li>Apparel_ShieldBelt</li>
 					<li>Apparel_SmokepopBelt</li>
-					<li>Apparel_FlakVest</li>
 					<li>TornadoGenerator</li>
 					<li>OrbitalTargeterPowerBeam</li>
 					<li>OrbitalTargeterBombardment</li>
@@ -173,7 +172,6 @@
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Gunlink</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Cape</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Beret</li>
-					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_RobeRoyal</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_EltexSkullcap</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
@@ -189,54 +187,78 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
 					<!--From Apparello-->
-					<li MayRequire="Shinzy.Apparello">Apparello_Beret</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Cardshark</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Commissar</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Cookaprontosaurus</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Cybissar</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Cyninja</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Fedora</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_GShellII</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Gshell</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Lecap</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Kurt</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Medband</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Medihelmet</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Meffect</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Mojo</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Mojotwo</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Moron</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Orkpad</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Plainhat</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_PonPon</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Raideroos</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Sandtrader</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Sheet</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Sombrero</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Tophat</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Tribalshield</li>
-					<li MayRequire="Shinzy.Apparello">Apparello_Urpad</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Wendywelder</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Hardhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Chefhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Chefhatplus</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cyninja</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Medihelmet</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Proto</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_ProtoFin</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Commissar</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Gassy</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cybissar</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Medband</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Docteur</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Plainhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Furhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Bandit</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cardshark</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_TriMeCornMatey</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Sandtrader</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tradecone</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Fedora</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Headset</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Beret</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tophat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Bandal</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Vandal</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Lecap</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Hoood</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Sombrero</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Moron</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_MedicalApron</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Smithaprontosaurus</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cookaprontosaurus</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_PonPon</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Orkpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Urpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Ammobelt</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tribalpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tribalshield</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Doom</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Quotee</li>
+					<li MayRequire="Shinzy.Apparello">Apparel_Psymask</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Zorro</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Footy</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Meffect</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Meffectwo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Kurt</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Kurtlite</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Rockman</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Raideroos</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Yi</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Raz</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Goggles</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Visoor</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Shadess</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Piloggle</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Brimsk</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Mojo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Mojotwo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_MojoFeather</li>
 					<!--From Vanilla Armor Expanded-->
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_Balaclava</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_BallisticGoggles</li>
-					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_WoodenArmor</li>
-					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_LightPlateArmor</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_PlateShoulderpads</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_NightVisionGoggles</li>
-					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_BulletproofVest</li>
-					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_AdvancedVest</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_TrooperHelmet</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_HeavyMarineHelmet</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_RoyalTrooperHelmet</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_RoyalSiegeHelmet</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_StoneWarMask</li>
 					<!--From Vanilla Apparel Expanded-->
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalPoncho</li>
@@ -275,7 +297,25 @@
 					<!--From Combat Extended-->
 					<li MayRequire="CETeam.CombatExtended">Apparel_MeleeShield</li>
 					<li MayRequire="CETeam.CombatExtended">Apparel_BallisticShield</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_Bascinet</li>
 					<li MayRequire="CETeam.CombatExtended">Apparel_TacVest</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_GasMask</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_ImprovGasMask</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_SimpleNightVision</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_AdvancedNightVision</li>
+					<!--From Combat Extended: Shields-->
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_NguniShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_WickerShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Aspis</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Scutum</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Norse</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_KiteShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_CrusaderShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Pavise</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Buckler</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_RiotShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_AssaultShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_TacShield</li>
 					<!--From Ivory and Jade Carving-->
 					<li MayRequire="Mlie.IvoryAndJadeCarving">jade_band</li>
 					<!--From Rim of Madness-->

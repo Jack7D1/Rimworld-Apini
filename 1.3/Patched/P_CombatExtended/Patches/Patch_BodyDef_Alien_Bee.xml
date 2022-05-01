@@ -11,7 +11,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "Abdomen"]/groups</xpath>
+				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "ApiniInsectAbdomen"]/groups</xpath>
 				<value>
 					<li>CoveredByNaturalArmor</li>
 				</value>
@@ -30,31 +30,7 @@
 					<li>CoveredByNaturalArmor</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li/parts/li/parts/li[def = "InsectNostril"]/groups</xpath>
-				<value>
-					<li>CoveredByNaturalArmor</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li/parts/li/parts/li[def = "InsectMouth"]/groups</xpath>
-				<value>
-					<li>CoveredByNaturalArmor</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li/parts/li/parts/li/parts/li[def = "Mandible"]/groups</xpath>
-				<value>
-					<li>CoveredByNaturalArmor</li>
-				</value>
-			</li>
 			<!-- Arms equivalent and its children. -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "ApiniFrontLeg"]/groups</xpath>
-				<value>
-					<li>CoveredByNaturalArmor</li>
-				</value>
-			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[customLabel = "left front leg"]/groups</xpath>
 				<value>
@@ -69,25 +45,7 @@
 					<li>RightShoulder</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li/parts/li[def = "Tarsal"]/groups</xpath>
-				<value>
-					<li>CoveredByNaturalArmor</li>
-				</value>
-			</li>
 			<!-- Legs equivalent and its children. -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "InsectLeg"]/groups</xpath>
-				<value>
-					<li>CoveredByNaturalArmor</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li/parts/li[def = "Tarsus"]/groups</xpath>
-				<value>
-					<li>CoveredByNaturalArmor</li>
-				</value>
-			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/BodyPartDef[defName = "InsectLeg"]/bleedRate</xpath>
 			</li>
