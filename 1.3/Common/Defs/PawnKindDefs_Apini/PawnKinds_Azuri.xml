@@ -39,6 +39,10 @@
 			<li>Gun</li>
 			<li>EliteGun</li>
 		</weaponTags>
+		<apparelTags>
+			<li>Bee</li>
+			<li>BeeMilitary</li>
+		</apparelTags>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>7~12</initialResistanceRange>
 		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
@@ -77,6 +81,7 @@
 		</techHediffsTags>
 		<apparelTags>
 			<li>Bee</li>
+			<li>BeeMilitary</li>
 			<li>Neolithic</li>
 			<li>Outlander</li>
 			<li>IndustrialBasic</li>

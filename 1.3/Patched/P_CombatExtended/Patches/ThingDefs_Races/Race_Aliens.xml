@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A thanks to Saebbi for making this patch (even though i had to redo it alot) -->
+<Patch>
+	<!-- Base bee patch -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Inventory -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/inspectorTabs</xpath>
+				<value>
+					<li>CombatExtended.ITab_Inventory</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/comps</xpath>
+				<value>
+					<li Class="CombatExtended.CompProperties_Inventory"/>
+				</value>
+			</li>
+
+			<!-- Giving the aliens CE comps -->
+			<!-- Done seperately for each alien race because of possible unintended interaction if combined into one -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/comps</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/comps</xpath>
+					<value>
+						<li>
+							<compClass>CombatExtended.CompPawnGizmo</compClass>
+						</li>
+						<li Class="CombatExtended.CompProperties_Suppressable"/>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]</xpath>
+					<value>
+						<comps>
+							<li>
+								<compClass>CombatExtended.CompPawnGizmo</compClass>
+							</li>
+							<li Class="CombatExtended.CompProperties_Suppressable"/>
+						</comps>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]/comps</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]/comps</xpath>
+					<value>
+						<li>
+							<compClass>CombatExtended.CompPawnGizmo</compClass>
+						</li>
+						<li Class="CombatExtended.CompProperties_Suppressable"/>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]</xpath>
+					<value>
+						<comps>
+							<li>
+								<compClass>CombatExtended.CompPawnGizmo</compClass>
+							</li>
+							<li Class="CombatExtended.CompProperties_Suppressable"/>
+						</comps>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Necropini"]/comps</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Necropini"]/comps</xpath>
+					<value>
+						<li>
+							<compClass>CombatExtended.CompPawnGizmo</compClass>
+						</li>
+						<li Class="CombatExtended.CompProperties_Suppressable"/>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Necropini"]</xpath>
+					<value>
+						<comps>
+							<li>
+								<compClass>CombatExtended.CompPawnGizmo</compClass>
+							</li>
+							<li Class="CombatExtended.CompProperties_Suppressable"/>
+						</comps>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini" or defName="Azuri" or defName="Necropini"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Humanoid</bodyShape>
+					</li>
+				</value>
+			</li>
+
+			<!-- Custom stats and attacks -->
+			<!-- Apini -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Apini"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<AimingAccuracy>1.1</AimingAccuracy>
+					<MeleeCritChance>0.92</MeleeCritChance>
+					<MeleeParryChance>0.69</MeleeParryChance>
+					<Suppressability>1.5</Suppressability>
+					<ReloadSpeed>1.1</ReloadSpeed>
+					<MeleeDodgeChance>1.07</MeleeDodgeChance>
+					<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Apini"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Apini"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>1.14</cooldownTime>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>10</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.181</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.09</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>1.14</cooldownTime>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>10</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.181</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.09</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>mandibles</label>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>7</power>
+							<cooldownTime>1.35</cooldownTime>
+							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.362</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							<chanceFactor>0.5</chanceFactor>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Azuri -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Azuri"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<AimingAccuracy>1.05</AimingAccuracy>
+					<MeleeCritChance>1.37</MeleeCritChance>
+					<MeleeParryChance>0.85</MeleeParryChance>
+					<Suppressability>0.5</Suppressability>
+					<ReloadSpeed>1.05</ReloadSpeed>
+					<MeleeDodgeChance>1.3</MeleeDodgeChance>
+					<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Azuri"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Azuri"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities>
+								<li>Cut</li>
+							</capacities>
+							<power>7</power>
+							<cooldownTime>0.93</cooldownTime>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>15</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.29</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities>
+								<li>Cut</li>
+							</capacities>
+							<power>7</power>
+							<cooldownTime>0.93</cooldownTime>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>15</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.29</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>mandibles</label>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>1.11</cooldownTime>
+							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.721</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.03</armorPenetrationSharp>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Necropini -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Necropini"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<AimingAccuracy>1.1</AimingAccuracy>
+					<MeleeCritChance>0.92</MeleeCritChance>
+					<MeleeParryChance>0.69</MeleeParryChance>
+					<Suppressability>1.5</Suppressability>
+					<ReloadSpeed>1.1</ReloadSpeed>
+					<MeleeDodgeChance>1.07</MeleeDodgeChance>
+					<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Necropini"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Necropini"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>1.14</cooldownTime>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>10</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.181</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.09</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>1.14</cooldownTime>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>10</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.181</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.09</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>mandibles</label>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>7</power>
+							<cooldownTime>1.35</cooldownTime>
+							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.362</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							<chanceFactor>0.5</chanceFactor>
+						</li>
+					</tools>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

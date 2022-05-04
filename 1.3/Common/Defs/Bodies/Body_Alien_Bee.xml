@@ -184,7 +184,7 @@
 					<def>ApiniInsectAbdomen</def>
 					<customLabel>abdomen</customLabel>
 					<coverage>0.11</coverage>
-					<height>Middle</height>
+					<height>Bottom</height>
 					<groups>
 						<li>ApiniInsectAbdomen</li>
 						<li>Waist</li>
@@ -196,7 +196,7 @@
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 					<groups>
-						<li>ApiniFrontLeg</li>
+						<li>ApiniFrontLegs</li>
 						<li>Arms</li>
 						<li>Shoulders</li>
 						<!-- so that they don't wear 100 shoulderpads from Apparello -->
@@ -237,7 +237,7 @@
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 					<groups>
-						<li>ApiniFrontLeg</li>
+						<li>ApiniFrontLegs</li>
 						<li>Arms</li>
 						<li>Shoulders</li>
 					</groups>

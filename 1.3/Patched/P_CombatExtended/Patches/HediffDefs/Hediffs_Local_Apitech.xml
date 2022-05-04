@@ -21,9 +21,9 @@
 					</tools>
 				</value>
 			</li>-->
-			<!-- ApiniEnhancedMouth_Crusher -->
+			<!-- ApiniEnhancedMouth_Monarch -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="EnhancedMouth_Monarch_Apini"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<xpath>Defs/HediffDef[defName="ApiniEnhancedMouth_Monarch"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
@@ -57,18 +57,18 @@
 					</tools>
 				</value>
 			</li>
-			<!-- EnhancedEye_Apini -->
+			<!-- ApiniEnhancedEye -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="EnhancedEye_Apini"]/stages/li/statOffsets/ShootingAccuracyPawn</xpath>
+				<xpath>Defs/HediffDef[defName="ApiniEnhancedEye"]/stages/li/statOffsets/ShootingAccuracyPawn</xpath>
 				<value>
 					<AimingAccuracy>0.4</AimingAccuracy>
 					<MeleeParryChance>0.2</MeleeParryChance>
 					<MeleeCritChance>0.2</MeleeCritChance>
 				</value>
 			</li>
-			<!-- EnhancedArm_Apini -->
+			<!-- ApiniEnhancedArm -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/HediffDef[defName="EnhancedArm_Apini"]/stages/li/statOffsets</xpath>
+				<xpath>Defs/HediffDef[defName="ApiniEnhancedArm"]/stages/li/statOffsets</xpath>
 				<value>
 					<AimingAccuracy>0.1</AimingAccuracy>
 					<MeleeParryChance>0.2</MeleeParryChance>

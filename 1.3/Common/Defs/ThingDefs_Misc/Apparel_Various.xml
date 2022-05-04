@@ -160,10 +160,10 @@
 		</apparel>
 	</ThingDef>
 	<ThingDef ParentName="ArmorMachineableBase">
-		<!--Apini Flak Vest-->
+		<!--Apini Flak Suit-->
 		<defName>ApiniVest</defName>
-		<label>apini Armor Vest</label>
-		<description>A vest with armor plates inserted on the chest and back. Designed primarily for apini soldiers, occasionally seen on some lucky Azuri raiders as well.</description>
+		<label>apini Flak Suit</label>
+		<description>A fabric or leather suit reinforced with steel plates inserted around the body. Although heavy (in terms of apini strength and the coverage), it provides great protection for a lot of the body: from the pronotum to the abdomen, even to the front legs and back wings.\nDesigned primarily for use by apini garrisons, occasionally seen being worn by a lucky azuri raider as well.</description>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>FlakArmor</researchPrerequisite>
@@ -178,16 +178,22 @@
 			<drawSize>0.90</drawSize>
 		</graphicData>
 		<statBases>
-			<WorkToMake>11000</WorkToMake>
+			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>250</MaxHitPoints>
-			<Mass>4</Mass>
+			<Mass>8</Mass>
 			<Flammability>0.6</Flammability>
-			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.56</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.37</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.82</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
 			<Insulation_Cold>1.5</Insulation_Cold>
+			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
@@ -195,9 +201,9 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>70</costStuffCount>
+		<costStuffCount>80</costStuffCount>
 		<costList>
-			<Cloth>50</Cloth>
+			<Cloth>20</Cloth>
 			<Steel>100</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
@@ -206,6 +212,8 @@
 				<li>Torso</li>
 				<li>Neck</li>
 				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
 				<li>ApiniInsectWings</li>
 				<li>ApiniInsectAbdomen</li>
 			</bodyPartGroups>
@@ -214,7 +222,7 @@
 				<li>Middle</li>
 			</layers>
 			<tags>
-				<li>Bee</li>
+				<li>BeeMilitary</li>
 			</tags>
 		</apparel>
 	</ThingDef>
