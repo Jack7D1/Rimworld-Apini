@@ -62,9 +62,9 @@
 		<constructEffect>ConstructWood</constructEffect>
 	</ThingDef>
 	<ThingDef ParentName="ApiniBuildingBase">
-		<!-- ApiniNectar Still -->
+		<!-- Nectar Still -->
 		<defName>ApiniNectarStill</defName>
-		<label>Apini ApiniNectar Still</label>
+		<label>Apini nectar Still</label>
 		<thingClass>Building_WorkTable</thingClass>
 		<description>Primarily used to separate nectar from the pollen balls Apini form when harvesting flowers.</description>
 		<graphicData>

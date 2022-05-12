@@ -23,7 +23,7 @@
 			<DeteriorationRate>10</DeteriorationRate>
 			<Flammability>0.4</Flammability>
 			<Beauty>2</Beauty>
-			<Nutrition>0.35</Nutrition>
+			<Nutrition>0.5</Nutrition>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<stackLimit>100</stackLimit>
