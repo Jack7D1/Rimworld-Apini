@@ -30,7 +30,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicHand"]/appliedOnFixedBodyParts</xpath>
 				<value>
-					<li>ApiniInsectTarsus</li>
+					<li>ApiniInsectTarsalClaw</li>
 				</value>
 			</li>
 			<!-- Feet. -->
@@ -79,13 +79,13 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName="InstallBionicHand"]/appliedOnFixedBodyParts</xpath>
 				<value>
-					<li>ApiniInsectTarsus</li>
+					<li>ApiniInsectTarsalClaw</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName="InstallPowerClaw"]/appliedOnFixedBodyParts</xpath>
 				<value>
-					<li>ApiniInsectTarsus</li>
+					<li>ApiniInsectTarsalClaw</li>
 				</value>
 			</li>
 			<!-- Feet. -->
@@ -127,7 +127,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticHand"]/appliedOnFixedBodyParts</xpath>
 				<value>
-					<li>ApiniInsectTarsus</li>
+					<li>ApiniInsectTarsalClaw</li>
 				</value>
 			</li>
 			<!-- Feet. -->
@@ -156,7 +156,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName="InstallWoodenHand"]/appliedOnFixedBodyParts</xpath>
 				<value>
-					<li>ApiniInsectTarsus</li>
+					<li>ApiniInsectTarsalClaw</li>
 				</value>
 			</li>
 			<!-- Feet. -->

@@ -5,9 +5,6 @@
 		<defName>NpiniMeatHoney</defName>
 		<label>meat honey</label>
 		<description>A honeylike substance created by Necropini. However this honey is made out of meat, specifically broken down proteins that are kept preserved similarly to traditional honey.</description>
-		<descriptionHyperlinks>
-			<HediffDef>ApiniSmoothHoneyBuff</HediffDef>
-		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/MeatHoney</texPath>
 		</graphicData>

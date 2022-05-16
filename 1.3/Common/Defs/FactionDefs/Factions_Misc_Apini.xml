@@ -189,14 +189,18 @@
 			<li>
 				<kindDef>Combat</kindDef>
 				<options>
-					<AzuriPawn>200</AzuriPawn>
-					<AzuriBane>100</AzuriBane>
+					<AzuriPawn>50</AzuriPawn>
+					<AzuriBane>50</AzuriBane>
+					<AzuriMarauder>100</AzuriMarauder>
+					<AzuriPirate>100</AzuriPirate>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<options>
 					<AzuriPawn>200</AzuriPawn>
+					<AzuriMarauder>50</AzuriMarauder>
+					<AzuriPirate>50</AzuriPirate>
 					<AzuriBane>20</AzuriBane>
 				</options>
 			</li>
@@ -204,7 +208,9 @@
 				<kindDef>Settlement</kindDef>
 				<options>
 					<AzuriPawn>200</AzuriPawn>
-					<AzuriBane>200</AzuriBane>
+					<AzuriBane>50</AzuriBane>
+					<AzuriMarauder>100</AzuriMarauder>
+					<AzuriPirate>100</AzuriPirate>
 				</options>
 			</li>
 			<li>

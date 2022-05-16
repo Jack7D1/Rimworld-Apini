@@ -204,26 +204,8 @@
 					<parts>
 						<li>
 							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>left first tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>LeftHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>left second tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>LeftHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>left third tarsal claw</customLabel>
-							<coverage>0.02</coverage>
+							<customLabel>left front tarsal claw</customLabel>
+							<coverage>0.04</coverage>
 							<groups>
 								<li>Hands</li>
 								<li>LeftHand</li>
@@ -244,26 +226,8 @@
 					<parts>
 						<li>
 							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>right first tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>RightHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>right second tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>RightHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>right third tarsal claw</customLabel>
-							<coverage>0.02</coverage>
+							<customLabel>right front tarsal claw</customLabel>
+							<coverage>0.04</coverage>
 							<groups>
 								<li>Hands</li>
 								<li>RightHand</li>
