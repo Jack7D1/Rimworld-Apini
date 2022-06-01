@@ -21,7 +21,7 @@
 			<SocialImpact>0.75</SocialImpact>
 			<PlantWorkSpeed>2</PlantWorkSpeed>
 			<PlantHarvestYield>1.5</PlantHarvestYield>
-			<GeneralLaborSpeed>0.55</GeneralLaborSpeed>
+			<GeneralLaborSpeed>0.75</GeneralLaborSpeed>
 			<ConstructionSpeed>1.5</ConstructionSpeed>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
