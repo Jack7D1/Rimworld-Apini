@@ -6,7 +6,7 @@
 		<label>meat honey</label>
 		<description>A honeylike substance created by Necropini. However this honey is made out of meat, specifically broken down proteins that are kept preserved similarly to traditional honey.</description>
 		<graphicData>
-			<texPath>Things/Item/MeatHoney</texPath>
+			<texPath>Things/Item/Honey/MeatHoney</texPath>
 		</graphicData>
 		<ingestible>
 			<foodType>AnimalProduct</foodType>
