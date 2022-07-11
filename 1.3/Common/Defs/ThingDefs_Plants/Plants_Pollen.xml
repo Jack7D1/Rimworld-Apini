@@ -220,7 +220,7 @@
 	<ThingDef ParentName="ApiniPollenBase">
 		<!-- Pollen -->
 		<defName>ApiniPollen</defName>
-		<label>ApiniPollen</label>
+		<label>pollen</label>
 		<description>Raw pollen extracted from pollen balls.  Used by Apini in various recipies.</description>
 		<thingCategories>
 			<li>ApiniPollen</li>

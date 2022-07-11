@@ -164,7 +164,7 @@
 		<defName>BeeHiveless</defName>
 		<title>Hiveless</title>
 		<titleShort>Hiveless</titleShort>
-		<baseDescription>[PAWN_nameDef] is without a hive, and without a home. Displaced, [PAWN_pronoun] had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around [PAWN_pronoun].</baseDescription>
+		<baseDescription>[PAWN_nameDef] is without a hive, and without a home. Displaced, [PAWN_pronoun] had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around [PAWN_possessive].</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>

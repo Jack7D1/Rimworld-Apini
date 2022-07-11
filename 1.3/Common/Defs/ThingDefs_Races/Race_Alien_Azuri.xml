@@ -16,11 +16,11 @@
 			<Flammability>1</Flammability>
 			<CarryingCapacity>200</CarryingCapacity>
 			<MentalBreakThreshold>0.12</MentalBreakThreshold>
-			<ResearchSpeed>0.25</ResearchSpeed>
+			<ResearchSpeed>0.5</ResearchSpeed>
 			<MiningSpeed>1.5</MiningSpeed>
 			<SocialImpact>0.25</SocialImpact>
-			<PlantWorkSpeed>0.5</PlantWorkSpeed>
-			<PlantHarvestYield>0.75</PlantHarvestYield>
+			<PlantWorkSpeed>1</PlantWorkSpeed>
+			<PlantHarvestYield>1</PlantHarvestYield>
 			<GeneralLaborSpeed>1.25</GeneralLaborSpeed>
 			<ConstructionSpeed>1.5</ConstructionSpeed>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
@@ -34,7 +34,7 @@
 				</capacities>
 				<power>7</power>
 				<cooldownTime>1.3</cooldownTime>
-				<linkedBodyPartsGroup>ApiniFrontLeg</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>ApiniFrontLegs</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>

@@ -1,29 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!--Meat Honey-->
-	<ThingDef ParentName="ApiniSpecialHoney">
+	<ThingDef ParentName="ApiniHoneyBase">
 		<defName>NpiniMeatHoney</defName>
 		<label>meat honey</label>
 		<description>A honeylike substance created by Necropini. However this honey is made out of meat, specifically broken down proteins that are kept preserved similarly to traditional honey.</description>
-		<descriptionHyperlinks>
-			<HediffDef>ApiniSmoothHoneyBuff</HediffDef>
-		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/MeatHoney</texPath>
+			<texPath>Things/Item/Honey/MeatHoney</texPath>
 		</graphicData>
 		<ingestible>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ApiniSmoothHoneyBuff</hediffDef>
-					<severity>2</severity>
-				</li>
-			</outcomeDoers>
+			<foodType>AnimalProduct</foodType>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>	<!--This does not affect if a meal is vegetarian or not, it is responsible for calculating things like foodpoisoning.-->
+			<ingestSound>Ingest_Beer</ingestSound>
+			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
 		</ingestible>
-		<comps>
-			<li Class="CompProperties_Drug">
-				<listOrder>3004</listOrder>
-			</li>
-		</comps>
 	</ThingDef>
 	<!--Meat Slurry-->
 	<ThingDef ParentName="ApiniNectarBase">

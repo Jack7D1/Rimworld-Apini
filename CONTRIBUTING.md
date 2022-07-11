@@ -2,12 +2,12 @@
 
 ## General rules
 
-* **All defnames must contain apini specific names** To avoid defname collissions with other mods all our defnames should begin with 'Apini', 'Azuri', 'Npini', 'Moobee'. Using Apini as a default is a good option.
+* **All defnames must contain apini specific names** To avoid defname collisions with other mods all our defnames should begin with 'Apini', 'Azuri', 'Npini', 'Moobee'. Using Apini as a default is a good option.
 
 * **Test your changes** Testing your changes locally is incredibly important. Make sure when launching rimworld does not throw any errors.
 
 * **All PRs MUST be to the staging branch** This is so we can update the mod in large updates all at once which are much easier to test and balance.
-* If your changes get merged onto staging they are available to those who wish to manually download and play the staging branch, however will not appear on the steam copy until a PR is made to merge starging into master.
+* If your changes get merged onto staging they are available to those who wish to manually download and play the staging branch, however will not appear on the steam copy until a PR is made to merge staging into master.
 
 ### In addition
 
@@ -39,13 +39,12 @@ This is intended for maintainers to perform before merging staging into master t
 3. Follow Primary Checklist
 
 ### Standard test:
-1. Test start game in *all* scenarios using Hugslib Quickstart
-2. Create new colony without quickstart with 'Rebuild the Hive' scenario (200x200 size)
-3. Perform Autotest list
-4. Create new colony without quickstart with 'Settled Azuri Swarm' scenario (200x200 size)
-5. Perform Autotest list
-6. Create new colony without quickstart with 'Necropini Special Forces' scenario (200x200 size)
-5. Perform Autotest list
+1. Create new colony without quickstart with 'Rebuild the Hive' scenario (200x200 size)
+2. Perform Autotest list
+3. Create new colony without quickstart with 'Settled Azuri Swarm' scenario (200x200 size)
+4. Perform Autotest list
+5. Create new colony without quickstart with 'Necropini Special Forces' scenario (200x200 size)
+6. Perform Autotest list
 7. Run Autotest Battle Royale All PawnKinds for 1 round
 
 

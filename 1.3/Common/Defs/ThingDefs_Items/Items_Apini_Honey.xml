@@ -10,6 +10,7 @@
 		<!-- ApiniHoneyBase -->
 		<graphicData>
 			<texPath>Things/Item/Honey/Honey</texPath>
+			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingClass>ThingWithComps</thingClass>
@@ -23,7 +24,7 @@
 			<DeteriorationRate>10</DeteriorationRate>
 			<Flammability>0.4</Flammability>
 			<Beauty>2</Beauty>
-			<Nutrition>0.35</Nutrition>
+			<Nutrition>0.5</Nutrition>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<stackLimit>100</stackLimit>
@@ -64,7 +65,7 @@
 			<HediffDef>ApiniCoolHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Honey/Honey_Frostbell</texPath>
+			<color>(186,248,255)</color>
 		</graphicData>
 		<ingestible>
 			<outcomeDoers>
@@ -89,7 +90,7 @@
 			<HediffDef>ApiniHotHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Honey/Honey_Emberose</texPath>
+			<color>(255,192,0)</color>
 		</graphicData>
 		<ingestible>
 			<outcomeDoers>
@@ -114,7 +115,7 @@
 			<HediffDef>ApiniRoughHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Honey/Honey_Metalily</texPath>
+			<color>(190,190,190)</color>
 		</graphicData>
 		<ingestible>
 			<outcomeDoers>
@@ -139,7 +140,7 @@
 			<HediffDef>ApiniSmoothHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Honey/Honey_Bardsong</texPath>
+			<color>(240,248,0)</color>
 		</graphicData>
 		<ingestible>
 			<outcomeDoers>
@@ -164,7 +165,7 @@
 			<HediffDef>ApiniSwiftHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Honey/Honey_Rushthorn</texPath>
+			<color>(192,64,192)</color>
 		</graphicData>
 		<ingestible>
 			<outcomeDoers>
@@ -189,7 +190,7 @@
 			<HediffDef>ApiniSmartHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Honey/Honey_Wiserbud</texPath>
+			<color>(255,144,144)</color>
 		</graphicData>
 		<ingestible>
 			<outcomeDoers>
@@ -214,7 +215,7 @@
 			<HediffDef>ApiniBruteHoneyBuff</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Honey/Honey_Vigorbloom</texPath>
+			<color>(240,64,0)</color>
 		</graphicData>
 		<ingestible>
 			<outcomeDoers>
@@ -235,6 +236,9 @@
 		<defName>ApiniHoney</defName>
 		<label>Honey (Unflavored)</label>
 		<description>Delicious honey produced by the Apini. A mixture of honey from the residual nectar still found within pollen that, while more filling, lacks unique flavor.</description>
+		<graphicData>
+			<color>(255,135,0)</color>
+		</graphicData>
 	</ThingDef>
 	<!--============================ Buffs ===============================-->
 	<HediffDef Name="ApiniHoneyEffects" Abstract="True">

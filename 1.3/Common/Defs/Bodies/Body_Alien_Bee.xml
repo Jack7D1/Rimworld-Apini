@@ -184,7 +184,7 @@
 					<def>ApiniInsectAbdomen</def>
 					<customLabel>abdomen</customLabel>
 					<coverage>0.11</coverage>
-					<height>Middle</height>
+					<height>Bottom</height>
 					<groups>
 						<li>ApiniInsectAbdomen</li>
 						<li>Waist</li>
@@ -196,7 +196,7 @@
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 					<groups>
-						<li>ApiniFrontLeg</li>
+						<li>ApiniFrontLegs</li>
 						<li>Arms</li>
 						<li>Shoulders</li>
 						<!-- so that they don't wear 100 shoulderpads from Apparello -->
@@ -204,26 +204,8 @@
 					<parts>
 						<li>
 							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>left first tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>LeftHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>left second tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>LeftHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>left third tarsal claw</customLabel>
-							<coverage>0.02</coverage>
+							<customLabel>left front tarsal claw</customLabel>
+							<coverage>0.04</coverage>
 							<groups>
 								<li>Hands</li>
 								<li>LeftHand</li>
@@ -237,33 +219,15 @@
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 					<groups>
-						<li>ApiniFrontLeg</li>
+						<li>ApiniFrontLegs</li>
 						<li>Arms</li>
 						<li>Shoulders</li>
 					</groups>
 					<parts>
 						<li>
 							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>right first tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>RightHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>right second tarsal claw</customLabel>
-							<coverage>0.03</coverage>
-							<groups>
-								<li>Hands</li>
-								<li>RightHand</li>
-							</groups>
-						</li>
-						<li>
-							<def>ApiniInsectTarsalClaw</def>
-							<customLabel>right third tarsal claw</customLabel>
-							<coverage>0.02</coverage>
+							<customLabel>right front tarsal claw</customLabel>
+							<coverage>0.04</coverage>
 							<groups>
 								<li>Hands</li>
 								<li>RightHand</li>

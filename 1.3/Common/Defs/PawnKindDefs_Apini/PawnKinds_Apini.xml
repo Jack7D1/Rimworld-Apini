@@ -41,6 +41,10 @@
 			<li>NeolithicMeleeAdvanced</li>
 			<li>Gun</li>
 		</weaponTags>
+		<apparelTags>
+			<li>Bee</li>
+			<li>BeeMilitary</li>
+		</apparelTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
@@ -62,6 +66,10 @@
 			<li>EliteGun</li>
 			<!--B has a GUN?!-->
 		</weaponTags>
+		<apparelTags>
+			<li>Bee</li>
+			<li>BeeMilitary</li>
+		</apparelTags>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>7~11</initialResistanceRange>
 	</PawnKindDef>
