@@ -55,6 +55,7 @@ New Team: 		(Individual contributions visible on github)
 [*]Hirohito - Coder/Artist
 [*]Argón (León) - Artist
 [*]Mayonnaise - Coder
+[*]Ecu - Artist
 [/list]
 
 
