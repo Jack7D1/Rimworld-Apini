@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Basic Apini stuff -->
+	<ResearchProjectDef>
+		<defName>ApicultureBasics</defName>
+		<label>Apiculture Basics</label>
+		<description>Basic Apini knowledge regarding honeycraft and beeswax.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>Apiculture</tab>
+		<tags>
+			<li>Apiculture</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>ApiniProstheticsTech</defName>
+		<label>Basic Apini prosthetics</label>
+		<description>Make simple prosthetic replacements for lost Apini limbs.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>ApicultureBasics</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>ApiniBionicsTech</defName>
+		<label>Bionic Apini prosthetics</label>
+		<description>Allows the design of more intricate electronic mechanical prostheses, utilizing components, servos and rotors</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>ApiniProstheticsTech</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>ApiniAdvancedBionicsTech</defName>
+		<label>Advanced Bionic Apini prosthetics</label>
+		<description>Takes the design of bionic prosthetics to the pinnacle of technology, with microelectronics and space age materials.</description>
+		<baseCost>2400</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>ApiniBionicsTech</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Apitech</defName>
+		<label>Apitech</label>
+		<description>Technologically, Apitech is beyond what any Apini could have dreamed, allowing the design of not only advanced prosthetics but replacement organs.</description>
+		<baseCost>3200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ApiniAdvancedBionicsTech</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>ApiniHoneyConditioning</defName>
+		<label>Honey Conditioning</label>
+		<description>Manipulate the texture and consistency of honey, from a coagulated honey mixture with rejuvinating properties to a honey you can swim in.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>ApicultureBasics</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>ApiniHoneyRefining</defName>
+		<label>Honey Refining</label>
+		<description>Allows the construction of specialized capsules to ferment distilled nectar into honey.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>ApicultureBasics</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+	<!-- Currently unused. -->
+	<!--<ResearchProjectDef>
+    <defName>HoneyPot</defName>
+    <label>Honey pot</label>
+    <description>Allows one to construct a specialized planter with unrivaled fertility utilizing several kinds of honey.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>ApiniHoneyRefining</li>
+    </prerequisites>
+    <tab>Apiculture</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>-->
+	<!-- Plants for mass pollenball production and max comfortable temperature. -->
+	<ResearchProjectDef>
+		<defName>ApiniPlantKnowledgeBasic</defName>
+		<label>Basic Apini Flowers</label>
+		<description>Cultivate basic apini flowers: the apini daisy for mass pollenballs, frostbell for surviving hot climates.</description>
+		<baseCost>200</baseCost>
+		<prerequisites>
+			<li>ApicultureBasics</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	<!-- Plants for min comfortable temperature and protection. -->
+	<ResearchProjectDef>
+		<defName>ApiniPlantKnowledgeAdvanced</defName>
+		<label>Advanced Apini Flowers</label>
+		<description>Cultivate advanced apini flowers: emberose for surviving cold climates, metalily for a metallic skin.</description>
+		<baseCost>400</baseCost>
+		<prerequisites>
+			<li>ApiniPlantKnowledgeBasic</li>
+			<li>ApiniHoneyRefining</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	<!-- Plants for speed and strength. -->
+	<ResearchProjectDef>
+		<defName>ApiniPlantKnowledgeBody</defName>
+		<label>Body-Enhancing Apini Flowers</label>
+		<description>Cultivate apini flowers that enhance the body: rushthorn for agility, vigorbloom for strength.</description>
+		<baseCost>600</baseCost>
+		<prerequisites>
+			<li>ApiniPlantKnowledgeAdvanced</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+	<!-- Plants for charisma and intellegence. -->
+	<ResearchProjectDef>
+		<defName>ApiniPlantKnowledgeMind</defName>
+		<label>Mind-Enhancing Apini Flowers</label>
+		<description>Cultivate apini flowers that enhance the mind: bardsong for charisma, wiserbud for intellegence.</description>
+		<baseCost>600</baseCost>
+		<prerequisites>
+			<li>ApiniPlantKnowledgeAdvanced</li>
+		</prerequisites>
+		<tab>Apiculture</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+</Defs>

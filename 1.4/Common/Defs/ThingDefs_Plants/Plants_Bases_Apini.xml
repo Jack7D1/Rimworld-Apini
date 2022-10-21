@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Name="ApiniPlantBase" ParentName="PlantBase" Abstract="True">
+		<statBases>
+			<Flammability>0.8</Flammability>
+		</statBases>
+		<graphicData>
+			<shaderType>CutoutPlant</shaderType>
+		</graphicData>
+		<plant>
+			<fertilityMin>0.5</fertilityMin>
+			<dieIfLeafless>true</dieIfLeafless>
+			<sowWork>190</sowWork>
+			<harvestWork>260</harvestWork>
+		</plant>
+	</ThingDef>
+	<!-- disabled, because this is not used by anything
+  <ThingDef ParentName="TreeBase" Name="ApiniTreeBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+    </statBases>
+    <description>A tree.</description>
+    <fillPercent>0.43</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.3, 0.3, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilityMin>0.3</fertilityMin>
+      <sowWork>1500</sowWork>
+      <dieIfLeafless>true</dieIfLeafless>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>20<wildClusterWeight>
+    </plant>
+  </ThingDef>-->
+</Defs>

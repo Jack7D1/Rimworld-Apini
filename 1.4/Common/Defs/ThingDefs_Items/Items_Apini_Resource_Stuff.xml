@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<StuffAppearanceDef>
+		<defName>Hive</defName>
+	</StuffAppearanceDef>
+	<ThingDef ParentName="ResourceBase">
+		<defName>ApiniWax</defName>
+		<label>beeswax</label>
+		<description>Wax produced by Apini. Often used for constucting sturdy buildings.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wax/wax</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>beeswax</stuffAdjective>
+			<appearance>Hive</appearance>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(255,228,181)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>1.35</Beauty>
+				<Flammability>0.7</Flammability>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+				<Insulation_Cold>3.0</Insulation_Cold>
+				<Insulation_Heat>-1.0</Insulation_Heat>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<!--    <storedConceptLearnOpportunity>ApiniBeeswaxMaking</storedConceptLearnOpportunity> -->
+	</ThingDef>
+	<RecipeDef Name="ApiniWaxcraftBase" Abstract="True">
+		<description>Create wax from plant matter.</description>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+				<li>PlantMatter</li>
+			</categories>
+			<thingDefs>
+				<li>Hay</li>
+				<li>WoodLog</li>
+				<li MayRequire="sarg.alphabiomes">GU_RedWood</li>
+				<li MayRequire="sarg.alphabiomes">AB_MushroomWoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	<RecipeDef ParentName="ApiniWaxcraftBase">
+		<defName>MakeApiniWax</defName>
+		<label>make beeswax</label>
+		<jobString>Making wax.</jobString>
+		<workAmount>150</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+						<li>PlantMatter</li>
+					</categories>
+					<thingDefs>
+						<li>Hay</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li MayRequire="sarg.alphabiomes">GU_RedWood</li>
+						<li MayRequire="sarg.alphabiomes">AB_MushroomWoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<ApiniWax>10</ApiniWax>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ApiniWaxcraftBase">
+		<defName>MakeApiniWaxBulk</defName>
+		<label>make beeswax in bulk</label>
+		<jobString>Making a lot of wax.</jobString>
+		<workAmount>250</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+						<li>PlantMatter</li>
+					</categories>
+					<thingDefs>
+						<li>Hay</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li MayRequire="sarg.alphabiomes">GU_RedWood</li>
+						<li MayRequire="sarg.alphabiomes">AB_MushroomWoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<ApiniWax>100</ApiniWax>
+		</products>
+	</RecipeDef>
+</Defs>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RulePackDef>
+		<defName>AzuriNamerFactionSwarm</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[blue] Swarm</li>
+				<li>name->[blue] [TerrainFeature] Swarm</li>
+				<li>name->[blue] [badass] Swarm</li>
+				<li>name->[blue] swarm of [negative]</li>
+				<li>name->[blue] swarm of [negative] [badass]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>badass</keyword>
+					<path>Words/Nouns/People_Badass</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>negative</keyword>
+					<path>Words/Nouns/Concepts_Badass</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>blue</keyword>
+					<path>AzuriNames/Colors_Badass</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AzuriNamerbaseSwarm</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[blue] hive of [negative] [TerrainFeature]</li>
+				<li>name->[blue] [TerrainFeature] hive</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>badass</keyword>
+					<path>Words/Nouns/People_Badass</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>negative</keyword>
+					<path>Words/Nouns/Concepts_Badass</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>blue</keyword>
+					<path>AzuriNames/Colors_Badass</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</Defs>

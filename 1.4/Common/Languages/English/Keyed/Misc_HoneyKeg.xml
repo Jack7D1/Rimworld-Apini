@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ContainsNectar>\nContains {0} / {1} nectar.</ContainsNectar>
+	<ContainsHoney>\nContains {0} / {1} honey.</ContainsHoney>
+	<FermentedHoney>Fermented</FermentedHoney>
+	<HoneyFermentationProgress>Progress: {0} ({1} left)</HoneyFermentationProgress>
+	<HoneyFermentationBarrelOutOfIdealTemperature>Non-ideal temperature. Fermentation speed: {0}</HoneyFermentationBarrelOutOfIdealTemperature>
+	<NoNectar>need nectar</NoNectar>
+</LanguageData>

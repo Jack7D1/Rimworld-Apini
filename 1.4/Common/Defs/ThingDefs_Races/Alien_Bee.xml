@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Name="ApiniBeelien" ParentName="BasePawn" Abstract="True">
+		<inspectorTabs/>
+		<comps/>
+		<alienRace>
+			<generalSettings>
+				<chemicalSettings>
+					<li>
+						<chemical>Smokeleaf</chemical>
+						<ingestible>true</ingestible>
+						<reactions>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>ApiniSmoke</hediffDef>
+								<severity>0.45</severity>
+							</li>
+						</reactions>
+					</li>
+				</chemicalSettings>
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>ApiniDrone</defName>
+						<chance>100</chance>
+						<commonalityMale>100</commonalityMale>
+						<commonalityFemale>-100</commonalityFemale>
+					</li>
+					<li>
+						<defName>Ascetic</defName>
+						<chance>30</chance>
+					</li>
+				</forcedRaceTraitEntries>
+				<disallowedTraits>
+					<li>
+						<defName>DrugDesire</defName>
+					</li>
+					<li>
+						<defName>Gay</defName>
+					</li>
+					<li>
+						<defName>Bisexual</defName>
+					</li>
+					<li>
+						<defName>Asexual</defName>
+					</li>
+				</disallowedTraits>
+			</generalSettings>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags/>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags/>
+					</value>
+				</li>
+			</styleSettings>
+			<raceRestriction>
+				<apparelList>
+					<li>ApiniApron</li>
+					<li>ApiniHoneyGlassHelmet</li>
+					<li>ApiniSatchel</li>
+					<li>ApiniRuff</li>
+					<li>ApiniVest</li>
+					<!--From Apini SOS2 Expansion-->
+					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBeltDummy</li>
+					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBelt</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVASuit_Light</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVAHelmet_Light</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVASuit_Heavy</li>
+					<li MayRequire="kentington.saveourship2">ApiniEVAHelmet_Heavy</li>
+				</apparelList>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+				<weaponList>
+					<li>ApiniScythe</li>
+				</weaponList>
+				<traitList>
+					<li>ApiniDrone</li>
+				</traitList>
+				<recipeList>
+					<li>MakeApiniWax</li>
+					<li>MakeApiniWaxBulk</li>
+					<li>ApiniMake_NectarAny</li>
+					<li>ApiniMake_BulkNectarAny</li>
+				</recipeList>
+				<!--<researchList>
+          <li>
+          <projects>
+            <li>Frostbell</li>
+          </projects>
+          </li>
+        </researchList> -->
+				<plantList>
+					<li>ApiniPlantFrostbell</li>
+					<li>ApiniPlantEmberose</li>
+					<li>ApiniPlantMetalily</li>
+					<li>ApiniPlantBardsong</li>
+					<li>ApiniPlantRushthorn</li>
+					<li>ApiniPlantWiserbud</li>
+					<li>ApiniPlantVigorbloom</li>
+					<li>ApiniPlantLavender</li>
+					<li>ApiniPlantDaisy</li>
+				</plantList>
+				<buildingList>
+					<li>ApiniHoneyCapsule</li>
+					<li>ApiniHoneyVat</li>
+					<!--<li>ApiniWaxFloor</li>
+					<li>ApiniWaxTile</li>
+					<li>Honey_Shallow</li>
+					<li>Honey_Deep</li>
+					<li>Honey_StickyShallow</li>
+					<li>Honey_StickyDeep</li>-->
+					<li>ApiniHoneycombBed_S</li>
+					<li>ApiniHoneycombBed_L</li>
+					<li>ApiniWaxCandle</li>
+					<li>ApiniNectarStill</li>
+					<li>ApiniProstheticsTable</li>
+					<li>ApitechTable</li>
+					<li>ApitechSynthesizer</li>
+					<li>ApiniVat_F</li>
+					<li>ApiniVat_E</li>
+					<li>ApiniVat_M</li>
+					<li>ApiniVat_B</li>
+					<li>ApiniVat_R</li>
+					<li>ApiniVat_W</li>
+					<li>ApiniVat_V</li>
+					<li>NpiniMeatHoneyVat</li>
+				</buildingList>
+				<conceptList>
+					<li>ApiniBeeswaxMaking</li>
+					<li>ApiniMakingHoney</li>
+					<li>ApiniRespiratoryFailure</li>
+					<li>ApiniInsectRelations</li>
+				</conceptList>
+				<!--    <workGiverList>-->
+				<!--        <li>FillHoneyFermentingVat</li>-->
+				<!--        <li>TakeHoneyOutOfFermentingVat</li>-->
+				<!--    </workGiverList>-->
+				<whiteApparelList>
+					<!--From Vanilla-->
+					<li>Apparel_CowboyHat</li>
+					<li>Apparel_BowlerHat</li>
+					<li>Apparel_TribalA</li>
+					<li>Apparel_TribalHeaddress</li>
+					<li>Apparel_Tuque</li>
+					<li>Apparel_WarMask</li>
+					<li>Apparel_WarVeil</li>
+					<li>Apparel_SimpleHelmet</li>
+					<li>Apparel_AdvancedHelmet</li>
+					<li>Apparel_PowerArmorHelmet</li>
+					<li>Apparel_PsychicFoilHelmet</li>
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>TornadoGenerator</li>
+					<li>OrbitalTargeterPowerBeam</li>
+					<li>OrbitalTargeterBombardment</li>
+					<li>Apparel_PsychicInsanityLance</li>
+					<li>Apparel_PsychicShockLance</li>
+					<!--From Royalty-->
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Coronet</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatHood</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatTop</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatLadies</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PsyfocusHelmet</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PsyfocusRobe</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Gunlink</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Cape</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Beret</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_EltexSkullcap</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">OrbitalTargeterMechCluster</li>
+					<!--From Ideology-->
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_VisageMask</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Slicecap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Collar</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_AuthorityCap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
+					<!--From Apparello-->
+					<li MayRequire="Shinzy.Apparello">Apparello_Wendywelder</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Hardhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Chefhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Chefhatplus</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cyninja</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Medihelmet</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Proto</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_ProtoFin</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Commissar</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Gassy</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cybissar</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Medband</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Docteur</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Plainhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Furhat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Bandit</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cardshark</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_TriMeCornMatey</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Sandtrader</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tradecone</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Fedora</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Headset</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Beret</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tophat</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Bandal</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Vandal</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Lecap</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Hoood</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Sombrero</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Moron</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_MedicalApron</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Smithaprontosaurus</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Cookaprontosaurus</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_PonPon</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Orkpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Urpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Ammobelt</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tribalpad</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Tribalshield</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Doom</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Quotee</li>
+					<li MayRequire="Shinzy.Apparello">Apparel_Psymask</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Zorro</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Footy</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Meffect</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Meffectwo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Kurt</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Kurtlite</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Rockman</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Raideroos</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Yi</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Raz</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Goggles</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Visoor</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Shadess</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Piloggle</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Brimsk</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Mojo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_Mojotwo</li>
+					<li MayRequire="Shinzy.Apparello">Apparello_MojoFeather</li>
+					<!--From Vanilla Armor Expanded-->
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_Balaclava</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_BallisticGoggles</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_PlateShoulderpads</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_NightVisionGoggles</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_TrooperHelmet</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_HeavyMarineHelmet</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_RoyalTrooperHelmet</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_RoyalSiegeHelmet</li>
+					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_StoneWarMask</li>
+					<!--From Vanilla Apparel Expanded-->
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalPoncho</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Hood</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_TrapperHat</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_SummerHat</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Fedora</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Scarf</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Beret</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Hardhat</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_SurgicalMask</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_GasMask</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_BaseballCap</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Sunglasses</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Glasses</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_ChefsToque</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Shorts</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Skirt</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Cape</li>
+					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalKilt</li>
+					<!--From Vanilla Weapons Expanded-->
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_DynamiteBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeFlashBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeFragBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeMolotovBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeSmokeBelt</li>
+					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeToxicBelt</li>
+					<!--From Vanilla Factions Expanded-->
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Heater</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Kite</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Apparel_Tabard</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Bandana</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_FlatCap</li>
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Sombrero</li>
+					<!--From Combat Extended-->
+					<li MayRequire="CETeam.CombatExtended">Apparel_MeleeShield</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_BallisticShield</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_Bascinet</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_TacVest</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_GasMask</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_ImprovGasMask</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_SimpleNightVision</li>
+					<li MayRequire="CETeam.CombatExtended">Apparel_AdvancedNightVision</li>
+					<!--From Combat Extended: Shields-->
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_NguniShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_WickerShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Aspis</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Scutum</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Norse</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_KiteShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_CrusaderShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Pavise</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_Buckler</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_RiotShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_AssaultShield</li>
+					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_TacShield</li>
+					<!--From Ivory and Jade Carving-->
+					<li MayRequire="Mlie.IvoryAndJadeCarving">jade_band</li>
+					<!--From Rim of Madness-->
+					<li MayRequire="sihv.rombones">ROMB_Apparel_SkullMask</li>
+					<!--From Combat Shields-->
+					<li MayRequire="n7huntsman.combatshields">Apparel_NguniShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_WickerShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_Aspis</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_Scutum</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_NordShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_KiteShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_CrusaderShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_Pavise</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_BucklerShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_RiotShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_AssaultShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_TacShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_BallisticShield</li>
+					<li MayRequire="n7huntsman.combatshields">Apparel_ImperialShield</li>
+					<!--From Rimatomics-->
+					<li MayRequire="Dubwise.Rimatomics">Apparel_RadiationSuit</li>
+					<!--From Flower Crowns-->
+					<li MayRequire="MengDe.FlowerCrowns">FC_Pink</li>
+					<li MayRequire="MengDe.FlowerCrowns">FC_Multi</li>
+					<li MayRequire="MengDe.FlowerCrowns">FC_Pini</li>
+					<li MayRequire="MengDe.FlowerCrowns">FC_Sunny</li>
+					<li MayRequire="MengDe.FlowerCrowns">FC_Silver</li>
+					<li MayRequire="MengDe.FlowerCrowns">FC_Gold</li>
+					<!--From Rimworld Of Magic-->
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDefense</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDeflection</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDefense</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfKeenIntellect</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfBlood</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfEternalBlue</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_RingOfMalice</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfConviction</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfSouls</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfSouls_Full</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_OrbOfEternal</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_NecroticOrb</li>
+					<li MayRequire="Torran.ARimworldOfMagic">DemonLordCloak</li>
+					<li MayRequire="Torran.ARimworldOfMagic">DarkRobe</li>
+					<li MayRequire="Torran.ARimworldOfMagic">AncientMail</li>
+					<li MayRequire="Torran.ARimworldOfMagic">RoyalArmor</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_DreamcatcherBuckskin</li>
+					<li MayRequire="Torran.ARimworldOfMagic">ArchMageRobe</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_WizardHat</li>
+					<li MayRequire="Torran.ARimworldOfMagic">ArcaneHood</li>
+					<li MayRequire="Torran.ARimworldOfMagic">HoodOfMadness</li>
+					<li MayRequire="Torran.ARimworldOfMagic">RoyalHelm</li>
+					<li MayRequire="Torran.ARimworldOfMagic">ParagonHelm</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_DreamcatcherCoronet</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Silver</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Slate</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Medicine</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Limestone</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Granite</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Marble</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Sandstone</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Steel</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Iron</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Jade</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Gold</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Magicyte</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Wood</li>
+					<li MayRequire="Torran.ARimworldOfMagic">TM_MaestersCloak</li>
+					<!-- From Shields, Shields. SHIELDS! -->
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldRegenerator</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldCapacitor</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldBeltVTwo</li>
+					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_JumpPackWithShield</li>
+				</whiteApparelList>
+			</raceRestriction>
+		</alienRace>
+		<!-- No sting surgeries because they don't have those. -->
+		<recipes>
+			<!-- Natural Surgeries
+	  <li>ApiniInstallInsectAntenna</li>
+	  <li>ApiniInstallInsectHeart</li>
+	  <li>ApiniInstallInsectMouth</li>
+	  <li>ApiniInstallHoneyStomach</li>
+	  <li>ApiniInstallInsectWing</li>
+	  <li>ApiniInstallInsectArm</li>
+	  <li>ApiniInstallInsectLeg</li> -->
+			<!-- Shoddy Surgeries
+	  <li>ApiniInstallPegLeg</li>
+	  <li>ApiniInstallDenture</li> -->
+			<!-- Prosthetic Surgeries
+	  <li>ApiniInstallSimpleProstheticLeg</li>
+	  <li>ApiniInstallSimpleProstheticArm</li>
+	  <li>ApiniInstallProstheticWing</li>
+	  <li>ApiniInstallProstheticAntenna</li> -->
+			<!-- Bionic Surgieries -->
+			<li>InstallBionicEye</li>
+			<!-- <li>ApiniInstallBionicLeg</li>
+	  <li>ApiniInstallBionicArm</li>
+	  <li>ApiniInstallBionicWing</li>
+	  <li>ApiniInstallBionicAntenna</li> -->
+			<!-- Advanced Bionic Surgeries
+	  <li>ApiniInstallAdvancedBionicWing</li>
+	  <li>ApiniInstallBionicAdvancedAntenna</li> -->
+			<!-- Apitech surgeries -->
+			<!-- Other surgeries -->
+			<!--<li>InstallApiniScytherBlade</li>-->
+			<li>InstallJoywire</li>
+			<li>InstallPainstopper</li>
+			<li>RemoveBodyPart</li>
+			<li>ExciseCarcinoma</li>
+			<li>Euthanize</li>
+			<!--<li>ApiniInstallPowerClaw</li>
+	  <li>Reconstruct_Brain_Apini</li>
+	  <li>Reconstruct_Eye_Apini</li>
+	  <li>Reconstruct_Antenna_Apini</li>
+	  <li>Reconstruct_Mouth_Apini</li>
+	  <li>Reconstruct_Wing_Apini</li>
+	  <li>Reconstruct_Heart_Apini</li>
+	  <li>Reconstruct_Stomach_Apini</li>
+	  <li>Reconstruct_Arm_Apini</li>
+	  <li>Reconstruct_Leg_Apini</li> -->
+		</recipes>
+	</ThingDef>
+</Defs>
