@@ -172,11 +172,10 @@
 					<max>12</max>
 				</countRange>
 			</li>
-			<li Class="StockGenerator_Clothes">
-				<countRange>
-					<min>0</min>
-					<max>6</max>
-				</countRange>
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Clothing</tradeTag>
+				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+				<countRange>1~6</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
@@ -366,11 +365,10 @@
 					<max>5</max>
 				</countRange>
 			</li>
-			<li Class="StockGenerator_Clothes">
-				<countRange>
-					<min>0</min>
-					<max>6</max>
-				</countRange>
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>BasicClothing</tradeTag>
+				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+				<countRange>1~3</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
@@ -390,12 +388,10 @@
 					<li>Kibble</li>
 				</thingDefs>
 			</li>
-			<li Class="StockGenerator_WeaponsRanged">
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>WeaponRanged</tradeTag>
 				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-				<countRange>
-					<min>2</min>
-					<max>4</max>
-				</countRange>
+				<countRange>2~4</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
@@ -415,12 +411,10 @@
 					<max>2</max>
 				</countRange>
 			</li>
-			<li Class="StockGenerator_Armor">
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Armor</tradeTag>
 				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-				<countRange>
-					<min>-2</min>
-					<max>1</max>
-				</countRange>
+				<countRange>1~1</countRange>
 			</li>
 			<li Class="StockGenerator_Tag">
 				<tradeTag>Artifact</tradeTag>

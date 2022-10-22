@@ -7,7 +7,7 @@
 		<uiIconPath>Things/Miscellaneous/BeeRace</uiIconPath>
 		<statBases>
 			<PsychicSensitivity>1.5</PsychicSensitivity>
-			<ToxicSensitivity>0.8</ToxicSensitivity>
+			<ToxicResistance>0.2</ToxicResistance>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<LeatherAmount>30</LeatherAmount>
@@ -60,13 +60,14 @@
 				<canLayDown>true</canLayDown>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
-					<alienbodytypes>
+					<bodyTypes>
 						<li>Female</li>
-					</alienbodytypes>
+					</bodyTypes>
 					<bodyAddons>
 						<li>
 							<path>Things/Pawn/Alien_Races/Apini/Antennae/ApiniR</path>
-							<bodyPart>right antenna</bodyPart>
+							<bodyPart>ApiniInsectAntenna</bodyPart>
+							<bodyPartLabel>right antenna</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<drawnInBed>true</drawnInBed>
@@ -78,7 +79,8 @@
 						</li>
 						<li>
 							<path>Things/Pawn/Alien_Races/Apini/Antennae/ApiniL</path>
-							<bodyPart>left antenna</bodyPart>
+							<bodyPart>ApiniInsectAntenna</bodyPart>
+							<bodyPartLabel>left antenna</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<drawnInBed>true</drawnInBed>
@@ -363,56 +365,54 @@
 			<graphicPaths>
 				<head>
 					<genderGraphics>
-						<Male>Things/Pawn/Alien_Races/Apini/Adult/Head/Male</Male>
-						<Female>Things/Pawn/Alien_Races/Apini/Adult/Head/Female</Female>
+						<Male>Things/Pawn/Alien_Races/Apini/Head/Male</Male>
+						<Female>Things/Pawn/Alien_Races/Apini/Head/Female</Female>
 					</genderGraphics>
 					<ageGraphics>
-						<ApiniLarva>
-							<path>Things/Pawn/Alien_Races/Apini/Larva/Head/</path>
-							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva>
-						<ApiniLarva2>
-							<path>Things/Pawn/Alien_Races/Apini/Larva/Head/</path>
-						</ApiniLarva2>
 						<ApiniPupa>
 							<genderGraphics>
-								<Male>Things/Pawn/Alien_Races/Apini/Adult/Head/Male</Male>
+								<Male>Things/Pawn/Alien_Races/Apini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Apini/Head/Female</Female>
 							</genderGraphics>
 							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
 							<genderGraphics>
-								<Male>Things/Pawn/Alien_Races/Apini/Adult/Head/Male</Male>
+								<Male>Things/Pawn/Alien_Races/Apini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Apini/Head/Female</Female>
 							</genderGraphics>
 							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
 							<genderGraphics>
-								<Male>Things/Pawn/Alien_Races/Apini/Adult/Head/Male</Male>
+								<Male>Things/Pawn/Alien_Races/Apini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Apini/Head/Female</Female>
 							</genderGraphics>
 							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
+						<ApiniAdult>
+							<genderGraphics>
+								<Male>Things/Pawn/Alien_Races/Apini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Apini/Head/Female</Female>
+							</genderGraphics>
+						</ApiniAdult>
 					</ageGraphics>
 				</head>
 				<body>
-					<path>Things/Pawn/Alien_Races/Apini/Adult/Body/</path>
 					<ageGraphics>
-						<ApiniLarva>
-							<path>Things/Pawn/Alien_Races/Apini/Larva/Body/</path>
-							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva>
-						<ApiniLarva2>
-							<path>Things/Pawn/Alien_Races/Apini/Larva/Body/</path>
-						</ApiniLarva2>
 						<ApiniPupa>
+							<path>Things/Pawn/Alien_Races/Apini/Adult/Body/</path>
 							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
+							<path>Things/Pawn/Alien_Races/Apini/Adult/Body/</path>
 							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
+							<path>Things/Pawn/Alien_Races/Apini/Adult/Body/</path>
 							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
+						<ApiniAdult>Things/Pawn/Alien_Races/Apini/Adult/Body/</ApiniAdult>
 					</ageGraphics>
 				</body>
 			</graphicPaths>

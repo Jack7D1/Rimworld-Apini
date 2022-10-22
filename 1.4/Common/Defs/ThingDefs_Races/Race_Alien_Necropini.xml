@@ -14,7 +14,7 @@
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<PsychicSensitivity>1.5</PsychicSensitivity>
-			<ToxicSensitivity>0.8</ToxicSensitivity>
+			<ToxicResistance>0.2</ToxicResistance>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<LeatherAmount>30</LeatherAmount>
@@ -60,11 +60,9 @@
 				<canLayDown>true</canLayDown>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
-					<alienbodytypes>
+					<bodyTypes>
 						<li>Female</li>
-					</alienbodytypes>
-					<useGenderedHeads>true</useGenderedHeads>
-					<useGenderedBodies>false</useGenderedBodies>
+					</bodyTypes>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -309,56 +307,58 @@
 				</forcedRaceTraitEntries>
 			</generalSettings>
 			<graphicPaths>
-				<li>
-					<body>Things/Pawn/Necroapini/Body/</body>
-					<head>Things/Pawn/Necroapini/Head/</head>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>ApiniLarva1</li>
-					</lifeStageDefs>
-					<body>Things/Pawn/Necroapini/Body/</body>
-					<head>Things/Pawn/Necroapini/Head/</head>
-					<drawSize>(0.75,0.75)</drawSize>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>ApiniLarva2</li>
-					</lifeStageDefs>
-					<body>Things/Pawn/Necroapini/Body/</body>
-					<head>Things/Pawn/Necroapini/Head/</head>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>ApiniPupa</li>
-					</lifeStageDefs>
-					<drawSize>(0.7,0.7)</drawSize>
-					<body>Things/Pawn/Necroapini/Body/</body>
-					<head>Things/Pawn/Necroapini/Head/</head>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>ApiniYouth</li>
-					</lifeStageDefs>
-					<drawSize>(0.8,0.8)</drawSize>
-					<body>Things/Pawn/Necroapini/Body/</body>
-					<head>Things/Pawn/Necroapini/Head/</head>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>ApiniTeen</li>
-					</lifeStageDefs>
-					<drawSize>(0.9,0.9)</drawSize>
-					<body>Things/Pawn/Necroapini/Body/</body>
-					<head>Things/Pawn/Necroapini/Head/</head>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>ApiniAdult</li>
-					</lifeStageDefs>
-					<body>Things/Pawn/Necroapini/Body/</body>
-					<head>Things/Pawn/Necroapini/Head/</head>
-				</li>
+				<head>
+					<genderGraphics>
+						<Male>Things/Pawn/Alien_Races/Npini/Head/Male</Male>
+						<Female>Things/Pawn/Alien_Races/Npini/Head/Female</Female>
+					</genderGraphics>
+					<ageGraphics>
+						<ApiniPupa>
+							<genderGraphics>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Female</Female>
+							</genderGraphics>
+							<drawSize>(0.7,0.7)</drawSize>
+						</ApiniPupa>
+						<ApiniYouth>
+							<genderGraphics>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Female</Female>
+							</genderGraphics>
+							<drawSize>(0.8,0.8)</drawSize>
+						</ApiniYouth>
+						<ApiniTeen>
+							<genderGraphics>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Female</Female>
+							</genderGraphics>
+							<drawSize>(0.9,0.9)</drawSize>
+						</ApiniTeen>
+						<ApiniAdult>
+							<genderGraphics>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Male</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Female</Female>
+							</genderGraphics>
+						</ApiniAdult>
+					</ageGraphics>
+				</head>
+				<body>
+					<ageGraphics>
+						<ApiniPupa>
+							<path>Things/Pawn/Alien_Races/Npini/Adult/Body/</path>
+							<drawSize>(0.7,0.7)</drawSize>
+						</ApiniPupa>
+						<ApiniYouth>
+							<path>Things/Pawn/Alien_Races/Npini/Adult/Body/</path>
+							<drawSize>(0.8,0.8)</drawSize>
+						</ApiniYouth>
+						<ApiniTeen>
+							<path>Things/Pawn/Alien_Races/Npini/Adult/Body/</path>
+							<drawSize>(0.9,0.9)</drawSize>
+						</ApiniTeen>
+						<ApiniAdult>Things/Pawn/Alien_Races/Npini/Adult/Body/</ApiniAdult>
+					</ageGraphics>
+				</body>
 			</graphicPaths>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
@@ -392,12 +392,12 @@
 						<ingredientThought>ApiniInsect</ingredientThought>
 					</li>
 				</ateThoughtSpecific>
-				
+
 				<butcherThoughtGeneral>
 					<thought>ButcheredHumanlikeCorpseAPINI</thought>
 					<knowThought>KnowButcheredHumanlikeCorpseAPINI</knowThought>
 				</butcherThoughtGeneral>
-	
+
 				<replacerList>
 					<li>
 						<original>KnowButcheredHumanlikeCorpse</original>
@@ -508,32 +508,32 @@
 			</hediffGiverSets>
 		</race>
 	</AlienRace.ThingDef_AlienRace>
-	
+
 	<ThoughtDef>
 		<defName>KnowButcheredHumanlikeCorpseAPINI</defName>
 		<durationDays>6</durationDays>
 		<stackLimit>1</stackLimit>
 		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
 		<stages>
-		<li>
-			<label>we butchered humanlike</label>
-			<description>This meat will help the hive!</description>
-			<baseMoodEffect>3</baseMoodEffect>
-		</li>
+			<li>
+				<label>we butchered humanlike</label>
+				<description>This meat will help the hive!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
 		</stages>
 	</ThoughtDef>
 
-    <ThoughtDef>
-        <defName>ButcheredHumanlikeCorpseAPINI</defName>
-        <durationDays>6.0</durationDays>
-        <stackLimit>4</stackLimit>
-        <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
-        <stages>
-            <li>
-                <label>I butchered human</label>
-                <description>This meat will help the hive!</description>
-                <baseMoodEffect>3</baseMoodEffect>
-            </li>
-        </stages>
-    </ThoughtDef>
+	<ThoughtDef>
+		<defName>ButcheredHumanlikeCorpseAPINI</defName>
+		<durationDays>6.0</durationDays>
+		<stackLimit>4</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>I butchered human</label>
+				<description>This meat will help the hive!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

@@ -7,7 +7,7 @@
 		<description>Distant relative to the Apini. These gigantic bees harvest vast quantities of nectar and self-produce honey.\n While they do possess some mamalian DNA like their cousins, these docile beasts prefer to go about blissfully ignorant of the world around them caring only for their next meal.\n The hive they host within the walls of their thorax fills to a harvestable amount daily, producing a steady flow of delicious honey for those that care for them.</description>
 		<uiIconPath>Things/Miscellaneous/BeeRace</uiIconPath>
 		<statBases>
-			<ToxicSensitivity>2</ToxicSensitivity>
+			<ToxicResistance>0</ToxicResistance>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>46</ComfyTemperatureMax>
 			<LeatherAmount>75</LeatherAmount>
