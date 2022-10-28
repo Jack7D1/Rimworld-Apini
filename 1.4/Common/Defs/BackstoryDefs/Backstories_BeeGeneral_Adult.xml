@@ -1,5 +1,5 @@
 <Defs>
-	<AlienRace.BackstoryDef Name="BeeAdultBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="BeeAdultBase" Abstract="True">
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<spawnCategories>
@@ -7,20 +7,20 @@
 		</spawnCategories>
 		<femaleCommonality>100</femaleCommonality>
 		<maleCommonality>0</maleCommonality>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeDrudge</defName>
 		<title>Drudgery worker</title>
 		<titleShort>Drudge</titleShort>
 		<baseDesc>Born as a worker under the queen, [PAWN_nameDef] will likely never live to do anything but be that which many will trade for; someone more than capable of dumb labor.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Plants</defName>
-				<amount>4</amount>
+				<key>Plants</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>4</amount>
+				<key>Construction</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
@@ -28,24 +28,24 @@
 			<li>Cleaning</li>
 			<li>Hauling</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeAttendant</defName>
 		<title>Royal attendant</title>
 		<titleShort>Attendant</titleShort>
 		<baseDesc>[PAWN_nameDef] was a tireless servant responsible for the caring, cleaning and feeding of the queen.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Cooking</defName>
-				<amount>5</amount>
+				<key>Cooking</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>5</amount>
+				<key>Medicine</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
@@ -53,8 +53,8 @@
 			<li>Caring</li>
 			<li>Cleaning</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeDisgraced</defName>
 		<title>Disgraced guard</title>
 		<titleShort>Disgraced</titleShort>
@@ -62,12 +62,12 @@
 		<skillGains>
 			<!-- what-->
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>7</amount>
+				<key>Melee</key>
+				<value>7</value>
 			</li>
 		</skillGains>
 		<workDisables>
@@ -76,13 +76,14 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Gourmand</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeScout</defName>
 		<title>Scout</title>
 		<titleShort>Scout</titleShort>
@@ -90,44 +91,46 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Plants</defName>
-				<amount>3</amount>
+				<key>Plants</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>3</amount>
+				<key>Medicine</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
+				<key>Shooting</key>
+				<value>3</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Violent</li>
 			<li>Animals</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Wimp</defName>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Undergrounder</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeUndertaker</defName>
 		<title>Undertaker</title>
 		<titleShort>Undertaker</titleShort>
 		<baseDesc>[PAWN_nameDef] was responsible for disposing of corpses outside of the hive. This was a thankless yet vital job, lest the dead bodies attract predators.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Medicine</defName>
-				<amount>6</amount>
+				<key>Medicine</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>6</amount>
+				<key>Animals</key>
+				<value>6</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
@@ -136,20 +139,20 @@
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeArchitect</defName>
 		<title>Honeycomb architect</title>
 		<titleShort>Architect</titleShort>
 		<baseDesc>Responsible for secreting wax and building the honeycombs, [PAWN_nameDef] would spend most of [PAWN_possessive] time doing exactly that, and only that. Unfortunately, [PAWN_possessive] constant business had left [PAWN_possessive] with little time for socialization or other skills.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Construction</defName>
-				<amount>8</amount>
+				<key>Construction</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>3</amount>
+				<key>Crafting</key>
+				<value>3</value>
 			</li>
 		</skillGains>
 		<workDisables>
@@ -159,8 +162,8 @@
 			<li>ManualSkilled</li>
 			<li>Crafting</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeHiveless</defName>
 		<title>Hiveless</title>
 		<titleShort>Hiveless</titleShort>
@@ -168,31 +171,33 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Artistic</defName>
-				<amount>4</amount>
+				<key>Artistic</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
+				<key>Medicine</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<workDisables>
 			<li>ManualSkilled</li>
 		</workDisables>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Abrasive</defName>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Psychopath</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeSoldier</defName>
 		<title>Veteran soldier</title>
 		<titleShort>Soldier</titleShort>
@@ -200,25 +205,26 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
+				<key>Melee</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
+				<key>Medicine</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Violent</li>
 			<li>Caring</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Wimp</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeePoli</defName>
 		<title>Pollen-tician</title>
 		<titleShort>Pollen-tician</titleShort>
@@ -227,50 +233,50 @@
 		<maleCommonality>50</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>10</amount>
+				<key>Social</key>
+				<value>10</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>-5</amount>
+				<key>Melee</key>
+				<value>-5</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Greedy</defName>
 				<chance>90</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<requiredWorkTags>
 			<li>Social</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="BeeAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
 		<defName>BeeNursemaid</defName>
 		<title>Nursemaid</title>
 		<titleShort>Nursemaid</titleShort>
 		<baseDesc>[PAWN_nameDef] cared for the young of the hive.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Cooking</defName>
-				<amount>2</amount>
+				<key>Cooking</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
+				<key>Medicine</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-5</amount>
+				<key>Construction</key>
+				<value>-5</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Caring</li>
 			<li>Cleaning</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 </Defs>

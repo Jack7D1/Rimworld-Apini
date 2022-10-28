@@ -348,55 +348,93 @@
 			</generalSettings>
 			<graphicPaths>
 				<head>
-					<genderGraphics>
-						<Male>Things/Pawn/Alien_Races/Azuri/Head/Male</Male>
-						<Female>Things/Pawn/Alien_Races/Azuri/Head/Female</Female>
-					</genderGraphics>
+					<path>Things/Pawn/Alien_Races/Azuri/Head/</path>
 					<ageGraphics>
+						<ApiniLarva1>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Male>
+							</genderGraphics>
+							<drawSize>(0.75,0.75)</drawSize>
+						</ApiniLarva1>
+						<ApiniLarva2>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Male>
+							</genderGraphics>
+						</ApiniLarva2>
 						<ApiniPupa>
 							<genderGraphics>
-								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male</Male>
-								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female</Female>
+								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female_Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male_Average_Normal</Male>
 							</genderGraphics>
 							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
 							<genderGraphics>
-								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male</Male>
-								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female</Female>
+								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female_Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Apini/Head/Male_Average_Normal</Male>
 							</genderGraphics>
 							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
 							<genderGraphics>
-								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male</Male>
-								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female</Female>
+								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female_Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male_Average_Normal</Male>
 							</genderGraphics>
 							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
 						<ApiniAdult>
 							<genderGraphics>
-								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male</Male>
-								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female</Female>
+								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female_Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male_Average_Normal</Male>
 							</genderGraphics>
 						</ApiniAdult>
 					</ageGraphics>
 				</head>
 				<body>
+					<path>Things/Pawn/Alien_Races/Azuri/Body/</path>
 					<ageGraphics>
+						<ApiniLarva1>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Female>
+								<Male>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Male>
+							</genderGraphics>
+							<drawSize>(0.75,0.75)</drawSize>
+						</ApiniLarva1>
+						<ApiniLarva2>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Female>
+								<Male>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Male>
+							</genderGraphics>
+						</ApiniLarva2>
 						<ApiniPupa>
-							<path>Things/Pawn/Alien_Races/Azuri/Adult/Body/</path>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Female>
+								<Male>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Male>
+							</genderGraphics>
 							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
-							<path>Things/Pawn/Alien_Races/Azuri/Adult/Body/</path>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Female>
+								<Male>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Male>
+							</genderGraphics>
 							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
-							<path>Things/Pawn/Alien_Races/Azuri/Adult/Body/</path>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Female>
+								<Male>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Male>
+							</genderGraphics>
 							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
-						<ApiniAdult>Things/Pawn/Alien_Races/Azuri/Adult/Body/</ApiniAdult>
+						<ApiniAdult>
+							<genderGraphics>
+								<Female>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Female>
+								<Male>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Male>
+							</genderGraphics>
+						</ApiniAdult>
 					</ageGraphics>
 				</body>
 			</graphicPaths>

@@ -1,59 +1,63 @@
 <Defs>
-	<AlienRace.BackstoryDef Name="AzuriChildBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="AzuriChildBase" Abstract="True">
 		<slot>Childhood</slot>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<spawnCategories>
 			<li>AzuriSpecific</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="AzuriChildBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriChildBase">
 		<defName>AzuriBullied</defName>
 		<title>Bullied Grub</title>
 		<titleShort>Bullied</titleShort>
 		<baseDesc>The Azuri are a rough folk, [PAWN_nameDef] found [PAWN_possessive]self being the butt of much of bullying. As a result [PAWN_pronoun] is often reclusive and on edge.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>-2</amount>
+				<key>Social</key>
+				<value>-2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nerves</defName>
 				<degree>-2</degree>
+				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Kind</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="AzuriChildBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriChildBase">
 		<defName>AzuriDoom</defName>
 		<title>Doomsayer</title>
 		<titleShort>Doomsayer</titleShort>
 		<baseDesc>As a young grub, [PAWN_nameDef] showed remarkable ability to predict the future. Many times [PAWN_pronoun] would chant constantly of impending doom by winterfall. Indeed this prediction came to fruition, and the entire hive nearly froze to death. \nWhether this is actual premonition or common sense remains to be seen.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<key>Social</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Nerves</defName>
 				<degree>1</degree>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Nerves</defName>
 				<degree>2</degree>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Animals</li>
 		</workDisables>
@@ -61,8 +65,8 @@
 			<li>Social</li>
 			<li>Intellectual</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="AzuriChildBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriChildBase">
 		<defName>AzuriPacifist</defName>
 		<title>Pacifistic Grub</title>
 		<titleShort>Pacifist</titleShort>
@@ -70,17 +74,18 @@
 		</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>1</amount>
+				<key>Social</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Artistic</defName>
-				<amount>3</amount>
+				<key>Artistic</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Kind</defName>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>NaturalMood</defName>
@@ -91,20 +96,23 @@
 				<defName>TorturedArtist</defName>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Bloodlust</defName>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Psychopath</defName>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Abrasive</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Violent</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 </Defs>

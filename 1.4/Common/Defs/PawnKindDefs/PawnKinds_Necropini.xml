@@ -4,16 +4,20 @@
 	<PawnKindDef Name="NpiniBasic" Abstract="True">
 		<race>Necropini</race>
 		<label>necropini</label>
-		<backstoryCategories>
-			<li>ApiniSpecific</li>
-			<li>BeeGeneral</li>
-		</backstoryCategories>
 		<minGenerationAge>18</minGenerationAge>
 		<aiAvoidCover>false</aiAvoidCover>
 		<invNutrition>3</invNutrition>
 		<apparelTags>
 			<li>Bee</li>
 		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>BeeGeneral</li>
+					<li>ApiniSpecific</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<defaultFactionType>TribeApini</defaultFactionType>
 	</PawnKindDef>

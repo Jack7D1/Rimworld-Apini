@@ -3,10 +3,6 @@
 	<PawnKindDef Name="AzuriBasic" Abstract="True">
 		<race>Azuri</race>
 		<label>azuri</label>
-		<backstoryCategories>
-			<li>AzuriSpecific</li>
-			<li>BeeGeneral</li>
-		</backstoryCategories>
 		<combatPower>60</combatPower>
 		<apparelTags>
 			<li>Bee</li>
@@ -19,6 +15,14 @@
 			<li>NeolithicMeleeBasic</li>
 		</weaponTags>
 		<apparelMoney>200~400</apparelMoney>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>BeeGeneral</li>
+					<li>AzuriSpecific</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 	</PawnKindDef>
 	<PawnKindDef ParentName="AzuriBasic">
 		<defName>AzuriPawn</defName>
@@ -57,11 +61,6 @@
 		<defaultFactionType>Pirate</defaultFactionType>
 		<combatPower>100</combatPower>
 		<gearHealthRange>0.7~1.8</gearHealthRange>
-		<backstoryCategories>
-			<li>Pirate</li>
-			<li>AzuriSpecific</li>
-			<li>BeeGeneral</li>
-		</backstoryCategories>
 		<invNutrition>2.55</invNutrition>
 		<itemQuality>Normal</itemQuality>
 		<backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>

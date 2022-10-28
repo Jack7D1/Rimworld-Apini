@@ -1,89 +1,91 @@
 <Defs>
-	<AlienRace.BackstoryDef Name="ApiniChildBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ApiniChildBase" Abstract="True">
 		<slot>Childhood</slot>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<spawnCategories>
 			<li>ApiniSpecific</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
 		<defName>ApiniHuman</defName>
 		<title>Human raised</title>
 		<titleShort>Changeling</titleShort>
 		<baseDesc>Taken from [PAWN_possessive] hive as a grubling by humans, [PAWN_nameDef] grew up with a sense of independence rarely found amongst the Apini.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Artistic</defName>
-				<amount>6</amount>
+				<key>Artistic</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>3</amount>
+				<key>Intellectual</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>3</amount>
+				<key>Animals</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-2</amount>
+				<key>Construction</key>
+				<value>-2</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>-2</amount>
+				<key>Crafting</key>
+				<value>-2</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
 		<defName>ApiniWrangler</defName>
 		<title>Megaspider wrangler</title>
 		<titleShort>Wrangler</titleShort>
 		<baseDesc>[PAWN_nameDef] took up the only job available to quickest, toughest, and luckiest of Apini; [PAWN_nameDef] went into cave systems to retrieve megaspiders. Years of doing this deadly work has hardened both [PAWN_possessive] chitin and [PAWN_possessive] spirit.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>8</amount>
+				<key>Animals</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>-5</amount>
+				<key>Social</key>
+				<value>-5</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Animals</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Wimp</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
 		<defName>ApiniFlower</defName>
 		<title>Flowerchild</title>
 		<titleShort>Flowerchild</titleShort>
 		<baseDesc>When most would use flowers for making honey, [PAWN_nameDef] would spend hours upon hours merely playing in them.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>4</amount>
+				<key>Plants</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Bloodlust</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<!--<AlienRace.BackstoryDef ParentName="ApiniChildBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!--<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
     <defName>Apini_Drone</defName>
     <title>Drone</title>
     <titleShort>Drone</titleShort>
@@ -105,8 +107,8 @@
         <defName>ApiniDrone</defName>
       </li>
     </forcedTraits>
-  </AlienRace.BackstoryDef> -->
-	<AlienRace.BackstoryDef ParentName="ApiniChildBase">
+  </AlienRace.AlienBackstoryDef> -->
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
 		<defName>ApiniOutcast</defName>
 		<title>Outcast</title>
 		<titleShort>Outcast</titleShort>
@@ -115,16 +117,16 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
+				<key>Melee</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>8</amount>
+				<key>Animals</key>
+				<value>8</value>
 			</li>
 		</skillGains>
 		<!--<forcedTraits>
@@ -137,5 +139,5 @@
 			<li>Intellectual</li>
 			<li>Caring</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 </Defs>

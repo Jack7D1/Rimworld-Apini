@@ -44,30 +44,6 @@
 					</li>
 				</disallowedTraits>
 			</generalSettings>
-			<graphicPaths>
-				<head>
-					<ageGraphics>
-						<ApiniLarva1>
-							<path>Things/Pawn/Alien_Races/Larva/Head/</path>
-							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva1>
-						<ApiniLarva2>
-							<path>Things/Pawn/Alien_Races/Larva/Head/</path>
-						</ApiniLarva2>
-					</ageGraphics>
-				</head>
-				<body>
-					<ageGraphics>
-						<ApiniLarva1>
-							<path>Things/Pawn/Alien_Races/Larva/Body/</path>
-							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva1>
-						<ApiniLarva2>
-							<path>Things/Pawn/Alien_Races/Larva/Body/</path>
-						</ApiniLarva2>
-					</ageGraphics>
-				</body>
-			</graphicPaths>
 			<styleSettings>
 				<li>
 					<key>HairDef</key>

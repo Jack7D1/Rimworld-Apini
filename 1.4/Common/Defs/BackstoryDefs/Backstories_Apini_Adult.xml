@@ -1,5 +1,5 @@
 <Defs>
-	<AlienRace.BackstoryDef Name="ApiniAdultBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ApiniAdultBase" Abstract="True">
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<spawnCategories>
@@ -7,8 +7,8 @@
 		</spawnCategories>
 		<femaleCommonality>100</femaleCommonality>
 		<maleCommonality>0</maleCommonality>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniGatherer</defName>
 		<title>Pollen gatherer</title>
 		<titleShort>Gatherer</titleShort>
@@ -16,24 +16,24 @@
 		<maleCommonality>5</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Plants</defName>
-				<amount>4</amount>
+				<key>Plants</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
+				<key>Medicine</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Hauling</li>
 			<li>PlantWork</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniBuzz</defName>
 		<title>BuzzArtist</title>
 		<titleShort>Confectioner</titleShort>
@@ -41,16 +41,16 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Artistic</defName>
-				<amount>5</amount>
+				<key>Artistic</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>8</amount>
+				<key>Cooking</key>
+				<value>8</value>
 			</li>
 		</skillGains>
 		<workDisables>
@@ -60,39 +60,40 @@
 		<requiredWorkTags>
 			<li>Cooking</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniBusy</defName>
 		<title>Busybody</title>
 		<titleShort>Busybody</titleShort>
 		<baseDesc>[PAWN_nameDef] always works tirelessly and hastily to expand and decorate the hive. [PAWN_pronoun] had to do [PAWN_possessive] job so fast that [PAWN_pronoun] never even had time to look at the sky.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Construction</defName>
-				<amount>5</amount>
+				<key>Construction</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Artistic</defName>
-				<amount>4</amount>
+				<key>Artistic</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<workDisables>
 			<li>Intellectual</li>
 		</workDisables>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Neurotic</defName>
 				<degree>2</degree>
+				<chance>100</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<requiredWorkTags>
 			<li>ManualDumb</li>
 			<li>ManualSkilled</li>
 			<li>Cleaning</li>
 			<li>Hauling</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniWasp</defName>
 		<title>Wasp wannabee</title>
 		<titleShort>Wannabee</titleShort>
@@ -100,38 +101,39 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>-5</amount>
+				<key>Social</key>
+				<value>-5</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>4</amount>
+				<key>Cooking</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Artistic</defName>
-				<amount>4</amount>
+				<key>Artistic</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Brawler</defName>
 				<chance>50</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<requiredWorkTags>
 			<li>Intellectual</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniLazer</defName>
 		<title>B-lazer</title>
 		<titleShort>B-lazer</titleShort>
@@ -140,24 +142,25 @@
 		<maleCommonality>20</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>5</amount>
+				<key>Shooting</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>3</amount>
+				<key>Cooking</key>
+				<value>3</value>
 			</li>
 		</skillGains>
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Pyromaniac</defName>
+				<chance>100</chance>
 			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniLayabout</defName>
 		<title>Layabout</title>
 		<titleShort>Layabout</titleShort>
@@ -165,24 +168,25 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Industriousness</defName>
 				<degree>-1</degree>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
 			<li>
 				<defName>QuickSleeper</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniCaravan</defName>
 		<title>Caravaneer</title>
 		<titleShort>Caravaneer</titleShort>
@@ -190,29 +194,30 @@
 		<maleCommonality>100</maleCommonality>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>5</amount>
+				<key>Social</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>3</amount>
+				<key>Animals</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-4</amount>
+				<key>Construction</key>
+				<value>-4</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Social</li>
 			<li>Hauling</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Abrasive</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniAlpaca</defName>
 		<title>Alpaca shepherd</title>
 		<titleShort>Shepard</titleShort>
@@ -220,39 +225,39 @@
 		<skillGains>
 			<!--Pineapple?-->
 			<li>
-				<defName>Melee</defName>
-				<amount>1</amount>
+				<key>Melee</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>-2</amount>
+				<key>Social</key>
+				<value>-2</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>4</amount>
+				<key>Animals</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Animals</li>
 		</requiredWorkTags>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniProtector</defName>
 		<title>Hive protector</title>
 		<titleShort>Protector</titleShort>
 		<baseDesc>As an adult, [PAWN_nameDef] was tasked with guarding the hive against Azuri swarms. [PAWN_nameDef] had to rely on other Apini to make sure [PAWN_pronoun] stayed supplied so [PAWN_pronoun] could dedicate all [PAWN_possessive] time to [PAWN_possessive] vigilance.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>6</amount>
+				<key>Shooting</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
+				<key>Melee</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>1</amount>
+				<key>Social</key>
+				<value>1</value>
 			</li>
 		</skillGains>
 		<workDisables>
@@ -261,13 +266,14 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Wimp</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="ApiniAdultBase">
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniAdultBase">
 		<defName>ApiniScuptor</defName>
 		<title>Wax sculptor</title>
 		<titleShort>Sculptor</titleShort>
@@ -279,36 +285,37 @@
 		<!--stop-->
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>-8</amount>
+				<key>Social</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>2</amount>
+				<key>Plants</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-4</amount>
+				<key>Construction</key>
+				<value>-4</value>
 			</li>
 			<li>
-				<defName>Artistic</defName>
-				<amount>6</amount>
+				<key>Artistic</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>2</amount>
+				<key>Crafting</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Crafting</li>
 		</requiredWorkTags>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
+				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
-	<!--<AlienRace.BackstoryDef>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!--<AlienRace.AlienBackstoryDef>
     <defName>Apini</defName>
     <title></title>
     <titleShort></titleShort>
@@ -324,5 +331,5 @@
         <amount>4</amount>
       </li>
     </skillGains>
-    </AlienRace.BackstoryDef> -->
+    </AlienRace.AlienBackstoryDef> -->
 </Defs>
