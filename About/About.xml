@@ -36,7 +36,6 @@
 	</loadBefore>
 	<incompatibleWith>
 		<li>rwmt.Multiplayer</li>
-		<li>sera.apinialienrace</li>
 	</incompatibleWith>
 	<description>
 		THIS IS A LEGACY BUILD OF THE MOD AND WILL NOT RECIEVE UPDATES.
