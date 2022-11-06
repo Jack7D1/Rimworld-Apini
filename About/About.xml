@@ -4,6 +4,7 @@
 	<author>Jack7D1</author>
 	<supportedVersions>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<packageId>sera.apinialienrace</packageId>
 	<url>https://discord.gg/CJwh6YZk4G</url>
@@ -35,12 +36,11 @@
 		<li>sarg.rimbees</li>
 	</loadBefore>
 	<incompatibleWith>
-		<li>rwmt.Multiplayer</li>
 		<li>InfinityKage.Necropini</li>
 	</incompatibleWith>
 	<description>
 		Report bugs over on the github page!
-		\nWant headgear from a certain mod? Drop the def name in the discord or github!
+		\nWant apparel from a certain mod? Drop the def name in the discord or github!
 		\nWant to contribute or want to know about upcoming changes and updates? Check out our github every now and then!
 		\nCertain features of some mods may extremely buff or extremely nerf Apini! This mod is best played with few other Non-Vanilla content mods
 		\nMods that are definitely incompatible, or mods that should be guaranteed compatible are listed on the workshop page.

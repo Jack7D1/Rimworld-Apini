@@ -1,0 +1,337 @@
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="BeeChildBase" Abstract="True">
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<spawnCategories>
+			<li>BeeGeneral</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeRestless</defName>
+		<title>Restless Grub</title>
+		<titleShort>Restless</titleShort>
+		<baseDesc>[PAWN_nameDef] was always restless and on the move as a grub. Often escaping the care of nursemaids and bringing [PAWN_possessive]self to injury.</baseDesc>
+		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>0</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Wimp</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeSickly</defName>
+		<title>Sickly Grub</title>
+		<titleShort>Sickly</titleShort>
+		<baseDesc>[PAWN_nameDef] was unusually plagues by various diseases, several times [PAWN_pronoun] was near death due to these diseases. \nFortunately for [PAWN_possessive], the nursemaids were highly skilled and nursed her back to health each and every time. \n[PAWN_nameDef] never got much social interaction, but finds it easy to empathize with [PAWN_possessive] patients.</baseDesc>
+		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>0</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Immunity</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeMundane</defName>
+		<title>Mundane</title>
+		<titleShort>Mundane</titleShort>
+		<baseDesc>[PAWN_nameDef] had a typical, mundane hive-based childhood.</baseDesc>
+		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>0</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeCurious</defName>
+		<title>Curious grub</title>
+		<titleShort>Curious</titleShort>
+		<baseDesc>Ever since [PAWN_nameDef] was a small grub, [PAWN_pronoun] was insanely curious about the world outside the hive, often risking life and wing to witness new fauna.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeKnave</defName>
+		<title>Prodigal knave</title>
+		<titleShort>Knave</titleShort>
+		<baseDesc>A prodigy in combat, [PAWN_nameDef] was celebrated for [PAWN_possessive] martial prowess. Little did they know that [PAWN_nameDef] had an intense phobia of critters.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeOverly</defName>
+		<title>Overly encapsulated</title>
+		<titleShort>Encapsulated</titleShort>
+		<baseDesc>[PAWN_nameDef] spent too long in [PAWN_possessive] capsule, comforted by its familiar design.</baseDesc>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeHelpful</defName>
+		<title>Helpful grubling</title>
+		<titleShort>Helpful</titleShort>
+		<baseDesc>As a small larva [PAWN_nameDef] was always eager to help [PAWN_possessive] elder sisters.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+			<li>Cleaning</li>
+			<li>Hauling</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeAnxious</defName>
+		<title>Anxious larva</title>
+		<titleShort>Anxious</titleShort>
+		<baseDesc>[PAWN_nameDef] was always anxious about the world outside the hive and the unknown dangers it contained. After all, humans could strike at anytime, wiping out the Apini and Azuri alike with superior technology. \n[PAWN_pronoun] made fantastic efforts to develop the skills to someday be able to mount a defence to this looming threat.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Tough</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeOrphan</defName>
+		<title>Wild orphan</title>
+		<titleShort>Orphan</titleShort>
+		<baseDesc>[PAWN_nameDef] somehow ended up fending for [PAWN_possessive]self in the wilds of the Rim. [PAWN_pronoun] learned to survive by integrating [PAWN_possessive]self into a local insect hive.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+			<li>ManualDumb</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeCharred</defName>
+		<title>Charred child</title>
+		<titleShort>Charred</titleShort>
+		<baseDesc>A child survivor of a burnt down hive, [PAWN_nameDef] suffered painful 3rd degree burns. After being permanently scarred [PAWN_nameDef] tried to learn how to revert [PAWN_possessive] appearance to pristine form.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Firefighting</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>Beauty</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+		<requiredWorkTags>
+			<li>Caring</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeGrubnapped</defName>
+		<title>Grubnapped</title>
+		<titleShort>Grubnapped</titleShort>
+		<baseDesc>At an early age, [PAWN_nameDef] was kidnapped from [PAWN_possessive] hive and forced into slavery. [PAWN_pronoun] harbors a deep resentment towards humans for [PAWN_possessive] suffering.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-3</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Kind</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeShaper</defName>
+		<title>Wax shaper</title>
+		<titleShort>Shaper</titleShort>
+		<baseDesc>The sturdy but easily shaped beeswax of the hives always entertained [PAWN_nameDef] as a larva, [PAWN_pronoun] spent most of her free time molding and sculpting the tough material. </baseDesc>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Crafting</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeChildBase">
+		<defName>BeeDestined</defName>
+		<title>Destined for greatness</title>
+		<titleShort>Destined</titleShort>
+		<baseDesc>Growing up [PAWN_nameDef] knew [PAWN_pronoun] was destined for greatness, the nursemaids made sure [PAWN_pronoun] understood how great a role [PAWN_pronoun] will one day play. They may have neglected a detail or two...</baseDesc>
+		<femaleCommonality>0</femaleCommonality>
+		<maleCommonality>100</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

@@ -1,0 +1,282 @@
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="BeeAdultBase" Abstract="True">
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<spawnCategories>
+			<li>BeeGeneral</li>
+		</spawnCategories>
+		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>0</maleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeDrudge</defName>
+		<title>Drudgery worker</title>
+		<titleShort>Drudge</titleShort>
+		<baseDesc>Born as a worker under the queen, [PAWN_nameDef] will likely never live to do anything but be that which many will trade for; someone more than capable of dumb labor.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+			<li>Cleaning</li>
+			<li>Hauling</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeAttendant</defName>
+		<title>Royal attendant</title>
+		<titleShort>Attendant</titleShort>
+		<baseDesc>[PAWN_nameDef] was a tireless servant responsible for the caring, cleaning and feeding of the queen.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Caring</li>
+			<li>Cleaning</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeDisgraced</defName>
+		<title>Disgraced guard</title>
+		<titleShort>Disgraced</titleShort>
+		<baseDesc>[PAWN_nameDef] was tasked to protect [PAWN_possessive] queen from danger, but fell from grace after an embarrassing incident involving a pineapple. \nStripped of [PAWN_possessive] position and ashamed, every time [PAWN_nameDef] looks upon a piece of fruit [PAWN_pronoun] is reminded of [PAWN_possessive] failure.</baseDesc>
+		<skillGains>
+			<!-- what-->
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>7</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeScout</defName>
+		<title>Scout</title>
+		<titleShort>Scout</titleShort>
+		<baseDesc>The long periods spent out of the hive has made [PAWN_nameDef] a resilient individual, well suited to reconnaissance and vanguard work.</baseDesc>
+		<maleCommonality>100</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Violent</li>
+			<li>Animals</li>
+		</requiredWorkTags>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Wimp</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Undergrounder</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeUndertaker</defName>
+		<title>Undertaker</title>
+		<titleShort>Undertaker</titleShort>
+		<baseDesc>[PAWN_nameDef] was responsible for disposing of corpses outside of the hive. This was a thankless yet vital job, lest the dead bodies attract predators.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Hauling</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeArchitect</defName>
+		<title>Honeycomb architect</title>
+		<titleShort>Architect</titleShort>
+		<baseDesc>Responsible for secreting wax and building the honeycombs, [PAWN_nameDef] would spend most of [PAWN_possessive] time doing exactly that, and only that. Unfortunately, [PAWN_possessive] constant business had left [PAWN_possessive] with little time for socialization or other skills.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>Crafting</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeHiveless</defName>
+		<title>Hiveless</title>
+		<titleShort>Hiveless</titleShort>
+		<baseDesc>[PAWN_nameDef] is without a hive, and without a home. Displaced, [PAWN_pronoun] had to learn to survive on [PAWN_possessive] own. Yet [PAWN_nameDef] also discovered the beauty in everything around [PAWN_possessive].</baseDesc>
+		<maleCommonality>100</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualSkilled</li>
+		</workDisables>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeSoldier</defName>
+		<title>Veteran soldier</title>
+		<titleShort>Soldier</titleShort>
+		<baseDesc>Dangerous and lethal, [PAWN_nameDef] is likely the definition of “nope” in many galactic textbooks. However [PAWN_pronoun] has a softer side, dutifully tending [PAWN_possessive] fellow soldiers on the battlefield.</baseDesc>
+		<maleCommonality>100</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+		</requiredWorkTags>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Wimp</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeePoli</defName>
+		<title>Pollen-tician</title>
+		<titleShort>Pollen-tician</titleShort>
+		<baseDesc>A recent position, made out of spite of the traditional monarchy, [PAWN_nameDef] has become a Pollen-tician, much to the despair of [PAWN_possessive] community</baseDesc>
+		<femaleCommonality>50</femaleCommonality>
+		<maleCommonality>50</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Greedy</defName>
+				<chance>90</chance>
+			</li>
+		</forcedTraitsChance>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="BeeAdultBase">
+		<defName>BeeNursemaid</defName>
+		<title>Nursemaid</title>
+		<titleShort>Nursemaid</titleShort>
+		<baseDesc>[PAWN_nameDef] cared for the young of the hive.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Caring</li>
+			<li>Cleaning</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

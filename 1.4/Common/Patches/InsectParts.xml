@@ -1,0 +1,212 @@
+<Patch>
+	<!--============================ Insect Parts ===============================-->
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Heart -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]</xpath>
+				<value>
+					<spawnThingOnRemoved>ApiniInsectHeart</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Mouth -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "InsectMouth"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "InsectMouth"]</xpath>
+				<value>
+					<spawnThingOnRemoved>ApiniInsectMouth</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Antenna -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "Antenna"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "Antenna"]</xpath>
+				<value>
+					<spawnThingOnRemoved>ApiniInsectAntenna</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!--============================ Amputation Restriction ===============================-->
+	<Operation Class="PatchOperationSequence">
+		<!-- Snake Body -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "SnakeBody"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "SnakeBody"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Snake Head -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "SnakeHead"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "SnakeHead"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Snake Mouth -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "SnakeMouth"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "SnakeMouth"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Head -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "InsectHead"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "InsectHead"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Heart -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "ApiniInsectHeart"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Insect Nostril -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "InsectNostril"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "InsectNostril"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Pronotum -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "Pronotum"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "Pronotum"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Shell -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "Shell"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "Shell"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Turtle Shell -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "TurtleShell"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "TurtleShell"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<!-- Plastron -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName = "Plastron"]/canSuggestAmputation</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName = "Plastron"]</xpath>
+				<value>
+					<canSuggestAmputation>false</canSuggestAmputation>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

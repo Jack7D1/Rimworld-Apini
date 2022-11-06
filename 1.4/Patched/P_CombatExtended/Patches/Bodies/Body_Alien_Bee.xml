@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Apini body. -->
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Torso equivalent and some of its children. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "ApiniInsectAbdomen"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<!-- Neck equivalent and its children. -->
+			<!-- I guess this bodypart is like a neck for the apini. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[def = "Pronotum"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li/parts/li[def = "Head"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			<!-- Arms equivalent and its children. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[customLabel = "left front leg"]/groups</xpath>
+				<value>
+					<li>LeftArm</li>
+					<li>LeftShoulder</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName = "Apini"]/corePart/parts/li[customLabel = "right front leg"]/groups</xpath>
+				<value>
+					<li>RightArm</li>
+					<li>RightShoulder</li>
+				</value>
+			</li>
+			<!-- Legs equivalent and its children. -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BodyPartDef[defName = "InsectLeg"]/bleedRate</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

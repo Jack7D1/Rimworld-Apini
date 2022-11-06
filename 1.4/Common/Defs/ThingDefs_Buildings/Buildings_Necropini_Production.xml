@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Meat Honey Vat-->
+	<ThingDef ParentName="ApiniBuildingBase">
+		<defName>NpiniMeatHoneyVat</defName>
+		<label>meat honey capsule</label>
+		<description>A pot for creating Meat Honey from meat slurry. The saliva breaks the meat down into a protein-rich secretion which then re-secretes the resulting proteins as a decay-resistant edible substance resembling honey.</description>
+		<thingClass>Apini.Building_FermentingVat</thingClass>
+		<modExtensions>
+			<li Class="Apini.VatProperties">
+				<inputThingDef>NpiniMeatSlurry</inputThingDef>
+				<outputThingDef>NpiniMeatHoney</outputThingDef>
+				<maxCapacity>200</maxCapacity>
+				<fermentationModifier>2</fermentationModifier>
+				<!-- 1:4 ratio -->
+				<inputToOutputRatio>10</inputToOutputRatio>
+				<!-- Translations, point to custom translation lines. -->
+				<containsInputTranslation>ContainsNectar</containsInputTranslation>
+				<containsOutputTranslation>ContainsHoney</containsOutputTranslation>
+				<fermentedTranslation>FermentedHoney</fermentedTranslation>
+				<fermentationProgressTranslation>HoneyFermentationProgress</fermentationProgressTranslation>
+				<fermentationNonIdealTranslation>HoneyFermentationBarrelOutOfIdealTemperature</fermentationNonIdealTranslation>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Building/MeatHoneyVat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<building>
+			<isMealSource>true</isMealSource>
+		</building>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>10</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<ApiniPollen>20</ApiniPollen>
+			<WoodLog>10</WoodLog>
+			<ApiniWax>30</ApiniWax>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_TemperatureRuinable">
+				<progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+				<minSafeTemperature>-20</minSafeTemperature>
+				<maxSafeTemperature>60</maxSafeTemperature>
+			</li>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<rotatable>true</rotatable>
+		<constructEffect>ConstructWood</constructEffect>
+	</ThingDef>
+</Defs>

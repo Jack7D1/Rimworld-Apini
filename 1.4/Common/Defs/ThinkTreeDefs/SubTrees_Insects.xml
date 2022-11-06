@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThinkTreeDef>
+		<defName>Insert_ApiniPetInsects</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>100</insertPriority>
+		<thinkRoot Class="ThinkNode_ConditionalOfPlayerFaction">
+			<subNodes>
+				<li Class="ThinkNode_ConditionalTrainableCompleted">
+					<trainable>Obedience</trainable>
+					<subNodes>
+						<li Class="Apini.ThinkNode_ConditionalColonyHasPawnKindDef">
+							<pawnKindDefs>
+								<li>ApiniPawn</li>
+								<li>ApiniTrader</li>
+								<li>ApiniOverseer</li>
+							</pawnKindDefs>
+							<subNodes>
+								<li Class="Apini.ThinkNode_ConditionalPawnMatchesAnyDef">
+									<defs>
+										<li>Megascarab</li>
+										<li>Spelopede</li>
+										<li>Megaspider</li>
+									</defs>
+									<subNodes>
+										<li Class="Apini.JobGiver_GenericWorkGiver">
+											<workGiverDef>Mine</workGiverDef>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

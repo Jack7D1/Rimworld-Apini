@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Bodypart Abstract-->
+	<ThingCategoryDef>
+		<defName>ApiniInsectBodyParts</defName>
+		<label>Insect Body Parts</label>
+		<parent>Items</parent>
+		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>ApiniInsectBodyPartsNatural</defName>
+		<label>natural</label>
+		<parent>ApiniInsectBodyParts</parent>
+		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>ApiniInsectBodyPartsArtificial</defName>
+		<label>Artificial</label>
+		<parent>ApiniInsectBodyParts</parent>
+		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>ApiniInsectBodyPartsApitech</defName>
+		<label>Apitech</label>
+		<parent>ApiniInsectBodyParts</parent>
+		<iconPath>Things/Miscellaneous/BeeRace</iconPath>
+	</ThingCategoryDef>
+</Defs>

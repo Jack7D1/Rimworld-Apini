@@ -1,0 +1,143 @@
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="ApiniChildBase" Abstract="True">
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<spawnCategories>
+			<li>ApiniSpecific</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
+		<defName>ApiniHuman</defName>
+		<title>Human raised</title>
+		<titleShort>Changeling</titleShort>
+		<baseDesc>Taken from [PAWN_possessive] hive as a grubling by humans, [PAWN_nameDef] grew up with a sense of independence rarely found amongst the Apini.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>-2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
+		<defName>ApiniWrangler</defName>
+		<title>Megaspider wrangler</title>
+		<titleShort>Wrangler</titleShort>
+		<baseDesc>[PAWN_nameDef] took up the only job available to quickest, toughest, and luckiest of Apini; [PAWN_nameDef] went into cave systems to retrieve megaspiders. Years of doing this deadly work has hardened both [PAWN_possessive] chitin and [PAWN_possessive] spirit.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Animals</li>
+		</requiredWorkTags>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Wimp</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
+		<defName>ApiniFlower</defName>
+		<title>Flowerchild</title>
+		<titleShort>Flowerchild</titleShort>
+		<baseDesc>When most would use flowers for making honey, [PAWN_nameDef] would spend hours upon hours merely playing in them.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!--<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
+    <defName>Apini_Drone</defName>
+    <title>Drone</title>
+    <titleShort>Drone</titleShort>
+    <baseDesc>[PAWN_nameDef] is one of few male drone bee aliens, giving [PAWN_objective] a unique perspective amongst his peers.</baseDesc>
+    <femaleCommonality>0</femaleCommonality>
+    <maleCommonality>100</maleCommonality>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>ApiniDrone</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.AlienBackstoryDef> -->
+	<AlienRace.AlienBackstoryDef ParentName="ApiniChildBase">
+		<defName>ApiniOutcast</defName>
+		<title>Outcast</title>
+		<titleShort>Outcast</titleShort>
+		<baseDesc>[PAWN_nameDef] was unfortunate to be born in a hive where there was no need for more workers. Cast out, [PAWN_pronoun] survived primarily by instinct.</baseDesc>
+		<femaleCommonality>0</femaleCommonality>
+		<maleCommonality>100</maleCommonality>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+		<!--<forcedTraits>
+      <li>
+        <defName>ApiniDrone</defName>
+      </li>
+    </forcedTraits>-->
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

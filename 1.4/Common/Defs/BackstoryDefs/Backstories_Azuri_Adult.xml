@@ -1,0 +1,86 @@
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="AzuriAdultBase" Abstract="True">
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<spawnCategories>
+			<li>AzuriSpecific</li>
+		</spawnCategories>
+		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>0</maleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriAdultBase">
+		<defName>AzuriPyro</defName>
+		<title>Fire Obsessed Warrior</title>
+		<titleShort>Fire Obsessed</titleShort>
+		<baseDesc>[PAWN_nameDef] has always been obsessed with fire, [PAWN_possessive] will raze villiages and hives alike to the ground after a raid. \nThis obsession also makes [PAWN_pronoun] a fantastic cook, oddly.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>40</chance>
+			</li>
+		</forcedTraitsChance>
+		<requiredWorkTags>
+			<li>Cooking</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriAdultBase">
+		<defName>AzuriApini</defName>
+		<title>Apini Hunter</title>
+		<titleShort>Hunter</titleShort>
+		<baseDesc>[PAWN_nameDef] is one of many charged with hunting down any and all of the disgusting Apini. [PAWN_pronoun] does this quite well, and without remorse.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Tough</defName>
+				<chance>40</chance>
+			</li>
+		</forcedTraitsChance>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriAdultBase">
+		<defName>AzuriChampion</defName>
+		<title>Ringfighting Champion</title>
+		<titleShort>Champion</titleShort>
+		<baseDesc>Of many violent Azuri pass-times and cultural phenomena, gladitorial-like ring fighting is all the buzz. [PAWN_nameDef] was the ringfighting champion of [PAWN_possessive] hive, and slated to rise to the top of all Azuri. \nSadly [PAWN_pronoun] was permanently banned from future participation after tearing out the antennae of another Azuri after the match had ended. \n[PAWN_nameDef] is exceptionally well familiar in hand to hand combat and dislikes ranged weaponry.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>7</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Brawler</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

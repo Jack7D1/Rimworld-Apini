@@ -1,0 +1,118 @@
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="AzuriChildBase" Abstract="True">
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<spawnCategories>
+			<li>AzuriSpecific</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriChildBase">
+		<defName>AzuriBullied</defName>
+		<title>Bullied Grub</title>
+		<titleShort>Bullied</titleShort>
+		<baseDesc>The Azuri are a rough folk, [PAWN_nameDef] found [PAWN_possessive]self being the butt of much of bullying. As a result [PAWN_pronoun] is often reclusive and on edge.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Kind</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriChildBase">
+		<defName>AzuriDoom</defName>
+		<title>Doomsayer</title>
+		<titleShort>Doomsayer</titleShort>
+		<baseDesc>As a young grub, [PAWN_nameDef] showed remarkable ability to predict the future. Many times [PAWN_pronoun] would chant constantly of impending doom by winterfall. Indeed this prediction came to fruition, and the entire hive nearly froze to death. \nWhether this is actual premonition or common sense remains to be seen.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="AzuriChildBase">
+		<defName>AzuriPacifist</defName>
+		<title>Pacifistic Grub</title>
+		<titleShort>Pacifist</titleShort>
+		<baseDesc>Unlike most Azuri, [PAWN_nameDef] grew up with a strong sense of empathy. Sadly this meant that [PAWN_pronoun] was unable to make meaningful connections with other Azuri. \n[PAWN_pronoun] found happiness in [PAWN_possessive] artwork despite this.
+		</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Kind</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>1</degree>
+				<chance>40</chance>
+			</li>
+			<li>
+				<defName>TorturedArtist</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+</Defs>
