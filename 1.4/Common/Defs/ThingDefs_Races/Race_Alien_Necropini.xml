@@ -325,29 +325,29 @@
 						</ApiniLarva2>
 						<ApiniPupa>
 							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Npini/Head/Female_Average_Normal</Female>
-								<Male>Things/Pawn/Alien_Races/Npini/Head/Male_Average_Normal</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Male>
 							</genderGraphics>
 							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
 							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Npini/Head/Female_Average_Normal</Female>
-								<Male>Things/Pawn/Alien_Races/Npini/Head/Male_Average_Normal</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Male>
 							</genderGraphics>
 							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
 							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Npini/Head/Female_Average_Normal</Female>
-								<Male>Things/Pawn/Alien_Races/Npini/Head/Male_Average_Normal</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Male>
 							</genderGraphics>
 							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
 						<ApiniAdult>
 							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Npini/Head/Female_Average_Normal</Female>
-								<Male>Things/Pawn/Alien_Races/Npini/Head/Male_Average_Normal</Male>
+								<Female>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Npini/Head/Average_Normal</Male>
 							</genderGraphics>
 						</ApiniAdult>
 					</ageGraphics>
