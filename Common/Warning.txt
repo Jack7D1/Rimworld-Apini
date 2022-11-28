@@ -1,3 +1,0 @@
-This folder's content is loaded across all versions;
-As a result content loaded here is likely to interfere with frozen past versions and cause compatibility issues for future versions.
-Using version specific folders is highly reccomended.

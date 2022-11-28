@@ -20,13 +20,13 @@ This mod lets you play as a race of sentient giant bees called apini.
 [list]
 [*]Compatible and Expanded: Save Our Ship 2
 [*]Compatible and Expanded: Royalty
-[*]Compatible: Combat Extended
-[*]Compatible: Consolidated Traits
 [*]Compatible: EPOE and EPOE Forked
 [*]Compatible: Rimbees
 -----
 [*]Incompatible: None known.
 [/list]
+
+Items not listed above may or may not work with apini, however there is no guarantee.
 
 [h1]Credits:[/h1]
 [list]
@@ -56,6 +56,7 @@ New Team: 		(Individual contributions visible on github)
 [*]Argón (León) - Artist
 [*]Mayonnaise - Coder
 [*]Ecu - Artist
+[*]HeavyMetalClown - Artist
 [/list]
 
 
@@ -69,11 +70,11 @@ New Team: 		(Individual contributions visible on github)
 [*]Q: How do I do this?
 [*]A: Before all else, check the learning helper! The most confusing aspects of apini are listed there! If you can't find what you're looking for still; create and issue on the github page as it should be there!
 
-[*]Q: Why am I getting an error of the older versions of this mod?
-[*]A: Older versions are 'frozen' and cannot be changed. Only the latest version of rimworld recieves mod updates. However before this freeze happens the version is extensively debugged and checked to ensure everything is in proper order. As a result many errors are usually very specific cases caused by rimworld itsself.
-
 [*]Q: Why am I getting an error/incompatibility?
 [*]A: First and foremost make sure that it is actually Apini causing this error. If it is apini note that before release all updates are bugtested quite extensively; so your case is likely very specific. Please make a guthub issue listing the configuration and nature or the error so this can be fixed. You're welcome to pop into our discord and chat live with a coder for help!
+
+[*]Q: Will there be any development for Ideology, Biotech etc?
+[*]A: No, as it stands Apini will only support Core Rimworld and the Royalty DLC. The reasoning behind this is that work available for Apini's development is very limited, and the ever expanding content for rimworld leads to increasing scope for a more or less constant work ability. Thus following the ethic "Do it well or don't do it at all." this is a line being drawn to limit the scope to what can be done well. In addition the Ideology and Biotech expansions do not personally interest development in this case. This mod may still work with these expansions, but they are not going to be actively supported.
 [/list]
 
 [u][b]Posting in the comments is highly discouraged as it's messy and hard to keep track of![/b]
