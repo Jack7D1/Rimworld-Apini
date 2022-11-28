@@ -34,7 +34,7 @@ This is intended for maintainers to perform before merging staging into master t
 4. Perform Standard test
 
 ### Expansion test:
-1. Enable all mods claimed as supported on steam page, as well as the royalty and ideology content (if owned)
+1. Enable all mods claimed as supported on steam page, as well as the royalty content (if owned)
 2. Autosort mods and restart
 3. Follow Primary Checklist
 

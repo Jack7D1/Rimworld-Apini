@@ -37,23 +37,6 @@
 		<allowedCultures>
 			<li>Corunan</li>
 		</allowedCultures>
-		<disallowedMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>
-		<disallowedPrecepts>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
-		</disallowedPrecepts>
-		<structureMemeWeights>
-			<Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
-			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
-			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
-			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
-		</structureMemeWeights>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -165,18 +148,6 @@
 		<allowedCultures>
 			<li>Kriminul</li>
 		</allowedCultures>
-		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-		</requiredMemes>
-		<disallowedMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>
-		<structureMemeWeights>
-			<Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Animist>
-			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-		</structureMemeWeights>
 		<backstoryFilters>
 			<li>
 				<categories>
