@@ -3,7 +3,6 @@
 <loadFolders>
 	<v1.3>
 		<li>1.3/Common</li>
-		<li>Common</li>
 		<!--Patches for mod compatibility-->
 		<li IfModActive="Ogliss.bishop.SmokeleafIndustryReborn">1.3/Patched/P_SmokeleafIndustry</li>
 		<li IfModActive="consolidatedtraits.kv.rw">1.3/Patched/P_ConsolidatedTraits</li>
@@ -17,7 +16,6 @@
 	</v1.3>
 	<v1.4>
 		<li>1.4/Common</li>
-		<li>Common</li>
 		<!--Patches for mod compatibility-->
 		<li IfModActive="Ogliss.bishop.SmokeleafIndustryReborn">1.4/Patched/P_SmokeleafIndustry</li>
 		<li IfModActive="consolidatedtraits.kv.rw">1.4/Patched/P_ConsolidatedTraits</li>
