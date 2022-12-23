@@ -33,14 +33,17 @@
 					<li>
 						<defName>DrugDesire</defName>
 					</li>
+					<!--Disable sexual traits as they make the rarity of drones more or less moot.
+					It is easily considered an immoral act to force these to be disabled, this you can re enable them and and disable other forced/disabled traits by ticking "Disable Forced/Disabled traits restrictions" in the mod settings.
+					This does not disable the forced male-only nature of the Drone trait, however this will be reconsidered if this turns out to be desired as well.-->
 					<li>
-						<defName>Gay</defName>
+						<defName>Asexual</defName>
 					</li>
 					<li>
 						<defName>Bisexual</defName>
 					</li>
 					<li>
-						<defName>Asexual</defName>
+						<defName>Gay</defName>
 					</li>
 				</disallowedTraits>
 			</generalSettings>
