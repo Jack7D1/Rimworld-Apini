@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <PlatformTarget>x64</PlatformTarget>
     <FileAlignment>512</FileAlignment>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -10,8 +10,8 @@
     <RootNamespace>Apini</RootNamespace>
     <AssemblyName>Apini</AssemblyName>
     <Optimize>true</Optimize>
-    <OutputPath>../..\1.4/Common/Assemblies/</OutputPath>
-    <VersionPrefix>1.4.0.1</VersionPrefix>
+    <OutputPath>../../1.4/Common/Assemblies/</OutputPath>
+    <VersionPrefix>1.4.0.2</VersionPrefix>
 
     <!-- do not generate pdb file -->
     <DebugType>none</DebugType>
