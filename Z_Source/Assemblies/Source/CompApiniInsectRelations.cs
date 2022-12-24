@@ -9,7 +9,7 @@ namespace Apini.Comps
     {
         public override void CompTickRare()
         {
-            if (ApiniTracker.playerfactions.Contains(Faction.OfPlayer.def))
+            if (!ApiniSettings.forceInsectHostility && ApiniTracker.playerfactions.Contains(Faction.OfPlayer.def))
             {
                 List<Pawn> pawns = new List<Pawn>();
                 foreach (Pawn pawn in PawnsFinder.AllMapsAndWorld_Alive)
@@ -23,7 +23,10 @@ namespace Apini.Comps
         public override void PostPostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
         {
             //Bunch of checks to filter against redundancy or unrelated damage.
-            if (dinfo.Instigator?.Faction == null || parent.Faction != Faction.OfInsects || !ApiniTracker.playerfactions.Contains(dinfo.Instigator.Faction.def) || parent.HostileTo(dinfo.Instigator)){return;}
+            //Also Checks to see if insect force hostility is enabled.
+            if (dinfo.Instigator?.Faction == null || parent.Faction != Faction.OfInsects || !ApiniTracker.playerfactions.Contains(dinfo.Instigator.Faction.def) || parent.HostileTo(dinfo.Instigator) || ApiniSettings.forceInsectHostility){
+                return;
+            }
             //Actual Check
             if (AttackProvokes(dinfo, parent))
             {

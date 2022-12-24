@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
 using Verse;
+using AlienRace;
 
 namespace Apini
 {
@@ -9,8 +10,8 @@ namespace Apini
     public static class ApiniTracker
     {
         public static List<ThingDef> apparel = new List<ThingDef>();
-        public static List<ThingDef> beeliens = new List<ThingDef> { ApiniDefOf.Apini, ApiniDefOf.Azuri };
-        public static List<FactionDef> playerfactions = new List<FactionDef> { ApiniDefOf.TribalApiniPlayer, ApiniDefOf.TribalAzuriPlayer };
+        public static List<ThingDef_AlienRace> beeliens = new List<ThingDef_AlienRace> { ApiniDefOf.Apini, ApiniDefOf.Azuri, ApiniDefOf.Necropini };
+        public static List<FactionDef> playerfactions = new List<FactionDef> { ApiniDefOf.TribalApiniPlayer, ApiniDefOf.TribalAzuriPlayer, ApiniDefOf.TribalNpiniPlayer };
         public static List<PawnKindDef> pawnkinds = new List<PawnKindDef>();
 
         static ApiniTracker()
