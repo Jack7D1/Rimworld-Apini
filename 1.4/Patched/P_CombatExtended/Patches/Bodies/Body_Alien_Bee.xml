@@ -45,10 +45,6 @@
 					<li>RightShoulder</li>
 				</value>
 			</li>
-			<!-- Legs equivalent and its children. -->
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/BodyPartDef[defName = "InsectLeg"]/bleedRate</xpath>
-			</li>
 		</operations>
 	</Operation>
 </Patch>
