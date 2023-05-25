@@ -21,8 +21,19 @@
 					<li>
 						<defName>ApiniDrone</defName>
 						<chance>100</chance>
+						<!--Generation first checks if the gendered commonality is negative,
+							if so, then it's considered a successful gender chance pass.
+							Otherwise, the game rolls an integer that belongs to [0; 100),
+							if that integer is less than the commonality chance,
+							then it is counted as a successful roll,
+							if not, then the pawn doesn't get the trait.
+
+							Secondly, the game rolls an integer that belongs to [0; 100),
+							if that integer is less than the chance value,
+							it is considered as a successful roll and the pawn gets the trait,
+							otherwise, the pawn doesn't get it.-->
 						<commonalityMale>100</commonalityMale>
-						<commonalityFemale>-100</commonalityFemale>
+						<commonalityFemale>0</commonalityFemale>
 					</li>
 					<li>
 						<defName>Ascetic</defName>

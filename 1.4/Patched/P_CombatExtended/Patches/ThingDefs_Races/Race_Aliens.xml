@@ -5,19 +5,40 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- Inventory -->
-			<li Class="PatchOperationAdd">
+			<li Class="PatchOperationConditional">
 				<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/inspectorTabs</xpath>
-				<value>
-					<li>CombatExtended.ITab_Inventory</li>
-				</value>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/inspectorTabs</xpath>
+					<value>
+						<li>CombatExtended.ITab_Inventory</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="ApiniBeelien"]</xpath>
+					<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>
+					</value>
+				</nomatch>
 			</li>
-			<li Class="PatchOperationAdd">
+			<li Class="PatchOperationConditional">
 				<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/comps</xpath>
-				<value>
-					<li Class="CombatExtended.CompProperties_Inventory"/>
-				</value>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="ApiniBeelien"]/comps</xpath>
+					<value>
+						<li Class="CombatExtended.CompProperties_Inventory"/>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="ApiniBeelien"]</xpath>
+					<value>
+						<comps>
+							<li Class="CombatExtended.CompProperties_Inventory"/>
+						</comps>
+					</value>
+				</nomatch>
 			</li>
-
 			<!-- Giving the aliens CE comps -->
 			<!-- Done seperately for each alien race because of possible unintended interaction if combined into one -->
 			<li Class="PatchOperationConditional">

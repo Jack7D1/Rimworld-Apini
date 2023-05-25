@@ -67,14 +67,14 @@
 				</value>
 			</li>
 			<!-- ApiniEnhancedArm -->
-			<li Class="PatchOperationAdd">
+			<!--<li Class="PatchOperationAdd">
 				<xpath>Defs/HediffDef[defName="ApiniEnhancedArm"]/stages/li/statOffsets</xpath>
 				<value>
 					<AimingAccuracy>0.1</AimingAccuracy>
 					<MeleeParryChance>0.2</MeleeParryChance>
 					<MeleeCritChance>0.1</MeleeCritChance>
 				</value>
-			</li>
+			</li>-->
 		</operations>
 	</Operation>
 </Patch>
