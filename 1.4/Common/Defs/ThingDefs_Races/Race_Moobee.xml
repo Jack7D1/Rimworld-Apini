@@ -76,12 +76,8 @@
 			<manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
 			<lifeStageAges>
 				<li>
-					<def>ApiniLarva1</def>
+					<def>ApiniLarva</def>
 					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>ApiniLarva2</def>
-					<minAge>.5</minAge>
 				</li>
 				<li>
 					<def>ApiniPupa</def>
@@ -161,29 +157,6 @@
 				<!--<dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Moobee/Dessicated_Moobee</texPath>
           <drawSize>0.8</drawSize>
-        </dessicatedBodyGraphicData>-->
-			</li>
-			<li>
-				<label>Moobee larva</label>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Moobee/MoobeeLarva</texPath>
-					<drawSize>1</drawSize>
-					<shadowData>
-						<volume>(0.3, 0.3, 0.3)</volume>
-						<offset>(0,0,0)</offset>
-					</shadowData>
-				</bodyGraphicData>
-				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Moobee/MoobeeLarva</texPath>
-					<drawSize>1</drawSize>
-					<shadowData>
-						<volume>(0.3, 0.3, 0.3)</volume>
-						<offset>(0,0,0)</offset>
-					</shadowData>
-				</femaleGraphicData>
-				<!--<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Moobee/Dessicated_Moobee</texPath>
-          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>-->
 			</li>
 			<li>

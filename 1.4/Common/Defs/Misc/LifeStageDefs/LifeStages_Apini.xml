@@ -1,53 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<LifeStageDef>
-		<defName>ApiniLarva1</defName>
+		<defName>ApiniLarva</defName>
 		<label>larval</label>
-		<voxPitch>1.8</voxPitch>
-		<voxVolume>0.4</voxVolume>
-		<bodySizeFactor>0.5</bodySizeFactor>
-		<foodMaxFactor>1.75</foodMaxFactor>
-		<healthScaleFactor>0.2</healthScaleFactor>
-		<hungerRateFactor>0.4</hungerRateFactor>
-		<marketValueFactor>0.4</marketValueFactor>
-		<statFactors>
-			<MoveSpeed>0.4</MoveSpeed>
-		</statFactors>
-	</LifeStageDef>
-	<LifeStageDef>
-		<defName>ApiniLarva2</defName>
-		<label>larval</label>
+		<bodySizeFactor>1</bodySizeFactor>
+		<bodyWidth>0.75</bodyWidth>
+		<bodyDrawOffset>(0, 0, -0.03)</bodyDrawOffset>
 		<voxPitch>1.6</voxPitch>
-		<voxVolume>0.6</voxVolume>
-		<bodySizeFactor>0.75</bodySizeFactor>
-		<foodMaxFactor>2</foodMaxFactor>
-		<healthScaleFactor>0.3</healthScaleFactor>
-		<hungerRateFactor>0.5</hungerRateFactor>
+		<headSizeFactor>1</headSizeFactor>
+		<eyeSizeFactor>1</eyeSizeFactor>
+		<foodMaxFactor>0.625</foodMaxFactor>
+		<!-- bodySizeFactor * foodMaxFactor = maxFood = 0.125 -->
+		<hungerRateFactor>0.125</hungerRateFactor>
+		<!-- consumes 2x maxFood per day -->
+		<healthScaleFactor>0.2</healthScaleFactor>
 		<marketValueFactor>0.5</marketValueFactor>
+		<meleeDamageFactor>0.5</meleeDamageFactor>
+		<developmentalStage>Baby</developmentalStage>
+		<fallAsleepMaxThresholdOverride>.60</fallAsleepMaxThresholdOverride>
+		<naturalWakeThresholdOverride>1.0</naturalWakeThresholdOverride>
+		<alwaysDowned>false</alwaysDowned>
+		<claimable>true</claimable>
+		<involuntarySleepIsNegativeEvent>false</involuntarySleepIsNegativeEvent>
+		<!--
+			Babies just fall asleep randomly and they're cool with it. 
+		-->
+		<thinkTreeMainOverride MayRequire="Ludeon.RimWorld.Biotech">HumanlikeBaby</thinkTreeMainOverride>
+		<thinkTreeConstantOverride MayRequire="Ludeon.RimWorld.Biotech">HumanlikeBabyConstant</thinkTreeConstantOverride>
+		<canDoRandomMentalBreaks>false</canDoRandomMentalBreaks>
+		<!--
+ 			Babies have crying/giggling fits instead of mental breaks. 
+		-->
+		<canSleepWhileHeld>true</canSleepWhileHeld>
+		<canVoluntarilySleep>false</canVoluntarilySleep>
+		<!-- Babies fall asleep randomly when they're tired. -->
+		<canSleepWhenStarving>false</canSleepWhenStarving>
+		<canInitiateSocialInteraction>false</canInitiateSocialInteraction>
+		<customMoodTipString>
+Mood represents how happy or stressed someone is. Babies with low mood are more likely to cry, while babies with a high mood are more likely to giggle.
+		</customMoodTipString>
 		<statFactors>
-			<MoveSpeed>0.6</MoveSpeed>
+			<MoveSpeed>0.2</MoveSpeed>
 		</statFactors>
+		<statOffsets>
+			<ComfyTemperatureMin>-46</ComfyTemperatureMin>
+			<!--should map to -30C-->
+			<!--
+ 			babies are always naked becuse the swaddling is just a textue 
+			-->
+			<ComfyTemperatureMax>4</ComfyTemperatureMax>
+			<!--should map to 30C-->
+		</statOffsets>
+		<involuntarySleepMTBDaysFromRest>
+			<points>
+				<li>(.00, 0)</li>
+				<li>(.01, .01)</li>
+				<li>(.15, .166)</li>
+				<li>(.30, 1)</li>
+				<li>(.59, 10)</li>
+				<li>(.60, Infinity)</li>
+			</points>
+		</involuntarySleepMTBDaysFromRest>
 	</LifeStageDef>
 	<LifeStageDef>
 		<defName>ApiniPupa</defName>
 		<label>pupate</label>
-		<voxPitch>1.4</voxPitch>
-		<foodMaxFactor>2.25</foodMaxFactor>
-		<healthScaleFactor>0.7</healthScaleFactor>
-		<hungerRateFactor>0.7</hungerRateFactor>
-		<marketValueFactor>0.7</marketValueFactor>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
+		<bodySizeFactor>0.35</bodySizeFactor>
+		<!-- Changes the height of the head-->
+		<bodyWidth>0.85</bodyWidth>
+		<!--
+ 		Changes the scale of the entire pawn, default 1.125 
+		-->
+		<bodyDrawOffset>(0, 0, -0.1)</bodyDrawOffset>
+		<!-- Moves the entire pawn-->
+		<voxPitch>1.2</voxPitch>
+		<headSizeFactor>0.65</headSizeFactor>
+		<!-- Changes the scale of non-HAR body addons -->
+		<eyeSizeFactor>0.85</eyeSizeFactor>
+		<healthScaleFactor>0.5</healthScaleFactor>
+		<claimable>true</claimable>
+		<foodMaxFactor>2.286</foodMaxFactor>
+		<!-- bodySizeFactor * foodMaxFactor = maxFood = 0.8 -->
+		<hungerRateFactor>0.8</hungerRateFactor>
+		<marketValueFactor>0.9</marketValueFactor>
+		<meleeDamageFactor>0.7</meleeDamageFactor>
+		<developmentalStage>Child</developmentalStage>
+		<equipmentDrawDistanceFactor>0.55</equipmentDrawDistanceFactor>
+		<sittingOffset>0.3</sittingOffset>
 		<statFactors>
-			<MoveSpeed>0.7</MoveSpeed>
+			<MoveSpeed>0.75</MoveSpeed>
 		</statFactors>
 	</LifeStageDef>
 	<LifeStageDef>
 		<defName>ApiniYouth</defName>
 		<label>young</label>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
+		<bodySizeFactor>0.5</bodySizeFactor>
 		<voxPitch>1.2</voxPitch>
 		<foodMaxFactor>2.5</foodMaxFactor>
 		<healthScaleFactor>0.8</healthScaleFactor>
 		<hungerRateFactor>0.8</hungerRateFactor>
 		<marketValueFactor>2</marketValueFactor>
+		<developmentalStage>Child</developmentalStage>
 		<statFactors>
 			<MoveSpeed>0.8</MoveSpeed>
 		</statFactors>
@@ -55,6 +109,10 @@
 	<LifeStageDef>
 		<defName>ApiniTeen</defName>
 		<label>adolescent</label>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+		<bodySizeFactor>0.75</bodySizeFactor>
+		<adjective>adolescent</adjective>
+		<reproductive>true</reproductive>
 		<voxPitch>1.1</voxPitch>
 		<foodMaxFactor>2.75</foodMaxFactor>
 		<healthScaleFactor>0.9</healthScaleFactor>
@@ -67,6 +125,7 @@
 	<LifeStageDef>
 		<defName>ApiniAdult</defName>
 		<label>adult</label>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
 		<visible>false</visible>
 		<foodMaxFactor>3</foodMaxFactor>
 		<reproductive>true</reproductive>

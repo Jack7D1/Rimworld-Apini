@@ -12,17 +12,17 @@
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<LeatherAmount>45</LeatherAmount>
 			<MarketValue>1500</MarketValue>
-			<MoveSpeed>6</MoveSpeed>
+			<MoveSpeed>5</MoveSpeed>
 			<Flammability>1</Flammability>
-			<CarryingCapacity>200</CarryingCapacity>
+			<CarryingCapacity>300</CarryingCapacity>
 			<MentalBreakThreshold>0.12</MentalBreakThreshold>
 			<ResearchSpeed>0.5</ResearchSpeed>
-			<MiningSpeed>1.5</MiningSpeed>
+			<MiningSpeed>0.5</MiningSpeed>
 			<SocialImpact>0.25</SocialImpact>
 			<PlantWorkSpeed>1</PlantWorkSpeed>
-			<PlantHarvestYield>1</PlantHarvestYield>
-			<GeneralLaborSpeed>1.25</GeneralLaborSpeed>
-			<ConstructionSpeed>1.5</ConstructionSpeed>
+			<PlantHarvestYield>0.75</PlantHarvestYield>
+			<GeneralLaborSpeed>1</GeneralLaborSpeed>
+			<ConstructionSpeed>1.25</ConstructionSpeed>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<Mass>60</Mass>
@@ -345,44 +345,35 @@
 						<chance>30</chance>
 					</li>
 				</forcedRaceTraitEntries>
+				
 			</generalSettings>
 			<graphicPaths>
 				<head>
 					<path>Things/Pawn/Alien_Races/Azuri/Head/</path>
 					<ageGraphics>
-						<ApiniLarva1>
+						<ApiniLarva>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Female>
 								<Male>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva1>
-						<ApiniLarva2>
-							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Female>
-								<Male>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Male>
-							</genderGraphics>
-						</ApiniLarva2>
+						</ApiniLarva>
 						<ApiniPupa>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female_Average_Normal</Female>
 								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male_Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female_Average_Normal</Female>
 								<Male>Things/Pawn/Alien_Races/Apini/Head/Male_Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Azuri/Head/Female_Average_Normal</Female>
 								<Male>Things/Pawn/Alien_Races/Azuri/Head/Male_Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
 						<ApiniAdult>
 							<genderGraphics>
@@ -395,39 +386,30 @@
 				<body>
 					<path>Things/Pawn/Alien_Races/Azuri/Body/</path>
 					<ageGraphics>
-						<ApiniLarva1>
+						<ApiniLarva>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Male>
 							</genderGraphics>
 							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva1>
-						<ApiniLarva2>
-							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Female>
-								<Male>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Male>
-							</genderGraphics>
-						</ApiniLarva2>
+						</ApiniLarva>
 						<ApiniPupa>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Male>
 							</genderGraphics>
-							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Male>
 							</genderGraphics>
-							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Azuri/Body/Naked_Average</Male>
 							</genderGraphics>
-							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
 						<ApiniAdult>
 							<genderGraphics>
@@ -516,67 +498,6 @@
 			<baseHungerRate>0.75</baseHungerRate>
 			<foodType>CarnivoreAnimal, AnimalProduct</foodType>
 			<gestationPeriodDays>7</gestationPeriodDays>
-			<litterSizeCurve>
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(5, 20)</li>
-					<li>(10, 10)</li>
-					<li>(20, 5)</li>
-					<li>(25, 0)</li>
-				</points>
-			</litterSizeCurve>
-			<lifeStageAges>
-				<li>
-					<def>ApiniLarva1</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>ApiniLarva2</def>
-					<minAge>0.5</minAge>
-				</li>
-				<li>
-					<def>ApiniPupa</def>
-					<minAge>2.5</minAge>
-				</li>
-				<li>
-					<def>ApiniYouth</def>
-					<minAge>5</minAge>
-				</li>
-				<li>
-					<def>ApiniTeen</def>
-					<minAge>10</minAge>
-				</li>
-				<li>
-					<def>ApiniAdult</def>
-					<minAge>15</minAge>
-					<soundWounded>Apini_Pawn_Wounded</soundWounded>
-					<soundDeath>Apini_Pawn_Death</soundDeath>
-					<soundCall>Apini_Pawn_Wounded</soundCall>
-					<soundAngry>Apini_Pawn_Wounded</soundAngry>
-				</li>
-			</lifeStageAges>
-			<soundMeleeHitPawn>Apini_Pawn_Wounded</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
-			<specialShadowData>
-				<volume>(0.3, 0.8, 0.4)</volume>
-				<offset>(0,0,-0.3)</offset>
-			</specialShadowData>
-			<ageGenerationCurve>
-				<points>
-					<li>(6,0)</li>
-					<li>(9,100)</li>
-					<li>(30,100)</li>
-					<li>(35,30)</li>
-					<li>(40,18)</li>
-					<li>(45,10)</li>
-					<li>(50,3)</li>
-					<li>(55,0)</li>
-				</points>
-			</ageGenerationCurve>
-			<hediffGiverSets>
-				<li>OrganicStandard</li>
-			</hediffGiverSets>
 		</race>
 	</AlienRace.ThingDef_AlienRace>
 </Defs>

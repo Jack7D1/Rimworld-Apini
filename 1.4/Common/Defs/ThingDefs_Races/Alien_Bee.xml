@@ -31,7 +31,8 @@
 							Secondly, the game rolls an integer that belongs to [0; 100),
 							if that integer is less than the chance value,
 							it is considered as a successful roll and the pawn gets the trait,
-							otherwise, the pawn doesn't get it.-->
+							otherwise, the pawn doesn't get it.
+							thanks-->
 						<commonalityMale>100</commonalityMale>
 						<commonalityFemale>0</commonalityFemale>
 					</li>
@@ -57,6 +58,32 @@
 						<defName>Gay</defName>
 					</li>
 				</disallowedTraits>
+				<!-- Children Settings -->
+				<growthAges>
+					<li>4</li>
+					<li>6</li>
+					<li>8</li>
+				</growthAges>
+				<reproduction>
+					<maleFertilityAgeFactor>
+						<points>
+							<li>(4,0)</li>
+							<li>(12,1)</li>
+							<li>(50,1)</li>
+							<li>(90,0)</li>
+						</points>
+					</maleFertilityAgeFactor>
+					<!--Eventually change to eggs, but fertility stays much longer.-->
+					<femaleFertilityAgeFactor>
+						<points>
+							<li>(4,0)</li>
+							<li>(12,1)</li>
+							<li>(50,1)</li>
+							<li>(90,0)</li>
+						</points>
+					</femaleFertilityAgeFactor>
+				</reproduction>
+				<minAgeForAdulthood>15</minAgeForAdulthood>
 			</generalSettings>
 			<styleSettings>
 				<li>
@@ -75,12 +102,14 @@
 				</li>
 			</styleSettings>
 			<raceRestriction>
+				<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
 				<apparelList>
 					<li>ApiniApron</li>
 					<li>ApiniHoneyGlassHelmet</li>
 					<li>ApiniSatchel</li>
 					<li>ApiniRuff</li>
 					<li>ApiniVest</li>
+
 					<!--From Apini SOS2 Expansion-->
 					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBeltDummy</li>
 					<li MayRequire="kentington.saveourship2">Apparel_SpaceSurvivalBelt</li>
@@ -103,13 +132,6 @@
 					<li>ApiniMake_NectarAny</li>
 					<li>ApiniMake_BulkNectarAny</li>
 				</recipeList>
-				<!--<researchList>
-          <li>
-          <projects>
-            <li>Frostbell</li>
-          </projects>
-          </li>
-        </researchList> -->
 				<plantList>
 					<li>ApiniPlantFrostbell</li>
 					<li>ApiniPlantEmberose</li>
@@ -124,12 +146,6 @@
 				<buildingList>
 					<li>ApiniHoneyCapsule</li>
 					<li>ApiniHoneyVat</li>
-					<!--<li>ApiniWaxFloor</li>
-					<li>ApiniWaxTile</li>
-					<li>Honey_Shallow</li>
-					<li>Honey_Deep</li>
-					<li>Honey_StickyShallow</li>
-					<li>Honey_StickyDeep</li>-->
 					<li>ApiniHoneycombBed_S</li>
 					<li>ApiniHoneycombBed_L</li>
 					<li>ApiniWaxCandle</li>
@@ -152,10 +168,6 @@
 					<li>ApiniRespiratoryFailure</li>
 					<li>ApiniInsectRelations</li>
 				</conceptList>
-				<!--    <workGiverList>-->
-				<!--        <li>FillHoneyFermentingVat</li>-->
-				<!--        <li>TakeHoneyOutOfFermentingVat</li>-->
-				<!--    </workGiverList>-->
 				<whiteApparelList>
 					<!--From Vanilla-->
 					<li>Apparel_CowboyHat</li>
@@ -176,6 +188,7 @@
 					<li>OrbitalTargeterBombardment</li>
 					<li>Apparel_PsychicInsanityLance</li>
 					<li>Apparel_PsychicShockLance</li>
+
 					<!--From Royalty-->
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Coronet</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_HatHood</li>
@@ -190,6 +203,7 @@
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
 					<li MayRequire="Ludeon.Rimworld.Royalty">OrbitalTargeterMechCluster</li>
+
 					<!--From Ideology-->
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
@@ -203,6 +217,7 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
+
 					<!--From Apparello-->
 					<li MayRequire="Shinzy.Apparello">Apparello_Wendywelder</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Hardhat</li>
@@ -264,6 +279,7 @@
 					<li MayRequire="Shinzy.Apparello">Apparello_Mojo</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_Mojotwo</li>
 					<li MayRequire="Shinzy.Apparello">Apparello_MojoFeather</li>
+
 					<!--From Vanilla Armor Expanded-->
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_Balaclava</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Apparel_PlateShoulderpads</li>
@@ -272,6 +288,7 @@
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_RoyalTrooperHelmet</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_RoyalSiegeHelmet</li>
 					<li MayRequire="VanillaExpanded.VARME">VAE_Headgear_StoneWarMask</li>
+
 					<!--From Vanilla Apparel Expanded-->
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalPoncho</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Headgear_Fedora</li>
@@ -286,6 +303,7 @@
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Shorts</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_Skirt</li>
 					<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_TribalKilt</li>
+					
 					<!--From Vanilla Weapons Expanded-->
 					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_DynamiteBelt</li>
 					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
@@ -294,6 +312,7 @@
 					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeMolotovBelt</li>
 					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeSmokeBelt</li>
 					<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeToxicBelt</li>
+
 					<!--From Vanilla Factions Expanded-->
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Heater</li>
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Shield_Kite</li>
@@ -301,6 +320,7 @@
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Bandana</li>
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_FlatCap</li>
 					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFES_Headgear_Sombrero</li>
+
 					<!--From Combat Extended-->
 					<li MayRequire="CETeam.CombatExtended">CE_Apparel_MeleeShield</li>
 					<li MayRequire="CETeam.CombatExtended">CE_Apparel_BallisticShield</li>
@@ -310,6 +330,7 @@
 					<li MayRequire="CETeam.CombatExtended">CE_Apparel_ImprovGasMask</li>
 					<li MayRequire="CETeam.CombatExtended">CE_Apparel_SimpleNightVision</li>
 					<li MayRequire="CETeam.CombatExtended">CE_Apparel_AdvancedNightVision</li>
+
 					<!--From Combat Extended: Shields-->
 					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_NguniShield</li>
 					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_WickerShield</li>
@@ -323,10 +344,13 @@
 					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_RiotShield</li>
 					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_AssaultShield</li>
 					<li MayRequire="n7huntsman.CombatExtendedShields">Apparel_TacShield</li>
+
 					<!--From Ivory and Jade Carving-->
 					<li MayRequire="Mlie.IvoryAndJadeCarving">jade_band</li>
+
 					<!--From Rim of Madness-->
 					<li MayRequire="sihv.rombones">ROMB_Apparel_SkullMask</li>
+
 					<!--From Combat Shields-->
 					<li MayRequire="n7huntsman.combatshields">Apparel_NguniShield</li>
 					<li MayRequire="n7huntsman.combatshields">Apparel_WickerShield</li>
@@ -342,8 +366,10 @@
 					<li MayRequire="n7huntsman.combatshields">Apparel_TacShield</li>
 					<li MayRequire="n7huntsman.combatshields">Apparel_BallisticShield</li>
 					<li MayRequire="n7huntsman.combatshields">Apparel_ImperialShield</li>
+
 					<!--From Rimatomics-->
 					<li MayRequire="Dubwise.Rimatomics">Apparel_RadiationSuit</li>
+
 					<!--From Flower Crowns-->
 					<li MayRequire="MengDe.FlowerCrowns">FC_Pink</li>
 					<li MayRequire="MengDe.FlowerCrowns">FC_Multi</li>
@@ -351,6 +377,7 @@
 					<li MayRequire="MengDe.FlowerCrowns">FC_Sunny</li>
 					<li MayRequire="MengDe.FlowerCrowns">FC_Silver</li>
 					<li MayRequire="MengDe.FlowerCrowns">FC_Gold</li>
+
 					<!--From Rimworld Of Magic-->
 					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDefense</li>
 					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_BracersOfDeflection</li>
@@ -390,6 +417,7 @@
 					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Magicyte</li>
 					<li MayRequire="Torran.ARimworldOfMagic">TM_Artifact_Wood</li>
 					<li MayRequire="Torran.ARimworldOfMagic">TM_MaestersCloak</li>
+
 					<!-- From Shields, Shields. SHIELDS! -->
 					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldRegenerator</li>
 					<li MayRequire="LeveFUN.Shields.Shields.SHIELDS">Apparel_ShieldCapacitor</li>
@@ -398,51 +426,112 @@
 				</whiteApparelList>
 			</raceRestriction>
 		</alienRace>
-		<!-- No sting surgeries because they don't have those. -->
+		<race>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<!-- <Work Type>Minimum Age as an Int</Work Type>-->
+				<Firefighter>3</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>12</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>2</BasicWorker>
+				<Warden>8</Warden>
+				<Handling>4</Handling>
+				<Cooking>6</Cooking>
+				<Hunting>6</Hunting>
+				<Construction>8</Construction>
+				<Growing>3</Growing>
+				<Mining>2</Mining>
+				<PlantCutting>3</PlantCutting>
+				<Smithing>8</Smithing>
+				<Tailoring>6</Tailoring>
+				<Art>6</Art>
+				<Crafting>6</Crafting>
+				<Hauling>2</Hauling>
+				<Cleaning>2</Cleaning>
+				<Research>12</Research>
+			</lifeStageWorkSettings>
+			<soundMeleeHitPawn>Apini_Pawn_Wounded</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(2,86)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(2.5,118)</li>
+					<!--Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(3.01,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(4.67,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(5.68,122)</li>
+					<!-- End exclude -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(8.999,130)</li>
+					<li>(9,0)</li>
+					<!-- Start of non-biotech ages-->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(9.001,130)</li>
+					<li>(12,5)</li>
+					<li>(15,100)</li>
+					<li>(20,100)</li>
+					<li>(30,30)</li>
+					<li>(40,18)</li>
+					<li>(50,3)</li>
+					<li>(60,1)</li>
+					<li>(70,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 0.05)</li>
+					<li>(3, 0.025)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>ApiniLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>ApiniPupa</def>
+					<minAge>2.5</minAge>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech" Class="AlienRace.LifeStageAgeAlien">
+					<def>ApiniYouth</def>
+					<minAge>5</minAge>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>ApiniTeen</def>
+					<minAge>10</minAge>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>ApiniAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>Apini_Pawn_Wounded</soundWounded>
+					<soundDeath>Apini_Pawn_Death</soundDeath>
+					<soundCall>Apini_Pawn_Wounded</soundCall>
+					<soundAngry>Apini_Pawn_Wounded</soundAngry>
+				</li>
+			</lifeStageAges>
+		</race>
+
 		<recipes>
-			<!-- Natural Surgeries
-	  <li>ApiniInstallInsectAntenna</li>
-	  <li>ApiniInstallInsectHeart</li>
-	  <li>ApiniInstallInsectMouth</li>
-	  <li>ApiniInstallHoneyStomach</li>
-	  <li>ApiniInstallInsectWing</li>
-	  <li>ApiniInstallInsectArm</li>
-	  <li>ApiniInstallInsectLeg</li> -->
-			<!-- Shoddy Surgeries
-	  <li>ApiniInstallPegLeg</li>
-	  <li>ApiniInstallDenture</li> -->
-			<!-- Prosthetic Surgeries
-	  <li>ApiniInstallSimpleProstheticLeg</li>
-	  <li>ApiniInstallSimpleProstheticArm</li>
-	  <li>ApiniInstallProstheticWing</li>
-	  <li>ApiniInstallProstheticAntenna</li> -->
 			<!-- Bionic Surgieries -->
-			<li>InstallBionicEye</li>
-			<!-- <li>ApiniInstallBionicLeg</li>
-	  <li>ApiniInstallBionicArm</li>
-	  <li>ApiniInstallBionicWing</li>
-	  <li>ApiniInstallBionicAntenna</li> -->
-			<!-- Advanced Bionic Surgeries
-	  <li>ApiniInstallAdvancedBionicWing</li>
-	  <li>ApiniInstallBionicAdvancedAntenna</li> -->
-			<!-- Apitech surgeries -->
+			<li>InstallBionicEye</li>		
 			<!-- Other surgeries -->
-			<!--<li>InstallApiniScytherBlade</li>-->
 			<li>InstallJoywire</li>
 			<li>InstallPainstopper</li>
 			<li>RemoveBodyPart</li>
 			<li>ExciseCarcinoma</li>
 			<li>Euthanize</li>
-			<!--<li>ApiniInstallPowerClaw</li>
-	  <li>Reconstruct_Brain_Apini</li>
-	  <li>Reconstruct_Eye_Apini</li>
-	  <li>Reconstruct_Antenna_Apini</li>
-	  <li>Reconstruct_Mouth_Apini</li>
-	  <li>Reconstruct_Wing_Apini</li>
-	  <li>Reconstruct_Heart_Apini</li>
-	  <li>Reconstruct_Stomach_Apini</li>
-	  <li>Reconstruct_Arm_Apini</li>
-	  <li>Reconstruct_Leg_Apini</li> -->
 		</recipes>
 	</ThingDef>
 </Defs>
