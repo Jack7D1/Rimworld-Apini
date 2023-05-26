@@ -12,17 +12,17 @@
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<LeatherAmount>30</LeatherAmount>
 			<MarketValue>1000</MarketValue>
-			<MoveSpeed>4.9</MoveSpeed>
+			<MoveSpeed>4.4</MoveSpeed>
 			<Flammability>1.0</Flammability>
-			<CarryingCapacity>480</CarryingCapacity>
+			<CarryingCapacity>200</CarryingCapacity>
 			<MentalBreakThreshold>0.15</MentalBreakThreshold>
 			<ResearchSpeed>0.5</ResearchSpeed>
 			<MiningSpeed>0.5</MiningSpeed>
 			<SocialImpact>0.75</SocialImpact>
-			<PlantWorkSpeed>2</PlantWorkSpeed>
-			<PlantHarvestYield>1.5</PlantHarvestYield>
+			<PlantWorkSpeed>1.25</PlantWorkSpeed>
+			<PlantHarvestYield>1</PlantHarvestYield>
 			<GeneralLaborSpeed>0.75</GeneralLaborSpeed>
-			<ConstructionSpeed>1.5</ConstructionSpeed>
+			<ConstructionSpeed>1.25</ConstructionSpeed>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<Mass>55</Mass>
@@ -338,10 +338,6 @@
 						<degree>2</degree>
 						<chance>20</chance>
 					</li>
-					<!--<li>
-						<defName>GreenThumb</defName>
-						<chance>70</chance>
-					</li>-->
 					<li>
 						<defName>Kind</defName>
 						<chance>10</chance>
@@ -366,39 +362,29 @@
 				<head>
 					<path>Things/Pawn/Alien_Races/Apini/Head/</path>
 					<ageGraphics>
-						<ApiniLarva1>
+						<ApiniLarva>
 							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Female>
-								<Male>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Male>
+								<Female>Things/Pawn/Alien_Races/Beelarva/Head/Female_Average_Normal</Female>
+								<Male>Things/Pawn/Alien_Races/Beelarva/Head/Male_Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva1>
-						<ApiniLarva2>
-							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Female>
-								<Male>Things/Pawn/Alien_Races/Beelarva/Head/Average_Normal</Male>
-							</genderGraphics>
-						</ApiniLarva2>
+						</ApiniLarva>
 						<ApiniPupa>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Apini/Head/Female_Average_Normal</Female>
 								<Male>Things/Pawn/Alien_Races/Apini/Head/Male_Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Apini/Head/Female_Average_Normal</Female>
 								<Male>Things/Pawn/Alien_Races/Apini/Head/Male_Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Apini/Head/Female_Average_Normal</Female>
 								<Male>Things/Pawn/Alien_Races/Apini/Head/Male_Average_Normal</Male>
 							</genderGraphics>
-							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
 						<ApiniAdult>
 							<genderGraphics>
@@ -411,39 +397,29 @@
 				<body>
 					<path>Things/Pawn/Alien_Races/Apini/Body/</path>
 					<ageGraphics>
-						<ApiniLarva1>
+						<ApiniLarva>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Male>
 							</genderGraphics>
-							<drawSize>(0.75,0.75)</drawSize>
-						</ApiniLarva1>
-						<ApiniLarva2>
-							<genderGraphics>
-								<Female>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Female>
-								<Male>Things/Pawn/Alien_Races/Beelarva/Body/Naked_Average</Male>
-							</genderGraphics>
-						</ApiniLarva2>
+						</ApiniLarva>
 						<ApiniPupa>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Apini/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Apini/Body/Naked_Average</Male>
 							</genderGraphics>
-							<drawSize>(0.7,0.7)</drawSize>
 						</ApiniPupa>
 						<ApiniYouth>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Apini/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Apini/Body/Naked_Average</Male>
 							</genderGraphics>
-							<drawSize>(0.8,0.8)</drawSize>
 						</ApiniYouth>
 						<ApiniTeen>
 							<genderGraphics>
 								<Female>Things/Pawn/Alien_Races/Apini/Body/Naked_Average</Female>
 								<Male>Things/Pawn/Alien_Races/Apini/Body/Naked_Average</Male>
 							</genderGraphics>
-							<drawSize>(0.9,0.9)</drawSize>
 						</ApiniTeen>
 						<ApiniAdult>
 							<genderGraphics>
@@ -526,68 +502,6 @@
 			<baseHungerRate>0.35</baseHungerRate>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>7</gestationPeriodDays>
-			<litterSizeCurve>
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(1, 1)</li>
-					<li>(2, 0.05)</li>
-					<li>(3, 0.025)</li>
-					<li>(3.5, 0)</li>
-				</points>
-			</litterSizeCurve>
-			<lifeStageAges>
-				<li>
-					<def>ApiniLarva1</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>ApiniLarva2</def>
-					<minAge>0.5</minAge>
-				</li>
-				<li>
-					<def>ApiniPupa</def>
-					<minAge>2.5</minAge>
-				</li>
-				<li>
-					<def>ApiniYouth</def>
-					<minAge>5</minAge>
-				</li>
-				<li>
-					<def>ApiniTeen</def>
-					<minAge>10</minAge>
-				</li>
-				<li>
-					<def>ApiniAdult</def>
-					<minAge>15</minAge>
-					<soundWounded>Apini_Pawn_Wounded</soundWounded>
-					<soundDeath>Apini_Pawn_Death</soundDeath>
-					<soundCall>Apini_Pawn_Wounded</soundCall>
-					<soundAngry>Apini_Pawn_Wounded</soundAngry>
-				</li>
-			</lifeStageAges>
-			<soundMeleeHitPawn>Apini_Pawn_Wounded</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
-			<specialShadowData>
-				<volume>(0.3, 0.8, 0.4)</volume>
-				<offset>(0,0,-0.3)</offset>
-			</specialShadowData>
-			<ageGenerationCurve>
-				<points>
-					<li>(9,0)</li>
-					<li>(12,5)</li>
-					<li>(15,100)</li>
-					<li>(20,100)</li>
-					<li>(30,30)</li>
-					<li>(40,18)</li>
-					<li>(50,3)</li>
-					<li>(60,1)</li>
-					<li>(70,0)</li>
-				</points>
-			</ageGenerationCurve>
-			<hediffGiverSets>
-				<li>OrganicStandard</li>
-			</hediffGiverSets>
 		</race>
 	</AlienRace.ThingDef_AlienRace>
 </Defs>
