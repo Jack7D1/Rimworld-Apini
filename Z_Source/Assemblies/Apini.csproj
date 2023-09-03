@@ -11,7 +11,7 @@
     <AssemblyName>Apini</AssemblyName>
     <Optimize>true</Optimize>
     <OutputPath>../../1.4/Common/Assemblies/</OutputPath>
-    <VersionPrefix>1.4.0.2</VersionPrefix>
+    <VersionPrefix>1.4.0.3</VersionPrefix>
 
     <!-- do not generate pdb file -->
     <DebugType>none</DebugType>
@@ -21,8 +21,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Apini files -->
-    <!--<Compile Include="*" /> -->
+
+    <!--We are in the same location as the csproj file. Relative paths are vs it.-->
 
     <!-- Rimworld, place this mod in the Mods folder for these to work. -->
     <Reference Include="../../../../RimWorldWin64_Data/Managed/*.dll">
@@ -41,6 +41,6 @@
     </Reference>
 
     <!-- Harmony -->
-    <PackageReference Include="Lib.Harmony" Version="2.2.0" />
+    <PackageReference Include="Lib.Harmony" Version="2.2.2" />
   </ItemGroup>
 </Project>
