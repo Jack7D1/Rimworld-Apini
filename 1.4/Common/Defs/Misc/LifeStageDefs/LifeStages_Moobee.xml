@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<LifeStageDef>
+		<defName>MoobeeLarva</defName>
+		<label>larval</label>
+		<bodySizeFactor>1</bodySizeFactor>
+		<bodyWidth>0.75</bodyWidth>
+		<bodyDrawOffset>(0, 0, -0.03)</bodyDrawOffset>
+		<voxPitch>1.6</voxPitch>
+		<headSizeFactor>1</headSizeFactor>
+		<eyeSizeFactor>1</eyeSizeFactor>
+		<foodMaxFactor>0.625</foodMaxFactor>
+		<!-- bodySizeFactor * foodMaxFactor = maxFood = 0.125 -->
+		<hungerRateFactor>0.125</hungerRateFactor>
+		<!-- consumes 2x maxFood per day -->
+		<healthScaleFactor>0.2</healthScaleFactor>
+		<marketValueFactor>0.5</marketValueFactor>
+		<meleeDamageFactor>0.5</meleeDamageFactor>
+		<alwaysDowned>false</alwaysDowned>
+		<statFactors>
+			<MoveSpeed>0.2</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+	<LifeStageDef>
+		<defName>MoobeePupa</defName>
+		<label>pupate</label>
+		<bodySizeFactor>0.35</bodySizeFactor>
+		<!-- Changes the height of the head-->
+		<bodyWidth>0.85</bodyWidth>
+		<!--
+ 		Changes the scale of the entire pawn, default 1.125 
+		-->
+		<bodyDrawOffset>(0, 0, -0.1)</bodyDrawOffset>
+		<!-- Moves the entire pawn-->
+		<voxPitch>1.2</voxPitch>
+		<headSizeFactor>0.65</headSizeFactor>
+		<!-- Changes the scale of non-HAR body addons -->
+		<eyeSizeFactor>0.85</eyeSizeFactor>
+		<healthScaleFactor>0.5</healthScaleFactor>
+		<foodMaxFactor>2.286</foodMaxFactor>
+		<!-- bodySizeFactor * foodMaxFactor = maxFood = 0.8 -->
+		<hungerRateFactor>0.8</hungerRateFactor>
+		<marketValueFactor>0.9</marketValueFactor>
+		<meleeDamageFactor>0.7</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>0.75</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+	<LifeStageDef>
+		<defName>MoobeeYouth</defName>
+		<label>young</label>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<voxPitch>1.2</voxPitch>
+		<foodMaxFactor>2.5</foodMaxFactor>
+		<healthScaleFactor>0.8</healthScaleFactor>
+		<hungerRateFactor>0.8</hungerRateFactor>
+		<marketValueFactor>2</marketValueFactor>
+		<statFactors>
+			<MoveSpeed>0.8</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+	<LifeStageDef>
 		<defName>MoobeeTeen</defName>
 		<label>adolescent</label>
 		<voxPitch>1.1</voxPitch>
@@ -20,6 +79,5 @@
 		<foodMaxFactor>3</foodMaxFactor>
 		<reproductive>true</reproductive>
 		<milkable>true</milkable>
-		<shearable>true</shearable>
 	</LifeStageDef>
 </Defs>

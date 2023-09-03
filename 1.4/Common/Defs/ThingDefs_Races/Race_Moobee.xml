@@ -46,10 +46,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>
-					<min>1</min>
-					<max>2</max>
-				</eggCountRange>
+				<eggCountRange>1~2</eggCountRange>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>ApiniHoney</milkDef>
@@ -59,6 +56,7 @@
 			</li>
 		</comps>
 		<race>
+			<herdAnimal>true</herdAnimal>
 			<body>Moobee</body>
 			<packAnimal>true</packAnimal>
 			<baseBodySize>2</baseBodySize>
@@ -67,7 +65,7 @@
 			<foodType>VegetarianRoughAnimal, Fluid</foodType>
 			<leatherDef>moobee_chitin</leatherDef>
 			<wildness>0.15</wildness>
-			<trainability>Advanced</trainability>
+			<trainability>None</trainability>
 			<fleshType>Insectoid</fleshType>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<bloodDef>Filth_BloodMoobee</bloodDef>
@@ -76,15 +74,15 @@
 			<manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
 			<lifeStageAges>
 				<li>
-					<def>ApiniLarva</def>
+					<def>MoobeeLarva</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ApiniPupa</def>
+					<def>MoobeePupa</def>
 					<minAge>1</minAge>
 				</li>
 				<li>
-					<def>ApiniYouth</def>
+					<def>MoobeeYouth</def>
 					<minAge>2</minAge>
 				</li>
 				<li>
@@ -129,10 +127,7 @@
 		<race>Moobee</race>
 		<combatPower>5</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
-		<wildGroupSize>
-			<min>1</min>
-			<max>4</max>
-		</wildGroupSize>
+		<wildGroupSize>1~4</wildGroupSize>
 		<labelMale>Bullbee</labelMale>
 		<labelFemale>Cowbee</labelFemale>
 		<lifeStages>
